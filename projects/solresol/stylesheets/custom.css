@@ -1,0 +1,14 @@
+.container {
+  width: 600px;
+}
+
+#logo {
+  text-align: center;
+  margin: 30px 0 20px 0;
+}
+
+p {
+  text-align: justify;
+  color: #666;
+  font-size: 1.2em;
+}

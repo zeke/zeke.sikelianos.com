@@ -1,0 +1,28 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>dub dub dub d day (deux)</title>
+	<style type="text/css">
+		@import "jquery.countdown.css";
+		h1 span {
+		  color: #999;
+		}
+	</style>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.countdown.js"></script>
+	<script type="text/javascript">
+	$(function () {
+		var dDay = new Date(2011, 9, 31);
+		$('#defaultCountdown').countdown({until: dDay});
+	});
+	</script>
+</head>
+<body>
+	
+	<h1>dub dub dub d day <span>(deux)</span></h1>
+	<div id="defaultCountdown"></div>
+
+</body>
+</html>

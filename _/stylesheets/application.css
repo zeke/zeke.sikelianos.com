@@ -1,0 +1,28 @@
+body {
+  background: #e8e8e8 url(../images/dust.jpg);
+  font-family: 'helvetica neue', helvetica, arial;
+  font-weight: bold;
+  color: #999;
+  border-top: 30px solid black;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #666;
+}
+
+#content {
+  background: transparent url(../images/cmyk.png) no-repeat center top;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  min-width: 320px;
+  max-width: 480px;
+  padding: 120px 20px 100px 20px;
+}
+
+#content p {
+  font-size: 20px;
+  line-height: 32px;
+}
