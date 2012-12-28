@@ -1,19 +1,89 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>Zeke Sikelianos, Web Designer/Developer</title>
-    <link href="_/stylesheets/application.css" media="all" rel="stylesheet" type="text/css">
+
+    <style>
+      body {
+        background: #e8e8e8 url(_/images/dust.jpg);
+        font-family: 'helvetica neue', helvetica, arial;
+        font-weight: bold;
+        color: #999;
+        border-top: 30px solid black;
+        padding: 0;
+        margin: 0;
+      }
+
+      #content {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        min-width: 320px;
+        max-width: 480px;
+        padding: 20px 20px 100px 20px;
+      }
+      
+      .logo {
+        text-align: center;
+      }
+      
+      .logo img {
+        display: inline-block;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+      }
+      
+      a {
+        color: #666;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 32px;
+      }
+            
+      h2 {
+        font-size: 20px;
+        color: #CCC;
+        border-bottom: 1px dashed #CCC;
+        margin: 0;
+        padding: 40px 0 10px 0;
+      }
+      
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      
+      ul li {
+        padding: 10px 0;
+      }
+      
+    </style>
 
   </head>
   <body>
     <div id="content">
+
+      <div class="logo">
+        <img src="https://secure.gravatar.com/avatar/8f344b1c4bdcfc28bd848e97e94c3523?s=140">
+      </div>
+      
       <p>
-        Hi. I'm Zeke Sikelianos, a pixel pusher in San Francisco, California.
+        Hello, World.
+      </p>
+      
+      <p>
+        I'm Zeke Sikelianos, a pixel pusher in San Francisco, California.
         I work at <a href="http://heroku.com">Heroku</a>, writing 
         <a href="http://github.com/zeke">open-source software</a> and 
-        making the Internet a more hospitable place for those who create and inhabit it.
-        I maintain a <a href="http://cargocollective.com/zeke">portfolio</a> of design work
-        from the last thirteen years or so.
+        making the web a better place for those who create and inhabit it.
+        
+      </p>
+      <p>
+        I've been a <a href="http://cargocollective.com/zeke">designer</a> for fourteen years, 
+        working in media both tactile and intangible.
       </p>
       
       <p>
@@ -23,18 +93,47 @@
         you can create art and beauty on a computer.
       </p>
       
-      <p>Find me on Twitter, where I go by <a href="http://twitter.com/zeke">zeke</a>.</p>
+      <p>I go by <a href="http://twitter.com/zeke">zeke</a> on Twitter.</p>
+
+      <!-- 
+      <h2>Projects</h2>
+      <ul>
+        <li></li>
+        <li></li>
+      </ul>
+
+      
+      <h2>Trifles</h2>
+      
+      <ul>
+        <li>
+          <a href="http://zeke.sikelianos.com/bananas">/bananas</a> is an old version of this site. 
+        </li>
+        <li>
+          <a href="http://zeke.sikelianos.com/http">/http</a> is an http status code cheatsheet.
+        </li>
+        <li>
+          <a href="http://zeke.sikelianos.com/solresol">/solresol</a> is a translator for a dead artificial language.
+        </li>
+        <li>
+          <a href="http://zeke.sikelianos.com/vanilla">/vanilla</a> is a site for fools who don't have a text editor.
+        </li>
+      </ul>
+      
+      -->
       
     </div>
+    
     <script>
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
     </script>
     <script>
-    try{
-    var pageTracker = _gat._getTracker("UA-19562293-1");
-    pageTracker._trackPageview();
-    } catch(err) {}
+      try{
+      var pageTracker = _gat._getTracker("UA-19562293-1");
+      pageTracker._trackPageview();
+      } catch(err) {}
     </script>
+    
   </body>
 </html>
