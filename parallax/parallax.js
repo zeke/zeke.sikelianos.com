@@ -1,7 +1,7 @@
 var x;
 var y;
-var l = [0, 0,  0];
-var r = [0, 0,  0];
+var l = [];
+var r = [];
 var s = [0.5, 1, 2];
 
 function setup(e) {
@@ -13,9 +13,6 @@ function setup(e) {
 document.onmousemove = function(e) {
   x = e.x;
   y = e.y;
-
-  // if (x < 0) {y = 0}
-  // if (y < 0) {y = 0}
 
   l[0] = x * s[0];
   l[1] = x * s[1];
