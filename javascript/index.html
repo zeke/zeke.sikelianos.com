@@ -1,130 +1,57 @@
-<link href="index.css" rel="stylesheet" type="text/css">
-<link href="rainbow/themes/tomorrow-night.css" rel="stylesheet" type="text/css">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
 
-<script src="components/mustache/mustache.js"></script>
+  <link href="index.css" rel="stylesheet" type="text/css">
+  <link href="rainbow/themes/tomorrow-night.css" rel="stylesheet" type="text/css">
 
-<script src="rainbow/js/rainbow.min.js"></script>
-<script src="rainbow/js/language/generic.js"></script>
-<script src="rainbow/js/language/javascript.js"></script>
+  <script src="components/mustache/mustache.js"></script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
+  <script src="rainbow/js/rainbow.min.js"></script>
+  <script src="rainbow/js/language/generic.js"></script>
+  <script src="rainbow/js/language/javascript.js"></script>
+  <script data-main="components/main" src="components/require.js"></script>
 
-    var data = {
-      tips: [
-        {
-          task: "Select a single element",
-          jquery: "$('#thing')",
-          vanilla: "document.querySelector('#thing')"
-        },{
-          task: "Select many elements",
-          jquery: "$('ol.items > li')",
-          vanilla: "document.querySelectorAll('ol.items > li')"
-        },{
-          task: "Add a class",
-          jquery: "$(element).addClass('foo')",
-          vanilla: "element.classList.add('foo')"
-        },{
-          task: "Remove a class",
-          jquery: "$(element).removeClass('foo')",
-          vanilla: "element.classList.remove('foo')"
-        },{
-          task: "Toggle a class",
-          jquery: "$(element).toggleClass('foo')",
-          vanilla: "element.classList.toggle('foo')"
-        },{
-          task: "Detect DOM readyness",
-          jquery: "$(document).ready(function(){\n  // ready\n})",
-          vanilla: "document.addEventListener('DOMContentLoaded', function(){\n  // ready\n})"
-        },{
-          task: "Attach event handlers",
-          jquery: "$('a').click(function() {\n  // clicked\n})",
-          vanilla: "[].forEach.call(document.querySelectorAll('a'), function(el) {\n  el.addEventListener('click', function() {\n    // clicked\n  });\n});"
-        },{
-          task: "Get an attribute",
-          jquery: "$(element).attr('title')",
-          vanilla: "element.getAttribute('title')"
-        },{
-          task: "Set an attribute",
-          jquery: "$(element).attr('title', 'bumbershoot')",
-          vanilla: "element.setAttribute('title', 'bumbershoot')"
-        },{
-          task: "Create an element",
-          jquery: "$('<div/>')",
-          vanilla: "document.createElement('div')"
-        },{
-          task: "Append an element to the DOM",
-          jquery: "$(element).append(element)",
-          vanilla: "element.appendChild(element)"
-        },{
-          task: "Clone an element",
-          jquery: "element.clone()",
-          vanilla: "element.cloneNode(true)"
-        },{
-          task: "Get element contents",
-          jquery: "$(element).html()",
-          vanilla: "element.innerHTML"
-        },{
-          task: "Replace element contents",
-          jquery: "$(element).html('<h1>Hello</h1>')",
-          vanilla: "element.innerHTML = '<h1>Hello</h1>'"
-        },{
-          task: "Determine element emptiness",
-          jquery: "if ($(element).is(':empty'))",
-          vanilla: "if(!element.hasChildNodes())"
-        },{
-          task: "Select element parent",
-          jquery: "$(element).parent()",
-          vanilla: "element.parentNode"
-        },{
-          task: "Select element sibling",
-          jquery: "$(element).next()",
-          vanilla: "element.nextSibling"
-        }
-      ],
-      commentedTask: function () {
-        return "// " + this.task + "\n";
-      }
-    };
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    });
+  </script>
+</head>
 
-    var template = document.querySelector('#tipTemplate').innerHTML;
-
-    document.querySelector('#tips').innerHTML = Mustache.render(template, data);
-    Rainbow.color();
-
-  });
-</script>
-
-<script id="tipTemplate" type="text/template">
-  {{#tips}}
-  <tr>
-    <td><pre><code data-language="javascript">{{commentedTask}}</code></pre></td>
-    <td><pre><code data-language="javascript">{{vanilla}}</code></pre></td>
-    <td><pre><code data-language="javascript">{{jquery}}</code></pre></td>
-  </tr>
-  {{/tips}}
-</script>
-
-<table>
-  <thead>
+<body>
+  <script id="tipTemplate" type="text/template">
+    {{#tips}}
     <tr>
-      <th>// Task</th>
-      <th>Vanilla Javascript</th>
-      <th>jQuery</th>
+      <td><pre><code data-language="javascript">{{commentedTask}}</code></pre></td>
+      <td><pre><code data-language="javascript">{{beautifulVanilla}}</code></pre></td>
+      <td><pre><code data-language="javascript">{{jquery}}</code></pre></td>
     </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <th>// Task</th>
-      <th>Vanilla Javascript</th>
-      <th>jQuery</th>
-    </tr>
-  </tfoot>
-  <tbody id="tips"></tbody>
+    {{/tips}}
+  </script>
 
-</table>
+  <table>
+    <thead>
+      <tr>
+        <th>// Task</th>
+        <th>Vanilla Javascript</th>
+        <th>jQuery</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th>// Task</th>
+        <th>Vanilla Javascript</th>
+        <th>jQuery</th>
+      </tr>
+    </tfoot>
+    <tbody id="tips"></tbody>
 
-<footer>
-  Created by <a href="http://twitter.com/zeke">Zeke</a>.
-  Send me a <a href="https://github.com/zeke/zeke.sikelianos.com/tree/master/javascript">pull request!</a>
-</footer>
+  </table>
+
+  <footer>
+    Created by <a href="http://twitter.com/zeke">Zeke</a>.
+    Send me a <a href="https://github.com/zeke/zeke.sikelianos.com/tree/master/javascript">pull request!</a>
+  </footer>
+</body>
+</html>
