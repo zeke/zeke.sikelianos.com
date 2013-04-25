@@ -61,17 +61,25 @@
           jquery: "element.clone()",
           vanilla: "element.cloneNode(true)"
         },{
-          task: "Get element contents",
+          task: "Get element content",
           jquery: "$(element).html()",
           vanilla: "element.innerHTML"
         },{
-          task: "Replace element contents",
+          task: "Set element content (HTML)",
           jquery: "$(element).html('<h1>Hello</h1>')",
           vanilla: "element.innerHTML = '<h1>Hello</h1>'"
+        },{
+          task: "Set element content (plaintext)",
+          jquery: "$(element).text('gumption')",
+          vanilla: "element.textContent = 'gumption'\nelement.innerText = 'gumption' // IE < 9\nelement.appendChild(document.createTextNode('gumption')) // All browsers"
         },{
           task: "Determine element emptiness",
           jquery: "if ($(element).is(':empty'))",
           vanilla: "if(!element.hasChildNodes())"
+        },{
+          task: "Remove element",
+          jquery: "$(element).remove()",
+          vanilla: "element.parentNode.removeChild(element)"
         },{
           task: "Select element parent",
           jquery: "$(element).parent()",
