@@ -39,7 +39,11 @@
         },{
           task: "Attach event handlers",
           jquery: "$('a').click(function() {\n  // clicked\n})",
-          vanilla: "[].forEach.call(document.querySelectorAll('a'), function(el) {\n  el.addEventListener('click', function() {\n    // clicked\n  });\n});"
+          vanilla: "[].forEach.call(document.querySelectorAll('a'), function(element) {\n  element.addEventListener('click', function() {\n    // clicked\n  });\n});"
+        },{
+          task: "Attach event handlers (alternative)",
+          jquery: "$('a').click(function() {\n  // clicked\n})",
+          vanilla: "NodeList.prototype.forEach = Array.prototype.forEach;\ndocument.querySelectorAll('a').forEach(function(element) {\n  element.addEventListener('click', function() {\n    // clicked\n  });\n});"
         },{
           task: "Get an attribute",
           jquery: "$(element).attr('title')",
