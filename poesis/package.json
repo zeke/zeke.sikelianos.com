@@ -1,0 +1,12 @@
+{
+  "name": "poesis",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-contrib-watch": "*",
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  }
+}

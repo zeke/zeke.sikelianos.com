@@ -1,0 +1,8 @@
+/* line 1, ../src/styles/index.sass */
+body { font-family: "Helvetica Neue", helvetica, arial; padding: 20px; font-size: 18px; line-height: 1.4; max-width: 640px; }
+
+/* line 8, ../src/styles/index.sass */
+h1 { color: #00aaf2; }
+
+/* line 11, ../src/styles/index.sass */
+#user { font-family: "Helvetica Neue", helvetica, arial; font-size: 18px; padding: 5px; }
