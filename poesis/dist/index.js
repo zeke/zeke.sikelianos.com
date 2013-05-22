@@ -10,7 +10,21 @@
       linky: new RegExp("https?:\/\/")
     };
 
-    Poesis.score = function(user, cb) {
+    Poesis.get_tweets_per_day = function(user, cb) {
+      var url;
+
+      url = "https://api.twitter.com/1/users/show.json?screen_name=" + user + "&callback=?";
+      return $.getJSON(url, function(user) {
+        var days_count;
+
+        days_count = ((new Date().getTime()) - (new Date(user.created_at).getTime())) / 1000 / 60 / 60 / 24;
+        return cb(null, {
+          tweets_per_day: Number((user.statuses_count / days_count).toFixed(1))
+        });
+      });
+    };
+
+    Poesis.get_scores = function(user, cb) {
       var url;
 
       url = "https://search.twitter.com/search.json?q=from%3a" + user + "&rpp=100&callback=?";
@@ -93,11 +107,20 @@
     var url_query;
 
     $('#user').on('change', function(event) {
-      return Poesis.score($(this).val(), function(err, results) {
+      var user;
+
+      user = $(this).val();
+      Poesis.get_scores(user, function(err, results) {
         if (err) {
           return console.log(err);
         }
         return $('#results').text(JSON.stringify(results, null, 2));
+      });
+      return Poesis.get_tweets_per_day(user, function(err, results) {
+        if (err) {
+          return console.log(err);
+        }
+        return $('#results2').text(JSON.stringify(results, null, 2));
       });
     });
     url_query = location.href.match(new RegExp("=(\\w+)"));

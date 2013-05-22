@@ -5,7 +5,15 @@ class Poesis
     conversational: new RegExp("^@")
     linky: new RegExp("https?:\/\/")
 
-  @score: (user, cb) ->
+  @get_tweets_per_day: (user, cb) ->
+    url = "https://api.twitter.com/1/users/show.json?screen_name=#{user}&callback=?"
+    $.getJSON url, (user) ->
+      days_count = ((new Date().getTime())-(new Date(user.created_at).getTime()))/1000/60/60/24
+      # debugger
+      cb null,
+        tweets_per_day: Number((user.statuses_count/days_count).toFixed(1))
+
+  @get_scores: (user, cb) ->
     url = "https://search.twitter.com/search.json?q=from%3a#{user}&rpp=100&callback=?"
     $.getJSON url, (res) ->
 
@@ -33,9 +41,14 @@ window.Poesis = Poesis
 $ ->
 
   $('#user').on 'change', (event) ->
-    Poesis.score $(this).val(), (err, results) ->
+    user = $(this).val()
+    Poesis.get_scores user, (err, results) ->
       return console.log(err) if err
       $('#results').text(JSON.stringify(results, null, 2))
+
+    Poesis.get_tweets_per_day user, (err, results) ->
+      return console.log(err) if err
+      $('#results2').text(JSON.stringify(results, null, 2))
 
   # Look for something like ?user=bob in the URL
   url_query = location.href.match(new RegExp("=(\\w+)"))
