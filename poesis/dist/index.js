@@ -15,84 +15,78 @@
 
       url = "https://api.twitter.com/1/users/show.json?screen_name=" + user + "&callback=?";
       return $.getJSON(url, function(user) {
-        var days_count;
+        var days;
 
-        days_count = ((new Date().getTime()) - (new Date(user.created_at).getTime())) / 1000 / 60 / 60 / 24;
-        return cb(null, {
-          tweets_per_day: Number((user.statuses_count / days_count).toFixed(1))
-        });
+        days = (Date.now() - new Date(user.created_at)) / 1000 / 60 / 60 / 24;
+        user.tweets_per_day = Number((user.statuses_count / days).toFixed(1));
+        return cb(null, user);
       });
     };
 
     Poesis.get_scores = function(user, cb) {
       var url;
 
-      url = "https://search.twitter.com/search.json?q=from%3a" + user + "&rpp=100&callback=?";
-      return $.getJSON(url, function(res) {
-        var key, result, scores, tweet, tweets, _i, _len, _ref;
+      url = "https://api.twitter.com/1/statuses/user_timeline/" + user + ".json?count=1000&callback=?";
+      return $.getJSON(url, function(tweets) {
+        var counts, daily_averages, days, percentages, tweet;
 
-        tweets = {};
-        tweets.all = (function() {
-          var _i, _len, _ref, _results;
+        counts = {
+          all: tweets.length,
+          poetic: ((function() {
+            var _i, _len, _results;
 
-          _ref = res.results;
-          _results = [];
-          for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-            result = _ref[_i];
-            _results.push(result.text);
-          }
-          return _results;
-        })();
-        tweets.poetic = (function() {
-          var _i, _len, _ref, _results;
-
-          _ref = tweets.all;
-          _results = [];
-          for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-            tweet = _ref[_i];
-            if (!tweet.match(Poesis.patterns.hypertextual)) {
-              _results.push(tweet);
+            _results = [];
+            for (_i = 0, _len = tweets.length; _i < _len; _i++) {
+              tweet = tweets[_i];
+              if (!tweet.text.match(Poesis.patterns.hypertextual)) {
+                _results.push(tweet);
+              }
             }
-          }
-          return _results;
-        })();
-        tweets.conversational = (function() {
-          var _i, _len, _ref, _results;
+            return _results;
+          })()).length,
+          conversational: ((function() {
+            var _i, _len, _results;
 
-          _ref = tweets.all;
-          _results = [];
-          for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-            tweet = _ref[_i];
-            if (tweet.match(Poesis.patterns.conversational)) {
-              _results.push(tweet);
+            _results = [];
+            for (_i = 0, _len = tweets.length; _i < _len; _i++) {
+              tweet = tweets[_i];
+              if (tweet.text.match(Poesis.patterns.conversational)) {
+                _results.push(tweet);
+              }
             }
-          }
-          return _results;
-        })();
-        tweets.linky = (function() {
-          var _i, _len, _ref, _results;
+            return _results;
+          })()).length,
+          linky: ((function() {
+            var _i, _len, _results;
 
-          _ref = tweets.all;
-          _results = [];
-          for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-            tweet = _ref[_i];
-            if (tweet.match(Poesis.patterns.linky)) {
-              _results.push(tweet);
+            _results = [];
+            for (_i = 0, _len = tweets.length; _i < _len; _i++) {
+              tweet = tweets[_i];
+              if (tweet.text.match(Poesis.patterns.linky)) {
+                _results.push(tweet);
+              }
             }
-          }
-          return _results;
-        })();
-        scores = {};
-        _ref = Object.keys(tweets);
-        for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-          key = _ref[_i];
-          if (key !== 'all') {
-            scores[key] = parseInt(tweets[key].length / tweets.all.length * 100);
-          }
-        }
+            return _results;
+          })()).length
+        };
+        counts.nonconversational = counts.all - counts.conversational;
+        percentages = {
+          poetic: parseInt(counts.poetic / counts.nonconversational * 100),
+          conversational: parseInt(counts.conversational / counts.all * 100),
+          nonconversational: parseInt(counts.nonconversational / counts.all * 100),
+          linky: parseInt(counts.linky / counts.all * 100)
+        };
+        days = (Date.now() - new Date(tweets[tweets.length - 1].created_at)) / 1000 / 60 / 60 / 24;
+        daily_averages = {
+          all: Number((counts.all / days).toFixed(1)),
+          poetic: Number((counts.poetic / days).toFixed(1)),
+          conversational: Number((counts.conversational / days).toFixed(1)),
+          nonconversational: Number((counts.nonconversational / days).toFixed(1))
+        };
         return cb(null, {
-          scores: scores,
-          tweets: tweets
+          counts: counts,
+          percentages: percentages,
+          daily_averages: daily_averages
         });
       });
     };
@@ -110,17 +104,11 @@
       var user;
 
       user = $(this).val();
-      Poesis.get_scores(user, function(err, results) {
+      return Poesis.get_scores(user, function(err, results) {
         if (err) {
           return console.log(err);
         }
         return $('#results').text(JSON.stringify(results, null, 2));
-      });
-      return Poesis.get_tweets_per_day(user, function(err, results) {
-        if (err) {
-          return console.log(err);
-        }
-        return $('#results2').text(JSON.stringify(results, null, 2));
       });
     });
     url_query = location.href.match(new RegExp("=(\\w+)"));

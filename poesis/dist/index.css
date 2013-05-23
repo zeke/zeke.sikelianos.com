@@ -1,8 +1,14 @@
-/* line 1, ../src/styles/index.sass */
+/* line 3, ../src/styles/index.sass */
 body { font-family: "Helvetica Neue", helvetica, arial; padding: 20px; font-size: 18px; line-height: 1.4; max-width: 640px; }
 
-/* line 8, ../src/styles/index.sass */
-h1 { color: #00aaf2; }
-
 /* line 11, ../src/styles/index.sass */
-#user { font-family: "Helvetica Neue", helvetica, arial; font-size: 18px; padding: 5px; }
+hgroup h1 { display: inline-block; color: black; margin: 0; padding: 0; }
+/* line 17, ../src/styles/index.sass */
+hgroup h2 { display: inline-block; font-size: 18px; margin: 0; padding: 0; color: #999999; font-weight: 300; }
+
+/* line 25, ../src/styles/index.sass */
+#user_wrapper { font-family: "Helvetica Neue", helvetica, arial; display: inline-block; border: 1px solid #cccccc; margin: 0; padding: 4px; -webkit-border-radius: 3px; border-radius: 3px; }
+/* line 33, ../src/styles/index.sass */
+#user_wrapper:before { margin: 0 0 0 5px; padding: 0; content: "@"; color: #999999; }
+/* line 38, ../src/styles/index.sass */
+#user_wrapper input { font-family: "Helvetica Neue", helvetica, arial; font-size: 18px; margin: 0; padding: 0; border: none; outline: none; max-width: 120px; }

@@ -8,33 +8,43 @@ class Poesis
   @get_tweets_per_day: (user, cb) ->
     url = "https://api.twitter.com/1/users/show.json?screen_name=#{user}&callback=?"
     $.getJSON url, (user) ->
-      days_count = ((new Date().getTime())-(new Date(user.created_at).getTime()))/1000/60/60/24
-      # debugger
-      cb null,
-        tweets_per_day: Number((user.statuses_count/days_count).toFixed(1))
+
+      # Days since Twitter account was created
+      days = (Date.now() - new Date(user.created_at))/1000/60/60/24
+
+      # Round to one decimal place
+      user.tweets_per_day = Number((user.statuses_count/days).toFixed(1))
+      cb null, user
 
   @get_scores: (user, cb) ->
-    url = "https://search.twitter.com/search.json?q=from%3a#{user}&rpp=100&callback=?"
-    $.getJSON url, (res) ->
+    url = "https://api.twitter.com/1/statuses/user_timeline/#{user}.json?count=1000&callback=?"
+    $.getJSON url, (tweets) ->
 
-      # Collections
-      tweets = {}
-      tweets.all =            (result.text for result in res.results)
-      tweets.poetic =         (tweet for tweet in tweets.all when !tweet.match(Poesis.patterns.hypertextual))
-      tweets.conversational = (tweet for tweet in tweets.all when tweet.match(Poesis.patterns.conversational))
-      tweets.linky =          (tweet for tweet in tweets.all when tweet.match(Poesis.patterns.linky))
+      counts =
+        all:               tweets.length
+        poetic:            (tweet for tweet in tweets when !tweet.text.match(Poesis.patterns.hypertextual)).length
+        conversational:    (tweet for tweet in tweets when tweet.text.match(Poesis.patterns.conversational)).length
+        linky:             (tweet for tweet in tweets when tweet.text.match(Poesis.patterns.linky)).length
 
-      # Calculate scores as a percentage of total tweets
-      scores = {}
-      for key in Object.keys(tweets) when key isnt 'all'
-        scores[key] = parseInt(tweets[key].length/tweets.all.length*100)
+      counts.nonconversational = counts.all-counts.conversational
 
-      # scores.poetic_within_nonconversational = parseInt(tweets.poetic.length/(tweets.all.length-tweets.conversational.length)*100)
+      percentages =
+        poetic:             parseInt(counts.poetic/(counts.nonconversational)*100)
+        conversational:     parseInt(counts.conversational/counts.all*100)
+        nonconversational:  parseInt(counts.nonconversational/counts.all*100)
+        linky:              parseInt(counts.linky/counts.all*100)
 
-      # Callback
+      days = (Date.now() - new Date(tweets[tweets.length-1].created_at))/1000/60/60/24
+      daily_averages =
+        all:                Number((counts.all/days).toFixed(1))
+        poetic:             Number((counts.poetic/days).toFixed(1))
+        conversational:     Number((counts.conversational/days).toFixed(1))
+        nonconversational:  Number((counts.nonconversational/days).toFixed(1))
+
       cb null,
-        scores: scores
-        tweets: tweets
+        counts: counts
+        percentages: percentages
+        daily_averages: daily_averages
 
 window.Poesis = Poesis
 
@@ -46,9 +56,9 @@ $ ->
       return console.log(err) if err
       $('#results').text(JSON.stringify(results, null, 2))
 
-    Poesis.get_tweets_per_day user, (err, results) ->
-      return console.log(err) if err
-      $('#results2').text(JSON.stringify(results, null, 2))
+    # Poesis.get_tweets_per_day user, (err, results) ->
+    #   return console.log(err) if err
+    #   $('#results2').text(JSON.stringify(results, null, 2))
 
   # Look for something like ?user=bob in the URL
   url_query = location.href.match(new RegExp("=(\\w+)"))
