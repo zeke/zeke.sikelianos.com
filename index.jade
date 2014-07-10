@@ -1,0 +1,77 @@
+!!!
+html
+  head
+    title Zeke Sikelianos, Internet Designer/Developer
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+
+    //- link(href='//fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet', type='text/css')
+    link(href='/assets/styles.css', rel='stylesheet', type='text/css')
+
+  body
+    #content
+
+      h2 Hi
+
+      :markdown
+        I'm Zeke Sikelianos, a designer and software developer living in the [San Francisco](http://en.wikipedia.org/wiki/Emperor_Norton) Bay Area. I work at [Heroku](http://heroku.com), where I design and build open-source tools to help creative people build magical things with the Internet. I believe [information wants to be free](http://en.wikipedia.org/wiki/Hacker_ethic), and that you can use computers to create beautiful things.
+
+      :markdown
+        I go by [zeke](http://twitter.com/zeke),
+        [zeke](http://github.com/zeke),
+        [zeke](http://github.com/zeke), and
+        [sikelianos](http://flickr.com/photos/sikelianos/sets).
+
+
+      h2 Projects
+
+      ul
+        - each project in public.resume._data.projects
+          li
+            h3
+              a(href=project.website)= project.name
+            p= project.description
+
+      //- ul
+      //-   li
+      //-     a(href='http://zeke.sikelianos.com/bananas') /bananas
+      //-     | is an old version of this site.
+      //-   li
+      //-     a(href='http://zeke.sikelianos.com/http') /http
+      //-     | is an http status code cheatsheet.
+      //-   li
+      //-     a(href='http://zeke.sikelianos.com/solresol') /solresol
+      //-     | is a translator for a dead artificial language.
+      //-   li
+      //-     a(href='http://zeke.sikelianos.com/vanilla') /vanilla
+      //-     | is a site for fools who don't have a text editor.
+
+      h2 Work
+
+      ul
+        - each job in public.resume._data.jobs
+          li
+            h3
+              a(href=job.website)= job.organization
+              em= job.location
+
+            p= job.description
+            p.paltry
+              = job.start
+              = " - "
+              = job.end
+
+      h2 Education
+
+      ul
+        - each school in public.resume._data.schools
+          li
+            h3
+              a(href=school.website)= school.organization
+              em=  school.location
+
+            p= school.description
+
+      h2 Thanks
+
+      :markdown
+        You made it to the bottom of the page! You deserve a [prize](http://asciiface.zeke.xxx/).
