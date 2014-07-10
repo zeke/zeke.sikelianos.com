@@ -2,7 +2,7 @@
   "projects":[
   {
     "name": "Moby Thesaurus",
-    "description": "moby-thesaurus.org is a free and open-source website designed to facilitate meanderings through the Moby Thesaurus, the largest thesaurus in the English language.",
+    "description": "moby-thesaurus.org is a free and open-source website for searching Moby Thesaurus, the largest thesaurus in the English language. Moby is a weird and wonderful reference full of unusual and illuminating word relationships. Until I created moby-thesaurus.org, there was no easy way to make use of this incredible data set.",
     "website": "http://moby-thesaurus.org/",
     "keywords": ["language", "English", "thesaurus", "Node.js", "reference"],
     "start": "2014-04-26",
@@ -30,7 +30,7 @@
     "end": ""
   },{
     "name": "New Orleans Street Names",
-    "description": "I noticed that New Orleans has lots of nice street names, so I tracked them all down and made a list.",
+    "description": "During a recent visit to New Orlenans, I couldn't help but notice how many great street names there are. So I tracked them all down and listed them on this website.",
     "website": "http://new-orleans-street-names.herokuapp.com/",
     "keywords": ["language", "geo"],
     "start": "2014-06-20",
@@ -60,6 +60,13 @@
     "name": "Swagger",
     "description": "Swagger is a specification and open-source framework for describing, producing, consuming, and visualizing RESTful web services with JSON. I created it as a tool to help make APIs easier to understand and use.",
     "website": "",
+    "keywords": [],
+    "start": "",
+    "end": ""
+  },{
+    "name": "zeke.sikelianos.com/http",
+    "description": "@zeke_in_http is a Twitter account from which I tweet life events in the form of HTTP status codes. I built this website as a cheatsheet for that account.",
+    "website": "http://zeke.sikelianos.com/http",
     "keywords": [],
     "start": "",
     "end": ""
@@ -158,10 +165,10 @@
   }, {
     "organization": "Machine Project",
     "location": "Los Angeles, CA",
-    "description": "Beaver Brook is a design and building school in the woods of upstate New York. I was a student in its inaugural year, during which we built a sauna.",
-    "website": "http://beaverbrook.com/",
-    "start": "2013-08-26",
-    "end": "2013-09-06"
+    "description": "Machine Project is an informal educational institution that teaches all kinds of things: electronics, sewing, pickling, computer programming, car theft and so forth. While living in Los Angeles, I attended several of these classes, the most interesting being the one where we built a shipwrecked boat.",
+    "website": "http://machineproject.com/blog/2010/09/05/shipwrecked-boat/",
+    "start": "2010-01-01",
+    "end": "2010-08-01"
     }, {
     "organization": "Santa Barbara City College",
     "location": "Santa Barbara, CA",
