@@ -174,14 +174,14 @@
     "location": "Santa Barbara, CA",
     "description": "After a long departure from academia, I willfully attended courses in linguistics and printmaking.",
     "website": "http://sbcc.edu/",
-    "started_at": "2008-09-01",
-    "ended_at": "2009-05-15"
+    "start": "2008-09-01",
+    "end": "2009-05-15"
   }, {
     "organization": "University of New Mexico",
     "location": "Albuquerque, NM",
     "description": "Fresh out of high school, I received a scholarship to attend the univeristy, but after two years of disenchantment, I enrolled in an English teaching program in France and made what was to be my first exodus from academia and the United States.",
-    "started_at": "1999-09-05",
-    "ended_at": "2001-04-28"
+    "start": "1999-09-05",
+    "end": "2001-04-28"
   }
 ]
 
