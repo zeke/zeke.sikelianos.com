@@ -2,8 +2,8 @@ mainColor = #00b223
 backgroundColor = white
 headingColor = black
 textColor = #333
-sidePadding = 20px
 columnWidth = 580px
+imageWidth = 600px
 
 *
   -moz-box-sizing border-box
@@ -36,6 +36,7 @@ section.first
   position relative
   height 100%
   width 100%
+  background transparent url("/assets/images/down-arrow.svg") no-repeat bottom center
 
   > article
     margin 0
@@ -46,7 +47,7 @@ section.first
     // background grey
     // overflow hidden
     position absolute
-    width 100%
+    width imageWidth + columnWidth
     top 50%
     left 50%
     -webkit-transform translate(-50%, -50%)
@@ -144,6 +145,7 @@ footer
     position relative
     height auto
     width auto
+    background none
 
     > article
       margin 0 auto
