@@ -2,14 +2,14 @@
   "projects":[
   {
     "name": "Moby Thesaurus",
-    "description": "moby-thesaurus.org is a free and open-source website for searching Moby Thesaurus, the largest thesaurus in the English language. Moby is a weird and wonderful reference full of unusual and illuminating word relationships. Until I created moby-thesaurus.org, there was no easy way to make use of this incredible data set.",
+    "description": "moby-thesaurus.org is a free and open-source website for searching Moby Thesaurus, the largest thesaurus in the English language. Moby is a weird and wonderful reference full of unusual and illuminating word relationships. I created moby-thesaurus.org after years hoping and waiting for a good website or tool to come along for searching this amazing dataset.",
     "website": "http://moby-thesaurus.org/",
     "keywords": ["language", "English", "thesaurus", "Node.js", "reference"],
     "start": "2014-04-26",
     "end": "2014-04-28"
   },{
     "name": "Ord",
-    "description": "Ord is a free web-based tool for translating words into many languages using data collected from Wikipedia. Ord sorts search results from different languages according to their lexical similarity to the query word, often providing etymological clues into the history and geographic distribution of language. Ord is an open-source Node.js application with source code available on GitHub.",
+    "description": "Ord is a free web-based tool for translating words into many languages at once using data collected from Wikipedia. Ord sorts search results from different languages according to their lexical similarity to the headword, often providing etymological clues into the history and geographic distribution of language. Ord is an open-source Node.js application with source code available on GitHub.",
     "website": "http://ord.zeke.xxx/",
     "keywords": ["language", "translation", "Wikipedia", "reference", "Node.js"],
     "start": "",

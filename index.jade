@@ -4,75 +4,86 @@ html
     title Zeke Sikelianos, Internet Designer/Developer
     meta(name="viewport" content="width=device-width, initial-scale=1")
 
-    //- link(href='//fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet', type='text/css')
+    link(href='//fonts.googleapis.com/css?family=Roboto+Slab:400,700|Open+Sans', rel='stylesheet', type='text/css')
     link(href='/assets/styles.css', rel='stylesheet', type='text/css')
 
+    script(src="/assets/app.js")
+
   body
-    #content
+    section.first
+      article
 
-      h2 Hi
+        img(src="/assets/images/anthropomorphs2.png")
 
-      :markdown
-        I'm Zeke Sikelianos, a designer and software developer living in the [San Francisco](http://en.wikipedia.org/wiki/Emperor_Norton) Bay Area. I work at [Heroku](http://heroku.com), where I design and build open-source tools to help creative people build magical things on the Internet. I believe [information wants to be free](http://en.wikipedia.org/wiki/Hacker_ethic), and that you can use computers to [create beautiful things](http://cargocollective.com/zeke).
+        aside
+          h1 Zeke<br /> Sikelianos
 
-      :markdown
-        I'm [zeke](http://twitter.com/zeke) on Twitter and
-        [zeke](http://github.com/zeke) on Github.
+          :markdown
+            I'm a designer and software developer in the [San Francisco](http://en.wikipedia.org/wiki/Emperor_Norton) Bay Area. I work at [Heroku](http://heroku.com), where I design and build open-source tools to help creative people build magical things on the Internet. I believe [information wants to be free](http://en.wikipedia.org/wiki/Hacker_ethic), and that you can create beautiful things with computers.
 
-      h2 Projects
+          :markdown
+            Find me on [Twitter](http://twitter.com/zeke),
+            [GitHub](http://github.com/zeke), and [Cargo](http://cargocollective.com/zeke).
 
-      ul
-        - each project in public.resume._data.projects
-          li
-            h3
-              a(href=project.website)= project.name
-            p= project.description
+    section
+      article
 
-      //- ul
-      //-   li
-      //-     a(href='http://zeke.sikelianos.com/bananas') /bananas
-      //-     | is an old version of this site.
-      //-   li
-      //-     a(href='http://zeke.sikelianos.com/solresol') /solresol
-      //-     | is a translator for a dead artificial language.
-      //-   li
-      //-     a(href='http://zeke.sikelianos.com/vanilla') /vanilla
-      //-     | is a site for fools who don't have a text editor.
+        h2 Projects
 
-      h2 Work
+    section
+      article
 
-      ul
-        - each job in public.resume._data.jobs
-          li
-            h3
-              a(href=job.website)= job.organization
-              em= job.location
+        ul
+          - each project in public.resume._data.projects
+            li
+              h3
+                a(href=project.website)= project.name
+              p= project.description
 
-            p= job.description
-            p.paltry
-              = job.start
-              = " - "
-              = job.end
+        h2 Places I've Worked
 
-      h2 Education
+        ul
+          - each job in public.resume._data.jobs
+            li
+              h3
+                a(href=job.website)= job.organization
+                em= job.location
 
-      ul
-        - each school in public.resume._data.schools
-          li
-            h3
-              a(href=school.website)= school.organization
-              em=  school.location
-            p= school.description
-            p.paltry
-              = school.start
-              = " - "
-              = school.end
+              p= job.description
+              p.paltry
+                = job.start
+                = " - "
+                = job.end
 
-      h2 Bye
+        h2 Schools I've Attended
 
-      :markdown
-        In case you missed it at the top, I'm [zeke](http://twitter.com/zeke) on Twitter and
-        [zeke](http://github.com/zeke) on Github. Send me a friendly message, or a nasty bug report.
+        ul
+          - each school in public.resume._data.schools
+            li
+              h3
+                a(href=school.website)= school.organization
+                em=  school.location
+              p= school.description
+              p.paltry
+                = school.start
+                = " - "
+                = school.end
 
-      :markdown
-        Thanks for scrolling. Here's a [prize](http://asciiface.zeke.xxx/).
+        h2 The End
+
+        :markdown
+          In case you missed it at the top, I'm [zeke](http://twitter.com/zeke) on Twitter and
+          [zeke](http://github.com/zeke) on Github. Please send me something cool. And thanks for scrolling. For that, you deserve a [prize](http://asciiface.zeke.xxx/).
+
+      footer
+
+//- ul
+//-   li
+//-     a(href='http://zeke.sikelianos.com/bananas') /bananas
+//-     | is an old version of this site.
+//-   li
+//-     a(href='http://zeke.sikelianos.com/solresol') /solresol
+//-     | is a translator for a dead artificial language.
+//-   li
+//-     a(href='http://zeke.sikelianos.com/vanilla') /vanilla
+//-     | is a site for fools who don't have a text editor.
