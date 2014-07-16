@@ -64,7 +64,7 @@ section.first
 a
   color mainColor
   text-decoration none
-  transition color 2s
+  transition all 0.2s
   &:hover
     text-decoration underline
 
@@ -76,6 +76,14 @@ p
   a
     text-decoration underline
     color textColor
+    padding-right 3px
+    padding-left 3px
+    margin-right -3px
+    margin-left -3px
+    &:hover
+      color backgroundColor
+      background mainColor
+      text-decoration none
   &.paltry
     font-size 13px
     opacity 0.7
