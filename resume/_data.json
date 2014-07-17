@@ -81,6 +81,14 @@
     "start": "",
     "end": ""
   },{
+    "slug": "foxtown",
+    "name": "Foxtown Vintage",
+    "description": "My girlfriend collects vintage clothing to sell on her Etsy store. I designed and built a standalone storefront website for the store that fetches listings using the Etsy API and displays them neatly on a single page.",
+    "website": "http://foxtownvintage.com",
+    "keywords": ["fashion", "website", "mobile", "design", "etsy"],
+    "start": "2014-05-21",
+    "end": "2014-05-28"
+  },{
     "slug": "more-prjects",
     "name": "More...",
     "description": "View my portfolio of design projects.",
