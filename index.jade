@@ -36,10 +36,10 @@ html
 
         ul
           - each project in public.resume._data.projects
-            li
+            li(id=project.slug)
               h3
                 a(href=project.website)= project.name
-                a.permalink(id=project.slug href="#"+project.slug) #
+                a.permalink(href="#"+project.slug) #
               p= project.description
 
         h2
@@ -47,11 +47,11 @@ html
 
         ul
           - each job in public.resume._data.jobs
-            li
+            li(id=job.slug)
               h3
                 a(href=job.website)= job.organization
                 em= job.location
-                a.permalink(id=job.slug href="#"+job.slug) #
+                a.permalink(href="#"+job.slug) #
 
               p= job.description
               p.paltry
@@ -64,11 +64,11 @@ html
 
         ul
           - each school in public.resume._data.schools
-            li
+            li(id=school.slug)
               h3
                 a(href=school.website)= school.organization
                 em=  school.location
-                a.permalink(id=school.slug href="#"+school.slug) #
+                a.permalink(href="#"+school.slug) #
               p= school.description
               p.paltry
                 = school.start

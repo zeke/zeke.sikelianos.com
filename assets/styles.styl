@@ -150,11 +150,22 @@ ul
   padding 0
   list-style none
   li
+    // transition all 0.3s
     padding 10px 0
     &:hover
       a.permalink
         opacity 1
-
+    &:target
+      margin-bottom 100px
+      h1,h2,h3
+        position relative
+        &:before
+          position absolute
+          left 0
+          bottom 0
+          color mainColor
+          content "\00BB"
+          margin-left -20px
 
 footer
   margin-top 200px
