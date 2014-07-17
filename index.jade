@@ -28,7 +28,8 @@ html
     section
       article
 
-        h2 Projects
+        h2
+          a(id="projects" href="#projects") Projects
 
     section
       article
@@ -38,9 +39,11 @@ html
             li
               h3
                 a(href=project.website)= project.name
+                a.permalink(id=project.slug href="#"+project.slug) #
               p= project.description
 
-        h2 Places I've Worked
+        h2
+          a(id="jobs" href="#jobs") Places I've Worked
 
         ul
           - each job in public.resume._data.jobs
@@ -48,6 +51,7 @@ html
               h3
                 a(href=job.website)= job.organization
                 em= job.location
+                a.permalink(id=job.slug href="#"+job.slug) #
 
               p= job.description
               p.paltry
@@ -55,7 +59,8 @@ html
                 = " - "
                 = job.end
 
-        h2 Schools I've Attended
+        h2
+          a(id="schools" href="#schools") Schools I've Attended
 
         ul
           - each school in public.resume._data.schools
@@ -63,13 +68,15 @@ html
               h3
                 a(href=school.website)= school.organization
                 em=  school.location
+                a.permalink(id=school.slug href="#"+school.slug) #
               p= school.description
               p.paltry
                 = school.start
                 = " - "
                 = school.end
 
-        h2 The End
+        h2
+          a(id="fin" href="#fin") The End
 
         :markdown
           In case you missed it at the top, I'm [zeke](http://twitter.com/zeke) on Twitter and

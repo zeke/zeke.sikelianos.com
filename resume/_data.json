@@ -1,6 +1,7 @@
 {
   "projects":[
   {
+    "slug": "moby",
     "name": "Moby Thesaurus",
     "description": "moby-thesaurus.org is a free and open-source website for searching Moby Thesaurus, the largest thesaurus in the English language. Moby is a weird and wonderful reference full of unusual and illuminating word relationships. I created moby-thesaurus.org after years hoping and waiting for a good website or tool to come along for searching this amazing dataset.",
     "website": "http://moby-thesaurus.org/",
@@ -8,6 +9,7 @@
     "start": "2014-04-26",
     "end": "2014-04-28"
   },{
+    "slug": "ord",
     "name": "Ord",
     "description": "Ord is a free web-based tool for translating words into many languages at once using data collected from Wikipedia. Ord sorts search results from different languages according to their lexical similarity to the headword, often providing etymological clues into the history and geographic distribution of language. Ord is an open-source Node.js application with source code available on GitHub.",
     "website": "http://ord.zeke.xxx/",
@@ -15,6 +17,7 @@
     "start": "",
     "end": ""
   },{
+    "slug": "outcasts",
     "name": "Outcasts",
     "description": "Outcasts is a list of words that people on Twitter don't think are words, collected by a bot that searches in tweets for patterns like \"x is not a word\". Favorites include amanzingest, backyardigans, caddywhompers, chuft, cucumbersome, ermahgerd, and flaggergasted.",
     "website": "http://zeke.sikelianos.com/outcasts/",
@@ -22,6 +25,7 @@
     "start": "2012-04-03",
     "end": "2012-04-03"
   },{
+    "slug": "wordnik-com",
     "name": "Wordnik",
     "description": "Wordnik is a free English language reference site featuring definitions, related words, examples of popular usage, audio pronunciations, and photos. Its data is derived from a variety of sources such as the American Heritage Dictionary, Princeton Wordnet, Wiktionary, Wikipedia, Webster's 1913, and the Century Dictionary, one of the largest encyclopedic dictionaries of the English language. The wordnik.com website is a powered by the Wordnik API, a free and publicly available webservice for building language-based apps and games.",
     "website": "https://wordnik.com/",
@@ -29,13 +33,15 @@
     "start": "",
     "end": ""
   },{
+    "slug": "new-orleans-street-names",
     "name": "New Orleans Street Names",
-    "description": "During a recent visit to New Orlenans, I couldn't help but notice how many great street names there are. So I tracked them all down and listed them on this website.",
+    "description": "During a recent visit to New Orleans, I couldn't help but notice how many great street names there are. So I tracked them all down and listed them on this website.",
     "website": "http://new-orleans-street-names.herokuapp.com/",
     "keywords": ["language", "geo"],
     "start": "2014-06-20",
     "end": "2014-06-20"
   },{
+    "slug": "arpabet",
     "name": "Arpabet",
     "description": "Arpabet is a webservice for finding rhymes. It uses Carnegie Mellon University Pronouncing Dictionary, a list of over 125,000 words transcribed into Arpabet, a phonetic transcription code developed by Advanced Research Projects Agency (ARPA) as a part of their Speech Understanding Project (1971–1976). It represents each phoneme of General American English with a distinct sequence of ASCII characters.",
     "website": "http://arpabet.herokuapp.com/",
@@ -43,6 +49,7 @@
     "start": "2011-11-15",
     "end": "2013-07-14"
   },{
+    "slug": "sniphr",
     "name": "Sniphr",
     "description": "Sniphr is a friction-free bookmarking tool for saving images and snippets of text as you browse the web. It's comprised of a Chrome browser extension and a backing Rails webservice, both of which are open-source on GitHub.",
     "website": "http://sniphr.com/",
@@ -50,6 +57,7 @@
     "start": "2011-04-06",
     "end": "2014-04-15"
   },{
+    "slug": "semver-io",
     "name": "semver.io",
     "description": "semver.io is a plaintext and JSON webservice that tracks all available versions of node.js and uses that version info to resolve semver range queries. It's used by Heroku's node buildpack and is open-sourced on GitHub.",
     "website": "https://semver.io/",
@@ -57,6 +65,7 @@
     "start": "",
     "end": ""
   },{
+    "slug": "swagger",
     "name": "Swagger",
     "description": "Swagger is a specification and open-source framework for describing, producing, consuming, and visualizing RESTful web services with JSON. I created it as a tool to help make APIs easier to understand and use.",
     "website": "",
@@ -64,6 +73,7 @@
     "start": "",
     "end": ""
   },{
+    "slug": "http",
     "name": "zeke.sikelianos.com/http",
     "description": "@zeke_in_http is a Twitter account from which I tweet life events in the form of HTTP status codes. I built this website as a cheatsheet for that account.",
     "website": "http://zeke.sikelianos.com/http",
@@ -71,6 +81,7 @@
     "start": "",
     "end": ""
   },{
+    "slug": "more-prjects",
     "name": "More...",
     "description": "View my portfolio of design projects.",
     "website": "http://cargocollective.com/zeke",
@@ -81,6 +92,7 @@
 ],
   "jobs": [
     {
+      "slug": "heroku",
       "organization": "Heroku",
       "location": "San Francisco, CA",
       "title": "Product Designer, Node.js Maintainer",
@@ -89,6 +101,7 @@
       "start": "2012-05-01",
       "end": "Present"
     }, {
+      "slug": "wordnik",
       "organization": "Wordnik",
       "location": "San Mateo, CA",
       "title": "Senior Developer",
@@ -97,6 +110,7 @@
       "start": "2011-01-01",
       "end": "2012-04-15"
     }, {
+      "slug": "gemini",
       "organization": "Gemini SBS",
       "location": "Los Angeles, CA",
       "title": "Senior Developer",
@@ -105,6 +119,7 @@
       "start": "2011-01-01",
       "end": "2012-04-15"
     }, {
+      "slug": "elc",
       "organization": "ELC Technologies",
       "location": "Santa Barbara, CA",
       "title": "Rails Developer",
@@ -113,6 +128,7 @@
       "start": "2007-01-15",
       "end": "2008-03-31"
     }, {
+      "slug": "ideum",
       "organization": "Ideum",
       "location": "Corrales, NM",
       "title": "Interactive Director",
@@ -121,6 +137,7 @@
       "start": "2006-03-15",
       "end": "2006-11-30"
     }, {
+      "slug": "rgc",
       "organization": "Rome & Gold Creative",
       "location": "Albuquerque, NM",
       "title": "",
@@ -129,6 +146,7 @@
       "start": "2002-08-10",
       "end": "2006-05-05"
     }, {
+      "slug": "france",
       "organization": "French Government",
       "location": "L'Isle sur la Sorgue, Provence, France",
       "title": "English Teacher",
@@ -137,6 +155,7 @@
       "start": "2001-09-20",
       "end": "2002-05-15"
     }, {
+      "slug": "neogenesis",
       "organization": "Neogenesis Media",
       "location": "Albuquerque, NM",
       "title": "Guru Factotum",
@@ -145,6 +164,7 @@
       "start": "2000-12-01",
       "end": "2001-09-01"
     }, {
+      "slug": "a3d",
       "organization": "Archetypal 3D",
       "location": "Albuquerque, NM",
       "title": "Web Designer",
@@ -156,6 +176,7 @@
   ],
 "schools": [
   {
+    "slug": "beaver-brook",
     "organization": "Beaver Brook",
     "location": "Port Jervis, NY",
     "description": "Beaver Brook is an architectural design and building school located in the woods of upstate New York. I was a student in its inaugural year, during which our ten-person alumni built a sauna.",
@@ -163,6 +184,7 @@
     "start": "2013-08-26",
     "end": "2013-09-06"
   }, {
+    "slug": "machin-project",
     "organization": "Machine Project",
     "location": "Los Angeles, CA",
     "description": "Machine Project is an informal educational institution that teaches all kinds of things: electronics, sewing, pickling, computer programming, car theft and so forth. While living in Los Angeles, I attended several of these classes, the most interesting being the one where we built a shipwrecked boat.",
@@ -170,6 +192,7 @@
     "start": "2010-01-01",
     "end": "2010-08-01"
     }, {
+    "slug": "sbcc",
     "organization": "Santa Barbara City College",
     "location": "Santa Barbara, CA",
     "description": "After a long departure from academia, I willfully attended courses in linguistics and printmaking.",
@@ -177,6 +200,7 @@
     "start": "2008-09-01",
     "end": "2009-05-15"
   }, {
+    "slug": "unm",
     "organization": "University of New Mexico",
     "location": "Albuquerque, NM",
     "description": "Fresh out of high school, I received a scholarship to attend the univeristy, but after two years of disenchantment, I enrolled in an English teaching program in France and made what was to be my first exodus from academia and the United States.",

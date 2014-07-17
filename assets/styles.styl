@@ -1,9 +1,18 @@
+
 mainColor = #00b223
 backgroundColor = white
 headingColor = black
 textColor = #333
 columnWidth = 580px
 imageWidth = 600px
+
+// paragraph()
+//   font-family "open sans", helvetica, arial
+//   // font-family 'roboto', helvetica, arial
+//   // font-family 'helvetica neue', helvetica, arial
+//
+// heading-font()
+//   font-family 'roboto slab'
 
 *
   -moz-box-sizing border-box
@@ -15,8 +24,6 @@ html, body
   height 100%
 
 body
-  // font-family 'roboto', helvetica, arial
-  // font-family 'helvetica neue', helvetica, arial
   font-family "open sans", helvetica, arial
   color textColor
   background backgroundColor
@@ -44,8 +51,6 @@ section.first
     float none
     max-width 90%
     max-height 90%
-    // background grey
-    // overflow hidden
     position absolute
     width imageWidth + columnWidth
     top 50%
@@ -60,12 +65,12 @@ section.first
       float left
       max-width 500px
 
-      // background #EEE
-
 a
   color mainColor
   text-decoration none
   transition all 0.2s
+  cursor pointer
+  outline none
   &:hover
     text-decoration underline
 
@@ -96,6 +101,16 @@ h1,h2,h3
   color headingColor
   line-height 1.2
   transition all 0.3s
+  position relative
+  a
+    &.permalink
+      display inline-block
+      margin-left 8px
+      color rgba(textColor, 0.4)
+      transition all 0.5s
+      text-decoration none
+      opacity 0
+
 
 h1
   display inline-block
@@ -108,14 +123,20 @@ h2
   font-weight normal
   font-size 5rem
   margin 20px 0 0px 0
-  padding 10px 0 15px 0
+  padding 0
+  a
+    display block
+    padding 10px 0 40px 0
+    color headingColor
+    text-decoration none
 
 h3
   font-weight normal
   font-size 20px
-  color #CCC
   margin 0
-  padding 20px 0 0px 0
+  padding 0
+  a
+    padding 20px 0 0px 0
 
   em
     padding-left 10px
@@ -130,6 +151,10 @@ ul
   list-style none
   li
     padding 10px 0
+    &:hover
+      a.permalink
+        opacity 1
+
 
 footer
   margin-top 200px
