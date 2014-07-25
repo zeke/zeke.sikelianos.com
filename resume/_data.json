@@ -1,4 +1,9 @@
 {
+  "sections": [
+    {"slug": "projects", "name": "Projects"},
+    {"slug": "jobs", "name": "Places I've Worked"},
+    {"slug": "schools", "name": "Schools I've Attended"}
+  ],
   "projects":[
   {
     "slug": "moby",
@@ -101,7 +106,7 @@
   "jobs": [
     {
       "slug": "heroku",
-      "organization": "Heroku",
+      "name": "Heroku",
       "location": "San Francisco, CA",
       "title": "Product Designer, Node.js Maintainer",
       "description": "Heroku is a platform designed to simplify the once-arduous task of deploying, running, and scaling web applications. I've worn many hats at Heroku, including designer, engineer, product manager, and evangelist. I designed and implemented a full redesign of addons.heroku.com, Heroku's marketplace for cloud infrastructure providers, as well as other web properties like blog.heroku.com and help.heroku.com. For the past year, I've spent most of my time working to improve the Node.js development experience on Heroku, by rewriting the build process from scratch, creating the semver.io microservice for resolving Node versions, writing documentation and blog posts, answering support tickets, and representing the company by speaking at conferences and mentoring at meetups.",
@@ -110,7 +115,7 @@
       "end": "Present"
     }, {
       "slug": "wordnik",
-      "organization": "Wordnik",
+      "name": "Wordnik",
       "location": "San Mateo, CA",
       "title": "Senior Developer",
       "description": "Wordnik is a Bay Area-startup devoted to words and language. While at Wordnik, I designed, built, and maintained the high-traffic wordnik.com website, and also created Swagger, a specification and tool for documenting, visualizing, and experimenting with web-based APIs.",
@@ -119,7 +124,7 @@
       "end": "2012-04-15"
     }, {
       "slug": "gemini",
-      "organization": "Gemini SBS",
+      "name": "Gemini SBS",
       "location": "Los Angeles, CA",
       "title": "Senior Developer",
       "description": "Gemini SBS is a small employee-owned company that builds web-based software for non-proﬁt organizations. During my tenure at Gemini, I designed, coded, and maintained Rails and Sinatra applications and geospatial webservices making use of technologies like Postgres, PostGIS, CouchDB, and the Google Maps Javascript and Flash SDKs.",
@@ -128,7 +133,7 @@
       "end": "2012-04-15"
     }, {
       "slug": "elc",
-      "organization": "ELC Technologies",
+      "name": "ELC Technologies",
       "location": "Santa Barbara, CA",
       "title": "Rails Developer",
       "description": "ELC was a Rails development consultancy for Fortune 1000 companies. As a developer at ELC I oversaw the design, development, and maintenance of enterprise-level applications, and was exposed to newly-popularized tenets of so-called agile web development, including pair programming, scrum management and iterative development cycles.",
@@ -137,7 +142,7 @@
       "end": "2008-03-31"
     }, {
       "slug": "ideum",
-      "organization": "Ideum",
+      "name": "Ideum",
       "location": "Corrales, NM",
       "title": "Interactive Director",
       "description": "Ideum is a small new media outfit working for museums, educational institutions, nonprofit organizations and socially re- sponsible companies. As Interactive Director, I oversaw the production of a variety of educational and humanitarian pro- jects and worked extensively with Flickr and Google mashups.",
@@ -146,7 +151,7 @@
       "end": "2006-11-30"
     }, {
       "slug": "rgc",
-      "organization": "Rome & Gold Creative",
+      "name": "Rome & Gold Creative",
       "location": "Albuquerque, NM",
       "title": "",
       "description": "Rome & Gold Creative is a branding agency working in a wide array of media. I worked as Lead Web Designer/Developer and Junior Print Designer, focusing primarily on developing database-driven websites with content management interfaces, but also doing print, clothing, environmental, and game design.",
@@ -155,7 +160,7 @@
       "end": "2006-05-05"
     }, {
       "slug": "france",
-      "organization": "French Government",
+      "name": "French Government",
       "location": "L'Isle sur la Sorgue, Provence, France",
       "title": "English Teacher",
       "description": "After studying French in college at UNM, I enrolled in a program to teach English at a public high school in Provence. The program was intended to encourage French students to develop their conversational English skills with native speakers.",
@@ -164,7 +169,7 @@
       "end": "2002-05-15"
     }, {
       "slug": "neogenesis",
-      "organization": "Neogenesis Media",
+      "name": "Neogenesis Media",
       "location": "Albuquerque, NM",
       "title": "Guru Factotum",
       "description": "Neogenesis was a documentary ﬁlm production house. I worked primarily on post-video editing using Discreet Combustion and After Effects, but also produced interactive CD-ROMs and Flash websites, and developed and maintained a networked rendering farm.",
@@ -173,7 +178,7 @@
       "end": "2001-09-01"
     }, {
       "slug": "a3d",
-      "organization": "Archetypal 3D",
+      "name": "Archetypal 3D",
       "location": "Albuquerque, NM",
       "title": "Web Designer",
       "description": "I worked at this small architectural design firm as a high school student, photographing homes and creating websites to show them off to prospective buyers. The fun part was making panoramic 360-degree IPIX pictures using a camera equipped with a special 190-degree lens for taking twin hemispheric photos to stitch together with software.",
@@ -185,15 +190,15 @@
 "schools": [
   {
     "slug": "beaver-brook",
-    "organization": "Beaver Brook",
+    "name": "Beaver Brook",
     "location": "Port Jervis, NY",
     "description": "Beaver Brook is an architectural design and building school located in the woods of upstate New York. I was a student in its inaugural year, during which our ten-person alumni built a sauna.",
     "website": "http://beaverbrook.com/",
     "start": "2013-08-26",
     "end": "2013-09-06"
   }, {
-    "slug": "machin-project",
-    "organization": "Machine Project",
+    "slug": "machine-project",
+    "name": "Machine Project",
     "location": "Los Angeles, CA",
     "description": "Machine Project is an informal educational institution that teaches all kinds of things: electronics, sewing, pickling, computer programming, car theft and so forth. While living in Los Angeles, I attended several of these classes, the most interesting being the one where we built a shipwrecked boat.",
     "website": "http://machineproject.com/blog/2010/09/05/shipwrecked-boat/",
@@ -201,7 +206,7 @@
     "end": "2010-08-01"
     }, {
     "slug": "sbcc",
-    "organization": "Santa Barbara City College",
+    "name": "Santa Barbara City College",
     "location": "Santa Barbara, CA",
     "description": "After a long departure from academia, I willfully attended courses in linguistics and printmaking.",
     "website": "http://sbcc.edu/",
@@ -209,7 +214,7 @@
     "end": "2009-05-15"
   }, {
     "slug": "unm",
-    "organization": "University of New Mexico",
+    "name": "University of New Mexico",
     "location": "Albuquerque, NM",
     "description": "Fresh out of high school, I received a scholarship to attend the univeristy, but after two years of disenchantment, I enrolled in an English teaching program in France and made what was to be my first exodus from academia and the United States.",
     "start": "1999-09-05",

@@ -5,6 +5,7 @@ headingColor = black
 textColor = #333
 columnWidth = 580px
 imageWidth = 600px
+sidebarWidth = 280px
 
 // paragraph()
 //   font-family "open sans", helvetica, arial
@@ -30,6 +31,84 @@ body
   padding 0
   margin 0
   transition all 0.3s
+
+  &.disabled
+    padding-left sidebarWidth
+    #toc
+      left 0
+    #toggle
+      transform rotate(45deg);
+      -ms-transform rotate(45deg)
+      -webkit-transform rotate(45deg)
+      opacity 1
+      border-color mainColor
+      &:before, &:after
+        background mainColor
+    section
+      // opacity 0.5
+
+#toggle
+  opacity 0.2
+  transition all 0.3s
+  position absolute
+  top 20px
+  left 20px
+  z-index 101
+  background backgroundColor
+  border 3px solid textColor
+  border-radius 100%
+  display block
+  width 32px
+  height 32px
+  &:before, &:after
+    display block
+    position absolute
+    content ""
+    top 50%
+    left 50%
+    background textColor
+    display block
+    -webkit-transform translate(-50%, -50%)
+    transform translate(-50%, -50%)
+  &:before
+    width 3px
+    height 13px
+  &:after
+    width 13px
+    height 3px
+
+#toc
+  transition all 0.3s
+  position absolute
+  z-index 100
+  background backgroundColor
+  color textColor
+  max-width sidebarWidth
+  padding 25px
+  top 50px
+  left sidebarWidth * -1
+  a
+    color textColor
+    text-decoration none
+  a.section
+    color mainColor
+    font-family "roboto slab"
+    font-size 1.1rem
+    font-weight normal
+
+  ul.things
+    padding 10px 0 10px 0px
+    li
+      margin 0
+      padding 2px 0
+      font-size 0.8rem
+      a
+        opacity 0.7
+        transition all 0.2s
+        &:hover
+          opacity 1
+          text-decoration underline
+      // list-style disc
 
 section > article
   margin-left auto
@@ -60,6 +139,8 @@ section.first
 
     img
       float left
+      max-width 400px
+      max-height 400px
     aside
       margin-left 40px
       float left
@@ -111,13 +192,12 @@ h1,h2,h3
       text-decoration none
       opacity 0
 
-
 h1
   display inline-block
   font-weight normal
   font-size 5rem
   margin 0
-  padding 90px 0 0 0
+  padding 20px 0 0 0
 
 h2
   font-weight normal

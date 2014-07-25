@@ -7,9 +7,21 @@ html
     link(href='//fonts.googleapis.com/css?family=Roboto+Slab:400,700|Open+Sans', rel='stylesheet', type='text/css')
     link(href='/assets/styles.css', rel='stylesheet', type='text/css')
 
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js")
     script(src="/assets/app.js")
 
   body
+
+    a#toggle
+
+    #toc
+      - each section in public.resume._data.sections
+        a.section(href="#"+section.slug)= section.name
+        ul.things
+          - each thing in public.resume._data[section.slug]
+            li
+              a(href="#"+thing.slug)= thing.name
+
     section.first
       article
 
@@ -49,7 +61,7 @@ html
           - each job in public.resume._data.jobs
             li(id=job.slug)
               h3
-                a(href=job.website)= job.organization
+                a(href=job.website)= job.name
                 em= job.location
                 a.permalink(href="#"+job.slug) #
 
@@ -66,7 +78,7 @@ html
           - each school in public.resume._data.schools
             li(id=school.slug)
               h3
-                a(href=school.website)= school.organization
+                a(href=school.website)= school.name
                 em=  school.location
                 a.permalink(href="#"+school.slug) #
               p= school.description
