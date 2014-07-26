@@ -7,9 +7,21 @@ html
     link(href='//fonts.googleapis.com/css?family=Roboto+Slab:400,700|Open+Sans', rel='stylesheet', type='text/css')
     link(href='/assets/styles.css', rel='stylesheet', type='text/css')
 
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js")
     script(src="/assets/app.js")
 
   body
+
+    //- a#toggle
+
+    #toc
+      - each section in public.resume._data.sections
+        a.section(href="#"+section.slug)= section.name
+        ul.things
+          - each thing in public.resume._data[section.slug]
+            li
+              a(href="#"+thing.slug)= thing.name
+
     section.first
       article
 
@@ -49,7 +61,7 @@ html
           - each job in public.resume._data.jobs
             li(id=job.slug)
               h3
-                a(href=job.website)= job.organization
+                a(href=job.website)= job.name
                 em= job.location
                 a.permalink(href="#"+job.slug) #
 
@@ -66,7 +78,7 @@ html
           - each school in public.resume._data.schools
             li(id=school.slug)
               h3
-                a(href=school.website)= school.organization
+                a(href=school.website)= school.name
                 em=  school.location
                 a.permalink(href="#"+school.slug) #
               p= school.description
@@ -76,19 +88,24 @@ html
                 = school.end
 
         h2
-          a(id="fin" href="#fin") The End
+          a(id="fin" href="#fin") Keep in Touch
 
         :markdown
-          In case you missed it at the top, I'm [zeke](http://twitter.com/zeke) on Twitter and
-          [zeke](http://github.com/zeke) on Github, and my email address is [zeke@sikelianos.com](mailto:zeke@sikelianos.com). Please send me something cool! And thanks for scrolling all the way down here. For that, you deserve a [prize](http://asciiface.zeke.xxx/).
+          I'm [zeke on Twitter](http://twitter.com/zeke) and
+          [zeke on GitHub](http://github.com/zeke), and my email address is [zeke@sikelianos.com](mailto:zeke@sikelianos.com). Please send me something!
 
         :markdown
-          I'm also starting a newsletter! Subscribe if you're interested in my work. I promise not to spam you.
+          Lastly, I'm starting an email newsletter. I know it sounds a bit old-fashioned but I want to give it a try. Please subscribe if you're my mom, or one of my siblings, or a friend, or even if you're a stranger interested in my work. I promise not to spam you or share your email address with any baddies.
 
         form(action='//sikelianos.us6.list-manage.com/subscribe/post?u=eb1baf73af6cc872dd06ed858&id=7f60b90055', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='novalidate')
-          input(type='email', value='', name='EMAIL', placeholder='Your email address', required='required')
+          input(type='text', value='', name='FNAME', placeholder='First name' autcorrect="off" autofocus="autofocus" tabindex=1)
+          input(type='text', value='', name='LNAME', placeholder='Last name' tabindex=2)
+          input(type='email', value='', name='EMAIL', placeholder='Email address', required='required' tabindex=3)
+
           input.honey(type='text', name='b_eb1baf73af6cc872dd06ed858_7f60b90055', tabindex='-1', value='' style="width:0;height:0;opacity:0;")
-          input(type='submit', value='Subscribe', name='subscribe')
+          input(type='submit', value="Subscribe to the Imaginary Newsletter", name='subscribe' tabindex=4)
+
 
       footer
-        &nbsp;
+        :markdown
+          [♥‿♥](http://asciiface.zeke.xxx/)

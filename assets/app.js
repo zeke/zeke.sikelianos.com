@@ -1,22 +1,48 @@
-function colorLinks() {
-  var color = colors[Math.floor(Math.random()*colors.length)]
-  Array.prototype.forEach.call(document.querySelectorAll("h3 a"), function(a, i){
-    a.style.color = color;
-  });
-  // document.querySelector("h1").style.color = color;
-}
+"use strict";
 
-var colors = [
-  "rgb(223, 12, 170)",
-  "rgb(3, 159, 117)",
-  "rgb(210, 73, 5)",
-  "rgb(160, 35, 227)",
-  "rgb(228, 154, 14)",
-  "rgb(215, 32, 51)",
-  "rgb(2, 134, 227)"
-]
+var on = document.addEventListener
 
-document.addEventListener('DOMContentLoaded', function(){
-  // colorLinks()
-  // setInterval(colorLinks, 2000)
-});
+on('keyup', function(event){
+  // console.log(event)
+  if (~[219, 221].indexOf(event.keyCode)) {
+    document.body.classList.toggle("disabled")
+  }
+})
+
+on('DOMContentLoaded', function(){
+
+  // document.querySelector("#toc").addEventListener('click', function(event){
+  //   // event.preventDefault()
+  //   event.stopPropagation()
+  // })
+
+  document.querySelector("#toggle").addEventListener('click', function(event){
+    document.body.classList.toggle("disabled")
+    event.preventDefault()
+    event.stopPropagation()
+  })
+
+  on('click', function(event){
+    document.body.classList.remove("disabled")
+  })
+
+})
+
+// $(function() {
+//   $('a[href*=#]:not([href=#])').click(function() {
+//     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+//       var target = $(this.hash);
+//       // location.hash = $(this.hash).selector.slice(1)
+//       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+//       if (target.length) {
+//         $('html,body').animate({
+//           scrollTop: target.offset().top
+//         }, 500, 'swing', function(e) {
+//           console.log($(this));
+//         });
+//
+//         return false;
+//       }
+//     }
+//   });
+// });
