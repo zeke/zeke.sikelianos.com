@@ -249,7 +249,12 @@ ul
           margin-left -20px
 
 footer
-  margin-top 200px
+  margin 200px 0 30px 0
+  p
+    text-align center
+    a
+      text-decoration none
+
 
 @media screen and (max-width: 1320px)
 
@@ -290,19 +295,33 @@ footer
 
 form
   input
+    display block
+    min-width: 100%
     font-family "open sans", helvetica, arial
     font-size 1em
     padding 5px
-  input[type=submit]
-    font-family 'roboto slab'
-    border none
-    background mainColor
-    color backgroundColor
-    cursor pointer
-    line-height 1.2
-    padding 8px 20px
-    display inline-block
-    border-radius 2px
+    margin 15px 0
+    webkit-appearance none
+    outline-color mainColor
+    transition all 0.3s
+    &.honey
+      height 0
+      margin 0
+      padding 0
+    &[type=submit]
+      font-family 'roboto slab'
+      border none
+      background mainColor
+      color backgroundColor
+      cursor pointer
+      line-height 1.2
+      padding 18px 20px
+      display inline-block
+      border-radius 4px
+      margin 0
+      &:focus, &:hover
+        background darken(mainColor, 3)
+
 
 
 @media screen and (max-width: 480px)
