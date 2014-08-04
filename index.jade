@@ -22,6 +22,11 @@ html
             li
               a(href="#"+thing.slug)= thing.name
 
+    #images
+      - each image in public.assets.images._data
+        a(href=image.url title=image.title)
+          img(src=image.urls.medium alt=image.title)
+
     section.first
       article
 

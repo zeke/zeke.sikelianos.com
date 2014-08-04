@@ -1,4 +1,8 @@
-zeke.sikelianos.com
-===================
 
-My static website.
+[zeke.sikelianos.com](http://zeke.sikelianos.com)
+
+
+```
+npm install
+npm start
+```

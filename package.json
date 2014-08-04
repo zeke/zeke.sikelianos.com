@@ -1,0 +1,38 @@
+{
+  "name": "zeke.sikelianos.com",
+  "version": "1.0.0",
+  "description": "My website as an npm module",
+  "scripts": {
+    "start": "harp server",
+    "flickr": "node lib/flickr.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeke/zeke.sikelianos.com"
+  },
+  "keywords": [
+    "zeke",
+    "harp",
+    "website",
+    "static",
+    "flickr",
+    "portfolio"
+  ],
+  "author": "zeke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeke/zeke.sikelianos.com/issues"
+  },
+  "homepage": "https://github.com/zeke/zeke.sikelianos.com",
+  "devDependencies": {
+    "mocha": "^1.20.0"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "dotenv": "^0.2.8",
+    "flickr-client": "0.0.3",
+    "flickr-photo-info": "0.0.0",
+    "harp": "^0.12.1",
+    "superagent": "^0.18.2"
+  }
+}

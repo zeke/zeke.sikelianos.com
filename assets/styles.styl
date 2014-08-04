@@ -36,7 +36,7 @@ body
     #toc
       left 0
     #toggle
-      transform rotate(45deg);
+      transform rotate(45deg)
       -ms-transform rotate(45deg)
       -webkit-transform rotate(45deg)
       opacity 1
@@ -107,43 +107,56 @@ body
         &:hover
           opacity 1
           text-decoration underline
-      // list-style disc
 
-section > article
-  margin-left auto
-  margin-right auto
-  position relative
-  max-width columnWidth
-  padding 0 20px
+#images
+  line-height 0
+  -webkit-column-count 3
+  -webkit-column-gap 0px
+  -moz-column-count 3
+  -moz-column-gap 0px
+  column-count 3
+  column-gap 0px
+  img
+    width 100% !important
+    height auto !important
 
-section.first
-  display block
-  position relative
-  height 100%
-  width 100%
-  background transparent url("/assets/images/down-arrow.svg") no-repeat bottom center
+section
 
   > article
-    margin 0
-    display block
-    float none
-    max-width 90%
-    max-height 90%
-    position absolute
-    width imageWidth + columnWidth
-    top 50%
-    left 50%
-    -webkit-transform translate(-50%, -50%)
-    transform translate(-50%, -50%)
+    margin-left auto
+    margin-right auto
+    position relative
+    max-width columnWidth
+    padding 0 20px
 
-    img
-      float left
-      max-width 400px
-      max-height 400px
-    aside
-      margin-left 40px
-      float left
-      max-width 500px
+  &.first
+    display block
+    position relative
+    height 100%
+    width 100%
+    background transparent url("/assets/images/down-arrow.svg") no-repeat bottom center
+
+    > article
+      margin 0
+      display block
+      float none
+      max-width 90%
+      max-height 90%
+      position absolute
+      width imageWidth + columnWidth
+      top 50%
+      left 50%
+      -webkit-transform translate(-50%, -50%)
+      transform translate(-50%, -50%)
+
+      img
+        float left
+        max-width 400px
+        max-height 400px
+      aside
+        margin-left 40px
+        float left
+        max-width 500px
 
 a
   color mainColor
@@ -230,7 +243,6 @@ ul
   padding 0
   list-style none
   li
-    // transition all 0.3s
     padding 10px 0
     &:hover
       a.permalink
@@ -254,6 +266,34 @@ footer
     a
       text-decoration none
 
+form
+  input
+    display block
+    min-width: 100%
+    font-family "PT Serif", helvetica, arial
+    font-size 1em
+    padding 5px
+    margin 15px 0
+    webkit-appearance none
+    outline-color mainColor
+    transition all 0.3s
+    &.honey
+      height 0
+      margin 0
+      padding 0
+    &[type=submit]
+      font-family 'roboto slab'
+      border none
+      background mainColor
+      color backgroundColor
+      cursor pointer
+      line-height 1.2
+      padding 18px 20px
+      display inline-block
+      border-radius 4px
+      margin 0
+      &:focus, &:hover
+        background darken(mainColor, 3)
 
 @media screen and (max-width: 1320px)
 
@@ -290,38 +330,6 @@ footer
         margin 0
         float none
         max-width auto
-
-
-form
-  input
-    display block
-    min-width: 100%
-    font-family "PT Serif", helvetica, arial
-    font-size 1em
-    padding 5px
-    margin 15px 0
-    webkit-appearance none
-    outline-color mainColor
-    transition all 0.3s
-    &.honey
-      height 0
-      margin 0
-      padding 0
-    &[type=submit]
-      font-family 'roboto slab'
-      border none
-      background mainColor
-      color backgroundColor
-      cursor pointer
-      line-height 1.2
-      padding 18px 20px
-      display inline-block
-      border-radius 4px
-      margin 0
-      &:focus, &:hover
-        background darken(mainColor, 3)
-
-
 
 @media screen and (max-width: 480px)
 
