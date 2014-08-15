@@ -2,21 +2,21 @@ What npm is, and how I got there.
 
 I'm starting a new job today at a little company called npm.
 
-When people who don't make websites ask me what npm is, I'm never quite sure how to respond. "Oh, npm is this thing where people who make stuff on the Internt can share that stuff with other people so they can use it too and make it better." True though this answer may be, it leaves a lot to be desired.
+Today is my first day at npm.
 
-To better answer this question, we'll have to go back to 1994, when I was 13 years old
+I'm starting my new job at npm today.
 
-My mom worked (and still works) as a network administrator at an engineering company, where she had access to lots of old computers. Over time she managed to piece together a computer for me with Windows 3.1, a 50mHz 486 processor, 32 MB RAM, a 500 MB hard drive, and a 9600-baud modem. This machine was good enough to play Doom, and good enough to install 
+"What is npm?", you say.
 
-In the early ninties, AOL launched a massive marketing campaign, sending 3.5-inch floppy disks to every address in America, offering a few hours of free access to the Internet. Anyone with a phone number and a computer with a modem could install this software and access the Internet. For free.
+When people who don't make websites ask me what npm is, I'm never quite sure how to respond. "Oh, npm is this thing where people who make stuff on the Internt can share that stuff with other people so they can use it too and make it better."
 
+There must be a better answer.
 
-As a thirteen year old boy with a land line and a 486 computer equipped with a 9600-baud modem, 
+To find it, let's go back to 1994 when I was 13 years old.
 
+My mom maintained the computer network at an engineering firm, where she had access to lots of old computers. After some persuasion, she pieced together a computer for me with Windows 3.1, a 50mHz 486 processor, 32 MB RAM, a 500 MB hard drive, and a 9600-baud modem. This was to be the first machine I used to connect to the World Wide Web. 
 
-access to these things, I couldn't wait to find out what the Internet was all about.
-
- these disk were an opportunity to explore the newly formed World Wide Web.
+In the early ninties, America Online launched a massive marketing campaign, repeatedly sending 3.5-inch floppy disks to every address in America, each disk offering a precious few hours of free access to the Internet. Anyone with a phone number and a computer with a modem could install this software and access the Internet for free.
 
 
 The World Wide Web was a toddler in 1994. Less than 10% of American
