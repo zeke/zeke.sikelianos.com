@@ -14,12 +14,40 @@ There must be a better answer.
 
 To find it, let's go back to 1994 when I was 13 years old.
 
-My mom maintained the computer network at an engineering firm, where she had access to lots of old computers. After some persuasion, she pieced together a computer for me with Windows 3.1, a 50mHz 486 processor, 32 MB RAM, a 500 MB hard drive, and a 9600-baud modem. This was to be the first machine I used to connect to the World Wide Web. 
 
-In the early ninties, America Online launched a massive marketing campaign, repeatedly sending 3.5-inch floppy disks to every address in America, each disk offering a precious few hours of free access to the Internet. Anyone with a phone number and a computer with a modem could install this software and access the Internet for free.
+## AOL
 
 
-The World Wide Web was a toddler in 1994. Less than 10% of American
+My mother maintained the computer network at an engineering firm, where she had access to lots of old computers. After some persuasion, she pieced together a computer for me with Windows 3.1, a 50mHz 486 processor, 32 MB RAM, a 500 MB hard drive, and a 9600-baud modem. This was to be the first machine I used to connect to the World Wide Web.
+
+Some time in the early ninties, America Online started sending 3.5-inch floppy disks to every address in America, each disk offering a precious few hours of free access to the Internet. Anyone with a phone number and a computer with a modem could install this software and access the Internet for free.
+
+The AOL software came bundled with Microsoft Internet Explorer 2.5. This is what it looked like:
+
+
+At this time there were only a handful of browsers:
+
+The World Wide Web had only been around a few years at this time
+
+Internet Explorer 3
+
+## Netscape
+
+
+
+## Geocities
+
+## Flash
+
+## Firefox
+
+## Chrome
+
+## Node.js
+
+## npm
+
+## Browserify
 
 
 To help explain how and why npm came to be and just how important a role it plays in the development of today's world wibe web, I'm going to take you on a tour of the last twnenty years of my life.
