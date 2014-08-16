@@ -1,116 +1,93 @@
-!!!
-html
-  head
-    title Zeke Sikelianos, Internet Designer/Developer
-    meta(name="viewport" content="width=device-width, initial-scale=1")
+//- a#toggle
 
-    link(href='//fonts.googleapis.com/css?family=Roboto+Slab:400,700|PT+Serif:400,700', rel='stylesheet', type='text/css')
-    link(href='/assets/styles.css', rel='stylesheet', type='text/css')
+#toc
+  - each section in public.resume._data.sections
+    a.section(href="#"+section.slug)= section.name
+    ul.things
+      - each thing in public.resume._data[section.slug]
+        li
+          a(href="#"+thing.slug)= thing.name
 
-    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js")
-    script(src="/assets/app.js")
+//- #images
+//-   - each image in public.assets.images._data
+//-     a(href=image.url title=image.title)
+//-       img(src=image.urls.medium alt=image.title)
 
-  body
+section.first
+  article
 
-    //- a#toggle
+    img(src="/assets/images/anthropomorphs2.png")
 
-    #toc
-      - each section in public.resume._data.sections
-        a.section(href="#"+section.slug)= section.name
-        ul.things
-          - each thing in public.resume._data[section.slug]
-            li
-              a(href="#"+thing.slug)= thing.name
+    aside
+      h1 Zeke<br /> Sikelianos
 
-    #images
-      - each image in public.assets.images._data
-        a(href=image.url title=image.title)
-          img(src=image.urls.medium alt=image.title)
+      :markdown
+        I'm a designer and software developer in the [San Francisco](http://en.wikipedia.org/wiki/Emperor_Norton) Bay Area. I work at [Heroku](http://heroku.com), where I design and build open-source tools to help creative people build the Internet. I believe [information wants to be free](http://en.wikipedia.org/wiki/Hacker_ethic), and that you can create beautiful things with computers.
 
-    section.first
-      article
+section
+  article
 
-        img(src="/assets/images/anthropomorphs2.png")
+    h2
+      a(id="projects" href="#projects") Projects
 
-        aside
-          h1 Zeke<br /> Sikelianos
+section
+  article
 
-          :markdown
-            I'm a designer and software developer in the [San Francisco](http://en.wikipedia.org/wiki/Emperor_Norton) Bay Area. I work at [Heroku](http://heroku.com), where I design and build open-source tools to help creative people build the Internet. I believe [information wants to be free](http://en.wikipedia.org/wiki/Hacker_ethic), and that you can create beautiful things with computers.
+    ul
+      - each project in public.resume._data.projects
+        li(id=project.slug)
+          h3
+            a(href=project.website)= project.name
+            a.permalink(href="#"+project.slug) #
+          p= project.description
 
-          :markdown
-            Find me on [Twitter](http://twitter.com/zeke),
-            [GitHub](http://github.com/zeke), and [Cargo](http://cargocollective.com/zeke).
+    h2
+      a(id="jobs" href="#jobs") Places I've Worked
 
-    section
-      article
+    ul
+      - each job in public.resume._data.jobs
+        li(id=job.slug)
+          h3
+            a(href=job.website)= job.name
+            em= job.location
+            a.permalink(href="#"+job.slug) #
 
-        h2
-          a(id="projects" href="#projects") Projects
+          p= job.description
+          p.paltry
+            = job.start
+            = " - "
+            = job.end
 
-    section
-      article
+    h2
+      a(id="schools" href="#schools") Schools I've Attended
 
-        ul
-          - each project in public.resume._data.projects
-            li(id=project.slug)
-              h3
-                a(href=project.website)= project.name
-                a.permalink(href="#"+project.slug) #
-              p= project.description
+    ul
+      - each school in public.resume._data.schools
+        li(id=school.slug)
+          h3
+            a(href=school.website)= school.name
+            em=  school.location
+            a.permalink(href="#"+school.slug) #
+          p= school.description
+          p.paltry
+            = school.start
+            = " - "
+            = school.end
 
-        h2
-          a(id="jobs" href="#jobs") Places I've Worked
+    h2
+      a(id="fin" href="#fin") Keep in Touch
 
-        ul
-          - each job in public.resume._data.jobs
-            li(id=job.slug)
-              h3
-                a(href=job.website)= job.name
-                em= job.location
-                a.permalink(href="#"+job.slug) #
+    :markdown
+      I'm [zeke on Twitter](http://twitter.com/zeke) and
+      [zeke on GitHub](http://github.com/zeke), and my email address is [zeke@sikelianos.com](mailto:zeke@sikelianos.com). Please send me something!
 
-              p= job.description
-              p.paltry
-                = job.start
-                = " - "
-                = job.end
+    :markdown
+      Lastly, I'm starting an email newsletter. I know it sounds a bit old-fashioned but I want to give it a try. Please subscribe if you're my mom, or one of my siblings, or a friend, or even if you're a stranger interested in my work. I promise not to spam you or share your email address with any baddies.
 
-        h2
-          a(id="schools" href="#schools") Schools I've Attended
+    form(action='//sikelianos.us6.list-manage.com/subscribe/post?u=eb1baf73af6cc872dd06ed858&id=7f60b90055', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='novalidate')
+      input(type='text', value='', name='FNAME', placeholder='First name' autcorrect="off")
+      input(type='text', value='', name='LNAME', placeholder='Last name' tabindex=2)
+      input(type='email', value='', name='EMAIL', placeholder='Email address', required='required' tabindex=3)
 
-        ul
-          - each school in public.resume._data.schools
-            li(id=school.slug)
-              h3
-                a(href=school.website)= school.name
-                em=  school.location
-                a.permalink(href="#"+school.slug) #
-              p= school.description
-              p.paltry
-                = school.start
-                = " - "
-                = school.end
-
-        h2
-          a(id="fin" href="#fin") Keep in Touch
-
-        :markdown
-          I'm [zeke on Twitter](http://twitter.com/zeke) and
-          [zeke on GitHub](http://github.com/zeke), and my email address is [zeke@sikelianos.com](mailto:zeke@sikelianos.com). Please send me something!
-
-        :markdown
-          Lastly, I'm starting an email newsletter. I know it sounds a bit old-fashioned but I want to give it a try. Please subscribe if you're my mom, or one of my siblings, or a friend, or even if you're a stranger interested in my work. I promise not to spam you or share your email address with any baddies.
-
-        form(action='//sikelianos.us6.list-manage.com/subscribe/post?u=eb1baf73af6cc872dd06ed858&id=7f60b90055', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='novalidate')
-          input(type='text', value='', name='FNAME', placeholder='First name' autcorrect="off")
-          input(type='text', value='', name='LNAME', placeholder='Last name' tabindex=2)
-          input(type='email', value='', name='EMAIL', placeholder='Email address', required='required' tabindex=3)
-
-          input.honey(type='text', name='b_eb1baf73af6cc872dd06ed858_7f60b90055', tabindex='-1', value='' style="width:0;height:0;opacity:0;")
-          input(type='submit', value="Subscribe to the Imaginary Newsletter", name='subscribe' tabindex=4)
-
-
-      footer
-        :markdown
-          [♥‿♥](http://asciiface.zeke.xxx/)
+      input.honey(type='text', name='b_eb1baf73af6cc872dd06ed858_7f60b90055', tabindex='-1', value='' style="width:0;height:0;opacity:0;")
+      input(type='submit', value="Subscribe to the Imaginary Newsletter", name='subscribe' tabindex=4)
