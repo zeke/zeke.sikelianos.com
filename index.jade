@@ -1,4 +1,4 @@
-//- a#toggle
+a#toggle
 
 #toc
   - each section in public.resume._data.sections
@@ -7,11 +7,6 @@
       - each thing in public.resume._data[section.slug]
         li
           a(href="#"+thing.slug)= thing.name
-
-//- #images
-//-   - each image in public.assets.images._data
-//-     a(href=image.url title=image.title)
-//-       img(src=image.urls.medium alt=image.title)
 
 section.first
   article
@@ -22,16 +17,28 @@ section.first
       h1 Zeke<br /> Sikelianos
 
       :markdown
-        I'm a designer and software developer in the [San Francisco](http://en.wikipedia.org/wiki/Emperor_Norton) Bay Area. I work at [Heroku](http://heroku.com), where I design and build open-source tools to help creative people build the Internet. I believe [information wants to be free](http://en.wikipedia.org/wiki/Hacker_ethic), and that you can create beautiful things with computers.
+        I'm a designer and software developer in Oakland, California. I work at [npm](http://npmjs.com), where I create and collaborate on open-source tools to help people build and maintain the World Wide Web. I believe [information wants to be free](http://en.wikipedia.org/wiki/Hacker_ethic), and that you can create [beautiful things](/portfolio) with computers.
 
 section
   article
+
+    h2#fin
+      a(id="posts" href="#posts") Posts
+
+    ul
+      - for post, slug in public.posts._data
+        li(id=slug)
+          h3
+            a(href="/posts/"+slug)= post.title
+          p= post.summary
+          p.paltry
+            = post.published_at
+
+    :markdown
+      [Subscribe](#subscribe) to be emailed about new content.
 
     h2
       a(id="projects" href="#projects") Projects
-
-section
-  article
 
     ul
       - each project in public.resume._data.projects
@@ -42,7 +49,7 @@ section
           p= project.description
 
     h2
-      a(id="jobs" href="#jobs") Places I've Worked
+      a(id="jobs" href="#jobs") Jobs
 
     ul
       - each job in public.resume._data.jobs
@@ -59,7 +66,7 @@ section
             = job.end
 
     h2
-      a(id="schools" href="#schools") Schools I've Attended
+      a(id="schools" href="#schools") Schools
 
     ul
       - each school in public.resume._data.schools
@@ -74,15 +81,11 @@ section
             = " - "
             = school.end
 
-    h2
-      a(id="fin" href="#fin") Keep in Touch
+
+    h2#subscribe Subscribe
 
     :markdown
-      I'm [zeke on Twitter](http://twitter.com/zeke) and
-      [zeke on GitHub](http://github.com/zeke), and my email address is [zeke@sikelianos.com](mailto:zeke@sikelianos.com). Please send me something!
-
-    :markdown
-      Lastly, I'm starting an email newsletter. I know it sounds a bit old-fashioned but I want to give it a try. Please subscribe if you're my mom, or one of my siblings, or a friend, or even if you're a stranger interested in my work. I promise not to spam you or share your email address with any baddies.
+      I'll send you an email when new things are posted to the site. I promise not to spam you or share your email address.
 
     form(action='//sikelianos.us6.list-manage.com/subscribe/post?u=eb1baf73af6cc872dd06ed858&id=7f60b90055', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='novalidate')
       input(type='text', value='', name='FNAME', placeholder='First name' autcorrect="off")
@@ -90,4 +93,4 @@ section
       input(type='email', value='', name='EMAIL', placeholder='Email address', required='required' tabindex=3)
 
       input.honey(type='text', name='b_eb1baf73af6cc872dd06ed858_7f60b90055', tabindex='-1', value='' style="width:0;height:0;opacity:0;")
-      input(type='submit', value="Subscribe to the Imaginary Newsletter", name='subscribe' tabindex=4)
+      input(type='submit', value="Subscribe", name='subscribe' tabindex=4)

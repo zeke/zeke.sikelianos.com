@@ -5,6 +5,8 @@ textColor = #333
 columnWidth = 580px
 imageWidth = 600px
 sidebarWidth = 280px
+barColor = black
+barTextColor = white
 
 // paragraph()
 //   font-family "open sans", helvetica, arial
@@ -76,6 +78,12 @@ body
     width 13px
     height 3px
 
+#bar
+  h3
+    line-height 10
+    padding-left 20px
+    text-align center
+
 #toc
   transition all 0.3s
   position absolute
@@ -129,6 +137,10 @@ section
     max-width columnWidth
     padding 0 20px
 
+    img
+      max-width 200px
+      margin-top 100px
+
   &.first
     display block
     position relative
@@ -151,12 +163,14 @@ section
 
       img
         float left
-        max-width 400px
-        max-height 400px
+        max-width 500px
+        max-height 500px
       aside
         margin-left 40px
         float left
         max-width 500px
+        p
+          font-size 18px
 
 a
   color mainColor
@@ -207,18 +221,17 @@ h1,h2,h3
 h1
   display inline-block
   font-weight normal
-  font-size 5rem
+  font-size 4rem
   margin 0
-  padding 20px 0 0 0
+  padding 60px 0 0 0
 
 h2
   font-weight normal
-  font-size 5rem
-  margin 20px 0 0px 0
+  font-size 4rem
+  margin 60px 0 20px 0
   padding 0
   a
     display block
-    padding 10px 0 40px 0
     color headingColor
     &:hover
       text-decoration none
@@ -262,9 +275,13 @@ ul
 footer
   margin 200px 0 30px 0
   p
+    font-size 18px
     text-align center
     a
-      text-decoration none
+      text-decoration underline
+      &.unstyled
+        text-decoration none
+        font-size 48px
 
 form
   input
