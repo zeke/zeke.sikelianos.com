@@ -1,6 +1,6 @@
 ![](/assets/images/js-logo.svg)
 
-## Twenty years with JavaScript
+## Twenty Years with JavaScript
 
 I was thirteen when JavaScript was born.
 
@@ -32,7 +32,7 @@ Node.js broadened JavaScript's horizons immensely. Prior to Node's existence, Ja
 
 When writing new computer programs, programmers rarely start from scratch. A program is typically pieced together using a number of existing code packages, often written by other programmers. Early on in the development of Node, the npm package manager was created by [Isaac Schlueter](http://izs.me/), and quickly became the de facto package manager for Node. npm is a free and open source tool for creating, managing, and publishing JavaScript packages. npm is also a registry of those packages, all freely available for use by anyone hoping to make something cool with JavaScript. As of this writing, the npm registry contains nearly 100,000 packages and the number is growing daily.
 
-Earlier this year, npm raised some capital and became a private company based in Oakland, California. The company will continue to develop and maintain the open-source npm tool and the public registry in perpetuity, but will soon be releasing a commercial version of the registry for individuals and companies wishing to maintain private source code.
+Earlier this year, npm raised some capital and [became a private company](http://www.npmjs.com/policies/trademark/) based in Oakland, California. The company will continue to develop and maintain the open-source npm tool and the public registry in perpetuity, but will soon be releasing a commercial version of the registry for individuals and companies wishing to maintain private source code.
 
 What all this means is that after years as an underpowered and [often misunderstood](http://javascript.crockford.com/javascript.html) language, JavaScript's day is finally here. JavaScript developers today have access to powerful tools, a bountiful registry of packages, and a growing worldwide community. The future looks bright.
 
