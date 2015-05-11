@@ -40,6 +40,18 @@ section
             a.permalink(href="#"+project.slug) #
           p= project.description
 
+    h2#fin
+      a(id="posts" href="#posts") Blog Posts
+
+    ul
+      - for post, slug in public.posts._data
+        li(id=slug)
+          h3
+            a(href=post.url)= post.title
+          p= post.summary
+          p.paltry
+            = post.published_at
+
     h2
       a(id="jobs" href="#jobs") Jobs
 
@@ -72,18 +84,6 @@ section
             = school.start
             = " - "
             = school.end
-
-    h2#fin
-      a(id="posts" href="#posts") Posts
-
-    ul
-      - for post, slug in public.posts._data
-        li(id=slug)
-          h3
-            a(href="/posts/"+slug)= post.title
-          p= post.summary
-          p.paltry
-            = post.published_at
 
     :markdown
       [Subscribe](#subscribe) to be emailed about new content.

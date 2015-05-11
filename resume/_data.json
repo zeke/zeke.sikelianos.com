@@ -26,7 +26,7 @@
     "slug": "heroku-addons",
     "name": "Heroku Addons Marketplace",
     "description": "Heroku Addons is like an app store for developers. During my first year at Heroku, I designed and implemented the marketplace, and was largely responsible for front- and back-end development of this Ruby on Rails app.",
-    "website": "http://npmjs.com/",
+    "website": "https://addons.heroku.com/",
     "keywords": ["npm", "javascript", "development", "Node.js", "reference"],
     "start": "2012-05-01",
     "end": "2013-11-01"
@@ -129,9 +129,17 @@
   },{
     "slug": "foxtown",
     "name": "Foxtown Vintage",
-    "description": "My girlfriend collects vintage clothing to sell on her Etsy store. I designed and built a standalone storefront website for the store that fetches listings using the Etsy API and displays them neatly on a single page.",
+    "description": "My wife collects and selld vintage clothing on Etsy. I designed and built a standalone storefront website for the store that fetches listings using the Etsy API and displays them neatly on a single page.",
     "website": "http://foxtownvintage.com",
     "keywords": ["fashion", "website", "mobile", "design", "etsy"],
+    "start": "2014-05-21",
+    "end": "2014-05-28"
+  },{
+    "slug": "color-namer",
+    "name": "Color Namer",
+    "description": "An experimental website for playing with color names and contrast.",
+    "website": "http://color-namer.org",
+    "keywords": ["color", "design", "words"],
     "start": "2014-05-21",
     "end": "2014-05-28"
   },{
