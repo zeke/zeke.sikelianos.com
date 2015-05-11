@@ -1,9 +1,10 @@
 {
   "name": "zeke.sikelianos.com",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "My website as an npm module",
   "scripts": {
-    "start": "harp server",
+    "start": "NODE_ENV=production harp server -p $PORT",
+    "dev": "harp server",
     "flickr": "node lib/flickr.js"
   },
   "repository": {
