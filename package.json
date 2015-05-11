@@ -32,7 +32,7 @@
     "dotenv": "^0.2.8",
     "flickr-client": "0.0.3",
     "flickr-photo-info": "0.0.0",
-    "harp": "^0.14.0",
+    "harp": "^0.17.0",
     "superagent": "^0.18.2"
   }
 }

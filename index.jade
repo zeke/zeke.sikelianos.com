@@ -17,25 +17,17 @@ section.first
       h1 Zeke<br /> Sikelianos
 
       :markdown
-        I'm a designer and software developer in Oakland, California. I work at a small company called [npm](http://npmjs.com), making tools to help people build the web. I believe [information wants to be free](http://en.wikipedia.org/wiki/Hacker_ethic), and that you can create [beautiful things](/portfolio) with computers.
+        I'm a freelance [graphic designer](/portfolio) and [software developer](https://github.com/zeke) living in Oakland, California.
+        I believe [information wants to be free](http://en.wikipedia.org/wiki/Hacker_ethic), and that computers can be used to create [beautiful things](/portfolio).
+        Please take a look around, and [tell me what you think](https://twitter.com/zeke).
+        This page is mostly text; for a more graphic experience please visit my [design portfolio](/portfolio).
+
+      :markdown
+        I am currently [available for hire](mailto:zeke@sikelianos.com).
+
 
 section
   article
-
-    h2#fin
-      a(id="posts" href="#posts") Posts
-
-    ul
-      - for post, slug in public.posts._data
-        li(id=slug)
-          h3
-            a(href="/posts/"+slug)= post.title
-          p= post.summary
-          p.paltry
-            = post.published_at
-
-    :markdown
-      [Subscribe](#subscribe) to be emailed about new content.
 
     h2
       a(id="projects" href="#projects") Projects
@@ -80,6 +72,21 @@ section
             = school.start
             = " - "
             = school.end
+
+    h2#fin
+      a(id="posts" href="#posts") Posts
+
+    ul
+      - for post, slug in public.posts._data
+        li(id=slug)
+          h3
+            a(href="/posts/"+slug)= post.title
+          p= post.summary
+          p.paltry
+            = post.published_at
+
+    :markdown
+      [Subscribe](#subscribe) to be emailed about new content.
 
 
     h2#subscribe Subscribe

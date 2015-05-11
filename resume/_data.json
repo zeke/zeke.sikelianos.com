@@ -7,6 +7,70 @@
   "portfolio": [],
   "projects":[
   {
+    "slug": "npmjs-com",
+    "name": "The npm Website",
+    "description": "npmjs.com is the official web interface to npm, the package manager for JavaScript. Every hour, this website helps thousands of node.js and frontend developers discover and share node modules. During my time at npm, I was responsible for the design, styling, development, support, and open-source stewardship of this popular website.",
+    "website": "http://npmjs.com/",
+    "keywords": ["npm", "javascript", "development", "Node.js", "reference"],
+    "start": "2014-07-29",
+    "end": "2015-05-05"
+  },{
+    "slug": "heroku-node-buildpack",
+    "name": "Heroku Node.js Official Buildpack",
+    "description": "The second half of my tenure at Heroku was focused on improving the developer experience for people deploying Node.js apps. This included development and optimiziation of the buildpack: the bash scripts that prepare each and every git-pushed Node.js app to run on the platform.",
+    "website": "http://github.com/heroku/heroku-buildpack-nodejs",
+    "keywords": ["Heroku", "Node.js"],
+    "start": "2013-11-01",
+    "end": "2014-07-05"
+  },{
+    "slug": "heroku-addons",
+    "name": "Heroku Addons Marketplace",
+    "description": "Heroku Addons is like an app store for developers. During my first year at Heroku, I designed and implemented the marketplace, and was largely responsible for front- and back-end development of this Ruby on Rails app.",
+    "website": "http://npmjs.com/",
+    "keywords": ["npm", "javascript", "development", "Node.js", "reference"],
+    "start": "2012-05-01",
+    "end": "2013-11-01"
+  },{
+    "slug": "semver-io",
+    "name": "semver.io",
+    "description": "semver.io is a plaintext and JSON webservice that tracks all available versions of node.js and uses that version info to resolve semver range queries. It's used by Heroku's Node.js buildpack and is open-sourced on GitHub.",
+    "website": "https://semver.io/",
+    "keywords": ["Node.js", "webservice", "semver", "Heroku"],
+    "start": "2013-12-01",
+    "end": "2013-12-01"
+  },{
+    "slug": "what-is-the-latest-version-of-node",
+    "name": "what-is-the-latest-version-of-node.com",
+    "description": "A website that does what it says on the tin.",
+    "website": "http://what-is-the-latest-version-of-node.com/",
+    "keywords": ["Node.js", "webservice", "semver", "Heroku"],
+    "start": "2014-05-31",
+    "end": "2014-05-31"
+  },{
+    "slug": "npm-hub",
+    "name": "npm-hub",
+    "description": "npm-hub is a browser extension for Chrome, Safari, and Firefox that helps you discover new npm modules while browsing github.com. It notices when you're browsing a repo with a package.json in it. If there are any dependencies or devDependencies listed therein, npm-hub fetches each module's metadata from a CORS-friendly proxy of npmjs.org and displays its right on the github page, just below the README.",
+    "website": "http://npmhub.org/",
+    "keywords": ["Node.js", "npm", "browser extension"],
+    "start": "2013-06-20",
+    "end": "2013-07-01"
+  },{
+    "slug": "wordnik-com",
+    "name": "Wordnik",
+    "description": "Wordnik is a free English language reference site featuring definitions, related words, examples of popular usage, audio pronunciations, and photos. Its data is derived from a variety of sources such as the American Heritage Dictionary, Princeton Wordnet, Wiktionary, Wikipedia, Webster's 1913, and the Century Dictionary, one of the largest encyclopedic dictionaries of the English language. The wordnik.com website is a powered by the Wordnik API, a free and publicly available webservice for building language-based apps and games.",
+    "website": "https://wordnik.com/",
+    "keywords": ["language", "reference", "English", "Ruby"],
+    "start": "",
+    "end": ""
+  },{
+    "slug": "swagger",
+    "name": "Swagger",
+    "description": "Swagger is a specification and open-source framework for describing, producing, consuming, and visualizing RESTful web services with JSON. I created Swagger while building wordnik.com as a tool to help make our APIs easier to document, understand, and use. In the four years since its creation, a large community has developed around Swagger, and developers are continuing to find new and interesting ways to incorporate it into their JSON webservice implementations.",
+    "website": "http://swagger.io/",
+    "keywords": ["design", "documentation", "development", "API"],
+    "start": "",
+    "end": ""
+  },{
     "slug": "moby",
     "name": "Moby Thesaurus",
     "description": "moby-thesaurus.org is a free and open-source website for searching Moby Thesaurus, the largest thesaurus in the English language. Moby is a weird and wonderful reference full of unusual and illuminating word relationships. I created moby-thesaurus.org after years hoping and waiting for a good website or tool to come along for searching this amazing dataset.",
@@ -18,7 +82,7 @@
     "slug": "ord",
     "name": "Ord",
     "description": "Ord is a free web-based tool for translating words into many languages at once using data collected from Wikipedia. Ord sorts search results from different languages according to their lexical similarity to the headword, often providing etymological clues into the history and geographic distribution of language. Ord is an open-source Node.js application with source code available on GitHub.",
-    "website": "http://ord.zeke.xxx/",
+    "website": "http://ord.zeke.sikelianos.com/",
     "keywords": ["language", "translation", "Wikipedia", "reference", "Node.js"],
     "start": "",
     "end": ""
@@ -30,14 +94,6 @@
     "keywords": ["language", "Twitter", "slang", "English", "reference", "Ruby"],
     "start": "2012-04-03",
     "end": "2012-04-03"
-  },{
-    "slug": "wordnik-com",
-    "name": "Wordnik",
-    "description": "Wordnik is a free English language reference site featuring definitions, related words, examples of popular usage, audio pronunciations, and photos. Its data is derived from a variety of sources such as the American Heritage Dictionary, Princeton Wordnet, Wiktionary, Wikipedia, Webster's 1913, and the Century Dictionary, one of the largest encyclopedic dictionaries of the English language. The wordnik.com website is a powered by the Wordnik API, a free and publicly available webservice for building language-based apps and games.",
-    "website": "https://wordnik.com/",
-    "keywords": ["language", "reference", "English", "Ruby"],
-    "start": "",
-    "end": ""
   },{
     "slug": "new-orleans-street-names",
     "name": "New Orleans Street Names",
@@ -62,30 +118,6 @@
     "keywords": ["language", "reference", "Ruby"],
     "start": "2011-04-06",
     "end": "2014-04-15"
-  },{
-    "slug": "semver-io",
-    "name": "semver.io",
-    "description": "semver.io is a plaintext and JSON webservice that tracks all available versions of node.js and uses that version info to resolve semver range queries. It's used by Heroku's node buildpack and is open-sourced on GitHub.",
-    "website": "https://semver.io/",
-    "keywords": ["Node.js", "webservice", "semver", "Heroku"],
-    "start": "2013-12-01",
-    "end": "2013-12-01"
-  },{
-  "slug": "what-is-the-latest-version-of-node",
-  "name": "what-is-the-latest-version-of-node.com",
-  "description": "A website that does what it says on the tin.",
-  "website": "http://what-is-the-latest-version-of-node.com/",
-  "keywords": ["Node.js", "webservice", "semver", "Heroku"],
-  "start": "2014-05-31",
-  "end": "2014-05-31"
-  },{
-    "slug": "swagger",
-    "name": "Swagger",
-    "description": "Swagger is a specification and open-source framework for describing, producing, consuming, and visualizing RESTful web services with JSON. I created it as a tool to help make APIs easier to understand and use.",
-    "website": "",
-    "keywords": [],
-    "start": "",
-    "end": ""
   },{
     "slug": "http",
     "name": "zeke.sikelianos.com/http",
