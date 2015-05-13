@@ -176,17 +176,17 @@
       "name": "Wordnik",
       "location": "San Mateo, CA",
       "title": "Senior Developer",
-      "description": "Wordnik is a Bay Area-startup devoted to words and language. While at Wordnik, I designed, built, and maintained the high-traffic wordnik.com website, and also created Swagger, a specification and tool for documenting, visualizing, and experimenting with web-based APIs.",
+      "description": "Wordnik is a Bay Area-startup devoted to words and language. While at Wordnik, I designed, built, and maintained the high-traffic wordnik.com website, and also created Swagger, a specification and tool for documenting, visualizing, and generating client SDKs for HTTP webservices.",
       "website": "http://wordnik.com",
       "start": "2011-01-01",
       "end": "2012-04-15"
     }, {
-      "slug": "gemini",
-      "name": "Gemini SBS",
-      "location": "Los Angeles, CA",
+      "slug": "fractured-atlas",
+      "name": "Fractured Atlas",
+      "location": "Los Angeles, CA & New York, NY",
       "title": "Senior Developer",
-      "description": "Gemini SBS is a small employee-owned company that builds web-based software for non-proﬁt organizations. During my tenure at Gemini, I designed, coded, and maintained Rails and Sinatra applications and geospatial webservices making use of technologies like Postgres, PostGIS, CouchDB, and the Google Maps Javascript and Flash SDKs.",
-      "website": "http://geminisbs.com",
+      "description": "Fractured Atlas is a national non-profit organization providing services for the independent arts community. During my tenure at Gemini, I designed, coded, and maintained Rails and Sinatra applications and geospatial webservices making use of technologies like Postgres, PostGIS, CouchDB, and the Google Maps Javascript and Flash SDKs.",
+      "website": "http://fracturedatlas.org",
       "start": "2011-01-01",
       "end": "2012-04-15"
     }, {
