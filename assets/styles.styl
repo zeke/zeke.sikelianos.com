@@ -1,4 +1,4 @@
-mainColor = #00b223
+mainColor = #66AD0D
 backgroundColor = white
 headingColor = black
 textColor = #333
@@ -178,8 +178,8 @@ a
     text-decoration underline
 
 p
-  font-size 1rem
-  line-height 1.5
+  font-size 1.2rem
+  line-height 1.6
   padding: 10px 0
   margin: 0
   a
@@ -233,13 +233,16 @@ h2
       text-decoration none
 
 h3
+  font-family 'Fira Sans'
+  font-weight 500
   font-weight normal
-  font-size 20px
+  font-size 1.4rem
   margin 0
   padding 0
+  color mainColor
   a
-    padding 20px 0 0px 0
-    color headingColor
+    padding 0
+    color mainColor
 
   em
     padding-left 10px
@@ -253,7 +256,7 @@ ul
   padding 0
   list-style none
   li
-    padding 10px 0
+    padding 25px 0
     &:hover
       a.permalink
         opacity 1
@@ -352,6 +355,9 @@ form
         max-width auto
 
 @media screen and (max-width: 480px)
+
+  #toggle
+    opacity 0
 
   h1
     font-size 3.2rem

@@ -24,8 +24,8 @@
     "end": "2014-07-05"
   },{
     "slug": "heroku-addons",
-    "name": "Heroku Addons Marketplace",
-    "description": "Heroku Addons is like an app store for developers. During my first year at Heroku, I designed and implemented the marketplace, and was largely responsible for front- and back-end development of this Ruby on Rails app.",
+    "name": "Heroku Addons",
+    "description": "The Heroku Addons Marketplace is like an app store for developers. During my first year at Heroku, I designed and implemented the site, and was largely responsible for front- and back-end development of this Ruby on Rails app.",
     "website": "https://addons.heroku.com/",
     "keywords": ["npm", "javascript", "development", "Node.js", "reference"],
     "start": "2012-05-01",
@@ -40,7 +40,7 @@
     "end": "2013-12-01"
   },{
     "slug": "what-is-the-latest-version-of-node",
-    "name": "what-is-the-latest-version-of-node.com",
+    "name": "What is the latest version of node?",
     "description": "A website that does what it says on the tin.",
     "website": "http://what-is-the-latest-version-of-node.com/",
     "keywords": ["Node.js", "webservice", "semver", "Heroku"],
@@ -120,7 +120,7 @@
     "end": "2014-04-15"
   },{
     "slug": "http",
-    "name": "zeke.sikelianos.com/http",
+    "name": "Life in HTTP",
     "description": "@zeke_in_http is a Twitter account from which I tweet life events in the form of HTTP status codes. I built this website as a cheatsheet for that account.",
     "website": "http://zeke.sikelianos.com/http",
     "keywords": [],
