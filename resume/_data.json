@@ -194,7 +194,7 @@
       "name": "ELC Technologies",
       "location": "Santa Barbara, CA",
       "title": "Rails Developer",
-      "description": "ELC was a Rails development consultancy for Fortune 1000 companies. As a developer at ELC I oversaw the design, development, and maintenance of enterprise-level applications, and was exposed to newly-popularized tenets of so-called agile web development, including pair programming, scrum management and iterative development cycles.",
+      "description": "ELC was a Rails development consultancy for Fortune 500 companies. As a developer at ELC I oversaw the design, development, and maintenance of enterprise-level applications, and was exposed to newly-popularized tenets of so-called agile web development, including pair programming, scrum management and iterative development cycles.",
       "website": "http://elctech.com",
       "start": "2007-01-15",
       "end": "2008-03-31"
@@ -203,7 +203,7 @@
       "name": "Ideum",
       "location": "Corrales, NM",
       "title": "Interactive Director",
-      "description": "Ideum is a small new media outfit working for museums, educational institutions, nonprofit organizations and socially re- sponsible companies. As Interactive Director, I oversaw the production of a variety of educational and humanitarian pro- jects and worked extensively with Flickr and Google mashups.",
+      "description": "Ideum is a small new media outfit that works primarily with museums, schools, nonprofits, and socially responsible companies. As Interactive Director, I oversaw the production of a variety of educational and humanitarian projects and worked extensively with Flickr and Google mashups using PHP and Python.",
       "website": "http://ideum.com",
       "start": "2006-03-15",
       "end": "2006-11-30"
@@ -212,7 +212,7 @@
       "name": "Rome & Gold Creative",
       "location": "Albuquerque, NM",
       "title": "",
-      "description": "Rome & Gold Creative is a branding agency working in a wide array of media. I worked as Lead Web Designer/Developer and Junior Print Designer, focusing primarily on developing database-driven websites with content management interfaces, but also doing print, clothing, environmental, and game design.",
+      "description": "Rome & Gold Creative is a branding agency working in a wide array of media. I worked as Lead Web Designer/Developer and Junior Print Designer, focusing primarily on developing MySQL-driven PHP websites with content management interfaces, but also doing print, clothing, environmental, and game design.",
       "website": "http://rgcreative.com",
       "start": "2002-08-10",
       "end": "2006-05-05"
@@ -230,7 +230,7 @@
       "name": "Neogenesis Media",
       "location": "Albuquerque, NM",
       "title": "Guru Factotum",
-      "description": "Neogenesis was a documentary ﬁlm production house. I worked primarily on post-video editing using Discreet Combustion and After Effects, but also produced interactive CD-ROMs and Flash websites, and developed and maintained a networked rendering farm.",
+      "description": "Neogenesis was a documentary ﬁlm production house. I worked primarily on post-video editing using Discreet Combustion and After Effects, but also produced interactive CD-ROMs and Macromedia (Adobe) Flash websites, and developed and maintained a networked rendering farm.",
       "website": "",
       "start": "2000-12-01",
       "end": "2001-09-01"
