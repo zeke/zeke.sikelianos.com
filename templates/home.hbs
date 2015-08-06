@@ -1,7 +1,10 @@
-<ul>
-  {{#each pages}}
+{{#each sections}}
+  <h2>{{this.title}}</h2>
+  <ul>
+    {{#each this.pages}}
     <li>
       <a href="{{this.href}}">{{this.title}}</a>
     </li>
-  {{/each}}
-</ul>
+    {{/each}}
+  </ul>
+{{/each}}
