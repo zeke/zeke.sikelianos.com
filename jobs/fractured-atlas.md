@@ -1,6 +1,7 @@
 <!--
 title: Fractured Atlas
 location: Los Angeles, CA & New York, NY
+summary: National non-profit empowering artists to succeed as entrepreneurs
 position: Senior Developer
 website: http://fracturedatlas.org
 start: 2011-01-01

@@ -1,6 +1,7 @@
 <!--
 title: Beaver Brook
 location: Port Jervis, NY
+summary: A building school in rural New York
 website: http://beaverbrook.com/
 start: 2013-08-26
 end: 2013-09-06

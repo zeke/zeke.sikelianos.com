@@ -1,6 +1,7 @@
 <!--
 title: Rome & Gold Creative
 location: Albuquerque, NM
+summary: A full-service branding agency
 position: Graphic Designer, Web Developer
 website: http://rgcreative.com
 start: 2002-08-10

@@ -1,6 +1,7 @@
 <!--
 title: Neogenesis Media
 location: Albuquerque, NM
+summary: Documentary film production house
 position: Guru Factotum
 start: 2000-12-01
 end: 2001-09-01

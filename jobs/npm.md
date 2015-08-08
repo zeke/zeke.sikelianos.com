@@ -1,6 +1,7 @@
 <!--
-title: npm
+title: npm, Inc
 location: Oakland, CA
+summary: The package manager for JavaScript
 position: Designer, Developer
 website: http://npmjs.com
 start: 2014-08-18

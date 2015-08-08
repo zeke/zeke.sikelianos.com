@@ -1,3 +1,9 @@
+<!--
+title: Twenty Years with JavaScript
+summary: npm is amazing; I want my mom to understand why.
+published_at: 2014-08-18
+-->
+
 ![](/assets/images/js-logo.svg)
 
 ## Twenty Years with JavaScript
@@ -14,7 +20,7 @@ In 1995, the JavaScript programming language was created by the Netscape corpora
 
 Netscape enjoyed near-total domination of the browser space for a time, but Microsoft was fast on their heels. In 1996, Microsoft released Internet Explorer 3 with support for JavasScript and the market's first CSS implementation. (CSS, which stands for Cascading Style Sheets, is a story for another blog post, but in essence it's a design language for describing the visual appearance of content in the browser. Before CSS, web design basically sucked.) The release of this new version of IE marked the beginning of the so-called [Browser Wars](http://en.wikipedia.org/wiki/Browser_wars#The_first_browser_war), and a dark time in the history of web development. As these two companies battled for dominance of a growing market, they made technology choices that diverged from [World Wide Web Consortium](http://en.wikipedia.org/wiki/World_Wide_Web_Consortium) standards, effectively forcing web designers to optimize for one of the two browsers.
 
-It was around this time that I created [my first website](http://www.geocities.ws/chinageek/) using the popular (and free) [Geocities](http://en.wikipedia.org/wiki/GeoCities#History) hosting service. My best friend Tyler and I would spend hours surfing the web learning how to build our website, then adding every silly JavaScript feature we could think of: a "What is your name?" prompt, a (weakly) password-protected page full of illegal software downloads, and a "Your computer will blow up when you leave this site" alert that appeared when the mouse hovered over a certain part of the page. Useless, but fun.
+It was around this time that I created [my first website](http://www.geocities.ws/chinageek/) using the popular (and free) [Geocities](http://en.wikipedia.org/wiki/GeoCities#History) hosting service. My best friend Tyler and I would spend hours surfing the web learning how to build our website, then adding every silly JavaScript feature we could think of: a What is your name? prompt, a (weakly) password-protected page full of illegal softwar downloads, and a Your computer will blow up when you leave this site alert that appeared when the mouse hovere over a certain part of the page. Useless, but fun.
 
 As the browser vendors went to war, folks at a company called Macromedia were hard at work building some revolutionary new tools for the web. Macromedia created a number of applications for web designers like Dreamweaver and Fireworks, but Flash was their most remarkable creation. Flash was a tool that enabled designers and web programmers to create websites with sound, animation, and video -- bells and whistles previously unavailable in web browsers. At the heart of Flash was a programming language called [Actionscript, a sister of JavaScript](http://en.wikipedia.org/wiki/ActionScript).
 

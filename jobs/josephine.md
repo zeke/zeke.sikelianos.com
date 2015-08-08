@@ -1,6 +1,7 @@
 <!--
 title: Josephine
 location: Oakland, CA
+summary: Home-cooked meals for pickup from your neighbors
 position: Development Consultant
 website: http://josephine.com
 start: 2015-06-30
