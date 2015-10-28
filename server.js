@@ -21,19 +21,19 @@ app.get('/content.json', function (req, res) {
 })
 
 app.get('/*', function (req, res) {
-  console.log(req.path)
+  var href = req.path.replace(/\/$/, '')
+  console.log(href)
 
-  if (req.path in redirects) {
-    return res.redirect(301, redirects[req.path])
+  if (href in redirects) {
+    return res.redirect(301, redirects[href])
   }
 
-  var page = content.pages[req.path]
+  var page = content.pages[href]
 
   if (!page) {
-    return res.status(404).render('404', {
-      url: req.url,
-      pageId: 'fourohfour',
-    })
+    return res
+      .status(404)
+      .render('404', {url: req.url, pageId: 'fourohfour',})
   }
 
   res.render('page', {
