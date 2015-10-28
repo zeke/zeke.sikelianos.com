@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="320px" height="240px" viewBox="0 0 320 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup">
+            <g id="npm-logo" sketch:type="MSLayerGroup" transform="translate(53.000000, 79.000000)">
+                <path d="M0,0 L0,71.1428571 L59.4444444,71.1428571 L59.4444444,83 L107,83 L107,71.1428571 L214,71.1428571 L214,0" id="Shape" fill="#CB3837" sketch:type="MSShapeGroup"></path>
+                <path d="M11.8888889,11.8571429 L11.8888889,59.2857143 L35.6666667,59.2857143 L35.6666667,23.7142857 L47.5555556,23.7142857 L47.5555556,59.2857143 L59.4444444,59.2857143 L59.4444444,11.8571429 L71.3333333,11.8571429 L71.3333333,71.1428571 L95.1111111,71.1428571 L95.1111111,23.7142857 L107,23.7142857 L107,47.4285714 L95.1111111,47.4285714 L95.1111111,59.2857143 L118.888889,59.2857143 L118.888889,11.8571429 L130.777778,11.8571429 L130.777778,59.2857143 L154.555556,59.2857143 L154.555556,23.7142857 L166.444444,23.7142857 L166.444444,59.2857143 L178.333333,59.2857143 L178.333333,23.7142857 L190.222222,23.7142857 L190.222222,59.2857143 L202.111111,59.2857143 L202.111111,11.8571429" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

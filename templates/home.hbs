@@ -1,28 +1,44 @@
-
-<section class="first">
-  <article>
-    <aside>
-      <p>Hi. I'm Zeke Sikelianos, a freelance <a href="/portfolio">graphic designer</a> and <a href="https://github.com/zeke">software developer</a>. I believe <a href="http://en.wikipedia.org/wiki/Hacker_ethic">information wants to be free</a>,
-        and that computers can be used to create <a href="/portfolio">beautiful things</a>. Please take a look around, and <a href="https://twitter.com/zeke">tell me what you think</a>. This page is mostly text; for a more graphic experience please
-        visit my <a href="/portfolio">design portfolio</a>.</p>
-      <p>I am currently <a href="mailto:zeke@sikelianos.com">available for hire</a>.</p>
-    </aside>
-  </article>
+<section>
+  <p>
+    Hello. I'm Zeke Sikelianos, a freelance graphic designer and software developer living in beautiful New Orleans, Louisiana.
+    <!-- I believe <a href="http://en.wikipedia.org/wiki/Hacker_ethic">information wants to be free</a>, and that computers can be used to create <a href="/portfolio">beautiful things</a>.  -->
+    <!-- Please take a look around, and <a href="https://twitter.com/zeke">tell me what you think</a>. -->
+    I'm <a href="mailto:zeke@sikelianos.com">available for hire</a>.
+  </p>
 </section>
 
+{{#each sections}}
+<section>
+  <h2><a id="{{@key}}" href="#{{@key}}">{{this.title}}</a></h2>
+
+  <ul class="columnar cards">
+    {{#each this.pages}}
+      {{#unless disabled}}
+
+        <li class="card">
+          <div class="card-thumbnail">
+            {{#if thumbnail}}
+              <img src="{{thumbnail}}" />
+            {{/if}}
+          </div>
+
+          <div class="card-details">
+            <h3>
+              <a href="{{this.href}}">{{this.title}}</a>
+            </h3>
+            <p class="faint unpadded small-text">{{this.summary}}</p>
+          </div>
+        </li>
+
+      {{/unless}}
+    {{/each}}
+  </ul>
+</section>
+{{/each}}
 
 <section>
-  {{#each sections}}
-  <article>
-    <h2><a id="{{@key}}" href="#{{@key}}">{{this.title}}</a></h2>
-    <ul class="ruled-list">
-      {{#each this.pages}}
-      <li>
-        <a href="{{this.href}}">{{this.title}}</a>
-        <span>{{this.summary}}</span>
-      </li>
-      {{/each}}
-    </ul>
-  </article>
-  {{/each}}
+  <h2>Places I've Lived</h2>
+  <p>
+    Santa Barbara, Albuquerque, L'Isle Sur La Sorgue, Paris, Los Angeles, San Francisco, Oakland, and now New Orleans.
+  </p>
 </section>

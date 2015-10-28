@@ -1,11 +1,11 @@
 const find = require('lodash').find
 const redirects = require('./lib/redirects')
-const chipper = require('chipper')
+const juicer = require('juicer')
 
 var app = require('./lib/app')
 var content = {}
 
-chipper(__dirname, function(err, _content) {
+juicer(__dirname, function(err, _content) {
   content = _content
   app.listen(app.get('port'), function () {
     console.log('listening on localhost:' + app.get('port'))
