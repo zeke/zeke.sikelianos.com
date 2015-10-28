@@ -1,12 +1,13 @@
 // mainColor = #66AD0D
 // mainColor = #D8006C
 mainColor = black
-backgroundColor = #F5F5F5
 headingColor = black
 textColor = #333
-gutterWidth = 60px
-cardWidth = 220px
-mainColumnWidth = cardWidth*3 + gutterWidth*3
+backgroundColor = #F5F5F5
+
+cardWidth = 320px
+cardGutterWidth = 40px
+mainColumnWidth = cardWidth*3 + cardGutterWidth*3
 
 // mixins
 
@@ -116,6 +117,9 @@ h1,h2,h3
       text-decoration none
       opacity 0
 
+h1,h2,h3,h4
+  text-align center
+
 h1
   display inline-block
   font-weight normal
@@ -177,12 +181,13 @@ ul.cards
   width cardWidth
   padding 0
   margin 0
-  margin-right 30px
+  margin-left: (cardGutterWidth/2)
+  margin-right: (cardGutterWidth/2)
   // margin-bottom 20px
 
 .card-thumbnail
   width 100%
-  height 175px
+  height 240px
   overflow hidden
   background white
   img
@@ -192,6 +197,7 @@ ul.cards
   height 100px
   padding-top 10px
   overflow hidden
+  text-align center
 
 // @media screen and (max-width: 1320px)
 

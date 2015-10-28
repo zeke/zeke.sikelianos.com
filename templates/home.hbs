@@ -1,6 +1,7 @@
 <section>
   <p>
     Hello. I'm Zeke Sikelianos, a freelance graphic designer and software developer living in beautiful New Orleans, Louisiana.
+
     <!-- I believe <a href="http://en.wikipedia.org/wiki/Hacker_ethic">information wants to be free</a>, and that computers can be used to create <a href="/portfolio">beautiful things</a>.  -->
     <!-- Please take a look around, and <a href="https://twitter.com/zeke">tell me what you think</a>. -->
     I'm <a href="mailto:zeke@sikelianos.com">available for hire</a>.
@@ -17,8 +18,8 @@
 
         <li class="card">
           <div class="card-thumbnail">
-            {{#if thumbnail}}
-              <img src="{{thumbnail}}" />
+            {{#if images.thumbnail}}
+              <img src="{{images.thumbnail.href}}" />
             {{/if}}
           </div>
 
