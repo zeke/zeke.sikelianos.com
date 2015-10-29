@@ -9,6 +9,8 @@ cardWidth = 320px
 cardGutterWidth = 40px
 mainColumnWidth = cardWidth*3 + cardGutterWidth*3
 
+textColumnWidth = (mainColumnWidth/2)
+
 // mixins
 
 columns(n)
@@ -44,7 +46,7 @@ column-break-inside(n)
   li
     list-style none
 
-.faint
+.faint, .muted
   opacity: 0.5
 
 .unpadded
@@ -52,6 +54,11 @@ column-break-inside(n)
 
 .small-text
   font-size 0.9rem
+
+.text-column-width
+  margin-left auto
+  margin-right auto
+  max-width textColumnWidth
 
 // styles
 
@@ -68,10 +75,11 @@ body
   font-family Georgia, serif
   color textColor
   background backgroundColor
-  padding 30px
+  padding 0
   margin 0
   transition all 0.3s
   font-size 1.2rem
+  text-align center
 
 #content
   max-width mainColumnWidth
@@ -81,13 +89,13 @@ body
 a
   color mainColor
   text-decoration none
-  // transition all 0.2s
   cursor pointer
   outline none
   &:hover
     text-decoration underline
 
 p
+  text-align left
   line-height 1.6
   padding: 10px 0
   margin: 0
@@ -103,7 +111,9 @@ p
       background mainColor
       text-decoration none
 
-h1,h2,h3
+h1,h2,h3,h4
+  text-align center
+  font-weight normal
   color headingColor
   line-height 1.2
   transition all 0.3s
@@ -117,20 +127,15 @@ h1,h2,h3
       text-decoration none
       opacity 0
 
-h1,h2,h3,h4
-  text-align center
-
 h1
-  display inline-block
-  font-weight normal
-  font-size 2rem
+  font-size 2.5rem
   margin 0
   padding 60px 0 0 0
 
 h2
-  font-weight normal
-  font-size 2rem
-  margin 60px 0 20px 0
+  font-size 1.4rem
+  opacity 0.4
+  margin 0
   padding 0
   a
     display block
@@ -139,8 +144,7 @@ h2
       text-decoration none
 
 h3
-  font-weight normal
-  font-size 1rem
+  font-size 1.4rem
   margin 0
   padding 0
   color mainColor
@@ -148,24 +152,31 @@ h3
     padding 0
     color mainColor
 
+header
+  margin 20px 0
+
+#page-nav
+  background darken(backgroundColor, 10%)
+  font-size 1rem
+  padding 10px
+
+footer
+  margin-top 100px
+  text-align center
+  padding-bottom 60px
+  a
+    padding 10px 20px
+    span.fa
+     padding-right 5px
+    //  opacity 0.3
+    .fa-twitter
+      color: #55ACEE
+
+
 ul.ruled-list
   @extend .vanilla-list
   li
     border-bottom 1px solid rgba(0,0,0,0.1)
-
-
-// ul.columnar
-//   @extend .vanilla-list
-//   columns 3
-//   column-gap 40px
-//
-//   > li
-//     column-break-inside avoid
-//     padding 5px
-//     padding-bottom 20px
-//
-//   @media only screen and (max-width: mobileMaxWidth)
-//     columns 1
 
 ul.cards
   @extend .vanilla-list
@@ -183,7 +194,6 @@ ul.cards
   margin 0
   margin-left: (cardGutterWidth/2)
   margin-right: (cardGutterWidth/2)
-  // margin-bottom 20px
 
 .card-thumbnail
   width 100%
@@ -199,25 +209,24 @@ ul.cards
   overflow hidden
   text-align center
 
-// @media screen and (max-width: 1320px)
+.palette-dot
+  display inline-block
+  width 12px
+  height 12px
+  border-radius 12px
+  margin 3px
+  padding 0
 
-footer
-  margin-top 100px
-  text-align center
-  padding-bottom 60px
-  a
-    padding 10px 20px
-    span.fa
-     padding-right 5px
-    //  opacity 0.3
-    .fa-twitter
-      color: #55ACEE
+.palette-dot-big
+  width 24px
+  height 24px
+  border-radius 24px
+  margin 5px
 
 @media screen and (max-width: 480px)
 
   h1
     font-size 3.2rem
-    font-weight normal
 
   h2
     font-size 2rem

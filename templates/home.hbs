@@ -1,45 +1,51 @@
-<section>
-  <p>
+<div id="content">
+
+
+  <div id="page-nav">
     Hello. I'm Zeke Sikelianos, a freelance graphic designer and software developer living in New Orleans, Louisiana.
 
     I'm <a href="mailto:zeke@sikelianos.com">available for hire</a>.
-  </p>
-</section>
+  </div>
+  
+  {{#each sections}}
+  <section>
+    <h2><a id="{{@key}}" href="#{{@key}}">{{title}}</a></h2>
 
-{{#each sections}}
-<section>
-  <h2><a id="{{@key}}" href="#{{@key}}">{{title}}</a></h2>
+    <ul class="columnar cards">
+      {{#each this.pages}}
+        {{#unless disabled}}
 
-  <ul class="columnar cards">
-    {{#each this.pages}}
-      {{#unless disabled}}
+          <li class="card">
+            <div class="card-thumbnail">
+              {{#if images.thumbnail}}
+                <a href="{{href}}">
+                  <img src="{{images.thumbnail.href}}" />
+                </a>
+              {{/if}}
+            </div>
 
-        <li class="card">
-          <div class="card-thumbnail">
-            {{#if images.thumbnail}}
-              <a href="{{href}}">
-                <img src="{{images.thumbnail.href}}" />
-              </a>
-            {{/if}}
-          </div>
+            <div class="card-details">
+              {{#each images.thumbnail.palette}}
+                <div class="palette-dot" style="background:{{this}};"></div>
+              {{/each}}
+              <h3>
+                <a href="{{href}}">{{title}}</a>
+              </h3>
+              <p class="faint unpadded small-text">{{summary}}</p>
+            </div>
+          </li>
 
-          <div class="card-details">
-            <h3>
-              <a href="{{href}}">{{title}}</a>
-            </h3>
-            <p class="faint unpadded small-text">{{summary}}</p>
-          </div>
-        </li>
+        {{/unless}}
+      {{/each}}
+    </ul>
+  </section>
+  {{/each}}
 
-      {{/unless}}
-    {{/each}}
-  </ul>
-</section>
-{{/each}}
+  <!-- <section>
+    <h2>Places I've Lived</h2>
+    <p>
+      Santa Barbara, Albuquerque, L'Isle Sur La Sorgue, Paris, Los Angeles, San Francisco, Oakland, and now New Orleans.
+    </p>
+  </section> -->
 
-<!-- <section>
-  <h2>Places I've Lived</h2>
-  <p>
-    Santa Barbara, Albuquerque, L'Isle Sur La Sorgue, Paris, Los Angeles, San Francisco, Oakland, and now New Orleans.
-  </p>
-</section> -->
+</div>
