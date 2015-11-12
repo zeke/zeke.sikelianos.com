@@ -1,5 +1,6 @@
 <!--
 title: New Orleans Street Names
+description: A list of every street in the city
 website: http://new-orleans-street-names.herokuapp.com/
 keywords: [language, geo]
 start: 2014-06-20

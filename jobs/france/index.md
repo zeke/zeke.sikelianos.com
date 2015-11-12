@@ -1,5 +1,6 @@
 <!--
 title: Lycée Polyvalent Alphonse Benoit
+description: A high school in Provence, France
 location: L'Isle sur la Sorgue, Provence, France
 position: English Teacher
 website: http://www.lyc-benoit.ac-aix-marseille.fr/spip/

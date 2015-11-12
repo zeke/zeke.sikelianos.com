@@ -1,12 +1,12 @@
+<div class="home-nav">
+  Zeke Sikelianos, Graphic Designer &amp; Software Developer
+</div>
+
+  <!-- <p>
+    I'm a freelance graphic designer and software developer living in New Orleans, Louisiana.I'm <a href="mailto:zeke@sikelianos.com">available for hire</a>.
+  </p> -->
+
 <div id="content">
-
-
-  <div id="page-nav">
-    Hello. I'm Zeke Sikelianos, a freelance graphic designer and software developer living in New Orleans, Louisiana.
-
-    I'm <a href="mailto:zeke@sikelianos.com">available for hire</a>.
-  </div>
-  
   {{#each sections}}
   <section>
     <h2><a id="{{@key}}" href="#{{@key}}">{{title}}</a></h2>
@@ -25,13 +25,8 @@
             </div>
 
             <div class="card-details">
-              {{#each images.thumbnail.palette}}
-                <div class="palette-dot" style="background:{{this}};"></div>
-              {{/each}}
-              <h3>
-                <a href="{{href}}">{{title}}</a>
-              </h3>
-              <p class="faint unpadded small-text">{{summary}}</p>
+              <a class="card-details-title" href="{{href}}">{{title}}</a>
+              <p class="card-details-description">{{description}}</p>
             </div>
           </li>
 

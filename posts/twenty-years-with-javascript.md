@@ -1,6 +1,6 @@
 <!--
 title: Twenty Years with JavaScript
-summary: npm is amazing; I want my mom to understand why.
+description: npm is amazing; I want my mom to understand why.
 published_at: 2014-08-18
 -->
 

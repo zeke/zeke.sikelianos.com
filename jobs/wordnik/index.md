@@ -1,7 +1,7 @@
 <!--
 title: Wordnik
 location: San Mateo, CA
-summary: A home for all the words
+description: A home for all the words
 position: Senior Developer
 website: http://wordnik.com
 start: 2011-01-01

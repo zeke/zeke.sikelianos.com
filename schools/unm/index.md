@@ -1,5 +1,6 @@
 <!--
 title: University of New Mexico
+description: Public research school in Albuquerque
 location: Albuquerque, NM
 start: 1999-09-05
 end: 2001-04-28

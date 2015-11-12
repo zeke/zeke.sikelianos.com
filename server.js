@@ -24,16 +24,14 @@ app.get('/*', function (req, res) {
   var href = req.path.replace(/\/$/, '')
   console.log(href)
 
-  if (href in redirects) {
-    return res.redirect(301, redirects[href])
-  }
+  if (href in redirects) return res.redirect(301, redirects[href])
 
   var page = content.pages[href]
 
   if (!page) {
     return res
       .status(404)
-      .render('404', {url: req.url, pageId: 'fourohfour',})
+      .render('404', {url: req.url, pageId: 'fourohfour'})
   }
 
   res.render('page', {
@@ -41,5 +39,4 @@ app.get('/*', function (req, res) {
     pages: content.pages,
     sections: content.sections
   })
-
 })

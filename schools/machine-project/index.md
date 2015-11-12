@@ -1,6 +1,7 @@
 <!--
 title: Machine Project
 location: Echo Park, Los Angeles, CA
+description: Community artspace in Echo Park, Los Angeles
 website: http://machineproject.com/blog/2010/09/05/shipwrecked-boat/
 start: 2010-01-01
 end: 2010-08-01

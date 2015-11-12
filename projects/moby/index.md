@@ -1,5 +1,6 @@
 <!--
 title: Moby Thesaurus
+description: The world's largest English thesaurus
 website: http://moby-thesaurus.org/
 keywords: [language, English, thesaurus, Node.js, reference]
 start: 2014-04-26

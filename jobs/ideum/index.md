@@ -1,7 +1,7 @@
 <!--
 title: Ideum
 location: Corrales, NM
-summary: Interactive Exhibit Designers
+description: Interactive Exhibit Designers
 position: Interactive Director
 website: http://ideum.com
 start: 2006-03-15

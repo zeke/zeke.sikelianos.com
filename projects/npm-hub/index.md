@@ -1,5 +1,6 @@
 <!--
 title: npm-hub
+description: A browser extension for serendipitous module discovery
 website: http://npmhub.org
 keywords: [Node.js, npm, browser extension]
 start: 2013-06-20

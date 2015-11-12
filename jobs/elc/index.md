@@ -1,7 +1,7 @@
 <!--
 title: ELC Technologies
 location: Santa Barbara, CA
-summary: Fortune 500 Ruby on Rails consultancy
+description: Fortune 500 Ruby on Rails consultancy
 position: Rails Developer
 website: http://elctech.com
 start: 2007-01-15

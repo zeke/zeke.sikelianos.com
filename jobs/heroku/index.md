@@ -1,7 +1,7 @@
 <!--
 title: Heroku
 location: San Francisco, CA
-summary: Polyglot Cloud Computing Platform
+description: Polyglot Cloud Computing Platform
 position: Product Designer and Node.js Maintainer
 website: https://heroku.com
 start: 2012-05-01

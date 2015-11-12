@@ -1,7 +1,8 @@
 <!--
 title: semver.io
 website: https://semver.io
-keywords: [Node.js, webservice, semver, Heroku]
+description: A webservice that tracks versions of node.js, npm, nginx, and mongodb.
+keywords: [Node.js, npm, nginx, mongodb, webservice, semver, Heroku]
 start: 2013-12-01
 end: 2013-12-01
 -->
