@@ -39,7 +39,7 @@
     "flickr-photo-info": "0.0.0",
     "harp": "^0.17.0",
     "html-frontmatter": "^1.5.1",
-    "juicer": "zeke/chipper",
+    "juicer": "github:zeke/juicer",
     "lodash": "^3.10.1",
     "marky-markdown": "^5.3.0",
     "superagent": "^0.18.2",
