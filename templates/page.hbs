@@ -1,5 +1,5 @@
 <div class="color-bar">
-  {{#each page.images.thumbnail.palette}}
+  {{#each page.images.thumbnail.colors}}
     <div style="background:{{this}};"></div>
   {{/each}}
 </div>
@@ -9,8 +9,7 @@
   {{#if page.section}} &sdot; <a href="/{{page.section}}">{{page.section}}</a>{{/if}}
 </div> -->
 
-<div id="content">
-  <div class="text-column-width">
+<article>
   <header>
     <h1>{{page.title}}</h1>
 
@@ -24,6 +23,7 @@
     <div class="palette-dot palette-dot-big" style="background:{{this}};"></div>
   {{/each}}
 
+  <div class="page-content">
     {{{page.content.processed}}}
   </div>
-</div>
+</article>

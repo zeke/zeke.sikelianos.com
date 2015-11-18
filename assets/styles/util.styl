@@ -1,0 +1,44 @@
+@import 'variables'
+
+.vanilla-list
+  list-style none
+  margin 0
+  padding 0
+  li
+    list-style none
+
+.faint, .muted
+  opacity: 0.5
+
+.unpadded
+  padding: 0
+
+.small-text
+  font-size 0.9rem
+
+// Layout
+
+.column
+  display block
+  margin-left auto
+  margin-right auto
+
+.text-column
+  @extend .column
+  max-width text-column-width
+
+.main-column
+  @extend .column
+  max-width main-column-width
+
+.no-float
+  float none
+  clear both
+  overflow hidden
+
+.float-left
+  display block
+  float left
+
+.full-width
+  width 100%
