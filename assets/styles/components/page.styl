@@ -1,0 +1,47 @@
+@require '../variables'
+@require '../util'
+@require '../global'
+
+.page-content
+  position relative
+
+  p
+    @extend .text-column
+
+  figure
+    @extend .main-column
+    > *
+      display inline-block
+      max-width 100%
+    img
+     max-width 100%
+
+  figcaption
+    font-size 0.9rem
+    font-style italic
+    padding 10px
+    opacity 0.6
+
+  pre
+    background color-code-background
+    margin 10px 0
+    padding 10px 0
+    text-align left
+    @media screen and (max-width: mobile-width)
+      padding 10px
+
+  code
+    @extend .text-column
+    color color-code-text
+    font-size 1.1rem
+    font-weight bold
+    line-height 1.4
+
+    .shell:before
+      content "$ "
+      opacity 0.4
+
+@media screen and (max-width: mobile-width)
+  .page-content
+    padding-left 20px
+    padding-right 20px

@@ -1,0 +1,52 @@
+@require '../variables'
+@require '../util'
+@require '../global'
+
+footer
+  margin-top 100px
+  text-align center
+  padding-bottom 60px
+
+.footer-inner
+  @extend .no-float
+  display inline-block
+
+  a
+    @extend .float-left
+    transition all 0.3s
+    width 54px
+    height 42px
+    font-size 2rem
+    margin 10px
+    text-decoration none !important
+    line-height 30px
+    color #999
+    // border 1px solid red
+
+  span.fa, span.devicons
+    transition all 0.3s
+
+  .fa
+    font-size 1.8rem
+    padding-top 4px
+  .devicons
+    font-size 2.2rem
+  .devicons-npm
+    font-size 3rem
+    line-height 0.8
+
+  :hover .fa-twitter
+    color color-twitter
+  :hover .devicons-github_badge
+    color color-github
+  :hover .devicons-npm
+    color color-npm
+  :hover .devicons-ruby_rough
+    color color-rubygems
+  :hover .fa-flickr
+    color color-flickr
+  :hover .fa-instagram
+    color color-instagram
+
+  .text
+    display none

@@ -4,12 +4,14 @@
   {{/each}}
 </div>
 
-<!-- <div id="page-nav" class="muted">
+<div class="breadcrumbs muted">
   <a href="/">zeke.sikelianos.com</a>
-  {{#if page.section}} &sdot; <a href="/{{page.section}}">{{page.section}}</a>{{/if}}
-</div> -->
+  {{#if page.section}} ￫ <a href="/{{page.section}}">{{page.section}}</a>{{/if}}
+   <!-- ￫ {{page.title}} -->
+</div>
 
 <article>
+  <div class="page-content">
   <header>
     <h1>{{page.title}}</h1>
 
@@ -19,11 +21,6 @@
     </h2>
   </header>
 
-  {{#each page.images.thumbnail.palette}}
-    <div class="palette-dot palette-dot-big" style="background:{{this}};"></div>
-  {{/each}}
-
-  <div class="page-content">
     {{{page.content.processed}}}
   </div>
 </article>

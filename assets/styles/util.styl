@@ -7,6 +7,11 @@
   li
     list-style none
 
+.ruled-list
+  @extend .vanilla-list
+  li
+    border-bottom 1px solid rgba(0,0,0,0.1)
+
 .faint, .muted
   opacity: 0.5
 
@@ -42,3 +47,12 @@
 
 .full-width
   width 100%
+
+
+.margin-top
+  margin-top 20px
+.margin-bottom
+  margin-bottom 20px
+.margin-vertical
+  @extend .margin-top
+  @extend .margin-bottom

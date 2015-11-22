@@ -1,0 +1,3575 @@
+{
+  "/signature.gif": {
+    "href": "/signature.gif",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/signature.gif",
+    "relativePath": "/signature.gif",
+    "processRelativePath": "signature.gif",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1905811,
+      "size": 7527,
+      "blocks": 16,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:53:05.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "width": 633,
+      "height": 296,
+      "type": "gif"
+    },
+    "colors": [
+      "#0b0b0b",
+      "#dedddd",
+      "#747c6c",
+      "#787474",
+      "#847c7c"
+    ]
+  },
+  "/assets/images/down-arrow.svg": {
+    "href": "/assets/images/down-arrow.svg",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/assets/images/down-arrow.svg",
+    "relativePath": "/assets/images/down-arrow.svg",
+    "processRelativePath": "assets/images/down-arrow.svg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1895542,
+      "size": 1316,
+      "blocks": 8,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:52:51.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "width": 77,
+      "height": 57,
+      "type": "svg"
+    },
+    "colors": [
+      "#000000"
+    ]
+  },
+  "/assets/images/anthropomorphs2.png": {
+    "href": "/assets/images/anthropomorphs2.png",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/assets/images/anthropomorphs2.png",
+    "relativePath": "/assets/images/anthropomorphs2.png",
+    "processRelativePath": "assets/images/anthropomorphs2.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1895540,
+      "size": 31815,
+      "blocks": 64,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:52:51.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "width": 600,
+      "height": 600,
+      "type": "png"
+    },
+    "colors": [
+      "#fafafa",
+      "#0a0e0a",
+      "#04e233",
+      "#848484",
+      "#949494"
+    ]
+  },
+  "/assets/images/cmyk.png": {
+    "href": "/assets/images/cmyk.png",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/assets/images/cmyk.png",
+    "relativePath": "/assets/images/cmyk.png",
+    "processRelativePath": "assets/images/cmyk.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1895541,
+      "size": 1983,
+      "blocks": 8,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:52:51.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "width": 150,
+      "height": 150,
+      "type": "png"
+    },
+    "colors": [
+      "#04a9be",
+      "#fbf304",
+      "#eb148b",
+      "#050c53",
+      "#ea1804"
+    ]
+  },
+  "/assets/images/dust.jpg": {
+    "href": "/assets/images/dust.jpg",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/assets/images/dust.jpg",
+    "relativePath": "/assets/images/dust.jpg",
+    "processRelativePath": "assets/images/dust.jpg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1895543,
+      "size": 5168,
+      "blocks": 16,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:52:51.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "height": 300,
+      "width": 400,
+      "type": "jpg"
+    },
+    "exif": {
+      "startMarker": {
+        "offset": 0
+      },
+      "tags": {},
+      "imageSize": {
+        "height": 300,
+        "width": 400
+      },
+      "app1Offset": 6
+    },
+    "colors": [
+      "#f3f3f4",
+      "#ececec",
+      "#fcf8fc",
+      "#e4e4e5",
+      "#ece4ec"
+    ]
+  },
+  "/assets/images/js-logo.svg": {
+    "href": "/assets/images/js-logo.svg",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/assets/images/js-logo.svg",
+    "relativePath": "/assets/images/js-logo.svg",
+    "processRelativePath": "assets/images/js-logo.svg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1895545,
+      "size": 1180,
+      "blocks": 8,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:52:51.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "width": 1052,
+      "height": 1052,
+      "type": "svg"
+    },
+    "colors": [
+      "#f0db4f",
+      "#323330"
+    ]
+  },
+  "/assets/images/hands.png": {
+    "href": "/assets/images/hands.png",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/assets/images/hands.png",
+    "relativePath": "/assets/images/hands.png",
+    "processRelativePath": "assets/images/hands.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1895544,
+      "size": 40361,
+      "blocks": 80,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:52:51.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "width": 480,
+      "height": 453,
+      "type": "png"
+    },
+    "colors": [
+      "#040404",
+      "#080404",
+      "#080404",
+      "#080404",
+      "#080404"
+    ]
+  },
+  "/assets/images/sixycle.svg": {
+    "href": "/assets/images/sixycle.svg",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/assets/images/sixycle.svg",
+    "relativePath": "/assets/images/sixycle.svg",
+    "processRelativePath": "assets/images/sixycle.svg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1895548,
+      "size": 48297,
+      "blocks": 96,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:52:51.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "width": 553,
+      "height": 96,
+      "type": "svg"
+    },
+    "colors": [
+      "#ffffff",
+      "#ffffff"
+    ]
+  },
+  "/assets/images/zeke_arms.jpg": {
+    "href": "/assets/images/zeke_arms.jpg",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/assets/images/zeke_arms.jpg",
+    "relativePath": "/assets/images/zeke_arms.jpg",
+    "processRelativePath": "assets/images/zeke_arms.jpg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1895549,
+      "size": 103652,
+      "blocks": 208,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:52:51.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "height": 480,
+      "width": 640,
+      "type": "jpg"
+    },
+    "exif": {
+      "startMarker": {
+        "offset": 0
+      },
+      "tags": {},
+      "imageSize": {
+        "height": 480,
+        "width": 640
+      }
+    },
+    "colors": [
+      "#e0bfa7",
+      "#221c26",
+      "#7b4a2f",
+      "#6d78a1",
+      "#8c98bf"
+    ]
+  },
+  "/assets/images/zeke_sikelianos.jpg": {
+    "href": "/assets/images/zeke_sikelianos.jpg",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/assets/images/zeke_sikelianos.jpg",
+    "relativePath": "/assets/images/zeke_sikelianos.jpg",
+    "processRelativePath": "assets/images/zeke_sikelianos.jpg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1895550,
+      "size": 293591,
+      "blocks": 576,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:52:51.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "height": 640,
+      "width": 480,
+      "type": "jpg"
+    },
+    "exif": {
+      "startMarker": {
+        "offset": 0
+      },
+      "tags": {
+        "ImageDescription": "OLYMPUS DIGITAL CAMERA         ",
+        "Make": "OLYMPUS IMAGING CORP.  ",
+        "Model": "E-PL1           ",
+        "Orientation": 1,
+        "XResolution": 314,
+        "YResolution": 314,
+        "ResolutionUnit": 2,
+        "Software": "QuickTime 7.6.6",
+        "ModifyDate": "2010:12:03 23:16:05",
+        "HostComputer": "Mac OS X 10.5.8",
+        "YCbCrPositioning": 2,
+        "ExposureTime": 0.2,
+        "FNumber": 4.4,
+        "ExposureProgram": 5,
+        "ISO": 1600,
+        "DateTimeOriginal": 1291337622,
+        "CreateDate": 1291337622,
+        "ExposureCompensation": 0,
+        "MaxApertureValue": 3.61328125,
+        "MeteringMode": 5,
+        "LightSource": 0,
+        "Flash": 24,
+        "FocalLength": 24,
+        "ColorSpace": 1,
+        "ExifImageWidth": 4032,
+        "ExifImageHeight": 3024,
+        "CustomRendered": 1,
+        "ExposureMode": 0,
+        "WhiteBalance": 0,
+        "DigitalZoomRatio": 1,
+        "SceneCaptureType": 0,
+        "Contrast": 2,
+        "Saturation": 0,
+        "Sharpness": 0
+      },
+      "imageSize": {
+        "height": 640,
+        "width": 480
+      },
+      "app1Offset": 6
+    },
+    "colors": [
+      "#232323",
+      "#efefef",
+      "#9f9f9f",
+      "#b4b4b4",
+      "#8c8c8c"
+    ]
+  },
+  "/jobs/elc/thumbnail.png": {
+    "href": "/jobs/elc/thumbnail.png",
+    "modified": "2015-08-20T04:11:58.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/elc/thumbnail.png",
+    "relativePath": "/jobs/elc/thumbnail.png",
+    "processRelativePath": "jobs/elc/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4117528,
+      "size": 10810,
+      "blocks": 24,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:11:58.000Z",
+      "ctime": "2015-08-20T04:11:58.000Z",
+      "birthtime": "2015-08-20T04:11:58.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#fbfbfb",
+      "#143b4e",
+      "#fc6f24",
+      "#9aadb3",
+      "#7c949c"
+    ]
+  },
+  "/jobs/fractured-atlas/thumbnail.png": {
+    "href": "/jobs/fractured-atlas/thumbnail.png",
+    "modified": "2015-08-20T04:38:30.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/fractured-atlas/thumbnail.png",
+    "relativePath": "/jobs/fractured-atlas/thumbnail.png",
+    "processRelativePath": "jobs/fractured-atlas/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4119055,
+      "size": 163120,
+      "blocks": 320,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:38:30.000Z",
+      "ctime": "2015-08-20T04:38:30.000Z",
+      "birthtime": "2015-08-20T04:38:30.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#dcc7b0",
+      "#1c1816",
+      "#745e50",
+      "#4aa5b5",
+      "#517d9a"
+    ]
+  },
+  "/jobs/france/thumbnail.jpg": {
+    "href": "/jobs/france/thumbnail.jpg",
+    "modified": "2015-10-28T01:06:23.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/france/thumbnail.jpg",
+    "relativePath": "/jobs/france/thumbnail.jpg",
+    "processRelativePath": "jobs/france/thumbnail.jpg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 17900315,
+      "size": 27936,
+      "blocks": 56,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-10-28T01:06:23.000Z",
+      "ctime": "2015-10-28T01:06:53.000Z",
+      "birthtime": "2015-10-28T01:06:23.000Z"
+    },
+    "dimensions": {
+      "height": 240,
+      "width": 320,
+      "type": "jpg"
+    },
+    "exif": {
+      "startMarker": {
+        "offset": 0
+      },
+      "tags": {
+        "Orientation": 1,
+        "XResolution": 72,
+        "YResolution": 72,
+        "ResolutionUnit": 2,
+        "Software": "Pixelmator 3.4",
+        "ModifyDate": "2015:10:27 20:10:55",
+        "ColorSpace": 1,
+        "ExifImageWidth": 320,
+        "ExifImageHeight": 240
+      },
+      "imageSize": {
+        "height": 240,
+        "width": 320
+      },
+      "app1Offset": 24
+    },
+    "colors": [
+      "#d92831",
+      "#3e53ab",
+      "#e7e9ed",
+      "#f47e8c",
+      "#6c8cc9"
+    ]
+  },
+  "/jobs/heroku/Screen Shot 2015-08-31 at 4.07.14 PM.png": {
+    "href": "/jobs/heroku/Screen Shot 2015-08-31 at 4.07.14 PM.png",
+    "modified": "2015-08-31T21:07:20.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/heroku/Screen Shot 2015-08-31 at 4.07.14 PM.png",
+    "relativePath": "/jobs/heroku/Screen Shot 2015-08-31 at 4.07.14 PM.png",
+    "processRelativePath": "jobs/heroku/Screen Shot 2015-08-31 at 4.07.14 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5180256,
+      "size": 579487,
+      "blocks": 1136,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-31T21:07:20.000Z",
+      "ctime": "2015-08-31T21:07:21.000Z",
+      "birthtime": "2015-08-31T21:07:20.000Z"
+    },
+    "dimensions": {
+      "width": 2552,
+      "height": 632,
+      "type": "png"
+    },
+    "colors": [
+      "#51438b",
+      "#6c57b4",
+      "#644ca2",
+      "#5b4ba2",
+      "#594c94"
+    ]
+  },
+  "/jobs/heroku/thumbnail.png": {
+    "href": "/jobs/heroku/thumbnail.png",
+    "modified": "2015-10-28T01:14:04.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/heroku/thumbnail.png",
+    "relativePath": "/jobs/heroku/thumbnail.png",
+    "processRelativePath": "jobs/heroku/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 17901856,
+      "size": 74064,
+      "blocks": 152,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-10-28T01:14:04.000Z",
+      "ctime": "2015-10-28T01:14:05.000Z",
+      "birthtime": "2015-10-28T01:14:04.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#5b479e",
+      "#f7f6f9",
+      "#aca4d4",
+      "#9f94cc",
+      "#8e84bc"
+    ]
+  },
+  "/jobs/ideum/thumbnail.png": {
+    "href": "/jobs/ideum/thumbnail.png",
+    "modified": "2015-08-20T04:14:34.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/ideum/thumbnail.png",
+    "relativePath": "/jobs/ideum/thumbnail.png",
+    "processRelativePath": "jobs/ideum/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4117634,
+      "size": 5519,
+      "blocks": 16,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:14:34.000Z",
+      "ctime": "2015-08-20T04:14:34.000Z",
+      "birthtime": "2015-08-20T04:14:34.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#fbfbfb",
+      "#43525a",
+      "#9ca4ac",
+      "#a9acb4",
+      "#babfc2"
+    ]
+  },
+  "/jobs/heroku/cloud-bg.png": {
+    "href": "/jobs/heroku/cloud-bg.png",
+    "modified": "2015-10-28T01:09:56.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/heroku/cloud-bg.png",
+    "relativePath": "/jobs/heroku/cloud-bg.png",
+    "processRelativePath": "jobs/heroku/cloud-bg.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 17901146,
+      "size": 65277,
+      "blocks": 128,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-10-28T01:09:56.000Z",
+      "ctime": "2015-10-28T01:10:05.000Z",
+      "birthtime": "2015-10-28T01:09:56.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#524294",
+      "#7354bd",
+      "#644ca4",
+      "#634cac",
+      "#6c53b4"
+    ]
+  },
+  "/jobs/josephine/josephine-east-bay-screenshot.png": {
+    "href": "/jobs/josephine/josephine-east-bay-screenshot.png",
+    "modified": "2015-10-26T14:26:15.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/josephine/josephine-east-bay-screenshot.png",
+    "relativePath": "/jobs/josephine/josephine-east-bay-screenshot.png",
+    "processRelativePath": "jobs/josephine/josephine-east-bay-screenshot.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 17464553,
+      "size": 4116606,
+      "blocks": 8048,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-10-26T14:26:15.000Z",
+      "ctime": "2015-10-26T14:26:15.000Z",
+      "birthtime": "2015-10-26T14:26:08.000Z"
+    },
+    "dimensions": {
+      "width": 1366,
+      "height": 4479,
+      "type": "png"
+    },
+    "colors": [
+      "#353939",
+      "#f9f8f7",
+      "#a55329",
+      "#bf964e",
+      "#99a6a3"
+    ]
+  },
+  "/jobs/josephine/logo.png": {
+    "href": "/jobs/josephine/logo.png",
+    "modified": "2015-08-20T04:10:22.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/josephine/logo.png",
+    "relativePath": "/jobs/josephine/logo.png",
+    "processRelativePath": "jobs/josephine/logo.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4117455,
+      "size": 19035,
+      "blocks": 40,
+      "atime": "2015-11-22T16:41:23.000Z",
+      "mtime": "2015-08-20T04:10:22.000Z",
+      "ctime": "2015-08-20T04:10:22.000Z",
+      "birthtime": "2015-08-20T04:10:22.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#fbfbfb",
+      "#2f2f2f",
+      "#9e9e9e",
+      "#7c7c7c",
+      "#848484"
+    ]
+  },
+  "/jobs/josephine/thumbnail.jpg": {
+    "href": "/jobs/josephine/thumbnail.jpg",
+    "modified": "2015-11-22T16:42:45.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/josephine/thumbnail.jpg",
+    "relativePath": "/jobs/josephine/thumbnail.jpg",
+    "processRelativePath": "jobs/josephine/thumbnail.jpg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22540917,
+      "size": 42006,
+      "blocks": 88,
+      "atime": "2015-11-22T16:43:01.000Z",
+      "mtime": "2015-11-22T16:42:45.000Z",
+      "ctime": "2015-11-22T16:43:00.000Z",
+      "birthtime": "2015-11-22T16:42:45.000Z"
+    },
+    "dimensions": {
+      "height": 240,
+      "width": 320,
+      "type": "jpg"
+    },
+    "exif": {
+      "startMarker": {
+        "offset": 0
+      },
+      "tags": {
+        "Orientation": 1,
+        "XResolution": 72,
+        "YResolution": 72,
+        "ResolutionUnit": 2,
+        "Software": "Pixelmator 3.4",
+        "ModifyDate": "2015:11:22 10:11:41",
+        "ColorSpace": 1,
+        "ExifImageWidth": 320,
+        "ExifImageHeight": 240
+      },
+      "imageSize": {
+        "height": 240,
+        "width": 320
+      },
+      "app1Offset": 24
+    },
+    "colors": [
+      "#72695c",
+      "#e3b37a",
+      "#23160d",
+      "#7ea6b4",
+      "#adbd7b"
+    ]
+  },
+  "/jobs/josephine/screenshot.png": {
+    "href": "/jobs/josephine/screenshot.png",
+    "modified": "2015-11-22T16:39:19.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/josephine/screenshot.png",
+    "relativePath": "/jobs/josephine/screenshot.png",
+    "processRelativePath": "jobs/josephine/screenshot.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22538486,
+      "size": 3247475,
+      "blocks": 6344,
+      "atime": "2015-11-22T16:39:42.000Z",
+      "mtime": "2015-11-22T16:39:19.000Z",
+      "ctime": "2015-11-22T16:39:42.000Z",
+      "birthtime": "2015-11-22T16:39:18.000Z"
+    },
+    "dimensions": {
+      "width": 2216,
+      "height": 1770,
+      "type": "png"
+    },
+    "colors": [
+      "#403826",
+      "#f1ede9",
+      "#9e5734",
+      "#c19c4e",
+      "#999895"
+    ]
+  },
+  "/jobs/neogenesis/thumbnail.jpg": {
+    "href": "/jobs/neogenesis/thumbnail.jpg",
+    "modified": "2015-08-20T04:07:45.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/neogenesis/thumbnail.jpg",
+    "relativePath": "/jobs/neogenesis/thumbnail.jpg",
+    "processRelativePath": "jobs/neogenesis/thumbnail.jpg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4117321,
+      "size": 25840,
+      "blocks": 56,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:07:45.000Z",
+      "ctime": "2015-08-20T04:07:45.000Z",
+      "birthtime": "2015-08-20T04:07:45.000Z"
+    },
+    "dimensions": {
+      "height": 240,
+      "width": 320,
+      "type": "jpg"
+    },
+    "exif": {
+      "startMarker": {
+        "offset": 0
+      },
+      "tags": {
+        "ExifImageWidth": 320,
+        "ExifImageHeight": 240
+      },
+      "imageSize": {
+        "height": 240,
+        "width": 320
+      },
+      "app1Offset": 24
+    },
+    "colors": [
+      "#c7c7c7",
+      "#101010",
+      "#575757",
+      "#4c4c4c",
+      "#646464"
+    ]
+  },
+  "/jobs/npm/thumbnail.svg": {
+    "href": "/jobs/npm/thumbnail.svg",
+    "modified": "2015-08-20T03:53:07.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/npm/thumbnail.svg",
+    "relativePath": "/jobs/npm/thumbnail.svg",
+    "processRelativePath": "jobs/npm/thumbnail.svg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4116170,
+      "size": 1691,
+      "blocks": 8,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T03:53:07.000Z",
+      "ctime": "2015-08-20T03:53:07.000Z",
+      "birthtime": "2015-08-20T03:53:07.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "svg"
+    },
+    "colors": [
+      "#cb3837",
+      "#ffffff"
+    ]
+  },
+  "/jobs/rome-and-gold-creative/thumbnail.jpg": {
+    "href": "/jobs/rome-and-gold-creative/thumbnail.jpg",
+    "modified": "2015-10-28T01:22:51.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/rome-and-gold-creative/thumbnail.jpg",
+    "relativePath": "/jobs/rome-and-gold-creative/thumbnail.jpg",
+    "processRelativePath": "jobs/rome-and-gold-creative/thumbnail.jpg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 17904003,
+      "size": 27862,
+      "blocks": 56,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-10-28T01:22:51.000Z",
+      "ctime": "2015-10-28T01:23:00.000Z",
+      "birthtime": "2015-10-28T01:22:51.000Z"
+    },
+    "dimensions": {
+      "height": 240,
+      "width": 320,
+      "type": "jpg"
+    },
+    "exif": {
+      "startMarker": {
+        "offset": 0
+      },
+      "tags": {
+        "Orientation": 1,
+        "XResolution": 72,
+        "YResolution": 72,
+        "ResolutionUnit": 2,
+        "Software": "Pixelmator 3.4",
+        "ModifyDate": "2015:10:27 20:10:12",
+        "ColorSpace": 1,
+        "ExifImageWidth": 320,
+        "ExifImageHeight": 240
+      },
+      "imageSize": {
+        "height": 240,
+        "width": 320
+      },
+      "app1Offset": 24
+    },
+    "colors": [
+      "#8fadce",
+      "#141519",
+      "#635e56",
+      "#5b3130",
+      "#d4d1d0"
+    ]
+  },
+  "/jobs/wordnik/thumbnail.png": {
+    "href": "/jobs/wordnik/thumbnail.png",
+    "modified": "2015-08-20T04:12:53.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/jobs/wordnik/thumbnail.png",
+    "relativePath": "/jobs/wordnik/thumbnail.png",
+    "processRelativePath": "jobs/wordnik/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4117568,
+      "size": 8719,
+      "blocks": 24,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:12:53.000Z",
+      "ctime": "2015-08-20T04:12:53.000Z",
+      "birthtime": "2015-08-20T04:12:53.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#fbfbfb",
+      "#242424",
+      "#f3620c",
+      "#f88c0c",
+      "#969696"
+    ]
+  },
+  "/projects/404/color_bars.png": {
+    "href": "/projects/404/color_bars.png",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/404/color_bars.png",
+    "relativePath": "/projects/404/color_bars.png",
+    "processRelativePath": "projects/404/color_bars.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1895529,
+      "size": 2143,
+      "blocks": 8,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:52:51.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "width": 672,
+      "height": 504,
+      "type": "png"
+    },
+    "colors": [
+      "#cecd84",
+      "#06c36a",
+      "#181530",
+      "#c40469",
+      "#0505c4"
+    ]
+  },
+  "/projects/404/thumbnail.png": {
+    "href": "/projects/404/thumbnail.png",
+    "modified": "2015-08-23T02:25:21.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/404/thumbnail.png",
+    "relativePath": "/projects/404/thumbnail.png",
+    "processRelativePath": "projects/404/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4337883,
+      "size": 2817,
+      "blocks": 8,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:25:21.000Z",
+      "ctime": "2015-08-23T02:25:21.000Z",
+      "birthtime": "2015-08-23T02:25:21.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#cdcd8a",
+      "#04c36a",
+      "#17142f",
+      "#c30473",
+      "#0606c2"
+    ]
+  },
+  "/posts/twenty-years-with-javascript/js.svg": {
+    "href": "/posts/twenty-years-with-javascript/js.svg",
+    "modified": "2015-11-22T16:37:34.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/posts/twenty-years-with-javascript/js.svg",
+    "relativePath": "/posts/twenty-years-with-javascript/js.svg",
+    "processRelativePath": "posts/twenty-years-with-javascript/js.svg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22501786,
+      "size": 1181,
+      "blocks": 8,
+      "atime": "2015-11-22T16:37:34.000Z",
+      "mtime": "2015-11-22T16:37:34.000Z",
+      "ctime": "2015-11-22T16:37:34.000Z",
+      "birthtime": "2015-11-22T15:11:45.000Z"
+    },
+    "dimensions": {
+      "width": 630,
+      "height": 630,
+      "type": "svg"
+    },
+    "colors": [
+      "#f7df1e"
+    ]
+  },
+  "/projects/bacam/thumbnail.png": {
+    "href": "/projects/bacam/thumbnail.png",
+    "modified": "2015-08-13T03:17:33.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/bacam/thumbnail.png",
+    "relativePath": "/projects/bacam/thumbnail.png",
+    "processRelativePath": "projects/bacam/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3871524,
+      "size": 244872,
+      "blocks": 480,
+      "atime": "2015-11-22T03:57:59.000Z",
+      "mtime": "2015-08-13T03:17:33.000Z",
+      "ctime": "2015-08-13T03:17:48.000Z",
+      "birthtime": "2015-08-13T03:17:33.000Z"
+    },
+    "dimensions": {
+      "width": 640,
+      "height": 480,
+      "type": "png"
+    },
+    "colors": [
+      "#e4dccc",
+      "#1a6fb3",
+      "#f2b53f",
+      "#e5c480",
+      "#c02f0a"
+    ]
+  },
+  "/projects/chances/thumbnail.png": {
+    "href": "/projects/chances/thumbnail.png",
+    "modified": "2015-09-03T15:23:40.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/chances/thumbnail.png",
+    "relativePath": "/projects/chances/thumbnail.png",
+    "processRelativePath": "projects/chances/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 5588321,
+      "size": 1038023,
+      "blocks": 2032,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-09-03T15:23:40.000Z",
+      "ctime": "2015-09-03T15:23:40.000Z",
+      "birthtime": "2015-09-03T15:23:40.000Z"
+    },
+    "dimensions": {
+      "width": 947,
+      "height": 633,
+      "type": "png"
+    },
+    "colors": [
+      "#5f5149",
+      "#c5ad99",
+      "#698ba6",
+      "#a2a6af",
+      "#20120c"
+    ]
+  },
+  "/projects/color-namer/thumbnail.png": {
+    "href": "/projects/color-namer/thumbnail.png",
+    "modified": "2015-08-20T04:40:43.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/color-namer/thumbnail.png",
+    "relativePath": "/projects/color-namer/thumbnail.png",
+    "processRelativePath": "projects/color-namer/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4119156,
+      "size": 14378,
+      "blocks": 32,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:40:43.000Z",
+      "ctime": "2015-08-20T04:40:43.000Z",
+      "birthtime": "2015-08-20T04:40:43.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#cd4c3c",
+      "#faf2f1",
+      "#8c2c24",
+      "#dc8c81",
+      "#e4a49c"
+    ]
+  },
+  "/projects/bananas/bananas.png": {
+    "href": "/projects/bananas/bananas.png",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/bananas/bananas.png",
+    "relativePath": "/projects/bananas/bananas.png",
+    "processRelativePath": "projects/bananas/bananas.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1895555,
+      "size": 175489,
+      "blocks": 344,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:52:51.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "width": 650,
+      "height": 233,
+      "type": "png"
+    },
+    "colors": [
+      "#b89f13",
+      "#3b5c06",
+      "#647c09",
+      "#896309",
+      "#5d380c"
+    ]
+  },
+  "/projects/heroku-addons/thumbnail.png": {
+    "href": "/projects/heroku-addons/thumbnail.png",
+    "modified": "2015-10-28T01:26:52.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/heroku-addons/thumbnail.png",
+    "relativePath": "/projects/heroku-addons/thumbnail.png",
+    "processRelativePath": "projects/heroku-addons/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 17905130,
+      "size": 19797,
+      "blocks": 40,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-10-28T01:26:52.000Z",
+      "ctime": "2015-10-28T01:27:22.000Z",
+      "birthtime": "2015-10-28T01:26:52.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#1c2425",
+      "#e2d5b5",
+      "#899493",
+      "#6d6f66",
+      "#5a7a9b"
+    ]
+  },
+  "/projects/heroku-node-buildpack/thumbnail.png": {
+    "href": "/projects/heroku-node-buildpack/thumbnail.png",
+    "modified": "2015-08-20T04:35:16.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/heroku-node-buildpack/thumbnail.png",
+    "relativePath": "/projects/heroku-node-buildpack/thumbnail.png",
+    "processRelativePath": "projects/heroku-node-buildpack/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4118887,
+      "size": 31633,
+      "blocks": 64,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:35:16.000Z",
+      "ctime": "2015-08-20T04:35:16.000Z",
+      "birthtime": "2015-08-20T04:35:16.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#5b448b",
+      "#f6f5f8",
+      "#937bbb",
+      "#ac98cc",
+      "#a494cc"
+    ]
+  },
+  "/projects/heroku-addons/addons.heroku.com-1366x768.png": {
+    "href": "/projects/heroku-addons/addons.heroku.com-1366x768.png",
+    "modified": "2015-07-23T22:43:59.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/heroku-addons/addons.heroku.com-1366x768.png",
+    "relativePath": "/projects/heroku-addons/addons.heroku.com-1366x768.png",
+    "processRelativePath": "projects/heroku-addons/addons.heroku.com-1366x768.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 3097075,
+      "size": 1014874,
+      "blocks": 1984,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-07-23T22:43:59.000Z",
+      "ctime": "2015-07-30T15:56:04.000Z",
+      "birthtime": "2015-07-23T22:40:45.000Z"
+    },
+    "dimensions": {
+      "width": 1366,
+      "height": 7655,
+      "type": "png"
+    },
+    "colors": [
+      "#142424",
+      "#d2b5a5",
+      "#38acb4",
+      "#2065aa",
+      "#62746e"
+    ]
+  },
+  "/projects/http/thumbnail.png": {
+    "href": "/projects/http/thumbnail.png",
+    "modified": "2015-08-20T04:32:15.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/http/thumbnail.png",
+    "relativePath": "/projects/http/thumbnail.png",
+    "processRelativePath": "projects/http/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4118534,
+      "size": 2480,
+      "blocks": 8,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:32:15.000Z",
+      "ctime": "2015-08-20T04:32:15.000Z",
+      "birthtime": "2015-08-20T04:32:15.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#fafafa",
+      "#040404",
+      "#7c7c7c",
+      "#2c2c2c",
+      "#443c14"
+    ]
+  },
+  "/projects/moby/mobile2.png": {
+    "href": "/projects/moby/mobile2.png",
+    "modified": "2015-11-18T05:10:29.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/moby/mobile2.png",
+    "relativePath": "/projects/moby/mobile2.png",
+    "processRelativePath": "projects/moby/mobile2.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33184,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21753776,
+      "size": 147067,
+      "blocks": 288,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-11-18T05:10:29.000Z",
+      "ctime": "2015-11-18T05:10:38.000Z",
+      "birthtime": "2015-11-18T05:10:29.000Z"
+    },
+    "dimensions": {
+      "width": 392,
+      "height": 800,
+      "type": "png"
+    },
+    "colors": [
+      "#f4f4f4",
+      "#141414",
+      "#9a0505",
+      "#7f7c7c",
+      "#747c7c"
+    ]
+  },
+  "/projects/moby/moby-on-mobile.png": {
+    "href": "/projects/moby/moby-on-mobile.png",
+    "modified": "2015-11-22T01:56:05.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/moby/moby-on-mobile.png",
+    "relativePath": "/projects/moby/moby-on-mobile.png",
+    "processRelativePath": "projects/moby/moby-on-mobile.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22409671,
+      "size": 223962,
+      "blocks": 440,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-11-22T01:56:05.000Z",
+      "ctime": "2015-11-22T01:56:05.000Z",
+      "birthtime": "2015-11-22T01:56:05.000Z"
+    },
+    "dimensions": {
+      "width": 1296,
+      "height": 885,
+      "type": "png"
+    },
+    "colors": [
+      "#f7f7f7",
+      "#9a1506",
+      "#2f2c2d",
+      "#9c9c9d",
+      "#cc7c74"
+    ]
+  },
+  "/projects/moby/moby-on-mobile@2x.png": {
+    "href": "/projects/moby/moby-on-mobile@2x.png",
+    "modified": "2015-11-22T01:56:06.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/moby/moby-on-mobile@2x.png",
+    "relativePath": "/projects/moby/moby-on-mobile@2x.png",
+    "processRelativePath": "projects/moby/moby-on-mobile@2x.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22409673,
+      "size": 688585,
+      "blocks": 1352,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-11-22T01:56:06.000Z",
+      "ctime": "2015-11-22T01:56:06.000Z",
+      "birthtime": "2015-11-22T01:56:06.000Z"
+    },
+    "dimensions": {
+      "width": 2592,
+      "height": 1770,
+      "type": "png"
+    },
+    "colors": [
+      "#f7f7f7",
+      "#9a1405",
+      "#2d2d2e",
+      "#9d9d9d",
+      "#cb7c74"
+    ]
+  },
+  "/projects/moby/thumbnail.svg": {
+    "href": "/projects/moby/thumbnail.svg",
+    "modified": "2015-08-20T04:31:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/moby/thumbnail.svg",
+    "relativePath": "/projects/moby/thumbnail.svg",
+    "processRelativePath": "projects/moby/thumbnail.svg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4118485,
+      "size": 5071,
+      "blocks": 16,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:31:17.000Z",
+      "ctime": "2015-08-20T04:31:18.000Z",
+      "birthtime": "2015-08-20T04:31:17.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "svg"
+    },
+    "colors": [
+      "#af0404",
+      "#af0404",
+      "#ffffff",
+      "#979797",
+      "#ffffff"
+    ]
+  },
+  "/projects/moby/mobile.jpg": {
+    "href": "/projects/moby/mobile.jpg",
+    "modified": "2015-11-18T05:06:28.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/moby/mobile.jpg",
+    "relativePath": "/projects/moby/mobile.jpg",
+    "processRelativePath": "projects/moby/mobile.jpg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33184,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21752669,
+      "size": 74334,
+      "blocks": 152,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-11-18T05:06:28.000Z",
+      "ctime": "2015-11-18T05:06:28.000Z",
+      "birthtime": "2015-11-18T05:06:28.000Z"
+    },
+    "dimensions": {
+      "height": 212,
+      "width": 600,
+      "type": "jpg"
+    },
+    "exif": {
+      "startMarker": {
+        "offset": 0
+      },
+      "tags": {
+        "Make": "Canon",
+        "Model": "Canon EOS 6D",
+        "Orientation": 1,
+        "XResolution": 300,
+        "YResolution": 300,
+        "ResolutionUnit": 2,
+        "Software": "Adobe Photoshop CC 2014 (Macintosh)",
+        "ModifyDate": "2015:06:17 13:41:16",
+        "Artist": "Miguel Castro",
+        "ExposureTime": 0.4,
+        "FNumber": 8,
+        "ExposureProgram": 1,
+        "ISO": 200,
+        "SensitivityType": 2,
+        "RecommendedExposureIndex": 200,
+        "DateTimeOriginal": 1434101428,
+        "CreateDate": 1434101428,
+        "ShutterSpeedValue": 1.321928,
+        "ApertureValue": 6,
+        "ExposureCompensation": 0,
+        "MaxApertureValue": 3,
+        "MeteringMode": 6,
+        "Flash": 16,
+        "FocalLength": 40,
+        "SubSecTimeOriginal": "23",
+        "SubSecTimeDigitized": "23",
+        "ColorSpace": 65535,
+        "ExifImageWidth": 4080,
+        "ExifImageHeight": 1440,
+        "FocalPlaneXResolution": 1520,
+        "FocalPlaneYResolution": 1520,
+        "FocalPlaneResolutionUnit": 3,
+        "CustomRendered": 0,
+        "ExposureMode": 1,
+        "WhiteBalance": 1,
+        "SceneCaptureType": 0,
+        "SerialNumber": "212020000346",
+        "LensInfo": [
+          40,
+          40,
+          null,
+          null
+        ],
+        "LensModel": "EF40mm f/2.8 STM",
+        "LensSerialNumber": "9131223294"
+      },
+      "imageSize": {
+        "height": 212,
+        "width": 600
+      },
+      "thumbnailOffset": 910,
+      "thumbnailLength": 3111,
+      "thumbnailType": 6,
+      "app1Offset": 5904
+    },
+    "colors": [
+      "#7a7475",
+      "#d8d6d4",
+      "#2a1e29",
+      "#abb7be",
+      "#bfb2ae"
+    ]
+  },
+  "/projects/moby/screenshot.png": {
+    "href": "/projects/moby/screenshot.png",
+    "modified": "2015-11-18T04:05:07.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/moby/screenshot.png",
+    "relativePath": "/projects/moby/screenshot.png",
+    "processRelativePath": "projects/moby/screenshot.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21730174,
+      "size": 363200,
+      "blocks": 712,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-11-18T04:05:07.000Z",
+      "ctime": "2015-11-18T04:05:34.000Z",
+      "birthtime": "2015-11-18T04:05:07.000Z"
+    },
+    "dimensions": {
+      "width": 1720,
+      "height": 1404,
+      "type": "png"
+    },
+    "colors": [
+      "#f9f9f8",
+      "#9a0505",
+      "#171818",
+      "#999a9b",
+      "#d8a254"
+    ]
+  },
+  "/projects/new-orleans-street-names/thumbnail.png": {
+    "href": "/projects/new-orleans-street-names/thumbnail.png",
+    "modified": "2015-08-20T04:45:53.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/new-orleans-street-names/thumbnail.png",
+    "relativePath": "/projects/new-orleans-street-names/thumbnail.png",
+    "processRelativePath": "projects/new-orleans-street-names/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4119582,
+      "size": 60819,
+      "blocks": 120,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:45:53.000Z",
+      "ctime": "2015-08-20T04:45:53.000Z",
+      "birthtime": "2015-08-20T04:45:53.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#f9f9f9",
+      "#262528",
+      "#8b6a50",
+      "#99a6b1",
+      "#a5876d"
+    ]
+  },
+  "/projects/npm-hub/thumbnail.png": {
+    "href": "/projects/npm-hub/thumbnail.png",
+    "modified": "2015-08-20T04:47:14.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/npm-hub/thumbnail.png",
+    "relativePath": "/projects/npm-hub/thumbnail.png",
+    "processRelativePath": "projects/npm-hub/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4119647,
+      "size": 26375,
+      "blocks": 56,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:47:14.000Z",
+      "ctime": "2015-08-20T04:47:14.000Z",
+      "birthtime": "2015-08-20T04:47:14.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#f9f7f6",
+      "#211c17",
+      "#b2463e",
+      "#bb9a6c",
+      "#989797"
+    ]
+  },
+  "/projects/npmjs.com/thumbnail.png": {
+    "href": "/projects/npmjs.com/thumbnail.png",
+    "modified": "2015-08-20T04:43:06.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/npmjs.com/thumbnail.png",
+    "relativePath": "/projects/npmjs.com/thumbnail.png",
+    "processRelativePath": "projects/npmjs.com/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4119296,
+      "size": 21667,
+      "blocks": 48,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:43:06.000Z",
+      "ctime": "2015-08-20T04:43:06.000Z",
+      "birthtime": "2015-08-20T04:43:06.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#31363c",
+      "#bbbbbb",
+      "#a66947",
+      "#afa197",
+      "#87877f"
+    ]
+  },
+  "/projects/ord/bread.png": {
+    "href": "/projects/ord/bread.png",
+    "modified": "2015-11-22T05:13:00.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/ord/bread.png",
+    "relativePath": "/projects/ord/bread.png",
+    "processRelativePath": "projects/ord/bread.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33184,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22463384,
+      "size": 50874,
+      "blocks": 104,
+      "atime": "2015-11-22T05:13:15.000Z",
+      "mtime": "2015-11-22T05:13:00.000Z",
+      "ctime": "2015-11-22T05:13:15.000Z",
+      "birthtime": "2015-11-22T05:13:00.000Z"
+    },
+    "dimensions": {
+      "width": 966,
+      "height": 602,
+      "type": "png"
+    },
+    "colors": [
+      "#fbfbfb",
+      "#058308",
+      "#939698",
+      "#b59128",
+      "#a45404"
+    ]
+  },
+  "/projects/ord/thumbnail.png": {
+    "href": "/projects/ord/thumbnail.png",
+    "modified": "2015-08-20T04:48:35.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/ord/thumbnail.png",
+    "relativePath": "/projects/ord/thumbnail.png",
+    "processRelativePath": "projects/ord/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4119691,
+      "size": 9576,
+      "blocks": 24,
+      "atime": "2015-11-22T05:13:13.000Z",
+      "mtime": "2015-08-20T04:48:35.000Z",
+      "ctime": "2015-08-20T04:48:35.000Z",
+      "birthtime": "2015-08-20T04:48:35.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#fbfbfb",
+      "#407d0b",
+      "#7f7f7f",
+      "#a9c497",
+      "#9c9c9c"
+    ]
+  },
+  "/projects/ord/ord-screenshot.png": {
+    "href": "/projects/ord/ord-screenshot.png",
+    "modified": "2015-11-22T03:57:20.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/ord/ord-screenshot.png",
+    "relativePath": "/projects/ord/ord-screenshot.png",
+    "processRelativePath": "projects/ord/ord-screenshot.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22442039,
+      "size": 346145,
+      "blocks": 680,
+      "atime": "2015-11-22T05:13:13.000Z",
+      "mtime": "2015-11-22T03:57:20.000Z",
+      "ctime": "2015-11-22T03:57:20.000Z",
+      "birthtime": "2015-11-22T03:57:20.000Z"
+    },
+    "dimensions": {
+      "width": 2616,
+      "height": 1752,
+      "type": "png"
+    },
+    "colors": [
+      "#546c2c",
+      "#eeeeed",
+      "#7f9cb9",
+      "#060506",
+      "#52c97b"
+    ]
+  },
+  "/projects/outcasts/thumbnail.png": {
+    "href": "/projects/outcasts/thumbnail.png",
+    "modified": "2015-11-12T05:30:23.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/outcasts/thumbnail.png",
+    "relativePath": "/projects/outcasts/thumbnail.png",
+    "processRelativePath": "projects/outcasts/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20189177,
+      "size": 66879,
+      "blocks": 136,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-11-12T05:30:23.000Z",
+      "ctime": "2015-11-12T05:30:39.000Z",
+      "birthtime": "2015-11-12T05:30:23.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#f0f3f5",
+      "#1e1f1f",
+      "#7c7c7c",
+      "#848484",
+      "#748ea9"
+    ]
+  },
+  "/projects/outcasts/thumbnail-old.png": {
+    "href": "/projects/outcasts/thumbnail-old.png",
+    "modified": "2015-08-23T02:26:49.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/outcasts/thumbnail-old.png",
+    "relativePath": "/projects/outcasts/thumbnail-old.png",
+    "processRelativePath": "projects/outcasts/thumbnail-old.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4337935,
+      "size": 9676,
+      "blocks": 24,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:26:49.000Z",
+      "ctime": "2015-11-12T05:29:09.000Z",
+      "birthtime": "2015-08-23T02:26:49.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#fbfbfb",
+      "#15181e",
+      "#e42f24",
+      "#93a3b2",
+      "#c6856d"
+    ]
+  },
+  "/projects/parallax/fox1.png": {
+    "href": "/projects/parallax/fox1.png",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/parallax/fox1.png",
+    "relativePath": "/projects/parallax/fox1.png",
+    "processRelativePath": "projects/parallax/fox1.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1905747,
+      "size": 42219,
+      "blocks": 88,
+      "atime": "2015-11-22T03:57:59.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:53:04.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "width": 500,
+      "height": 666,
+      "type": "png"
+    },
+    "colors": [
+      "#0e0c06",
+      "#d19b24",
+      "#e7e5e3",
+      "#60460e",
+      "#f4d48c"
+    ]
+  },
+  "/projects/parallax/fox0.png": {
+    "href": "/projects/parallax/fox0.png",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/parallax/fox0.png",
+    "relativePath": "/projects/parallax/fox0.png",
+    "processRelativePath": "projects/parallax/fox0.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1905746,
+      "size": 27677,
+      "blocks": 56,
+      "atime": "2015-11-22T03:57:59.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:53:04.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "width": 400,
+      "height": 449,
+      "type": "png"
+    },
+    "colors": [
+      "#0b0606",
+      "#c04444",
+      "#e7e4e4",
+      "#652f2f",
+      "#9c9c9c"
+    ]
+  },
+  "/projects/parallax/thumbnail.png": {
+    "href": "/projects/parallax/thumbnail.png",
+    "modified": "2015-08-20T04:49:54.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/parallax/thumbnail.png",
+    "relativePath": "/projects/parallax/thumbnail.png",
+    "processRelativePath": "projects/parallax/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4119749,
+      "size": 112030,
+      "blocks": 224,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:49:54.000Z",
+      "ctime": "2015-08-20T04:49:54.000Z",
+      "birthtime": "2015-08-20T04:49:54.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#f5f5f4",
+      "#be8536",
+      "#160f0a",
+      "#b9362d",
+      "#5c5c59"
+    ]
+  },
+  "/projects/parallax/fox2.png": {
+    "href": "/projects/parallax/fox2.png",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/parallax/fox2.png",
+    "relativePath": "/projects/parallax/fox2.png",
+    "processRelativePath": "projects/parallax/fox2.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 1905748,
+      "size": 35275,
+      "blocks": 72,
+      "atime": "2015-11-22T03:57:59.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-07-13T04:53:04.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "width": 600,
+      "height": 800,
+      "type": "png"
+    },
+    "colors": [
+      "#0a0806",
+      "#bc7f42",
+      "#f0efee",
+      "#5c3c21",
+      "#c4ac90"
+    ]
+  },
+  "/projects/semver.io/thumbnail.png": {
+    "href": "/projects/semver.io/thumbnail.png",
+    "modified": "2015-08-20T04:56:13.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/semver.io/thumbnail.png",
+    "relativePath": "/projects/semver.io/thumbnail.png",
+    "processRelativePath": "projects/semver.io/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4119998,
+      "size": 27507,
+      "blocks": 56,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:56:13.000Z",
+      "ctime": "2015-08-20T04:56:13.000Z",
+      "birthtime": "2015-08-20T04:56:13.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#242424",
+      "#d6cfd8",
+      "#746e6b",
+      "#8295a2",
+      "#6c71ae"
+    ]
+  },
+  "/projects/sniphr/thumbnail.png": {
+    "href": "/projects/sniphr/thumbnail.png",
+    "modified": "2015-10-28T01:29:22.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/sniphr/thumbnail.png",
+    "relativePath": "/projects/sniphr/thumbnail.png",
+    "processRelativePath": "projects/sniphr/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 17905552,
+      "size": 46696,
+      "blocks": 96,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-10-28T01:29:22.000Z",
+      "ctime": "2015-10-28T01:29:38.000Z",
+      "birthtime": "2015-10-28T01:29:22.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#f8f8f4",
+      "#1b1a16",
+      "#9a8346",
+      "#9e9e8d",
+      "#826d3a"
+    ]
+  },
+  "/projects/solresol/solresol.png": {
+    "href": "/projects/solresol/solresol.png",
+    "modified": "2015-05-08T05:41:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/solresol/solresol.png",
+    "relativePath": "/projects/solresol/solresol.png",
+    "processRelativePath": "projects/solresol/solresol.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21591397,
+      "size": 1934,
+      "blocks": 8,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-05-08T05:41:17.000Z",
+      "ctime": "2015-11-17T05:21:51.000Z",
+      "birthtime": "2015-05-08T05:41:17.000Z"
+    },
+    "dimensions": {
+      "width": 345,
+      "height": 66,
+      "type": "png"
+    },
+    "colors": [
+      "#090909",
+      "#fafafa",
+      "#848484",
+      "#747474",
+      "#949494"
+    ]
+  },
+  "/projects/solresol/thumbnail.png": {
+    "href": "/projects/solresol/thumbnail.png",
+    "modified": "2015-08-23T02:25:41.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/solresol/thumbnail.png",
+    "relativePath": "/projects/solresol/thumbnail.png",
+    "processRelativePath": "projects/solresol/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4337897,
+      "size": 29289,
+      "blocks": 64,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:25:41.000Z",
+      "ctime": "2015-08-23T02:25:41.000Z",
+      "birthtime": "2015-08-23T02:25:41.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#f9f9f9",
+      "#070707",
+      "#de1e2f",
+      "#16929c",
+      "#f5bd12"
+    ]
+  },
+  "/projects/swagger/screenshot.png": {
+    "href": "/projects/swagger/screenshot.png",
+    "modified": "2015-11-12T05:52:01.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/swagger/screenshot.png",
+    "relativePath": "/projects/swagger/screenshot.png",
+    "processRelativePath": "projects/swagger/screenshot.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20194891,
+      "size": 61749,
+      "blocks": 128,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-11-12T05:52:01.000Z",
+      "ctime": "2015-11-12T05:52:13.000Z",
+      "birthtime": "2015-11-12T05:52:01.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#eaf1f4",
+      "#337888",
+      "#91a5b3",
+      "#915552",
+      "#948c79"
+    ]
+  },
+  "/projects/swagger/thumbnail.png": {
+    "href": "/projects/swagger/thumbnail.png",
+    "modified": "2015-08-23T02:24:23.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/swagger/thumbnail.png",
+    "relativePath": "/projects/swagger/thumbnail.png",
+    "processRelativePath": "projects/swagger/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4337860,
+      "size": 18006,
+      "blocks": 40,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:24:23.000Z",
+      "ctime": "2015-08-23T02:24:23.000Z",
+      "birthtime": "2015-08-23T02:24:23.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#94ca04",
+      "#f8faf5",
+      "#6f9d04",
+      "#a7c45f",
+      "#c4dc74"
+    ]
+  },
+  "/projects/what-is-the-latest-version-of-node/thumbnail.png": {
+    "href": "/projects/what-is-the-latest-version-of-node/thumbnail.png",
+    "modified": "2015-11-12T05:44:55.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/what-is-the-latest-version-of-node/thumbnail.png",
+    "relativePath": "/projects/what-is-the-latest-version-of-node/thumbnail.png",
+    "processRelativePath": "projects/what-is-the-latest-version-of-node/thumbnail.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20193415,
+      "size": 35583,
+      "blocks": 72,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-11-12T05:44:55.000Z",
+      "ctime": "2015-11-12T05:45:07.000Z",
+      "birthtime": "2015-11-12T05:44:55.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#33332c",
+      "#8ac943",
+      "#64843b",
+      "#557134",
+      "#465434"
+    ]
+  },
+  "/projects/wordnik/Screen Shot 2011-12-22 at 10.23.34 AM.png": {
+    "href": "/projects/wordnik/Screen Shot 2011-12-22 at 10.23.34 AM.png",
+    "modified": "2015-08-23T02:53:14.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen Shot 2011-12-22 at 10.23.34 AM.png",
+    "relativePath": "/projects/wordnik/Screen Shot 2011-12-22 at 10.23.34 AM.png",
+    "processRelativePath": "projects/wordnik/Screen Shot 2011-12-22 at 10.23.34 AM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341218,
+      "size": 27304,
+      "blocks": 56,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:53:14.000Z",
+      "ctime": "2015-08-23T02:53:14.000Z",
+      "birthtime": "2015-08-23T02:53:14.000Z"
+    },
+    "dimensions": {
+      "width": 1043,
+      "height": 369,
+      "type": "png"
+    },
+    "colors": [
+      "#f2d2d6",
+      "#040404",
+      "#1b99b3",
+      "#595959",
+      "#7c7c7c"
+    ]
+  },
+  "/projects/wordnik/Screen Shot 2011-12-15 at 1.28.40 PM.png": {
+    "href": "/projects/wordnik/Screen Shot 2011-12-15 at 1.28.40 PM.png",
+    "modified": "2015-08-23T02:53:32.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen Shot 2011-12-15 at 1.28.40 PM.png",
+    "relativePath": "/projects/wordnik/Screen Shot 2011-12-15 at 1.28.40 PM.png",
+    "processRelativePath": "projects/wordnik/Screen Shot 2011-12-15 at 1.28.40 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341247,
+      "size": 66982,
+      "blocks": 136,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:53:32.000Z",
+      "ctime": "2015-08-23T02:53:32.000Z",
+      "birthtime": "2015-08-23T02:53:32.000Z"
+    },
+    "dimensions": {
+      "width": 1029,
+      "height": 599,
+      "type": "png"
+    },
+    "colors": [
+      "#f9f9f9",
+      "#2c433f",
+      "#b5302c",
+      "#949793",
+      "#98c54b"
+    ]
+  },
+  "/projects/wordnik/Screen Shot 2011-12-08 at 9.31.51 PM.png": {
+    "href": "/projects/wordnik/Screen Shot 2011-12-08 at 9.31.51 PM.png",
+    "modified": "2015-08-23T02:53:43.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen Shot 2011-12-08 at 9.31.51 PM.png",
+    "relativePath": "/projects/wordnik/Screen Shot 2011-12-08 at 9.31.51 PM.png",
+    "processRelativePath": "projects/wordnik/Screen Shot 2011-12-08 at 9.31.51 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341264,
+      "size": 63868,
+      "blocks": 128,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:53:43.000Z",
+      "ctime": "2015-08-23T02:53:43.000Z",
+      "birthtime": "2015-08-23T02:53:42.000Z"
+    },
+    "dimensions": {
+      "width": 729,
+      "height": 724,
+      "type": "png"
+    },
+    "colors": [
+      "#fbfbfb",
+      "#234236",
+      "#cd0a0b",
+      "#efd82f",
+      "#98b2b8"
+    ]
+  },
+  "/projects/wordnik/Screen Shot 2012-01-18 at 2.13.27 PM.png": {
+    "href": "/projects/wordnik/Screen Shot 2012-01-18 at 2.13.27 PM.png",
+    "modified": "2015-08-23T02:52:55.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen Shot 2012-01-18 at 2.13.27 PM.png",
+    "relativePath": "/projects/wordnik/Screen Shot 2012-01-18 at 2.13.27 PM.png",
+    "processRelativePath": "projects/wordnik/Screen Shot 2012-01-18 at 2.13.27 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341182,
+      "size": 56929,
+      "blocks": 112,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:52:55.000Z",
+      "ctime": "2015-08-23T02:52:55.000Z",
+      "birthtime": "2015-08-23T02:52:55.000Z"
+    },
+    "dimensions": {
+      "width": 543,
+      "height": 810,
+      "type": "png"
+    },
+    "colors": [
+      "#fbfbfb",
+      "#0c0d0e",
+      "#a1a2a3",
+      "#7c7c7c",
+      "#848484"
+    ]
+  },
+  "/projects/wordnik/Screen Shot 2012-01-26 at 10.14.39 AM.png": {
+    "href": "/projects/wordnik/Screen Shot 2012-01-26 at 10.14.39 AM.png",
+    "modified": "2015-08-23T02:52:40.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen Shot 2012-01-26 at 10.14.39 AM.png",
+    "relativePath": "/projects/wordnik/Screen Shot 2012-01-26 at 10.14.39 AM.png",
+    "processRelativePath": "projects/wordnik/Screen Shot 2012-01-26 at 10.14.39 AM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341149,
+      "size": 262893,
+      "blocks": 520,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:52:40.000Z",
+      "ctime": "2015-08-23T02:52:40.000Z",
+      "birthtime": "2015-08-23T02:52:39.000Z"
+    },
+    "dimensions": {
+      "width": 1058,
+      "height": 805,
+      "type": "png"
+    },
+    "colors": [
+      "#131b24",
+      "#f9f9f8",
+      "#9aaab8",
+      "#9a4523",
+      "#cd9850"
+    ]
+  },
+  "/projects/wordnik/Screen Shot 2012-01-18 at 2.21.43 PM.png": {
+    "href": "/projects/wordnik/Screen Shot 2012-01-18 at 2.21.43 PM.png",
+    "modified": "2015-08-23T02:52:49.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen Shot 2012-01-18 at 2.21.43 PM.png",
+    "relativePath": "/projects/wordnik/Screen Shot 2012-01-18 at 2.21.43 PM.png",
+    "processRelativePath": "projects/wordnik/Screen Shot 2012-01-18 at 2.21.43 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341165,
+      "size": 24813,
+      "blocks": 56,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:52:49.000Z",
+      "ctime": "2015-08-23T02:52:49.000Z",
+      "birthtime": "2015-08-23T02:52:49.000Z"
+    },
+    "dimensions": {
+      "width": 549,
+      "height": 574,
+      "type": "png"
+    },
+    "colors": [
+      "#fbfbfb",
+      "#1d4a6f",
+      "#e9613b",
+      "#f39044",
+      "#a3abb1"
+    ]
+  },
+  "/projects/wordnik/Screen Shot 2012-02-12 at 9.48.15 PM.png": {
+    "href": "/projects/wordnik/Screen Shot 2012-02-12 at 9.48.15 PM.png",
+    "modified": "2015-08-23T02:52:13.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen Shot 2012-02-12 at 9.48.15 PM.png",
+    "relativePath": "/projects/wordnik/Screen Shot 2012-02-12 at 9.48.15 PM.png",
+    "processRelativePath": "projects/wordnik/Screen Shot 2012-02-12 at 9.48.15 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341112,
+      "size": 213241,
+      "blocks": 424,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:52:13.000Z",
+      "ctime": "2015-08-23T02:52:16.000Z",
+      "birthtime": "2015-08-23T02:52:13.000Z"
+    },
+    "dimensions": {
+      "width": 1407,
+      "height": 988,
+      "type": "png"
+    },
+    "colors": [
+      "#f8f8f8",
+      "#0e131d",
+      "#9aabb7",
+      "#954520",
+      "#c79557"
+    ]
+  },
+  "/projects/wordnik/Screen Shot 2012-02-07 at 11.03.15 AM.png": {
+    "href": "/projects/wordnik/Screen Shot 2012-02-07 at 11.03.15 AM.png",
+    "modified": "2015-08-23T02:52:24.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen Shot 2012-02-07 at 11.03.15 AM.png",
+    "relativePath": "/projects/wordnik/Screen Shot 2012-02-07 at 11.03.15 AM.png",
+    "processRelativePath": "projects/wordnik/Screen Shot 2012-02-07 at 11.03.15 AM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341131,
+      "size": 141568,
+      "blocks": 280,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:52:24.000Z",
+      "ctime": "2015-08-23T02:52:28.000Z",
+      "birthtime": "2015-08-23T02:52:24.000Z"
+    },
+    "dimensions": {
+      "width": 396,
+      "height": 744,
+      "type": "png"
+    },
+    "colors": [
+      "#151c14",
+      "#e5e6e7",
+      "#d35042",
+      "#2b84cb",
+      "#259cb1"
+    ]
+  },
+  "/projects/wordnik/Screen Shot 2015-08-22 at 9.03.19 PM.png": {
+    "href": "/projects/wordnik/Screen Shot 2015-08-22 at 9.03.19 PM.png",
+    "modified": "2015-08-23T02:03:26.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen Shot 2015-08-22 at 9.03.19 PM.png",
+    "relativePath": "/projects/wordnik/Screen Shot 2015-08-22 at 9.03.19 PM.png",
+    "processRelativePath": "projects/wordnik/Screen Shot 2015-08-22 at 9.03.19 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4337076,
+      "size": 24257,
+      "blocks": 48,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:03:26.000Z",
+      "ctime": "2015-08-23T02:03:26.000Z",
+      "birthtime": "2015-08-23T02:03:26.000Z"
+    },
+    "dimensions": {
+      "width": 778,
+      "height": 318,
+      "type": "png"
+    },
+    "colors": [
+      "#fbfbfb",
+      "#07080a",
+      "#f40b09",
+      "#cd9455",
+      "#a2bbca"
+    ]
+  },
+  "/projects/wordnik/Screen shot 2011-03-08 at 11.04.05 AM.png": {
+    "href": "/projects/wordnik/Screen shot 2011-03-08 at 11.04.05 AM.png",
+    "modified": "2015-08-23T02:45:59.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen shot 2011-03-08 at 11.04.05 AM.png",
+    "relativePath": "/projects/wordnik/Screen shot 2011-03-08 at 11.04.05 AM.png",
+    "processRelativePath": "projects/wordnik/Screen shot 2011-03-08 at 11.04.05 AM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4339559,
+      "size": 26517,
+      "blocks": 56,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:45:59.000Z",
+      "ctime": "2015-08-23T02:46:01.000Z",
+      "birthtime": "2015-08-23T02:45:59.000Z"
+    },
+    "dimensions": {
+      "width": 1060,
+      "height": 379,
+      "type": "png"
+    },
+    "colors": [
+      "#f5f5f5",
+      "#0f3c4d",
+      "#e40b59",
+      "#95a7ab",
+      "#e88f39"
+    ]
+  },
+  "/projects/wordnik/Screen shot 2011-03-17 at 8.21.23 PM.png": {
+    "href": "/projects/wordnik/Screen shot 2011-03-17 at 8.21.23 PM.png",
+    "modified": "2015-08-23T02:45:48.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen shot 2011-03-17 at 8.21.23 PM.png",
+    "relativePath": "/projects/wordnik/Screen shot 2011-03-17 at 8.21.23 PM.png",
+    "processRelativePath": "projects/wordnik/Screen shot 2011-03-17 at 8.21.23 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4339544,
+      "size": 27028,
+      "blocks": 56,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:45:48.000Z",
+      "ctime": "2015-08-23T02:45:50.000Z",
+      "birthtime": "2015-08-23T02:45:48.000Z"
+    },
+    "dimensions": {
+      "width": 890,
+      "height": 460,
+      "type": "png"
+    },
+    "colors": [
+      "#040404",
+      "#e36b59",
+      "#478ddc",
+      "#1753ef",
+      "#673142"
+    ]
+  },
+  "/projects/wordnik/Screen shot 2011-04-26 at 2.35.50 PM.png": {
+    "href": "/projects/wordnik/Screen shot 2011-04-26 at 2.35.50 PM.png",
+    "modified": "2015-08-23T02:45:41.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen shot 2011-04-26 at 2.35.50 PM.png",
+    "relativePath": "/projects/wordnik/Screen shot 2011-04-26 at 2.35.50 PM.png",
+    "processRelativePath": "projects/wordnik/Screen shot 2011-04-26 at 2.35.50 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4339533,
+      "size": 29064,
+      "blocks": 64,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:45:41.000Z",
+      "ctime": "2015-08-23T02:45:43.000Z",
+      "birthtime": "2015-08-23T02:45:41.000Z"
+    },
+    "dimensions": {
+      "width": 1544,
+      "height": 806,
+      "type": "png"
+    },
+    "colors": [
+      "#fbfbfa",
+      "#040404",
+      "#fbec3c",
+      "#cccccc",
+      "#7c7c1c"
+    ]
+  },
+  "/projects/wordnik/Screen shot 2011-05-11 at 2.28.43 PM.png": {
+    "href": "/projects/wordnik/Screen shot 2011-05-11 at 2.28.43 PM.png",
+    "modified": "2015-08-23T02:45:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen shot 2011-05-11 at 2.28.43 PM.png",
+    "relativePath": "/projects/wordnik/Screen shot 2011-05-11 at 2.28.43 PM.png",
+    "processRelativePath": "projects/wordnik/Screen shot 2011-05-11 at 2.28.43 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4339477,
+      "size": 71884,
+      "blocks": 144,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:45:17.000Z",
+      "ctime": "2015-08-23T02:45:19.000Z",
+      "birthtime": "2015-08-23T02:45:17.000Z"
+    },
+    "dimensions": {
+      "width": 847,
+      "height": 855,
+      "type": "png"
+    },
+    "colors": [
+      "#f5f5f5",
+      "#0b0b0b",
+      "#f45e3e",
+      "#f98b56",
+      "#969596"
+    ]
+  },
+  "/projects/wordnik/Screen shot 2011-04-26 at 2.34.50 PM.png": {
+    "href": "/projects/wordnik/Screen shot 2011-04-26 at 2.34.50 PM.png",
+    "modified": "2015-08-23T02:45:30.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen shot 2011-04-26 at 2.34.50 PM.png",
+    "relativePath": "/projects/wordnik/Screen shot 2011-04-26 at 2.34.50 PM.png",
+    "processRelativePath": "projects/wordnik/Screen shot 2011-04-26 at 2.34.50 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4339520,
+      "size": 22888,
+      "blocks": 48,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:45:30.000Z",
+      "ctime": "2015-08-23T02:45:32.000Z",
+      "birthtime": "2015-08-23T02:45:30.000Z"
+    },
+    "dimensions": {
+      "width": 1060,
+      "height": 615,
+      "type": "png"
+    },
+    "colors": [
+      "#040404",
+      "#fcfbfb",
+      "#cccccc",
+      "#f41130",
+      "#f4848c"
+    ]
+  },
+  "/projects/wordnik/Screen shot 2011-05-12 at 4.23.27 PM.png": {
+    "href": "/projects/wordnik/Screen shot 2011-05-12 at 4.23.27 PM.png",
+    "modified": "2015-08-23T02:46:29.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen shot 2011-05-12 at 4.23.27 PM.png",
+    "relativePath": "/projects/wordnik/Screen shot 2011-05-12 at 4.23.27 PM.png",
+    "processRelativePath": "projects/wordnik/Screen shot 2011-05-12 at 4.23.27 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4339592,
+      "size": 74942,
+      "blocks": 152,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:46:29.000Z",
+      "ctime": "2015-08-23T02:46:31.000Z",
+      "birthtime": "2015-08-23T02:46:29.000Z"
+    },
+    "dimensions": {
+      "width": 670,
+      "height": 772,
+      "type": "png"
+    },
+    "colors": [
+      "#fbfbfb",
+      "#1e1f1f",
+      "#a0a1a2",
+      "#848484",
+      "#7c7c7c"
+    ]
+  },
+  "/projects/wordnik/Screen shot 2011-09-23 at 9.24.56 AM.png": {
+    "href": "/projects/wordnik/Screen shot 2011-09-23 at 9.24.56 AM.png",
+    "modified": "2015-08-23T02:54:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen shot 2011-09-23 at 9.24.56 AM.png",
+    "relativePath": "/projects/wordnik/Screen shot 2011-09-23 at 9.24.56 AM.png",
+    "processRelativePath": "projects/wordnik/Screen shot 2011-09-23 at 9.24.56 AM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341339,
+      "size": 105126,
+      "blocks": 208,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:54:17.000Z",
+      "ctime": "2015-08-23T02:54:17.000Z",
+      "birthtime": "2015-08-23T02:54:17.000Z"
+    },
+    "dimensions": {
+      "width": 889,
+      "height": 822,
+      "type": "png"
+    },
+    "colors": [
+      "#fafafa",
+      "#1b262e",
+      "#999a9b",
+      "#fc5a25",
+      "#fc8b2e"
+    ]
+  },
+  "/projects/wordnik/Screen shot 2011-10-04 at 2.12.47 PM.png": {
+    "href": "/projects/wordnik/Screen shot 2011-10-04 at 2.12.47 PM.png",
+    "modified": "2015-08-23T02:54:12.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen shot 2011-10-04 at 2.12.47 PM.png",
+    "relativePath": "/projects/wordnik/Screen shot 2011-10-04 at 2.12.47 PM.png",
+    "processRelativePath": "projects/wordnik/Screen shot 2011-10-04 at 2.12.47 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341328,
+      "size": 72936,
+      "blocks": 144,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:54:12.000Z",
+      "ctime": "2015-08-23T02:54:12.000Z",
+      "birthtime": "2015-08-23T02:54:11.000Z"
+    },
+    "dimensions": {
+      "width": 1357,
+      "height": 888,
+      "type": "png"
+    },
+    "colors": [
+      "#fbfbfb",
+      "#071014",
+      "#f65c2e",
+      "#f5922e",
+      "#8c9193"
+    ]
+  },
+  "/projects/wordnik/Screen shot 2011-10-14 at 1.14.58 PM.png": {
+    "href": "/projects/wordnik/Screen shot 2011-10-14 at 1.14.58 PM.png",
+    "modified": "2015-08-23T02:54:02.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen shot 2011-10-14 at 1.14.58 PM.png",
+    "relativePath": "/projects/wordnik/Screen shot 2011-10-14 at 1.14.58 PM.png",
+    "processRelativePath": "projects/wordnik/Screen shot 2011-10-14 at 1.14.58 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341315,
+      "size": 171827,
+      "blocks": 336,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:54:02.000Z",
+      "ctime": "2015-08-23T02:54:02.000Z",
+      "birthtime": "2015-08-23T02:54:02.000Z"
+    },
+    "dimensions": {
+      "width": 1186,
+      "height": 962,
+      "type": "png"
+    },
+    "colors": [
+      "#fafafa",
+      "#1c1f21",
+      "#989b9d",
+      "#c44c4b",
+      "#a58a5d"
+    ]
+  },
+  "/projects/wordnik/Screen shot 2011-10-14 at 1.43.22 PM.png": {
+    "href": "/projects/wordnik/Screen shot 2011-10-14 at 1.43.22 PM.png",
+    "modified": "2015-08-23T02:53:58.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen shot 2011-10-14 at 1.43.22 PM.png",
+    "relativePath": "/projects/wordnik/Screen shot 2011-10-14 at 1.43.22 PM.png",
+    "processRelativePath": "projects/wordnik/Screen shot 2011-10-14 at 1.43.22 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341301,
+      "size": 32967,
+      "blocks": 72,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:53:58.000Z",
+      "ctime": "2015-08-23T02:53:58.000Z",
+      "birthtime": "2015-08-23T02:53:58.000Z"
+    },
+    "dimensions": {
+      "width": 367,
+      "height": 306,
+      "type": "png"
+    },
+    "colors": [
+      "#f4f4f4",
+      "#2a2b2c",
+      "#9fa7ae",
+      "#e56534",
+      "#f68a51"
+    ]
+  },
+  "/projects/wordnik/Screen shot 2011-10-27 at 3.13.47 PM.png": {
+    "href": "/projects/wordnik/Screen shot 2011-10-27 at 3.13.47 PM.png",
+    "modified": "2015-08-23T02:53:54.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/Screen shot 2011-10-27 at 3.13.47 PM.png",
+    "relativePath": "/projects/wordnik/Screen shot 2011-10-27 at 3.13.47 PM.png",
+    "processRelativePath": "projects/wordnik/Screen shot 2011-10-27 at 3.13.47 PM.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341293,
+      "size": 127438,
+      "blocks": 256,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:53:54.000Z",
+      "ctime": "2015-08-23T02:53:54.000Z",
+      "birthtime": "2015-08-23T02:53:54.000Z"
+    },
+    "dimensions": {
+      "width": 996,
+      "height": 808,
+      "type": "png"
+    },
+    "colors": [
+      "#fafbfa",
+      "#63840a",
+      "#8caa40",
+      "#a8b098",
+      "#7c7c7c"
+    ]
+  },
+  "/projects/wordnik/service_architecture.png": {
+    "href": "/projects/wordnik/service_architecture.png",
+    "modified": "2015-08-23T02:53:23.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/service_architecture.png",
+    "relativePath": "/projects/wordnik/service_architecture.png",
+    "processRelativePath": "projects/wordnik/service_architecture.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341234,
+      "size": 66982,
+      "blocks": 136,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:53:23.000Z",
+      "ctime": "2015-08-23T02:53:23.000Z",
+      "birthtime": "2015-08-23T02:53:23.000Z"
+    },
+    "dimensions": {
+      "width": 1029,
+      "height": 599,
+      "type": "png"
+    },
+    "colors": [
+      "#f9f9f9",
+      "#2c433f",
+      "#b5302c",
+      "#949793",
+      "#98c54b"
+    ]
+  },
+  "/projects/wordnik/stop sopa redact.png": {
+    "href": "/projects/wordnik/stop sopa redact.png",
+    "modified": "2015-08-23T02:53:02.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/stop sopa redact.png",
+    "relativePath": "/projects/wordnik/stop sopa redact.png",
+    "processRelativePath": "projects/wordnik/stop sopa redact.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341200,
+      "size": 203377,
+      "blocks": 400,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:53:02.000Z",
+      "ctime": "2015-08-23T02:53:03.000Z",
+      "birthtime": "2015-08-23T02:53:02.000Z"
+    },
+    "dimensions": {
+      "width": 1335,
+      "height": 910,
+      "type": "png"
+    },
+    "colors": [
+      "#f8f8f8",
+      "#090e15",
+      "#98aab7",
+      "#a7431e",
+      "#d69741"
+    ]
+  },
+  "/projects/wordnik/swagger_codegen_diagram.png": {
+    "href": "/projects/wordnik/swagger_codegen_diagram.png",
+    "modified": "2015-08-23T02:53:48.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/swagger_codegen_diagram.png",
+    "relativePath": "/projects/wordnik/swagger_codegen_diagram.png",
+    "processRelativePath": "projects/wordnik/swagger_codegen_diagram.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4341278,
+      "size": 15611,
+      "blocks": 32,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:53:48.000Z",
+      "ctime": "2015-08-23T02:53:48.000Z",
+      "birthtime": "2015-08-23T02:53:48.000Z"
+    },
+    "dimensions": {
+      "width": 600,
+      "height": 532,
+      "type": "png"
+    },
+    "colors": [
+      "#fafafa",
+      "#45688a",
+      "#b72628",
+      "#a8c846",
+      "#9ba6a9"
+    ]
+  },
+  "/projects/wordnik/wordnk_qr_code.png": {
+    "href": "/projects/wordnik/wordnk_qr_code.png",
+    "modified": "2015-08-23T02:46:17.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/projects/wordnik/wordnk_qr_code.png",
+    "relativePath": "/projects/wordnik/wordnk_qr_code.png",
+    "processRelativePath": "projects/wordnik/wordnk_qr_code.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4339572,
+      "size": 1885,
+      "blocks": 8,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T02:46:17.000Z",
+      "ctime": "2015-08-23T02:46:20.000Z",
+      "birthtime": "2015-08-23T02:46:17.000Z"
+    },
+    "dimensions": {
+      "width": 350,
+      "height": 350,
+      "type": "png"
+    },
+    "colors": [
+      "#fcfcfc",
+      "#040404",
+      "#bcff80",
+      "#bcff80",
+      "#bcff80"
+    ]
+  },
+  "/schools/beaver-brook/logo.png": {
+    "href": "/schools/beaver-brook/logo.png",
+    "modified": "2015-08-20T04:23:21.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/schools/beaver-brook/logo.png",
+    "relativePath": "/schools/beaver-brook/logo.png",
+    "processRelativePath": "schools/beaver-brook/logo.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4118018,
+      "size": 14187,
+      "blocks": 32,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:23:21.000Z",
+      "ctime": "2015-08-20T04:23:21.000Z",
+      "birthtime": "2015-08-20T04:23:21.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#f3f3eb",
+      "#0c0c0b",
+      "#7c7c77",
+      "#9e9e9b",
+      "#84847c"
+    ]
+  },
+  "/schools/beaver-brook/thumbnail.jpg": {
+    "href": "/schools/beaver-brook/thumbnail.jpg",
+    "modified": "2015-10-29T03:48:01.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/schools/beaver-brook/thumbnail.jpg",
+    "relativePath": "/schools/beaver-brook/thumbnail.jpg",
+    "processRelativePath": "schools/beaver-brook/thumbnail.jpg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18353995,
+      "size": 50134,
+      "blocks": 104,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-10-29T03:48:01.000Z",
+      "ctime": "2015-10-29T03:48:14.000Z",
+      "birthtime": "2015-10-29T03:48:01.000Z"
+    },
+    "dimensions": {
+      "height": 240,
+      "width": 320,
+      "type": "jpg"
+    },
+    "exif": {
+      "startMarker": {
+        "offset": 0
+      },
+      "tags": {
+        "Orientation": 1,
+        "XResolution": 72,
+        "YResolution": 72,
+        "ResolutionUnit": 2,
+        "Software": "Pixelmator 3.4",
+        "ModifyDate": "2015:10:28 22:10:02",
+        "ColorSpace": 1,
+        "ExifImageWidth": 320,
+        "ExifImageHeight": 240
+      },
+      "imageSize": {
+        "height": 240,
+        "width": 320
+      },
+      "app1Offset": 24
+    },
+    "colors": [
+      "#34381d",
+      "#c2c8af",
+      "#818544",
+      "#92a94c",
+      "#999697"
+    ]
+  },
+  "/schools/machine-project/sea-nymph.jpg": {
+    "href": "/schools/machine-project/sea-nymph.jpg",
+    "modified": "2015-11-22T14:50:18.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/schools/machine-project/sea-nymph.jpg",
+    "relativePath": "/schools/machine-project/sea-nymph.jpg",
+    "processRelativePath": "schools/machine-project/sea-nymph.jpg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33184,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22494621,
+      "size": 350113,
+      "blocks": 688,
+      "atime": "2015-11-22T14:54:17.000Z",
+      "mtime": "2015-11-22T14:50:18.000Z",
+      "ctime": "2015-11-22T14:50:18.000Z",
+      "birthtime": "2015-11-22T14:50:18.000Z"
+    },
+    "dimensions": {
+      "height": 685,
+      "width": 1024,
+      "type": "jpg"
+    },
+    "exif": {
+      "startMarker": {
+        "offset": 0
+      },
+      "tags": {},
+      "imageSize": {
+        "height": 685,
+        "width": 1024
+      }
+    },
+    "colors": [
+      "#987b4d",
+      "#251911",
+      "#5c2c11",
+      "#dadace",
+      "#b3b1ae"
+    ]
+  },
+  "/schools/machine-project/thumbnail.jpg": {
+    "href": "/schools/machine-project/thumbnail.jpg",
+    "modified": "2015-11-12T05:42:47.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/schools/machine-project/thumbnail.jpg",
+    "relativePath": "/schools/machine-project/thumbnail.jpg",
+    "processRelativePath": "schools/machine-project/thumbnail.jpg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20193207,
+      "size": 45910,
+      "blocks": 96,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-11-12T05:42:47.000Z",
+      "ctime": "2015-11-12T05:42:58.000Z",
+      "birthtime": "2015-11-12T05:42:47.000Z"
+    },
+    "dimensions": {
+      "height": 240,
+      "width": 320,
+      "type": "jpg"
+    },
+    "exif": {
+      "startMarker": {
+        "offset": 0
+      },
+      "tags": {
+        "Orientation": 1,
+        "XResolution": 72,
+        "YResolution": 72,
+        "ResolutionUnit": 2,
+        "Software": "Pixelmator 3.4",
+        "ModifyDate": "2015:11:11 23:11:04",
+        "ColorSpace": 1,
+        "ExifImageWidth": 320,
+        "ExifImageHeight": 240
+      },
+      "imageSize": {
+        "height": 240,
+        "width": 320
+      },
+      "app1Offset": 24
+    },
+    "colors": [
+      "#8b6436",
+      "#20140e",
+      "#b7b1a5",
+      "#d7d5c9",
+      "#cfa86c"
+    ]
+  },
+  "/schools/machine-project/logo.png": {
+    "href": "/schools/machine-project/logo.png",
+    "modified": "2015-08-20T05:01:30.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/schools/machine-project/logo.png",
+    "relativePath": "/schools/machine-project/logo.png",
+    "processRelativePath": "schools/machine-project/logo.png",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4120806,
+      "size": 36886,
+      "blocks": 80,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T05:01:30.000Z",
+      "ctime": "2015-08-20T05:01:30.000Z",
+      "birthtime": "2015-08-20T05:01:30.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "png"
+    },
+    "colors": [
+      "#ed3c3c",
+      "#fbfbf8",
+      "#f3a09d",
+      "#f47c7c",
+      "#bc9484"
+    ]
+  },
+  "/schools/sbcc/logo.svg": {
+    "href": "/schools/sbcc/logo.svg",
+    "modified": "2015-08-20T04:59:24.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/schools/sbcc/logo.svg",
+    "relativePath": "/schools/sbcc/logo.svg",
+    "processRelativePath": "schools/sbcc/logo.svg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4120275,
+      "size": 5252,
+      "blocks": 16,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-20T04:59:24.000Z",
+      "ctime": "2015-08-20T04:59:24.000Z",
+      "birthtime": "2015-08-20T04:59:24.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "svg"
+    },
+    "colors": [
+      "#c42a2e",
+      "#ffffff",
+      "#c42a2e",
+      "#c42a2e",
+      "#c42a2e"
+    ]
+  },
+  "/schools/sbcc/thumbnail.jpg": {
+    "href": "/schools/sbcc/thumbnail.jpg",
+    "modified": "2015-11-12T05:37:21.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/schools/sbcc/thumbnail.jpg",
+    "relativePath": "/schools/sbcc/thumbnail.jpg",
+    "processRelativePath": "schools/sbcc/thumbnail.jpg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20191005,
+      "size": 37246,
+      "blocks": 80,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-11-12T05:37:21.000Z",
+      "ctime": "2015-11-12T05:37:34.000Z",
+      "birthtime": "2015-11-12T05:37:21.000Z"
+    },
+    "dimensions": {
+      "height": 240,
+      "width": 320,
+      "type": "jpg"
+    },
+    "exif": {
+      "startMarker": {
+        "offset": 0
+      },
+      "tags": {
+        "Orientation": 1,
+        "XResolution": 72,
+        "YResolution": 72,
+        "ResolutionUnit": 2,
+        "Software": "Pixelmator 3.4",
+        "ModifyDate": "2015:11:11 23:11:85",
+        "ColorSpace": 1,
+        "ExifImageWidth": 320,
+        "ExifImageHeight": 240
+      },
+      "imageSize": {
+        "height": 240,
+        "width": 320
+      },
+      "app1Offset": 24
+    },
+    "colors": [
+      "#304335",
+      "#cedde5",
+      "#617bc0",
+      "#9fcff3",
+      "#88383c"
+    ]
+  },
+  "/schools/unm/logo.svg": {
+    "href": "/schools/unm/logo.svg",
+    "modified": "2015-08-23T01:52:14.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/schools/unm/logo.svg",
+    "relativePath": "/schools/unm/logo.svg",
+    "processRelativePath": "schools/unm/logo.svg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 4336704,
+      "size": 36213,
+      "blocks": 72,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-08-23T01:52:14.000Z",
+      "ctime": "2015-08-23T01:52:14.000Z",
+      "birthtime": "2015-08-23T01:52:14.000Z"
+    },
+    "dimensions": {
+      "width": 320,
+      "height": 240,
+      "type": "svg"
+    },
+    "colors": [
+      "#db98aa",
+      "#b0b1b3",
+      "#cb7289",
+      "#c6516f",
+      "#6d6e70",
+      "#ba284d",
+      "#c91643"
+    ]
+  },
+  "/schools/unm/thumbnail.jpg": {
+    "href": "/schools/unm/thumbnail.jpg",
+    "modified": "2015-11-12T05:40:14.000Z",
+    "fullPath": "/Users/z/personal/zeke.sikelianos.com/schools/unm/thumbnail.jpg",
+    "relativePath": "/schools/unm/thumbnail.jpg",
+    "processRelativePath": "schools/unm/thumbnail.jpg",
+    "stats": {
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20191951,
+      "size": 38193,
+      "blocks": 80,
+      "atime": "2015-11-22T03:59:06.000Z",
+      "mtime": "2015-11-12T05:40:14.000Z",
+      "ctime": "2015-11-12T05:40:21.000Z",
+      "birthtime": "2015-11-12T05:40:14.000Z"
+    },
+    "dimensions": {
+      "height": 240,
+      "width": 320,
+      "type": "jpg"
+    },
+    "exif": {
+      "startMarker": {
+        "offset": 0
+      },
+      "tags": {
+        "Orientation": 1,
+        "XResolution": 72,
+        "YResolution": 72,
+        "ResolutionUnit": 2,
+        "Software": "Pixelmator 3.4",
+        "ModifyDate": "2015:11:11 23:11:90",
+        "ColorSpace": 1,
+        "ExifImageWidth": 320,
+        "ExifImageHeight": 240
+      },
+      "imageSize": {
+        "height": 240,
+        "width": 320
+      },
+      "app1Offset": 24
+    },
+    "colors": [
+      "#576034",
+      "#e0c079",
+      "#9eb389",
+      "#99895e",
+      "#15170d"
+    ]
+  }
+}

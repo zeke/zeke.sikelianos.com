@@ -28,11 +28,7 @@ app.get('/*', function (req, res) {
 
   var page = content.pages[href]
 
-  if (!page) {
-    return res
-      .status(404)
-      .render('404', {url: req.url, pageId: 'fourohfour'})
-  }
+  if (!page) return res.redirect('/projects/404')
 
   res.render('page', {
     page: page,

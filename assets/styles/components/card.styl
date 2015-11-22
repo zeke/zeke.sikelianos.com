@@ -1,0 +1,46 @@
+@require '../variables'
+@require '../util'
+@require '../global'
+
+.cards
+  @extend .vanilla-list
+  display block
+  float none
+  clear both
+  overflow hidden
+
+.card
+  display block
+  float left
+  width card-width
+  padding 0
+  margin 0
+  margin-left (card-gutter-width/2)
+  margin-right (card-gutter-width/2)
+  margin-bottom 10px
+
+.card-thumbnail
+  width 100%
+  height card-thumbnail-height
+  overflow hidden
+  background white
+  img
+    width: 100%
+
+.card-details
+  height card-details-height
+  padding 10px 20px 0 20px
+  overflow hidden
+  text-align center
+
+.card-details-title
+  font-size: 1rem
+  line-height 1.6
+
+.card-details-description
+  font-size: 0.9rem
+  @extend .faint
+  @extend .unpadded
+  @extend .small-text
+  text-align center
+  line-height 1.4
