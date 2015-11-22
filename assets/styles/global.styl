@@ -31,8 +31,8 @@ a
 p
   text-align left
   line-height 1.6
-  padding: 10px 0
-  margin: 0
+  padding 10px 0
+  margin 0
   a
     text-decoration underline
     color color-text
@@ -93,17 +93,51 @@ footer
   margin-top 100px
   text-align center
   padding-bottom 60px
-  a
-    padding 10px 20px
-    .fa
-      padding 10px
-      border-radius 100px
-      background black
-      color white
-      &.fa-twitter
-        background: color-twitter
 
-@media screen and (max-width: mobile-width)
+.footer-inner
+  @extend .no-float
+  display inline-block
+
+  a
+    @extend .float-left
+    transition all 0.3s
+    width 54px
+    height 42px
+    font-size 2rem
+    margin 10px
+    text-decoration none !important
+    line-height 30px
+    color #999
+    // border 1px solid red
+
+  span.fa, span.devicons
+    transition all 0.3s
+
+  .fa
+    font-size 1.8rem
+    padding-top 4px
+  .devicons
+    font-size 2.2rem
+  .devicons-npm
+    font-size 3rem
+    line-height 0.8
+
+  .fa-twitter:hover
+    color color-twitter
+  .devicons-github_badge:hover
+    color color-github
+  .devicons-npm:hover
+    color color-npm
+  .devicons-ruby_rough:hover
+    color color-rubygems
+  .fa-instagram:hover
+    color color-instagram
+
+  .text
+    display none
+
+
+@media screen and (max-width mobile-width)
 
   h1
     font-size 3.2rem
