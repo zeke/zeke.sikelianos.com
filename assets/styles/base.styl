@@ -1,0 +1,144 @@
+@require 'variables'
+@require 'util'
+
+*
+  -moz-box-sizing border-box
+  -webkit-box-sizing border-box
+  box-sizing border-box
+
+html, body
+  width 100%
+  height 100%
+
+body
+  font-family Georgia, serif
+  color color-text
+  background color-background
+  padding 0
+  margin 0
+  transition all 0.3s
+  font-size base-font-size
+  text-align center
+
+a
+  color color-main
+  text-decoration none
+  cursor pointer
+  outline none
+  &:hover
+    text-decoration underline
+
+p
+  text-align left
+  line-height 1.6
+  padding 10px 0
+  margin 0
+  a
+    text-decoration underline
+    color color-text
+    padding-right 3px
+    padding-left 3px
+    margin-right -3px
+    margin-left -3px
+    &:hover
+      color color-background
+      background color-main
+      text-decoration none
+
+h1,h2,h3,h4
+  text-align center
+  font-weight normal
+  color color-heading
+  line-height 1.2
+  transition all 0.3s
+  position relative
+  a
+    &.permalink
+      display inline-block
+      margin-left 8px
+      color rgba(color-text, 0.4)
+      transition all 0.5s
+      text-decoration none
+      opacity 0
+
+h1
+  font-size 2.5rem
+  margin 0
+  padding 30px 0 0 0
+
+h2
+  font-size 1.4rem
+  opacity 0.4
+  margin 40px 0 20px 0
+  padding 0
+  a
+    display block
+    color color-heading
+    &:hover
+      text-decoration none
+
+h3
+  font-size 1.4rem
+  margin 0
+  padding 0
+  color color-main
+  a
+    padding 0
+    color color-main
+
+figure
+  @extend .main-column
+  > *
+    display inline-block
+    clear both
+    max-width 100%
+  img
+    max-width 100%
+
+figcaption
+  display block
+  font-size 0.9rem
+  font-style italic
+  padding 10px
+  opacity 0.6
+
+pre
+  font-family 'Droid Sans Mono', Menlo, Monaco, Courier, monospace
+  background color-code-background
+  margin 10px 0
+  padding 10px 0
+  text-align left
+  @media screen and (max-width: mobile-width)
+    padding 10px
+
+code
+  @extend .text-column
+  font-family 'Droid Sans Mono', Menlo, Monaco, Courier, monospace
+  color color-code-text
+  font-size 1rem
+  line-height 1.4
+
+  .shell:before
+    content "$ "
+    opacity 0.4
+
+pre > code
+  display block
+
+p > code
+  font-size 1rem
+  border-bottom 1px dashed #999
+  display inline-block
+
+
+header
+  margin 20px 0
+
+
+@media screen and (max-width mobile-width)
+
+  h1
+    font-size 3.2rem
+
+  h2
+    font-size 2rem

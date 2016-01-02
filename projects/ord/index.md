@@ -1,6 +1,6 @@
 <!--
 title: Ord
-description: A free service for translating words using data from Wikipedia.
+description: A Wikipedia-powered tool for translating words in multiple languages
 website: http://ord.zeke.sikelianos.com
 keywords: [language, translation, Wikipedia, reference, Node.js]
 -->

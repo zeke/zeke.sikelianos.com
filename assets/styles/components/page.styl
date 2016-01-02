@@ -1,47 +1,15 @@
 @require '../variables'
 @require '../util'
-@require '../global'
+@require '../base'
 
 .page-content
   position relative
 
+  header h2
+    margin-top 20px
+
   p
     @extend .text-column
-
-  figure
-    @extend .main-column
-    > *
-      display inline-block
-      clear both
-      max-width 100%
-    img
-      max-width 100%
-
-  figcaption
-    display block
-    font-size 0.9rem
-    font-style italic
-    padding 10px
-    opacity 0.6
-
-  pre
-    background color-code-background
-    margin 10px 0
-    padding 10px 0
-    text-align left
-    @media screen and (max-width: mobile-width)
-      padding 10px
-
-  code
-    @extend .text-column
-    color color-code-text
-    font-size 1.1rem
-    font-weight bold
-    line-height 1.4
-
-    .shell:before
-      content "$ "
-      opacity 0.4
 
 @media screen and (max-width: mobile-width)
   .page-content

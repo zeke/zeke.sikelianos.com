@@ -1,0 +1,12 @@
+here comes something
+
+<ul>
+  {{#each pages}}
+    {{#unless disabled}}
+      <li>
+        <a href="{{href}}">{{title}}</a>
+        <span class="description">{{description}}</span>
+      </li>
+    {{/unless}}
+  {{/each}}
+</ul>
