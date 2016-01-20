@@ -1,12 +1,19 @@
 - title: Projects
-  path: "/projects"
+  dir: "/projects"
+  href: "/#projects"
   slug: "projects"
+
 - title: Posts
-  path: "/posts"
+  dir: "/posts"
+  href: "/#posts"
   slug: "posts"
+
 - title: Jobs
-  path: "/jobs"
+  dir: "/jobs"
+  href: "/#jobs"
   slug: "jobs"
+  
 - title: Schools
-  path: "/schools"
+  dir: "/schools"
+  href: "/#schools"
   slug: "schools"

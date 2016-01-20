@@ -24,11 +24,17 @@
     </div>
   {{/if}}
 
-  <div class="breadcrumbs muted">
-    <a href="/">zeke.sikelianos.com</a>
-    {{#if page.grandparent}} ￫ <a href="{{page.grandparent}}">{{page.grandparentName}}</a>{{/if}}
-    {{#if page.parent}} ￫ <a href="{{page.parent}}">{{page.parentname}}</a>{{/if}}
-  </div>
+  {{#eq page.href '/'}}
+  {{else}}
+    <div class="breadcrumbs muted">
+      <a href="/">zeke.sikelianos.com</a>
+      {{#each datafiles.sections.data}}
+        {{#startsWith ../page.path.relative this.dir}}
+          ￫ <a href="{{this.href}}" class="lowercase">{{this.title}}</a>
+        {{/startsWith}}
+      {{/each}}
+    </div>
+  {{/eq}}
 
   <article>
     <div class="page-content">
@@ -47,15 +53,13 @@
 
     {{#eq page.href '/'}}
     {{else}}
-      <div>
-        <div id="footer-site-nav">
-          <a href="/#projects">Projects</a>
-          <a href="/portfolio">Portfolio</a>
-          <a href="/#posts">Posts</a>
-          <a href="/#jobs">Jobs</a>
-          <a href="/#schools">Schools</a>
-          <!-- <a href="https://en.wikipedia.org/wiki/Special:Random">Randomness</a> -->
-        </div>
+      <div class="breadcrumbs muted">
+        <a href="/">zeke.sikelianos.com</a>
+        {{#each datafiles.sections.data}}
+          {{#startsWith ../page.path.relative this.dir}}
+            ￫ <a href="{{this.href}}" class="lowercase">{{this.title}}</a>
+          {{/startsWith}}
+        {{/each}}
       </div>
     {{/eq}}
 

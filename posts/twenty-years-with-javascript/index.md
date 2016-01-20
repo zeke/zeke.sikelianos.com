@@ -4,8 +4,6 @@ description: npm is amazing; I want my mom to understand why.
 published_at: 2014-08-18
 -->
 
-![](js.svg)
-
 I was thirteen when JavaScript was born.
 
 My mom maintained the computer network at an engineering firm where she had access to all the old computers that were being replaced by newer, faster ones. I inherited a number of hand-me-down computers from my mom, but the first one of any real signifance to me was my 486. It came with Windows 3.1, the first operating system I'd used that had a [graphical user interface](http://goo.gl/IBLkWy). It had a 50mHz processor, 32 MB RAM, a 500 MB hard drive, and a 9600-baud modem. This was to be the first machine I used to connect to the Internet, which in those days was not necessarily [capitalized](http://en.wikipedia.org/wiki/Capitalization_of_%22Internet%22).

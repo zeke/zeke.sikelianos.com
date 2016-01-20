@@ -1,5 +1,5 @@
 <!--
-title: Beaver Brook
+title: Beaver Brook School
 location: Port Jervis, NY
 description: A forest community in Upstate New York
 website: http://beaverbrook.com/
