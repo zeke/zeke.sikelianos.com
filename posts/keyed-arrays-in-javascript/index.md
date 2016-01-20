@@ -4,7 +4,7 @@ description: Can we have our cake and eat it too?
 -->
 
 <figure>
-  <img src="arrays-vs-objects.svg">
+  <img src="/posts/keyed-arrays-in-javascript/arrays-vs-objects.svg">
 </figure>
 
 A question often comes up for me when I'm designing a JavaScript or JSON data structure: "Should I use an Array or an Object for this?" Sometimes the answer is obvious. Sometimes it's hard to know which is better.

@@ -1,6 +1,6 @@
 <!--
 title: chances.js
-description: A bookmarklet that adds some useful links to chanceswithwolves.com
+description: Download the music you hear on chanceswithwolves.com
 website: http://zeke.github.io/chances/
 keywords: [music, bookmarklet, javascript]
 -->

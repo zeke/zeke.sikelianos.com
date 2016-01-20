@@ -1,5 +1,6 @@
 <!--
 title: Heroku Addons
+description: The cloud services app store for developers
 website: https://addons.heroku.com/
 keywords: [npm, javascript, development, Node.js, reference]
 start: 2012-05-01

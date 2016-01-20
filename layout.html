@@ -44,7 +44,22 @@
   </article>
 
   <footer>
-    <div class="footer-inner">
+
+    {{#eq page.href '/'}}
+    {{else}}
+      <div>
+        <div id="footer-site-nav">
+          <a href="/#projects">Projects</a>
+          <a href="/portfolio">Portfolio</a>
+          <a href="/#posts">Posts</a>
+          <a href="/#jobs">Jobs</a>
+          <a href="/#schools">Schools</a>
+          <!-- <a href="https://en.wikipedia.org/wiki/Special:Random">Randomness</a> -->
+        </div>
+      </div>
+    {{/eq}}
+
+    <div id="footer-social-nav">
       <a href="http://twitter.com/zeke" rel="tipsy" title="@zeke on Twitter">
         <span class="fa fa-twitter"></span>
         <span class="text">zeke on twitter</span>

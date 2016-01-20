@@ -1,5 +1,6 @@
 <!--
-title: the npm website
+title: npmjs.com
+description: Official website of the package manager for Javascript
 website: http://npmjs.com
 keywords: npm, javascript, development, node.js, reference
 start: 2014-07-29,

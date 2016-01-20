@@ -7,4 +7,4 @@ start: 2000-12-01
 end: 2001-09-01
 -->
 
-Neogenesis was a documentary ﬁlm production house. I worked primarily on post-video editing using Discreet Combustion and After Effects, but also produced interactive CD-ROMs and Macromedia (Adobe) Flash websites, and developed and maintained a networked rendering farm.
+Neogenesis was a documentary ﬁlm production house in downtown Albuquerque, New Mexico. I worked part-time while attending the University of New Mexico. My primary focus was post-video editing using Discreet Combustion and After Effects. I also produced interactive CD-ROMs and Macromedia (Adobe) Flash websites, and developed and maintained a networked rendering farm.

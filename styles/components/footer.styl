@@ -7,7 +7,24 @@ footer
   text-align center
   padding-bottom 20px
 
-.footer-inner
+
+#footer-site-nav
+  margin 100px 0 40px 0
+  @extend .no-float
+  display inline-block
+
+  a
+    @extend .float-left
+    transition all 0.3s
+    font-size 1rem
+    line-height 1
+    padding 10px 30px
+    color black
+    opacity 0.5
+    &:hover
+      opacity 1
+
+#footer-social-nav
   @extend .no-float
   display inline-block
 

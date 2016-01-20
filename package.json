@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/zeke/zeke.sikelianos.com/issues"
   },
-  "homepage": "https://github.com/zeke/zeke.sikelianos.com",
-  "dependencies": {
-    "jus": "^0.8.0"
-  }
+  "homepage": "https://github.com/zeke/zeke.sikelianos.com"
 }

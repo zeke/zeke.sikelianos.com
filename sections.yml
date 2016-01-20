@@ -1,0 +1,12 @@
+- title: Projects
+  path: "/projects"
+  slug: "projects"
+- title: Posts
+  path: "/posts"
+  slug: "posts"
+- title: Jobs
+  path: "/jobs"
+  slug: "jobs"
+- title: Schools
+  path: "/schools"
+  slug: "schools"

@@ -1,9 +1,12 @@
 <!--
-layout: false
+title: Portfolio
+description: A scrapbook of design ephemera, from 2001 to present day
 -->
 
-{{#each flickr_photos}}
-  <a href="{{url}}" title={{title}}>
-    <img src="{{urls.medium}}" alt="{{title}}" />
-  </a>
-{{/each}}
+<div class="column-3">
+  {{#each page.data.flickr_photos}}
+    <a href="{{url}}" title={{title}}>
+      <img src="{{urls.medium}}" alt="{{title}}" />
+    </a>
+  {{/each}}
+</div>

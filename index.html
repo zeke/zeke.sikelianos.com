@@ -3,15 +3,28 @@ title: Zeke Sikelianos
 description: Graphic Designer & Software Developer
 -->
 
-<ul>
-  {{#each pages}}
-    <li>
-      <a href="{{href}}" other="{{href}}">{{title}}</a>
-      <span>{{description}}</span>
-    </li>
-  {{/each}}
-</ul>
-
 {{#each page.data.sections}}
-  <h1>{{this}}</h1>
+  <a id="{{slug}}" href="#{{slug}}" class="deep-link">
+    <h2>{{title}}</h2>
+  </a>
+
+  <div class="main-column">
+    <ul class="cards">
+      {{#each ../pages}}
+        {{#unless disabled}}
+          {{#startsWith path.dir ../path}}
+            <li class="card">
+              <a class="card-thumbnail" href="{{href}}" other="{{href}}">
+                <img src="{{images.thumbnail.href}}" alt="" />
+              </a>
+              <div class="card-details">
+                <div class="card-details-title">{{title}}</div>
+                <div class="card-details-description">{{description}}</div>
+              </div>
+            </li>
+          {{/startsWith}}
+        {{/unless}}
+      {{/each}}
+    </ul>
+  </div>
 {{/each}}

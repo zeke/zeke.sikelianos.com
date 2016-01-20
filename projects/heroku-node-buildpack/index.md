@@ -1,5 +1,6 @@
 <!--
-title: Heroku Node.js Official Buildpack
+title: Heroku Node Buildpack
+description: Build node apps for the cloud
 website: http://github.com/heroku/heroku-buildpack-nodejs
 keywords: [Heroku, Node.js]
 start: 2013-11-01
