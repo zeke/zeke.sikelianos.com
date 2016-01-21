@@ -7,4 +7,8 @@ start: 2013-08-26
 end: 2013-09-06
 -->
 
-Beaver Brook is an architectural design and building school located in the woods of upstate New York. I was a student in its inaugural year, during which our ten-person alumni built a sauna.
+Beaver Brook is an architectural design and building school located in the woods of upstate New York. I was a student in its inaugural year, during which our ten-person group built a sauna.
+
+- http://www.beaverbrook.com/
+- http://www.beaverbrook.com/school/
+- http://beaver.zeke.sikelianos.com/

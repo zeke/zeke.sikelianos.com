@@ -30,7 +30,7 @@
       <a href="/">zeke.sikelianos.com</a>
       {{#each datafiles.sections.data}}
         {{#startsWith ../page.path.relative this.dir}}
-          ￫ <a href="{{this.href}}" class="lowercase">{{this.title}}</a>
+          / <a href="{{this.href}}" class="lowercase">{{this.title}}</a>
         {{/startsWith}}
       {{/each}}
     </div>
