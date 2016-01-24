@@ -10,7 +10,7 @@
     "build": "jus build . dist",
     "commit": "git add dist && git commit -m 'update dist'",
     "push": "git subtree push --prefix dist origin gh-pages",
-    "open": "open https://zeke.github.io/acrophony"
+    "open": "open http://zeke.sikelianos.com"
   },
   "repository": {
     "type": "git",
