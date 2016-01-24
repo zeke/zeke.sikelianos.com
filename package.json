@@ -4,7 +4,8 @@
   "description": "My website as an npm module",
   "scripts": {
     "start": "NODE_ENV=production jus server --port $PORT",
-    "dev": "jus server"
+    "dev": "jus server",
+    "portfolio": "flickr-photoset-info 72157610714160553 > portfolio/flickr_photos.json"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/zeke/zeke.sikelianos.com/issues"
   },
-  "homepage": "https://github.com/zeke/zeke.sikelianos.com"
+  "homepage": "https://github.com/zeke/zeke.sikelianos.com",
+  "devDependencies": {
+    "flickr-photoset-info": "^1.4.0"
+  }
 }
