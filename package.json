@@ -8,7 +8,7 @@
     "portfolio": "flickr-photoset-info 72157610714160553 > portfolio/flickr_photos.json",
     "deploy": "npm run build && npm run commit && npm run push && npm run open",
     "build": "jus build . dist",
-    "commit": "git commit -am 'latest release'",
+    "commit": "git add dist && git commit -m 'update dist'",
     "push": "git subtree push --prefix dist origin gh-pages",
     "open": "open https://zeke.github.io/acrophony"
   },
