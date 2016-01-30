@@ -1,8 +1,1 @@
-
-[zeke.sikelianos.com](http://zeke.sikelianos.com)
-
-
-```
-npm install
-npm start
-```
+[zeke.sikelianos.com](http://zeke.sikelianos.com), built with [jus](http://jus.js.org).
