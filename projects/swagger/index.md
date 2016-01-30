@@ -5,10 +5,18 @@ website: http://swagger.io/
 keywords: [design, documentation, development, API]
 -->
 
-Swagger is a specification and open-source framework for describing, producing, consuming, and visualizing RESTful web services with JSON. I created Swagger while building [wordnik.com](https://wordnik.com) as a tool to help make our APIs easier to document, understand, and use. In the four years since its creation, a large community has developed around Swagger, and developers are continuing to find new and interesting ways to incorporate it into their JSON webservice implementations.
+[Swagger](http://swagger.io/) is a specification and open-source framework for describing, producing, consuming, and visualizing RESTful web services with JSON. I created Swagger while building [wordnik.com](https://wordnik.com). Our team needed a tool to help make our APIs easier to document, understand, and use. In the four years since its creation, a [large and active community](https://github.com/swagger-api) has developed around Swagger, and people are continuing to find new and interesting ways to incorporate it into their JSON webservice implementations.
 
-In 2015, Amazon Web Services introduced the [Amazon API Gateway](http://aws.amazon.com/api-gateway/) with built-in support for Swagger APIs.
+<figure>
+  <img src="/projects/swagger/screenshot.png">
+  <figcaption>Swagger's API Sandbox, circa 2011</figcaption>
+</figure>
+
+In 2015, Amazon Web Services introduced the [Amazon API Gateway](https://github.com/awslabs/aws-apigateway-importer) with built-in support for Swagger APIs.
 
 Swagger is also supported by [Runscope](https://www.runscope.com/docs/api-testing/importing#radar-export).
 
-3500+ Stars, 2000 Forks, and over 100 contributors
+<figure>
+  <video src="/projects/swagger/swagger.mp4" width="100%" autoplay autostart loop></video>
+  <figcaption>Why <a href="https://en.wikipedia.org/wiki/Web_Application_Description_Language">WADL</a> when you can Swagger?</figcaption>
+</figure>

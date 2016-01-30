@@ -10,5 +10,6 @@
   "/posts": "/#posts",
   "/projects": "/#projects",
   "/schools": "/#schools",
+  "/scrapbook": "/portfolio",
   "/vanilla": "/projects/vanilla"
 }

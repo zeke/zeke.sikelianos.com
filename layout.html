@@ -49,17 +49,12 @@
 
   <footer>
 
-    {{#eq page.href '/'}}
-    {{else}}
-      <div class="breadcrumbs muted">
-        <a href="/">zeke.sikelianos.com</a>
-        {{#each datafiles.sections.data}}
-          {{#startsWith ../page.path.relative this.dir}}
-            ￫ <a href="{{this.href}}" class="lowercase">{{this.title}}</a>
-          {{/startsWith}}
-        {{/each}}
-      </div>
-    {{/eq}}
+    <div id="footer-site-nav">
+      <a href="/portfolio">Portfolio</a>
+      {{#each datafiles.sections.data}}
+        <a href="{{this.href}}">{{this.title}}</a>
+      {{/each}}
+    </div>
 
     <div id="footer-social-nav">
       <a href="http://twitter.com/zeke" rel="tipsy" title="@zeke on Twitter">

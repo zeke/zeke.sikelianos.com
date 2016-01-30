@@ -9,20 +9,27 @@ footer
 
 
 #footer-site-nav
-  margin 100px 0 40px 0
-  @extend .no-float
-  display inline-block
+  margin 100px 0 60px 0
+  display block
+  text-align center
 
   a
-    @extend .float-left
+    display inline-block
     transition all 0.3s
     font-size 1rem
     line-height 1
-    padding 10px 30px
     color black
     opacity 0.5
     &:hover
       opacity 1
+    &:after
+      content " / "
+      text-align center
+      display inline-block
+      width 50px
+    &:last-child:after
+      display none
+
 
 #footer-social-nav
   @extend .no-float
