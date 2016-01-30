@@ -4,11 +4,7 @@
   "description": "My website as an npm module",
   "scripts": {
     "start": "jus serve",
-    "deploy": "npm run build && npm run commit && npm run push && npm run open",
-    "build": "jus build . dist",
-    "commit": "git add dist && git commit -m 'update dist'",
-    "push": "git subtree push --prefix dist origin master",
-    "open": "open http://zeke.sikelianos.com",
+    "deploy": "jus build . dist && surge dist && open http://zeke.sikelianos.com",
     "portfolio": "flickr-photoset-info 72157610714160553 > portfolio/flickr_photos.json",
     "corn-bed": "flickr-photoset-info 72157624807279024 > projects/corn-bed/flickr_photos.json"
   },
