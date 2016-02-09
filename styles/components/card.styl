@@ -10,15 +10,21 @@
   overflow hidden
 
 .card
+  @extend .float-left
   height 360px
-  display block
-  float left
   width card-width
   padding 0
   margin 0
   margin-left (card-gutter-width/2)
   margin-right (card-gutter-width/2)
   margin-bottom 40px
+
+  @media screen and (max-width: mobile-width)
+    @extend .float-none
+    width 100%
+    height auto
+    margin 0
+    margin-bottom 50px
 
 .card-inner
   display block
@@ -34,9 +40,6 @@
   img
     width: 100%
 
-.card-bottom
-  height auto
-
 .card-details
   padding 14px 20px
   overflow hidden
@@ -44,6 +47,9 @@
   background white
   border-bottom-left-radius 5px
   border-bottom-right-radius 5px
+  @media screen and (max-width: mobile-width)
+    background none
+
 
 .card-details-title
   font-size: 1rem

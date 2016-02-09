@@ -14,6 +14,8 @@ Machine Project offers courses in electronics, sewing, pickling, computer progra
 While living in Los Angeles in 2010, I attended several courses at Machine Project, notably the building of a shipwrecked boat, the [Sea Nymph](http://machineproject.com/2010/09/05/shipwrecked-boat/).
 
 <figure>
-  <a href="http://machineproject.com/2010/09/05/shipwrecked-boat/"><img src="sea-nymph.jpg"></a>
+  <a href="http://machineproject.com/2010/09/05/shipwrecked-boat/">
+    <img src="/schools/machine-project/sea-nymph.jpg">
+  </a>
   <figcaption>Building the Sea Nymph</figcaption>
 </figure>
