@@ -28,6 +28,7 @@
     "flickr-photoset-info": "^1.4.0"
   },
   "dependencies": {
+    "analytics.js-loader": "^2.1.2",
     "jquery": "^2.2.0",
     "tipsy-browserify": "^1.0.0"
   }
