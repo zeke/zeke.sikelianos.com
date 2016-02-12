@@ -69,8 +69,8 @@ h1
 h2
   font-size 1.4rem
   opacity 0.4
-  margin 40px 0 20px 0
-  padding 0
+  margin 0
+  padding 40px 0 20px 0
   a
     display block
     color color-heading
@@ -88,6 +88,8 @@ h3
 
 figure
   @extend .main-column
+  @extend .margin--vertical
+
   > *
     display inline-block
     clear both
@@ -97,10 +99,11 @@ figure
 
 figcaption
   display block
-  font-size 0.9rem
+  font-size 1rem
   font-style italic
   padding 10px
   opacity 0.6
+  padding-top 20px
 
 pre
   font-family 'Droid Sans Mono', Menlo, Monaco, Courier, monospace
@@ -131,7 +134,7 @@ p > code
   display inline-block
 
 header
- margin 60px 0
+ padding 60px 0
 
 @media screen and (max-width mobile-width)
 

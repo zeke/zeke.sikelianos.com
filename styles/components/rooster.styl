@@ -1,0 +1,37 @@
+@require '../variables'
+@require '../util'
+@require '../base'
+
+.rooster
+  display inline-block
+  width 200px
+  height 150px
+  position relative
+  opacity 0.4
+  transition all 0.3s
+
+  &:before
+    content " "
+    position absolute
+    top 0
+    right 0
+    bottom 0
+    left 0
+    z-index 100
+    background -moz-radial-gradient(center, ellipse cover, rgba(color-background,0) 56%, rgba(color-background,1) 69%)
+    background -webkit-radial-gradient(center, ellipse cover, rgba(color-background,0) 56%,rgba(color-background,1) 69%)
+    background radial-gradient(ellipse at center, rgba(color-background,0) 56%,rgba(color-background,1) 69%)
+
+  img
+    -webkit-filter grayscale(100%)
+    -moz-filter grayscale(100%)
+    -o-filter grayscale(100%)
+    filter grayscale(100%)
+
+  &:hover
+    opacity 1
+    img
+      -webkit-filter grayscale(0%)
+      -moz-filter grayscale(0%)
+      -o-filter grayscale(0%)
+      filter grayscale(0%)

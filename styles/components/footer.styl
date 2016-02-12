@@ -7,11 +7,11 @@ footer
   text-align center
   padding-bottom 20px
 
-
 #footer-site-nav
-  margin 100px 0 60px 0
+  margin 100px 0 30px 0
   display block
   text-align center
+  line-height 2
 
   a
     display inline-block
@@ -27,6 +27,7 @@ footer
       text-align center
       display inline-block
       width 50px
+      opacity 0.3
     &:last-child:after
       display none
 
@@ -46,6 +47,9 @@ footer
     line-height 30px
     color #999
     // border 1px solid red
+    @media screen and (max-width mobile-width)
+      width 100%
+      font-size 4rem
 
   span.fa, span.devicons
     transition all 0.3s
