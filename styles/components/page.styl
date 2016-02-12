@@ -2,16 +2,18 @@
 @require '../util'
 @require '../base'
 
-.page-content
+.page__content
   position relative
 
-  header h2
-    margin-top 10px
+.page__title
+
+.page__description
+  margin-top 10px
 
   p
     @extend .text-column
 
 @media screen and (max-width: mobile-width)
-  .page-content
+  .page__content
     padding-left 20px
     padding-right 20px
