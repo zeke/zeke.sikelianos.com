@@ -1,44 +1,39 @@
 <!--
 title: Zeke Sikelianos
-description: Graphic Designer & Software Developer
+description: Graphic Designer, Open Source Hacker, Aspiring Homebuilder
+noIndex: true
 -->
 
-<a href="http://vart.institute/magritte/">
+<div class="main-column">
+  <ul class="cards">
+    {{#each pages}}
+      {{#unless disabled}}
+        {{#unless noIndex}}
+          <li class="card">
+            <div class="card-inner">
+
+              <a class="card-thumbnail" href="{{href}}">
+                <img src="{{images.thumbnail.href}}">
+              </a>
+
+              <div class="card-bottom">
+                <div class="card-details">
+                  <a class="card-details-title" href={{href}}>{{title}}</a>
+                  <div class="card-details-description">{{description}}</div>
+                </div>
+              </div>
+
+            </div>
+          </li>
+        {{/unless}}
+      {{/unless}}
+    {{/each}}
+  </ul>
+</div>
+
+<!-- <a href="http://vart.institute/magritte/">
   <figure class="margin--vertical-hecka">
     <img src="/pipe.png">
     <figcaption>This is not a website.</figcaption>
   </figure>
-</a>
-
-{{#each datafiles.sections.data}}
-  <a id="{{slug}}" href="{{href}}" class="deep-link">
-    <h2>{{title}}</h2>
-  </a>
-
-  <div class="main-column">
-    <ul class="cards">
-      {{#each ../pages}}
-        {{#unless disabled}}
-          {{#startsWith path.dir ../dir}}
-            <li class="card">
-              <div class="card-inner">
-
-                <a class="card-thumbnail" href="{{href}}">
-                  <img src="{{images.thumbnail.href}}">
-                </a>
-
-                <div class="card-bottom">
-                  <div class="card-details">
-                    <a class="card-details-title" href={{href}}>{{title}}</a>
-                    <div class="card-details-description">{{description}}</div>
-                  </div>
-                </div>
-
-              </div>
-            </li>
-          {{/startsWith}}
-        {{/unless}}
-      {{/each}}
-    </ul>
-  </div>
-{{/each}}
+</a> -->

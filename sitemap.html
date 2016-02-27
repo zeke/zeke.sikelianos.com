@@ -1,12 +1,14 @@
-here comes something
+<!--
+title: Sitemap
+description: A flat listing of all the pages on zeke.sikelianos.com
+noIndex: true
+-->
 
-<ul>
-  {{#each pages}}
-    {{#unless disabled}}
-      <li>
-        <a href="{{href}}">{{title}}</a>
-        <span class="description">{{description}}</span>
-      </li>
+{{#each pages}}
+  {{#unless disabled}}
+    {{#unless noIndex}}
+      <h4><a href="{{href}}">{{title}}</a></h4>
+      <p class="description">{{description}}</p>
     {{/unless}}
-  {{/each}}
-</ul>
+  {{/unless}}
+{{/each}}

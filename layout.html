@@ -26,11 +26,6 @@
   {{else}}
     <div class="breadcrumbs muted">
       <a href="/">zeke.sikelianos.com</a>
-      {{#each datafiles.sections.data}}
-        {{#startsWith ../page.path.relative this.dir}}
-          / <a href="{{this.href}}" class="lowercase">{{this.title}}</a>
-        {{/startsWith}}
-      {{/each}}
     </div>
   {{/eq}}
 
@@ -85,13 +80,22 @@
       </a>
     </div>
 
-    <a href="https://www.youtube.com/watch?v=mywsMJrVxYc">
+    <!-- <a href="https://www.youtube.com/watch?v=mywsMJrVxYc">
       <figure class="margin--top">
-        <div class="rooster" rel="tipsy" title="Alan-a-Dale, the minstrel from Disney's 1973 version of Robin Hood">
+        <div rel="tipsy" title="Alan-a-Dale, the minstrel from Disney's 1973 version of Robin Hood">
           <img src="/alan-a-dale.gif">
         </div>
       </figure>
-    </a>
+    </a> -->
+
+    <p class="text-small text-center faint">
+      This site is built with
+      <a href="http://jus.js.org">jus</a>,
+      developed on
+      <a href="https://github.com/zeke/zeke.sikelianos.com">github</a>,
+      and deployed on
+      <a href="https://surge.sh">surge</a>.
+    </p>
 
   </footer>
 </body>
