@@ -2,7 +2,7 @@
 title: Sniphr
 description: A browser extension for saving images and snippets of text
 website: http://sniphr.com/
-disabled: true
+noIndex: true
 keywords: [language, reference, Ruby, Javascript, browser, extension, bookmarks]
 start: 2011-04-06
 end: 2014-04-15

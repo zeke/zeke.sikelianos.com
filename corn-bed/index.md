@@ -1,6 +1,6 @@
 <!--
-title: Corn Bed
-description: Like dipping your hands into the bulk pinto beans, but on a larger scale.
+title: The Corn Bed
+description: A rejuvenating full-body experience.
 -->
 
 As a kid growing up in New Mexico, I loved visiting the State Fair every year. My favorite attraction was the giant box of dried corn kernels in a quiet corner of the agricultural building, beside the prizing-winning fruits and vegetables. Everyone was welcome to climb into the box and roll around in the corn to their heart's content. It was the full-body equivalent of dipping your hands into the bulk beans at the grocery store.
@@ -17,3 +17,10 @@ Even as a young adult, I would relax among the kernels as little children played
     <figcaption>{{title}}</figcaption>
   </figure>
 {{/each}}
+
+<figure>
+  <a href="https://www.youtube.com/watch?v=mmllotLUU38">
+    <img src="corn-bed/amelie-sac-de-grain.jpg" alt="Amélie's fingers in the grain" />
+  </a>
+  <figcaption>Amélie knows what I'm talking about</figcaption>
+</figure>

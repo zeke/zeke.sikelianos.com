@@ -1,63 +1,27 @@
 <!--
 title: 404
 description: An homage to dead media
+layout: false
 -->
-<!DOCTYPE html>
 
+<!DOCTYPE html>
+<html>
   <head>
     <title>404</title>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="jquery.flash.min.js"></script>
-
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('#flash').flash({
-          "src":"color_bars.swf",
-          "width":1,
-          "height":1,
-          "quality":"high",
-          "wmode":"transparent",
-          "access":"domain",
-          "express":"express_install.swf",
-          "classid":"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000",
-          "codebase":"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=",
-          "plugin":"http://get.adobe.com/flashplayer",
-          "mime":"application/x-shockwave-flash",
-          "version":"9.0.24",
-        });
-      });
-
-      $('#color_bars_svg').width($(window).width());
-
-    </script>
-
     <style type="text/css">
-
-      body {
-        margin: 0;
-        padding: 0;
-        background-color: black;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        z-index: 0;
-        overflow: hidden;
+      html {
+        background: url(404/color_bars.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
       }
-
-      img {
-        width:100%;
-        height:100%;
-      }
-
     </style>
-
   </head>
   <body>
-    <img src="color_bars.png"></img>
-    <div id="flash">
-    </div>
+    <audio autoplay="autoplay" loop="loop">
+      <source src="404/404.mp3" />
+    </audio>
   </body>
 </html>

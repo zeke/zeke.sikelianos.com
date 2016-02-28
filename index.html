@@ -7,33 +7,24 @@ noIndex: true
 <div class="main-column">
   <ul class="cards">
     {{#each pages}}
-      {{#unless disabled}}
-        {{#unless noIndex}}
-          <li class="card">
-            <div class="card-inner">
+      {{#unless noIndex}}
+        <li class="card">
+          <div class="card-inner">
 
-              <a class="card-thumbnail" href="{{href}}">
-                <img src="{{images.thumbnail.href}}">
-              </a>
+            <a class="card-thumbnail" href="{{href}}">
+              <img src="{{images.thumbnail.href}}">
+            </a>
 
-              <div class="card-bottom">
-                <div class="card-details">
-                  <a class="card-details-title" href={{href}}>{{title}}</a>
-                  <div class="card-details-description">{{description}}</div>
-                </div>
+            <div class="card-bottom">
+              <div class="card-details">
+                <a class="card-details-title" href={{href}}>{{title}}</a>
+                <div class="card-details-description">{{description}}</div>
               </div>
-
             </div>
-          </li>
-        {{/unless}}
+
+          </div>
+        </li>
       {{/unless}}
     {{/each}}
   </ul>
 </div>
-
-<!-- <a href="http://vart.institute/magritte/">
-  <figure class="margin--vertical-hecka">
-    <img src="/pipe.png">
-    <figcaption>This is not a website.</figcaption>
-  </figure>
-</a> -->
