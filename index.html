@@ -11,13 +11,13 @@ noIndex: true
         <li class="card">
           <div class="card-inner">
 
-            <a class="card-thumbnail" href="{{href}}">
+            <a class="card-thumbnail" href="{{#if redirect}}{{redirect}}{{else}}{{href}}{{/if}}">
               <img src="{{images.thumbnail.href}}">
             </a>
 
             <div class="card-bottom">
               <div class="card-details">
-                <a class="card-details-title" href={{href}}>{{title}}</a>
+                <a class="card-details-title" href="{{#if redirect}}{{redirect}}{{else}}{{href}}{{/if}}">{{title}}</a>
                 <div class="card-details-description">{{description}}</div>
               </div>
             </div>

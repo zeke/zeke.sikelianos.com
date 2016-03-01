@@ -1,7 +1,7 @@
 <!--
 title: semver.io
 website: https://semver.io
-description: A webservice that tracks versions of node, npm, nginx, mongodb, and others.
+description: A webservice that tracks versions of node, npm, nginx, mongodb, and others
 keywords: [node, npm, nginx, mongodb, webservice, semver, heroku]
 start: 2013-12-01
 end: 2013-12-01

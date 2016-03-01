@@ -1,15 +1,3 @@
 {
-  "/404": "/projects/404",
-  "/bananas": "/projects/bananas",
-  "/dddddd": "/projects/dddddd",
-  "/http": "/projects/http",
-  "/jobs": "/#jobs",
-  "/name-that-baby-girl": "/projects/name-that-baby-girl",
-  "/outcasts": "/projects/outcasts",
-  "/parallax": "/projects/parallax",
-  "/posts": "/#posts",
-  "/projects": "/#projects",
-  "/schools": "/#schools",
-  "/scrapbook": "/portfolio",
-  "/vanilla": "/projects/vanilla"
+  "/contact-me": "/contact"
 }

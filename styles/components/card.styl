@@ -12,11 +12,10 @@
 .card
   @extend .float-left
   height 360px
-  width card-width
   padding 0
   margin 0
-  margin-left (card-gutter-width/2)
-  margin-right (card-gutter-width/2)
+  padding-left (card-gutter-width/2)
+  padding-right (card-gutter-width/2)
   margin-bottom 40px
 
   @media screen and (max-width: mobile-width)
@@ -27,12 +26,14 @@
     margin-bottom 50px
 
 .card-inner
+  width card-width
   display block
   -webkit-box-shadow 0px 1px 15px 1px rgba(0,0,0,0.08)
   -moz-box-shadow 0px 1px 15px 1px rgba(0,0,0,0.08)
   box-shadow 0px 1px 15px 1px rgba(0,0,0,0.08)
 
 .card-thumbnail
+  display block
   width 100%
   height card-thumbnail-height
   overflow hidden
@@ -50,10 +51,10 @@
   @media screen and (max-width: mobile-width)
     background none
 
-
 .card-details-title
   font-size: 1rem
   line-height 1.6
+  text-decoration none
 
 .card-details-description
   font-size: 0.9rem

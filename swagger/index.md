@@ -1,6 +1,6 @@
 <!--
 title: Swagger
-description: A framework for describing, documenting, and consuming JSON webservices.
+description: A framework for describing, documenting, and consuming JSON webservices
 website: http://swagger.io/
 keywords: [design, documentation, development, API]
 -->

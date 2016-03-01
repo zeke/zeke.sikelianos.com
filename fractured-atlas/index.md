@@ -1,7 +1,7 @@
 <!--
 title: Fractured Atlas
 location: Los Angeles, CA & New York, NY
-description: National nonprofit helping artists succeed as entrepreneurs
+description: Helping artists succeed as entrepreneurs
 position: Senior Developer, UI Designer
 website: http://fracturedatlas.org
 start: 2008-03-15

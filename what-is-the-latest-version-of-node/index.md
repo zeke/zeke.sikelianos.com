@@ -1,6 +1,6 @@
 <!--
 title: What is the latest version of Node?
-description: Guess what this website does.
+description: This website has one job
 website: http://what-is-the-latest-version-of-node.com
 redirect: true
 keywords: [Node.js, webservice, semver, semver.io, Heroku]

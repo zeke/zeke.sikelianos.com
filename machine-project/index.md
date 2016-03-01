@@ -15,7 +15,7 @@ While living in Los Angeles in 2010, I attended several courses at Machine Proje
 
 <figure>
   <a href="http://machineproject.com/2010/09/05/shipwrecked-boat/">
-    <img src="/schools/machine-project/sea-nymph.jpg">
+    <img src="/machine-project/sea-nymph.jpg">
   </a>
   <figcaption>Building the Sea Nymph</figcaption>
 </figure>

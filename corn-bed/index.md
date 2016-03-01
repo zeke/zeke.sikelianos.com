@@ -1,6 +1,6 @@
 <!--
 title: The Corn Bed
-description: A rejuvenating full-body experience.
+description: A rejuvenating full-body experience
 -->
 
 As a kid growing up in New Mexico, I loved visiting the State Fair every year. My favorite attraction was the giant box of dried corn kernels in a quiet corner of the agricultural building, beside the prizing-winning fruits and vegetables. Everyone was welcome to climb into the box and roll around in the corn to their heart's content. It was the full-body equivalent of dipping your hands into the bulk beans at the grocery store.

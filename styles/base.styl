@@ -28,19 +28,16 @@ a
   &:hover
     text-decoration underline
 
-p
+p, ul, ol
   text-align left
   line-height 1.6
   padding 10px 0
   margin 0
   a
-    text-decoration none
+    text-decoration underline
     color color-text
-    border-bottom 1px solid rgba(color-text, 0.3)
     &:hover
-      text-decoration none
-      border-bottom-color rgba(color-text, 1)
-      border-bottom-width 2px
+      text-decoration underline
 
 blockquote p
   font-style italic
@@ -108,6 +105,15 @@ figcaption
   padding 10px
   opacity 0.6
   padding-top 20px
+
+table
+  width 100%
+  text-align left
+  font-size .9rem
+  td
+    padding 5px
+    line-height 1
+    border-bottom 1px solid #DDD
 
 pre
   font-family 'Droid Sans Mono', Menlo, Monaco, Courier, monospace
