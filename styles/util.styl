@@ -43,7 +43,11 @@
 
 .main-column
   @extend .column
-  max-width main-column-width
+  max-width width-of-three-columns
+  @media screen and (min-width: mobile-width) and (max-width: width-of-three-columns)
+    max-width width-of-two-columns
+  @media screen and (min-width: mobile-width) and (max-width: width-of-two-columns)
+    max-width width-of-one-column
 
 .no-float, .float-none
   float none
