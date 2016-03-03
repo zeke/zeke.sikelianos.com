@@ -11,7 +11,7 @@ Beaver Brook is an architectural design and building school in the woods of upst
 
 <figure>
   <a href="http://beaver.zeke.sikelianos.com/">
-    <img src="beaver-brook/sauna.jpg" alt="Beaver Brook Sauna" />
+    <img src="/beaver-brook/sauna.jpg" alt="Beaver Brook Sauna" />
   </a>
   <figcaption>The Sauna at Beaver Brook</figcaption>
 </figure>

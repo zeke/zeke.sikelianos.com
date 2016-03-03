@@ -20,7 +20,7 @@ Even as a young adult, I would relax among the kernels as little children played
 
 <figure>
   <a href="https://www.youtube.com/watch?v=mmllotLUU38">
-    <img src="corn-bed/amelie-sac-de-grain.jpg" alt="Amélie's fingers in the grain" />
+    <img src="/corn-bed/amelie-sac-de-grain.jpg" alt="Amélie's fingers in the grain" />
   </a>
   <figcaption>Amélie knows what I'm talking about</figcaption>
 </figure>
