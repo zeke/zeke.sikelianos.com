@@ -1,8 +1,13 @@
 <!--
 title: Bio
-description: A little about me.
+description: A little about me
 noIndex: true
 -->
+
+<figure>
+  <img src="/bio/slacklining-at-leadbetter-beach.jpg">
+  <figcaption>Slacklining at <a href="https://en.wikipedia.org/wiki/Leadbetter_Beach">Leadbetter Beach</a> with my son Cosmos</figcaption>
+</figure>
 
 I grew up in a family of <a href="http://beaver.zeke.sikelianos.com/">artists and artisans</a>, and
 though I ended up in a technical field, I still consider design and aesthetics to be essential to my work. I believe that <a href="https://en.wikipedia.org/wiki/Hacker_ethic">information wants to be free</a>, and the work I do is always in the service of that idea.
@@ -28,5 +33,5 @@ I love to travel. In the last five years I've moved a lot, from Los Angeles to P
 
 <figure>
   <img src="/bio/ganesha.jpg">
-  <figcaption>My resolution for 2016 is to channel Ganesha, the "remover of obstacles"</figcaption>
+  <figcaption>My resolution for 2016 is to channel Ganesha, the "remover of obstacles".</figcaption>
 </figure>

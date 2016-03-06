@@ -1,0 +1,45 @@
+#social-nav
+  @extend .no-float
+  display inline-block
+  margin 40px 0
+
+  a
+    @extend .float-left
+    transition all 0.3s
+    width 64px
+    height 52px
+    margin 10px
+    text-decoration none !important
+    line-height 30px
+    color #999
+    @media screen and (max-width mobile-width)
+      width 100%
+      font-size 4rem
+
+  span.fa, span.devicons
+    transition all 0.3s
+
+  .fa
+    font-size 2.4rem
+    padding-top 4px
+  .devicons
+    font-size 2.8rem
+  .devicons-npm
+    font-size 4rem
+    line-height 0.8
+
+  :hover .fa-twitter
+    color color-twitter
+  :hover .devicons-github_badge
+    color color-github
+  :hover .devicons-npm
+    color color-npm
+  :hover .devicons-ruby_rough
+    color color-rubygems
+  :hover .fa-flickr
+    color color-flickr
+  :hover .fa-instagram
+    color color-instagram
+
+  .text
+    display none
