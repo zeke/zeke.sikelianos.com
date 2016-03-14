@@ -1,7 +1,7 @@
 <!--
 title: Beaver Brook
 location: Port Jervis, NY
-description: A design and building school in Upstate New York
+description: A building school in Upstate New York
 website: http://beaverbrook.com/
 start: 2013-08-26
 end: 2013-09-06
