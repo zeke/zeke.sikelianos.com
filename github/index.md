@@ -13,6 +13,24 @@ My first day as a GitHubber will be March 14 2016, also known as [Pi Day](https:
   <figcaption><a href="https://en.wikipedia.org/wiki/Adventure_Time">Adventure Time</a> Octocat
 </figure>
 
+<!--  
+
+highlights
+The Oval Office: In Collaboration We Trust
+Admin access 1300+ repos (get the official count)
+600 Teams
+World Map of Hubbers
+Dogs everywhere
+Actual Pies on Pi Day
+Crepes
+Adventure Time Octocat
+Library with invisible door to situation room
+Slack channel for #parents
+Kid zone
+The IT Team and @missinformed
+
+-->
+
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@github" />
 <meta name="twitter:creator" content="@zeke" />
