@@ -28,7 +28,8 @@ Library with invisible door to situation room
 Slack channel for #parents
 Kid zone
 The IT Team and @missinformed
-
+in-house video team
+in-house legal team
 -->
 
 <meta name="twitter:card" content="summary" />
