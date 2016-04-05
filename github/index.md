@@ -30,6 +30,7 @@ Kid zone
 The IT Team and @missinformed
 in-house video team
 in-house legal team
+The support app is called Halp
 -->
 
 <meta name="twitter:card" content="summary" />
