@@ -13,7 +13,7 @@ This post will walk you through the process of creating an app with Nativefier. 
 
 ## Creating the Dock Icon
 
-OS X Dock icons are in a proprietary format called `ICNS`. It's a bit cumbersome to convert images to that format, but fortunately a kind soul went to the trouble of abstracting away that tedious work in a convenient little node module called [node-icns](http://npm.im/node-icns).
+OS X uses a [special file format](https://en.wikipedia.org/wiki/Apple_Icon_Image_format) for icons called `icns`. It's a bit cumbersome to convert images to this format, but luckily a kind soul went to the trouble of abstracting away that work in a convenient little node module called [node-icns](http://npm.im/node-icns).
 
 We'll use `curl` to download an application icon from the [GitHub Octodex](https://octodex.github.com/), then convert it from `PNG` to `ICNS`:
 
