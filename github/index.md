@@ -40,3 +40,11 @@ The support app is called Halp
 <meta property="og:title" content="GitHub" />
 <meta property="og:description" content="Where software is built" />
 <meta property="og:image" content="http://zeke.sikelianos.com/github/adventure-cat.png" />
+
+## Update 1, March 2016
+
+I helped write the latest Electron blog post: [What's new in Electron 0.37](blog.atom.io/2016/03/25/electron-37.html). The highlights: Chromium 49 includes support for [CSS Custom Properties](https://googlechrome.github.io/samples/css-custom-properties/) and [91% ES6 compatibility](https://kangax.github.io/compat-table/es6/#chrome49)!.
+
+## Update 2, April 2016
+
+I wrote a post about [turning websites into desktop apps](/electron-nativefier) using Electron and Nativefier.
