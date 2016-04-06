@@ -8,7 +8,7 @@ description: Turn websites into customized desktop apps with Electron
 </figure>
 
 
-[Electron](http://electron.atom.io/) is a tool for building cross-platform desktop apps with open web technologies like HTML, CSS, Javascript, and Node.js. [Nativefier](https://github.com/jiahaog/nativefier) is a command-line node module built on electron that "wraps any web page natively without even thinking, across Windows, OSX and Linux". You may remember [Fluid.app](http://fluidapp.com/), an app 
+[Electron](http://electron.atom.io/) is a tool for building cross-platform desktop apps with open web technologies like HTML, CSS, Javascript, and Node.js. [Nativefier](https://github.com/jiahaog/nativefier) is a command-line node module built on Electron that "wraps any web page natively without even thinking, across Windows, OSX and Linux".
 
 This post will walk you through the process of creating an app with Nativefier. Some of the content here is specific to Mac OS X, but it is possible to do all of this on Windows and Linux, too.
 
