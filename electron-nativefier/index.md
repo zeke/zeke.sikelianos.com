@@ -56,3 +56,24 @@ open /Applications/GitHub\ Gmail.app
 ```
 
 That's all there is to it! To see what other interesting things you can do, check out the [Nativefier API documentation](https://github.com/jiahaog/nativefier/blob/development/docs/api.md).
+
+## Bonus Round: Jake!
+
+It was awesome to have [Finn the Human](https://en.wikipedia.org/wiki/Finn_the_Human) in my dock, but it felt weird without [Jake the Dog](https://en.wikipedia.org/wiki/Jake_the_Dog). Fortunately I also have a personal Gmail account, so there's a spot for Jake:
+
+```sh
+curl -o jake.png https://cldup.com/o50ct5wvlJ.png
+nicns --in jake.png --out jake.icns
+nativefier \
+  --name "Inbox" \
+  --icon jake.icns \
+  https://inbox.google.com
+rm -rf /Applications/Inbox.app
+mv Inbox-darwin-x64/Inbox.app /Applications/
+open /Applications/Inbox.app
+```
+
+
+<figure>
+  <img src="/electron-nativefier/finn-and-jake.png" style="max-width:50%;margin:60px;">
+</figure>
