@@ -62,22 +62,31 @@ body {
 }
 ```
 
-As of this writing (April 8, 2016), the feature is very new and has not yet landed in Google Chrome or even [Chrome Canary](https://www.google.com/chrome/browser/canary.html), but it is available behind a flag in the latest [Chromium Nightly](https://download-chromium.appspot.com/).
+As of this writing (April 8, 2016), the feature is very new and has not yet landed in Google Chrome or even [Chrome Canary](https://www.google.com/chrome/browser/canary.html), but it is available behind a flag in the latest Chromium nightly.
 
-Once you've got the latest Chromium, start it [with a flag](https://www.chromium.org/developers/how-tos/run-chromium-with-flags). Here's how you do that on OS X:
+To try out `@apply` for yourself, [download the latest Chromium](https://download-chromium.appspot.com) and start it [with a flag](https://www.chromium.org/developers/how-tos/run-chromium-with-flags). Here's how you do that on OS X:
 
 ```sh
 /Applications/Chromium.app/Contents/MacOS/Chromium \
   --enable-blink-features=CSSApplyAtRules
 ```
 
-To see the composable styles in all their glory, head on over to [my codepen demo](http://codepen.io/zeke/pen/XdVopX).
+To see the composable styles in all their glory, head on over to [my codepen demo](http://codepen.io/zeke/pen/XdVopX):
+
+<figure>
+  <a href="http://codepen.io/zeke/pen/XdVopX">
+    <img src="/css-from-the-future/codepen.png" />
+  </a>
+  <figcaption><a href="http://codepen.io/zeke/pen/XdVopX">Codepen demo</a> of @apply in Chromium browser</figcaption>
+</figure>
 
 ## Writing futuristic CSS today
 
 Once this `@apply` implementation lands in Chromium and Electron, we'll be able to write clean, maintainable styles using vanilla CSS. But until that day comes, we'll have to continue leaning on preprocessors to fill the void.
 
-There are at least two projects that allow you to write CSS from the future: [Myth](http://www.myth.io/) and [cssnext](http://cssnext.io/features/). Of those two projects, `cssnext` is more actively maintained, and has an [open issue](https://github.com/MoOx/postcss-cssnext/issues/203) for implementing `@apply` support.
+There are at least two projects that allow you to write futuristic CSS: [Myth](http://www.myth.io/) and [cssnext](http://cssnext.io/features/). Of those two projects, `cssnext` is more actively maintained, and even has an [open issue](https://github.com/MoOx/postcss-cssnext/issues/203) for implementing `@apply` support.
+
+Here's to the future of CSS! :beers:
 
 ## Further Reading
 
