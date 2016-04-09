@@ -5,7 +5,7 @@ description: When will vanilla CSS be good enough to replace Sass, Less, Stylus,
 
 One of the hardest things about being a web developer is accepting the fact that many of the people visiting your site are using old and underpowered web browsers. New features are added to web browsers all the time, but you generally can't use those features, unless you're willing to exclude lots of users who just aren't up to date.
 
-When developing apps with [Electron]([Electron](http://electron.atom.io)), this problem doesn't exist. The code you write in your Electron app executes on a single browser, [Chromium](https://www.chromium.org/Home). Chromium is the core of the Google Chrome web browser, so it's actively maintained my Google and chock full of the latest bells and whistles the web has to offer. It's also open source, which means that a huge community of developers are improving it daily.
+When developing apps with [Electron]([Electron](http://electron.atom.io)), this problem doesn't exist. The code you write in your Electron app executes on a single browser, [Chromium](https://www.chromium.org/Home). Chromium is the core of the Google Chrome web browser, so it's actively maintained by Google. It's also open source, which means that a huge community of developers are improving it daily.
 
 ## CSS Custom Properties
 
