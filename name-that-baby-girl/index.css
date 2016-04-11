@@ -1,0 +1,35 @@
+body {
+  font-family: Georgia;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#input {
+  width: 100%;
+  display: block;
+  font-family: Georgia;
+  font-size: 24px;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #CCC;
+  outline: none;
+  margin: 0 0 20px 0;
+}
+
+#names {
+  display: none;
+}
+
+div {
+  float: left;
+  width: 270px;
+  margin-left: 5px;
+}
+
+div:before {
+  content: attr(title);
+  display: block;
+  color: #CCC;
+  text-transform: capitalize;
+}
