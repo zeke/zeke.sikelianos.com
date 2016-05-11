@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/zeke/zeke.sikelianos.com",
   "devDependencies": {
+    "jus": "^0.18.1"
   },
   "dependencies": {
     "analytics.js-loader": "^2.1.2",
