@@ -160,8 +160,8 @@ Then open up a remote bash shell containing your app's code and environment:
 
 ```sh
 heroku run bash
-cat ./npmrc
-cat ./netrc
+cat .npmrc
+cat .netrc
 ```
 
 If everything is configured properly, you'll see your credentials in the
