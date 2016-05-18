@@ -1,6 +1,7 @@
 <!--
 title: Websites as Apps
 description: Turn websites into customized desktop apps with Electron
+publish_date: 2016-04-05
 -->
 
 <figure>

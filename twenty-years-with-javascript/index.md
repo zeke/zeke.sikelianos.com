@@ -1,7 +1,7 @@
 <!--
 title: Twenty Years with JavaScript
 description: npm is amazing; I want my mom to understand why.
-published_at: 2014-08-18
+publish_date: 2014-08-18
 -->
 
 I was thirteen when JavaScript was born.

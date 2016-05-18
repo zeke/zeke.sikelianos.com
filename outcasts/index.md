@@ -3,7 +3,7 @@ title: Outcasts
 description: Words that people on Twitter don't think are words
 website: http://zeke.sikelianos.com/outcasts/
 keywords: [language, twitter, slang, english, reference, ruby]
-start: 2012-04-03
+publish_date: 2012-04-03
 end: 2012-04-03
 -->
 

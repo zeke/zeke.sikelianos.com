@@ -1,6 +1,8 @@
 <!--
 title: CSS from the Future
 description: When will vanilla CSS be good enough to replace Sass, Less, Stylus, and the rest?
+publish_date: 2016-04-08
+tweet: https://twitter.com/zeke/status/718552677555175424
 -->
 
 One of the hardest things about being a web developer is accepting the fact that many of the people visiting your site are using old and underpowered web browsers. New features are added to web browsers all the time, but you generally can't use those features, unless you're willing to exclude lots of users who just aren't up to date.

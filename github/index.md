@@ -2,7 +2,7 @@
 title: Github
 description: Where software is built
 keywords: [github]
-start: 2016-03-14
+publish_date: 2016-03-14
 -->
 
 I've joined [GitHub](https://github.com/about/team)! I'll be working on the new [Electron](http://electron.atom.io) team alongside [Jessica Lord](https://github.com/jlord), [Kevin Sawicki](https://github.com/kevinsawicki), [Cheng Zhao](https://github.com/zcbenz) and others, helping build and maintain [Atom](http://atom.io) and [Electron](http://electron.atom.io), two open-source projects for making native applications using open web technologies like HTML, CSS, and Javascript.

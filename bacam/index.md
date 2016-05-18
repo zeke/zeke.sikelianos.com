@@ -3,7 +3,8 @@ title: Bay Area Cultural Asset Map
 description: Arts fundraising intelligence for the Hewlett Foundation
 website: http://color-namer.org
 keywords: [maps, design, cartography, census, geodata]
-start: 2010-02-02
+publish_date: 2010-02-02
+publish_date: 2010-02-02
 end: 2010-10-30
 -->
 

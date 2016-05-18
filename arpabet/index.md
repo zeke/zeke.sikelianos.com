@@ -3,7 +3,7 @@ title: Arpabet
 website: http://arpabet.herokuapp.com/
 keywords: [language, words, rhyme, reference, english, ruby]
 noIndex: true
-start: 2011-11-15
+publish_date: 2011-11-15
 end: 2013-07-14
 -->
 

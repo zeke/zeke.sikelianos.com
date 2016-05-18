@@ -2,6 +2,7 @@
 title: Objecty Arrays in JavaScript
 description: Can we have our cake and eat it too?
 keywords: [javascript]
+publish_date: 2016-03-17
 -->
 
 <figure>

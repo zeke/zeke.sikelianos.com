@@ -28,11 +28,13 @@
   },
   "homepage": "https://github.com/zeke/zeke.sikelianos.com",
   "devDependencies": {
-    "jus": "^0.18.1"
+    "jus": "^0.20.0"
   },
   "dependencies": {
     "analytics.js-loader": "^2.1.2",
+    "browser-date-formatter": "^1.0.0",
     "jquery": "^2.2.0",
+    "jus": "^0.20.0",
     "tipsy-browserify": "^1.0.0"
   }
 }

@@ -4,6 +4,7 @@ title: The Sweet Sensation of Automation
 description: A guide to automated npm publishing and GitHub pushing using Heroku
 keywords: [npm, github, heroku, shell]
 thumbnail_credit: https://www.flickr.com/photos/32281279@N04/5232348119
+publish_date: 2016-05-15
 -->
 
 Last year I created a little npm module called

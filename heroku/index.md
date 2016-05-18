@@ -4,7 +4,7 @@ location: San Francisco, CA
 description: Polyglot Cloud Computing Platform
 position: Product Designer and Node.js Maintainer
 website: https://heroku.com
-start: 2012-05-01
+publish_date: 2012-05-01
 end: 2014-08-08
 -->
 

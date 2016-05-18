@@ -4,7 +4,7 @@ location: Santa Barbara, CA
 description: Agile Ruby on Rails consultancy
 position: Rails Developer
 website: http://elctech.com
-start: 2007-01-15
+publish_date: 2007-01-15
 end: 2008-03-31
 noIndex: true
 -->

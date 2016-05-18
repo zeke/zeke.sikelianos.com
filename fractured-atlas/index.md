@@ -4,7 +4,7 @@ location: Los Angeles, CA & New York, NY
 description: Helping artists succeed as entrepreneurs
 position: Senior Developer, UI Designer
 website: http://fracturedatlas.org
-start: 2008-03-15
+publish_date: 2008-03-15
 end: 2010-12-01
 -->
 
