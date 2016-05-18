@@ -3,7 +3,7 @@ title: Moby Thesaurus
 description: The world's largest English thesaurus
 website: http://moby-thesaurus.org/
 repository: https://github.com/zeke/moby
-keywords: [language, English, thesaurus, Node.js, reference]
+keywords: [language, english, thesaurus, node, reference]
 start: 2014-04-26
 end: 2014-04-28
 -->

@@ -4,7 +4,7 @@ location: Oakland, CA
 description: The package manager for JavaScript
 position: Designer, Developer
 website: https://www.npmjs.com
-keywords: npm, javascript, development, node.js, reference
+keywords: [npm, javascript, development, node.js, reference]
 start: 2014-07-29,
 end: 2015-05-05
 -->

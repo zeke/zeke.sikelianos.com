@@ -1,6 +1,7 @@
 <!--
 title: Objecty Arrays in JavaScript
 description: Can we have our cake and eat it too?
+keywords: [javascript]
 -->
 
 <figure>

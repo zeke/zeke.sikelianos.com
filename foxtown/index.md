@@ -2,7 +2,7 @@
 title: Foxtown Vintage
 website: http://foxtownvintage.com
 noIndex: true
-keywords: [fashion, website, mobile, design, etsy]
+keywords: [fashion, mobile, design, etsy, node]
 start: 2014-05-21
 end: 2014-05-28
 -->

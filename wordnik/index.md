@@ -4,7 +4,7 @@ location: San Mateo, CA
 description: A home for all the words
 position: Neolexicographer
 website: http://wordnik.com
-keywords: [language, reference, English, Ruby]
+keywords: [language, reference, english, ruby]
 start: 2011-01-01
 end: 2012-04-15
 -->
