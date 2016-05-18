@@ -44,8 +44,8 @@ and GitHub.
 heroku create my-npm-bot
 ```
 
-Unlike a typical Heroku app, this app doesn't have a `web` process. It doesn't
-have a web address and it cant be viewed in a web browser. It's just an app on
+Unlike a typical Heroku app, this app doesn't have a `web` process. There's
+no web server listening on a port and serving requests. It's just an app on
 a faceless computer in the cloud that will wake up on occasion to do your bidding.
 
 ## Heroku Buildpacks
