@@ -1,6 +1,6 @@
 <!--
 title: Bio
-description: A little about me
+description: A little about me, Zeke Sikelianos
 noIndex: true
 -->
 
@@ -10,11 +10,13 @@ noIndex: true
 </figure>
 
 I grew up in a family of <a href="http://beaver.zeke.sikelianos.com/">artists and artisans</a>, and
-though I ended up in a technical field, I still consider design and aesthetics to be essential to my work. I believe that <a href="https://en.wikipedia.org/wiki/Hacker_ethic">information wants to be free</a>, and the work I do is always in the service of that idea.
+though I ended up in a [technical field](/github), I still consider design to an essential part of my work. I believe that <a href="https://en.wikipedia.org/wiki/Hacker_ethic">information wants to be free</a>, and the work I do is always in the service of that idea.
 
-Today I'm a software developer at <a href="https://github.com/about">GitHub</a>, working on <a href="https://atom.io">Atom</a> and <a href="http://electron.atom.io">Electron</a>, two open-source projects for building native applications using familiar web technologies like HTML, CSS, and Javascript.
+Today I'm a software developer at <a href="https://github.com/about">GitHub</a>, working on <a href="http://electron.atom.io">Electron</a>, an open-source project for building native applications using open web technologies like HTML, CSS, and Javascript.
 
-I love to travel. In the last five years I've moved a lot, from Los Angeles to Paris to San Francisco to Oakland to New Orleans and most recently Santa Barbara. I live with my wife <a href="https://www.instagram.com/nelbo_/">Jenelle</a> and our son <a href="https://www.instagram.com/p/6IUj0eFvFU/?taken-by=nelbo_">Cosmos</a>, and we have another little one due in the spring.
+I love to travel. In the last five years I've moved a lot, from Los Angeles to Paris to San Francisco to Oakland to New Orleans and most recently Santa Barbara. I live with my wife <a href="https://www.instagram.com/nelbo_/">Jenelle</a> and our sons <a href="https://www.instagram.com/p/6IUj0eFvFU/?taken-by=nelbo">Cosmos</a>
+and
+<a href="https://cloudup.com/cF8ek7Pbn5C">Rowan</a>.
 
 <figure>
   <img src="/bio/zeke-and-jenelle.jpg">
