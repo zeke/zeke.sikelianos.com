@@ -14,7 +14,35 @@ end: 2015-05-05
   <figcaption>Hexagons are all the rage. Isometric ones especially.</figcaption>
 </figure>
 
-npm is the package manager for JavaScript. It's a huge registry of over 200,000 open-source modules for building applications for node/io.js and the browser. During my nine-month stint at npm, I designed and developed a complete redesign and rebuild of the front and back end of the npmjs.com website, making it faster, cleaner, more information-dense, mobile-friendly, and more easily contributed to by the open source community.
+npm is the package manager for JavaScript. It's a huge registry of over 275,000 open-source modules for building applications for node and the browser. During my nine-month stint at npm Incorporated, I executed a complete redesign and rebuild of the frontend and backend of the npmjs.com website, making it faster, cleaner, more information-dense, mobile-friendly, and more easily contributed to by the open source community.
+
+<figure>
+  <a href="https://github.com/npm/newww/graphs/contributors">
+    <img src="/npm/number-one-contributor.png">
+  </a>
+  <figcaption>A year after my departure, still the #1 contributor to npmjs.com :shrug:</figcaption>
+</figure>
+
+<figure>
+  <a href="https://github.com/npm/newww/graphs/contributors">
+    <img src="/npm/private-npm.png">
+  </a>
+  <figcaption>Promotional banner for the Private npm product</figcaption>
+</figure>
+
+<figure>
+  <a href="http://tableflip.io/1234">
+    <img src="/npm/iojs-logo-yellow.png">
+  </a>
+  <figcaption>logo concept for io.js, a short-lived fork of node</figcaption>
+</figure>
+
+<figure>
+  <a href="http://tableflip.io/12345">
+    <img src="/npm/node-js-logo.png">
+  </a>
+  <figcaption>logo concept for node's logo overhaul</figcaption>
+</figure>
 
 <figure>
   <a href="https://www.npmjs.com"><img src="/npm/access-controls.png"></a>
@@ -26,7 +54,12 @@ npm is the package manager for JavaScript. It's a huge registry of over 200,000 
   <figcaption>Sometimes a 404 is a good thing. Concept inspired by the <a href="https://rubygems.org/package/nonexistent">Rubygems 404</a></figcaption>
 </figure>
 
-<!-- <figure>
+<figure>
   <img src="/npm/private-package-mockups.png">
   <figcaption>experimental private package icons</figcaption>
-</figure> -->
+</figure>
+
+## See Also
+
+- [npm packages owned by @zeke](/npm-packages)
+- [npm-hub](http://npmhub.org/), a browser extension for serendipitous npm module discovery
