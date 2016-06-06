@@ -7,9 +7,8 @@ publish_date: 2011-08-29
 
 {{#each page.data.flickr_photos}}
   <figure>
-    <a href="{{url}}" title={{title}}>
-      <img src="{{sizes.large.source}}" alt="{{title}}" />
+    <a href="{{url}}">
+      <img src="{{sizes.large.source}}">
     </a>
-    <figcaption>{{title}}</figcaption>
   </figure>
 {{/each}}
