@@ -9,7 +9,8 @@
     "portfolio": "flickr-photoset-info 72157610714160553 > portfolio/flickr_photos.json",
     "corn-bed": "flickr-photoset-info 72157624807279024 > corn-bed/flickr_photos.json",
     "bacam": "flickr-photoset-info 72157664310930821 > bacam/flickr_photos.json",
-    "wordnik": "flickr-photoset-info 72157628405098765 > wordnik/flickr_photos.json"
+    "wordnik": "flickr-photoset-info 72157628405098765 > wordnik/flickr_photos.json",
+    "melitsa": "flickr-photoset-info 72157627365540737 > melitsa/flickr_photos.json"
   },
   "repository": {
     "type": "git",
@@ -28,11 +29,13 @@
   },
   "homepage": "https://github.com/zeke/zeke.sikelianos.com",
   "devDependencies": {
+    "flickr-photoset-info": "^1.4.0",
     "jus": "^0.20.0"
   },
   "dependencies": {
     "analytics.js-loader": "^2.1.2",
     "browser-date-formatter": "^2.0.1",
+    "flickr-photoset-info": "^1.4.0",
     "jquery": "^2.2.0",
     "jus": "^0.20.0",
     "tipsy-browserify": "^1.0.0"
