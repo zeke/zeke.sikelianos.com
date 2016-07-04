@@ -30,14 +30,12 @@
   "homepage": "https://github.com/zeke/zeke.sikelianos.com",
   "devDependencies": {
     "flickr-photoset-info": "^1.4.0",
-    "jus": "^0.20.0"
+    "jus": "^0.20.1"
   },
   "dependencies": {
     "analytics.js-loader": "^2.1.2",
     "browser-date-formatter": "^2.0.1",
-    "flickr-photoset-info": "^1.4.0",
     "jquery": "^2.2.0",
-    "jus": "^0.20.0",
     "tipsy-browserify": "^1.0.0"
   }
 }
