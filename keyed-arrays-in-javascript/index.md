@@ -9,6 +9,9 @@ publish_date: 2016-03-17
   <img src="/keyed-arrays-in-javascript/arrays-vs-objects.svg">
 </figure>
 
+The ideas in this post are implemented in the
+[keyed-array](https://www.npmjs.com/package/keyed-array) package on npm.
+
 A question often comes up for me when I'm designing a JavaScript or JSON data structure: "Should I use an Array or an Object for this?" Sometimes the answer is obvious. Sometimes it's hard to know which is better.
 
 This short post proposes One Weird Trick™ for adding a bit of sugar to Arrays, using plain old JavaScript.
