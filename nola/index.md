@@ -1,6 +1,7 @@
 <!--
 title: NOLA
 description: A list of some of my favorite spots in New Orleans
+noIndex: true
 -->
 
 In the summer of 2015, my wife Jenelle and I decided to move to New Orleans.
