@@ -120,4 +120,4 @@ Object.keys(people)
 
 Also `JSON.stringify` will produce undesirable results. But if those two drawbacks are not important for your use case, this little technique could fit your needs.
 
-If you found this useful, [let me know](mailto:zeke@sikelianos.com). If you think it's a bad idea, [tell me why]((mailto:zeke@sikelianos.com)).
+If you found this useful, [let me know](mailto:zeke@sikelianos.com). If you think it's a bad idea, [tell me why](mailto:zeke@sikelianos.com).
