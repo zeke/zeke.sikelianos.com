@@ -40,6 +40,15 @@ echo "console.log('whoa script injection')" > custom.js
 echo "body { background: papayawhip; }" > custom.css
 ```
 
+## Internal vs External URLs
+
+When packaging an app, you can configure whether clicked links should open in 
+the app window itself or in the default web browser. This can be configured
+using the `--internal-urls` option. Using this 
+[one weird trick](https://github.com/jiahaog/nativefier/issues/212#issuecomment-292689727),
+we can set this to a gibberish regex that will never match, hence no link will be 
+considered 'internal' and all links open in the browser.
+
 ## Packaging the App
 
 The final step is to install Nativefier, package the website into an app, and move it into the Applications directory:
@@ -50,6 +59,7 @@ nativefier \
   --icon cat.icns \
   --inject custom.js \
   --inject custom.css \
+  --internal-urls "xxxxxxxxx" \
   https://inbox.google.com
 rm -rf /Applications/GitHub\ Gmail.app
 mv GitHub\ Gmail-darwin-x64/GitHub\ Gmail.app /Applications/
@@ -68,6 +78,7 @@ nicns --in jake.png --out jake.icns
 nativefier \
   --name "Inbox" \
   --icon jake.icns \
+  --internal-urls "xxxxxxxxx" \
   https://inbox.google.com
 rm -rf /Applications/Inbox.app
 mv Inbox-darwin-x64/Inbox.app /Applications/
