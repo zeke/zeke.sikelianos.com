@@ -34,7 +34,16 @@
           <h2 class="page__description">{{page.description}}</h2>
         {{/if}}
         {{#if page.publish_date}}
-          <time class="page__publish-date" title="{{page.publish_date}}" data-date="{{page.publish_date}}" data-format="%B %Y">{{page.publish_date}}</time>
+          <div class="page__publish-date">
+            {{#if page.update_date}}
+              Published 
+              <time title="{{page.publish_date}}" data-date="{{page.publish_date}}" data-format="%B %Y">{{page.publish_date}}</time>
+              and last updated 
+              <time title="{{page.update_date}}" data-date="{{page.update_date}}" data-format="%B %Y">{{page.update_date}}</time>
+            {{else}}
+              <time title="{{page.publish_date}}" data-date="{{page.publish_date}}" data-format="%B %Y">{{page.publish_date}}</time>
+            {{/if}}
+          </div>
         {{/if}}
       </header>
 
