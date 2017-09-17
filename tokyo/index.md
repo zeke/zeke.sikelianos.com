@@ -57,7 +57,7 @@ enters you in a video lottery with prizes!
 
 ## Map
 
-I'm saving spots on a Google Map as I go:
+I'm [saving spots](https://drive.google.com/open?id=1SXIjBPosY8n75ZiP_j3lKA4d1YU&usp=sharing) on a Google Map as I go:
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1SXIjBPosY8n75ZiP_j3lKA4d1YU" width="100%" height="600"></iframe>
 
