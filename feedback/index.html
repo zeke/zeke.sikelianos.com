@@ -1,0 +1,49 @@
+<!-- 
+title: Feedback 
+description: Send me anonymous messages about any little thing.
+-->
+
+<link rel="stylesheet" href="/feedback/form.css">
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="/feedback/form.js"></script>
+
+<form action="https://formspree.io/xzerakqm" method="POST" id="feedback"> 
+
+  <!-- formspree config; https://formspree.io/ -->
+  <input type="hidden" name="_next" value="/feedback?thanks" />
+  <input type="hidden" name="_subject" value="Feedback for Zeke" />
+  <input type="text" name="_gotcha" style="display:none" />
+
+  <fieldset>
+    <label>
+      <span>What do you have to say?</span>
+      <textarea name="feedback"></textarea>
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <label class="required">
+      <span>Your name (optional)</span>
+      <input type="text" name="name" autocorrect="off" autocomplete="off">
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <label class="required">
+      <span>Your email (optional)</span>
+      <input type="email" name="email" autocapitalize="off" autocorrect="off" autocomplete="off">
+    </label>
+  </fieldset>
+
+  <!-- Hidden fields, updated with data from ipinfo.io -->
+  <input type="hidden" data-source='postal' name='postal_guess' />
+  <input type='hidden' data-source='city' name='city_guess' />
+  <input type='hidden' data-source='region' name='region_guess' />
+  <input type='hidden' data-source='country' name='country_guess' />
+  <input type='hidden' data-source='org' name='org_guess' />
+  <input type='hidden' data-source='ip' name='ip' />
+  <input type='hidden' data-source='loc' name='coordinates' />
+
+  <input type='submit' value='Send Feedback to Zeke'>
+</form>
