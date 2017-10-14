@@ -80,7 +80,7 @@ noIndex: true
     <td><a href="mailto:zeke@sikelianos.com">zeke@sikelianos.com</a></td>
   </tr>
   <tr>
-    <td><a href="https://goo.gl/82RiZD">Home Address</a></td>
-    <td><a href="https://goo.gl/82RiZD">1758 Grand Ave, Santa Barbara CA 93101</a></td>
+    <td><a href="/feedback">Contact me anonymously: </a></td>
+    <td><a href="/feedback">zeke.sikelianos.com/feedback</a></td>
   </tr>
 </table>
