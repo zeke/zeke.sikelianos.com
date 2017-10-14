@@ -4,8 +4,6 @@ description: Send me anonymous messages about any little thing.
 noIndex: true
 -->
 
-<link rel="stylesheet" href="/feedback/form.css">
-
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="/feedback/form.js"></script>
 
@@ -18,21 +16,21 @@ noIndex: true
 
   <fieldset>
     <label>
-      <span>What do you have to say?</span>
+      <span id="feedback-label">What do you have to say?</span>
       <textarea name="feedback"></textarea>
     </label>
   </fieldset>
 
-  <fieldset>
+  <fieldset class="name">
     <label class="required">
-      <span>Your name (optional)</span>
+      <span>What's your name? (optional)</span>
       <input type="text" name="name" autocorrect="off" autocomplete="off">
     </label>
   </fieldset>
 
-  <fieldset>
+  <fieldset class="email">
     <label class="required">
-      <span>Your email (optional)</span>
+        <span>What's your email address? (also optional)</span>
       <input type="email" name="email" autocapitalize="off" autocorrect="off" autocomplete="off">
     </label>
   </fieldset>
@@ -46,5 +44,5 @@ noIndex: true
   <input type='hidden' data-source='ip' name='ip' />
   <input type='hidden' data-source='loc' name='coordinates' />
 
-  <input type='submit' value='Send Feedback to Zeke'>
+  <input type='submit' value='Send it to Zeke'>
 </form>
