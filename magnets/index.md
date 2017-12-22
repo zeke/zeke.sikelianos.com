@@ -44,8 +44,6 @@ Magnetism and electricity are like two sides of the same coin: a spinning
 magnet creates an electric current, and conversely an electric current 
 traveling through a medium creates a magnetic field.
 
-This natural phenomenon has only recently been exploited by humans, 
-
 ## Solstice
 
 Our year is designated by the time it takes the Earth to make a trip around the
@@ -122,6 +120,8 @@ electric guitar pickups, and all kinds of other stuff.
 - <a href="https://www.youtube.com/watch?v=eqtuNXWT0mo">Richard Feynman: "Fun To Imagine"</a>
 - <a href="https://www.youtube.com/watch?v=8Y4JSp5U82I">Khan Academy: Introduction to Magnetism</a>
 - <a href="https://www.youtube.com/watch?v=rLNM8zI4Q_M">Khan Academy: Introduction to Light</a>
+
+## Imagery
 
 <figure>
   <img class="multiply" src="/magnets/bar-magnets.jpg">
