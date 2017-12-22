@@ -112,7 +112,7 @@ electric guitar pickups, and all kinds of other stuff.
 <figure>
   <img src="/magnets/practical-use-stud-finder.jpg">
 </figure>
-<figcaption class="solo">Separate nails from broken glass</figcaption>
+<figcaption class="solo">Find the nails and you've found the studs.</figcaption>
 
 ## Further Reading and Watching
 
