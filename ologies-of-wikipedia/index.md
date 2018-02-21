@@ -2,6 +2,7 @@
 title: oligies on Wikipedia
 description: The study of many things, including $cientology.
 publish_date: 2018-02-20
+noIndex: true
 -->
 
 - [!Kung_mythology](https://en.wikipedia.org/wiki/!Kung_mythology)
