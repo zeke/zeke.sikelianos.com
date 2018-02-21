@@ -1,6 +1,6 @@
 <!-- 
 title: oligies on Wikipedia
-description: The study of many things, including $cientology.
+description: An exhaustive list on the study of many things, including $cientology.
 publish_date: 2018-02-20
 noIndex: true
 -->
