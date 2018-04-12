@@ -49,3 +49,7 @@ I helped write the latest Electron blog post: [What's new in Electron 0.37](blog
 ## Update 2, April 2016
 
 I wrote a post about [turning websites into desktop apps](/electron-nativefier) using Electron and Nativefier.
+
+## Update 3, April 2018
+
+Long time no write! See [electronjs.org/blog](https://electronjs.org/blog) for updates on what I've been up to with Electron, or check out my new list of [talks](/talks). Some of 'em are about Electron. :)
