@@ -4,7 +4,9 @@
   "description": "My website as an npm module",
   "scripts": {
     "start": "jus serve",
-    "deploy": "rm -rf dist && jus build . dist && surge dist && rm -rf dist && open http://zeke.sikelianos.com",
+    "build": "rm -rf dist && jus build . dist",
+    "build-cleanup": "rm -rf dist",
+    "deploy": "npm run build && surge dist && npm run build-cleanup && open http://zeke.sikelianos.com",
     "beaver": "flickr-photoset-info 72157665728777671 > beaver-brook/flickr_photos.json",
     "portfolio": "flickr-photoset-info 72157610714160553 > portfolio/flickr_photos.json",
     "corn-bed": "flickr-photoset-info 72157624807279024 > corn-bed/flickr_photos.json",
