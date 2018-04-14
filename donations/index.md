@@ -69,3 +69,5 @@ While my employer may change every few years, my dedication to the open source c
 If you want to help sustain my open source work, you can [donate a couple bucks a month](https://patreon.com/sikelianos) on my [Patreon page](https://patreon.com/sikelianos).
 
 Thank you. :heart:
+
+[![Become a Patron](/donations/patreon.png)](https://patreon.com/sikelianos)
