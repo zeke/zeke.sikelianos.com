@@ -62,7 +62,7 @@ I also run several free websites and services:
 </figure>
 </a> -->
 
-To keep this wheels on this proverbial bus, I maintain a benevolent army of [robots](https://probot.github.io/apps/) that help automate away the menial tasks. :robot:
+To keep the wheels on this proverbial bus, I maintain a benevolent army of [robots](https://probot.github.io/apps/) that help automate away the menial tasks. :robot:
 
 While my employer may change every few years, my dedication to the open source community remains steady. I've been continuously supporting, hosting, financing, and expanding many of these projects for years, and plan to continue doing so in the years to come. :fist:
 
