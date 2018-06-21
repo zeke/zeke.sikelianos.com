@@ -5,8 +5,8 @@ noIndex: true
 -->
 
 <figure>
-  <img src="/bio/slacklining-at-leadbetter-beach.jpg">
-  <figcaption>Slacklining at <a href="https://en.wikipedia.org/wiki/Leadbetter_Beach">Leadbetter Beach</a> with my son Cosmos</figcaption>
+  <img src="/bio/family-selfie.jpg">
+  <figcaption>Cosmos, Zeke, (Toasty) Rowan, Jenelle</figcaption>
 </figure>
 
 I grew up in a family of <a href="http://beaver.zeke.sikelianos.com/">artists and artisans</a>, and
@@ -18,25 +18,6 @@ I love to travel. In the last five years I've moved a lot, from Los Angeles to P
 and
 <a href="https://cloudup.com/cF8ek7Pbn5C">Rowan</a>.
 
-<figure>
-  <img src="/bio/zeke-and-jenelle.jpg">
-  <figcaption>Me and my wife Jenelle</figcaption>
-</figure>
+<!-- My resolution for 2016 was to channel Ganesha, the "remover of obstacles".
 
-<figure>
-  <img src="/bio/cosmos.jpg">
-  <figcaption>My son Cosmos</figcaption>
-</figure>
-
-<figure>
-  <img src="/bio/cosmos-again.jpg">
-  <figcaption>Cosmos again, for good measure</figcaption>
-</figure>
-
-<figure>
-  <img src="/bio/ganesha.jpg">
-  <figcaption>My resolution for 2016 was to channel Ganesha, the "remover of obstacles".</figcaption>
-</figure>
-
-
-My resolution for 2017 is to learn more about building the immutable decentralized Internet of the future, moving control of information sharing from corporations to individuals.
+My resolution for 2017 is to learn more about building the immutable decentralized Internet of the future, moving control of information sharing from corporations to individuals. -->
