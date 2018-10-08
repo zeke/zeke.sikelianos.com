@@ -76,8 +76,8 @@ node and npm, which we'll use in our release script.
 To add these three buildpacks to your app, run the following commands:
 
 ```sh
-heroku buildpacks:add -i 1 https://github.com/zeke/github-buildpack
-heroku buildpacks:add -i 2 https://github.com/zeke/npm-buildpack
+heroku buildpacks:add -i 1 https://github.com/github-modules/github-buildpack
+heroku buildpacks:add -i 2 https://github.com/nice-registry/npm-buildpack
 heroku buildpacks:add -i 3 heroku/nodejs
 ```
 
