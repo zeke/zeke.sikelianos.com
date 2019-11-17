@@ -32,7 +32,7 @@ async function main () {
       // (this will keep them as remote references in the downloaded pages)
       return url.startsWith(`http://localhost:${port}/`) || url.startsWith(`/`)
     },
-    directory: dist,
+    directory: tempDirectory,
     filenameGenerator: 'bySiteStructure',
     requestConcurrency: 6
   }
@@ -50,7 +50,7 @@ async function main () {
       path.join(finalDirectory)
     )
     rimraf(tempDirectory)
-    
+
     process.exit()
   })
 }
