@@ -5,7 +5,7 @@
   "repository": "https://github.com/zeke/zeke.sikelianos.com",
   "scripts": {
     "dev": "NODE_ENV=development nodemon server.js",
-    "build": "scripts/build",
+    "build": "script/build.js",
     "beaver": "flickr-photoset-info 72157665728777671 > beaver-brook/flickr_photos.json",
     "portfolio": "flickr-photoset-info 72157610714160553 > portfolio/flickr_photos.json",
     "corn-bed": "flickr-photoset-info 72157624807279024 > corn-bed/flickr_photos.json",
@@ -19,8 +19,10 @@
   "devDependencies": {
     "flickr-photoset-info": "^1.4.0",
     "nodemon": "^1.19.4",
+    "rimraf": "^3.0.0",
     "standard": "^14.3.1",
-    "walk-sync": "^2.0.2"
+    "walk-sync": "^2.0.2",
+    "website-scraper": "^4.2.0"
   },
   "dependencies": {
     "@github-docs/data-directory": "^1.0.0",
