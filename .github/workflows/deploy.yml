@@ -1,0 +1,22 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build-and-deploy:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+    container: 'node:12-alpine'
+    steps:
+    - uses: actions/checkout@v1
+    - run: npm ci
+    - run: npm run build
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.5.0
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ZEKE_PAT_WITH_REPO_SCOPE_FOR_DEPLOYMENT }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./dist
