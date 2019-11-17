@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="stylesheet" href="/index.css">
-  <script src="/scripts/index.js"></script>
+  <script src="https://unpkg.com/browser-date-formatter@3.0.2/dist.js"></script>
+  <script src="/index.js"></script>
 </head>
 
 <body>
@@ -39,7 +40,7 @@
               <time title="{{page.publish_date}}" data-date="{{page.publish_date}}" data-format="%B %Y">{{page.publish_date}}</time>
               and last updated 
               <time title="{{page.update_date}}" data-date="{{page.update_date}}" data-format="%B %Y">{{page.update_date}}</time>
-            {{else}}
+            {% else %}
               <time title="{{page.publish_date}}" data-date="{{page.publish_date}}" data-format="%B %Y">{{page.publish_date}}</time>
             {% endif %}
           </div>

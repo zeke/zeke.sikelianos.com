@@ -79,8 +79,4 @@ noIndex: true
     <td><a href="mailto:zeke@sikelianos.com">Email</a></td>
     <td><a href="mailto:zeke@sikelianos.com">zeke@sikelianos.com</a></td>
   </tr>
-  <tr>
-    <td><a href="/feedback">Contact me anonymously: </a></td>
-    <td><a href="/feedback">zeke.sikelianos.com/feedback</a></td>
-  </tr>
 </table>
