@@ -2,43 +2,41 @@
   "name": "zeke.sikelianos.com",
   "version": "3.0.0",
   "description": "My website as an npm module",
+  "repository": "https://github.com/zeke/zeke.sikelianos.com",
   "scripts": {
-    "start": "jus serve",
-    "build": "rm -rf dist && jus build . dist",
-    "build-cleanup": "rm -rf dist",
-    "deploy": "npm run build && surge dist && npm run build-cleanup && open http://zeke.sikelianos.com",
+    "dev": "NODE_ENV=development nodemon server.js",
+    "build": "scripts/build",
     "beaver": "flickr-photoset-info 72157665728777671 > beaver-brook/flickr_photos.json",
     "portfolio": "flickr-photoset-info 72157610714160553 > portfolio/flickr_photos.json",
     "corn-bed": "flickr-photoset-info 72157624807279024 > corn-bed/flickr_photos.json",
     "bacam": "flickr-photoset-info 72157664310930821 > bacam/flickr_photos.json",
     "wordnik": "flickr-photoset-info 72157628405098765 > wordnik/flickr_photos.json",
-    "melitsa": "flickr-photoset-info 72157627365540737 > melitsa/flickr_photos.json"
+    "melitsa": "flickr-photoset-info 72157627365540737 > melitsa/flickr_photos.json",
+    "lint": "standard --fix"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zeke/zeke.sikelianos.com"
-  },
-  "keywords": [
-    "zeke",
-    "website",
-    "static",
-    "portfolio"
-  ],
   "author": "zeke",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zeke/zeke.sikelianos.com/issues"
-  },
-  "homepage": "https://github.com/zeke/zeke.sikelianos.com",
   "devDependencies": {
     "flickr-photoset-info": "^1.4.0",
-    "jus": "^0.20.1",
-    "surge": "^0.19.0"
+    "nodemon": "^1.19.4",
+    "standard": "^14.3.1",
+    "walk-sync": "^2.0.2"
   },
   "dependencies": {
+    "@github-docs/render-content": "^1.0.0",
     "analytics.js-loader": "^2.1.2",
     "browser-date-formatter": "^2.0.1",
+    "express": "^4.17.1",
+    "html-frontmatter": "^1.6.1",
     "jquery": "^2.2.0",
+    "lodash": "^4.17.15",
+    "stylus": "^0.54.7",
     "tipsy-browserify": "^1.0.0"
+  },
+  "standard": {
+    "ignore": [
+      "content/",
+      "scripts/"
+    ]
   }
 }

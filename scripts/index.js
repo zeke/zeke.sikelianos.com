@@ -1,13 +1,13 @@
 require('./tooltips')()
 require('browser-date-formatter')()
 
-var analytics = require('analytics.js-loader')({writeKey: 'Swfv9Hp8UkkaNuJtj5ZsxTPYQyB6Vhgj'})
+var analytics = require('analytics.js-loader')({ writeKey: 'Swfv9Hp8UkkaNuJtj5ZsxTPYQyB6Vhgj' })
 
 // document.addEventListener('DOMContentLoaded', function (event) {
 //   document.querySelectorAll('figure > img.multiply').forEach(img => {
 //     var width = img.clientWidth
 //     var height = img.clientHeight
-    
+
 //     var figure = img.parentElement
 //     figure.style.width = width
 //     figure.style.height = height

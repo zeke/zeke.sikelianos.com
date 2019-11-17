@@ -1,7 +1,7 @@
 const $ = require('jquery')
 
-module.exports = function() {
-  $(function() {
+module.exports = function () {
+  $(function () {
     require('tipsy-browserify')($)
     $('[rel=tipsy]').tipsy({
       fade: false,
