@@ -31,15 +31,12 @@
     "browser-date-formatter": "^2.0.1",
     "express": "^4.17.1",
     "html-frontmatter": "^1.6.1",
-    "jquery": "^2.2.0",
     "lodash": "^4.17.15",
-    "stylus": "^0.54.7",
-    "tipsy-browserify": "^1.0.0"
+    "stylus": "^0.54.7"
   },
   "standard": {
     "ignore": [
-      "content/",
-      "scripts/"
+      "content/"
     ]
   }
 }

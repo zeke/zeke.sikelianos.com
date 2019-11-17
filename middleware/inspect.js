@@ -2,7 +2,7 @@
 
 const { get } = require('lodash')
 
-module.exports = function (req, res, next) {  
+module.exports = function (req, res, next) {
   if ('inspect' in req.query) {
     if (req.query.inspect.length > 1) {
       // deep reference: ?inspect=page.permalinks

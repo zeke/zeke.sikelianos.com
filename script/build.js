@@ -16,7 +16,7 @@ async function main () {
     .map(href => `${host}${href}`)
 
   const finalDirectory = path.join(__dirname, '../dist')
-  const tempDirectory = path.join(__dirname, `../website-scraper-temp`)
+  const tempDirectory = path.join(__dirname, '../website-scraper-temp')
   rimraf(tempDirectory)
 
   // remove and recreate empty target directory
@@ -28,7 +28,7 @@ async function main () {
     urlFilter: (url) => {
       // Do not download assets from other hosts like S3 or octodex.github.com
       // (this will keep them as remote references in the downloaded pages)
-      return url.startsWith(`http://localhost:${port}/`) || url.startsWith(`/`)
+      return url.startsWith(`http://localhost:${port}/`) || url.startsWith('/')
     },
     directory: tempDirectory,
     filenameGenerator: 'bySiteStructure',
