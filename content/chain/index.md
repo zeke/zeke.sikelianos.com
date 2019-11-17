@@ -5,15 +5,13 @@ website: https://lodash.com/docs/4.17.4#chain
 publish_date: 2017-08-14
 -->
 
-If you're a JavaScript developer in 2017, you've probably already heard of 
-[lodash](https://lodash.com). If not though, it's a collection of 
+If you're a JavaScript developer in 2017, you've probably already heard of [lodash](https://lodash.com). If not though, it's a collection of 
 300-ish utility functions that exist to
 fill gaps in JavaScript's relatively small [standard library](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects).
 lodash is one of the most popular packages in the npm registry, and is depended 
 on by over [25,000 other modules](ghub.io/dependent-packages) in the registry.
 
-JavaScript's 
-[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) 
+JavaScript's [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) 
 object has some really useful methods for working with 
 collections of data, like `forEach`, `map`, `reduce`, `every`, and `filter`.
 These methods are often good enough, but `chain`
@@ -89,14 +87,12 @@ is really starting to grow up.
 
 ## Nota Bene
 
-_Nota Bene_ means "observe carefully" or "take note". I 
-[just learned that](https://github.com/electron/electron/pull/10191#issue-247858038).
+_Nota Bene_ means "observe carefully" or "take note". 
+I [just learned that](https://github.com/electron/electron/pull/10191#issue-247858038).
 
 If you're writing code targeting *browsers* (as opposed to Node) you might want to 
 think twice about using `chain`, because it will make your bundle bigger.
 lodash publishes standalone packages to npm like `lodash.pick` and 
 `lodash.uniq`, but not `chain` because it requires all of lodash.
 
-There are a number of ways to roll your own lodash build, though. See the
-[lodash functional programming guide](https://github.com/lodash/lodash/wiki/FP-Guide)
-for details.
+There are a number of ways to roll your own lodash build, though. See the [lodash functional programming guide](https://github.com/lodash/lodash/wiki/FP-Guide) for details.

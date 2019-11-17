@@ -15,9 +15,7 @@ async function main () {
     .map(page => page.href)
     .map(href => `${host}${href}`)
 
-  console.log('urls', urls)
-
-  const finalDirectory = path.join(__dirname, '../docs')
+  const finalDirectory = path.join(__dirname, '../dist')
   const tempDirectory = path.join(__dirname, `../website-scraper-temp`)
   rimraf(tempDirectory)
 
@@ -38,7 +36,7 @@ async function main () {
   }
 
   server.listen(port, async () => {
-    console.log(`started server on ${host}`)
+    console.log(`scraping ${host}...`)
 
     await scrape(scraperOptions).catch(err => {
       console.error('scraping error')
