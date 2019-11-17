@@ -5,10 +5,10 @@ keywords: [painting, color, family, art]
 publish_date: 2011-08-29
 -->
 
-{{#each page.data.flickr_photos}}
+{% for photo in page.data.flickr_photos %}
   <figure>
-    <a href="{{url}}">
-      <img src="{{sizes.large.source}}">
+    <a href="{{photo.url}}">
+      <img src="{{photo.sizes.large.source}}">
     </a>
   </figure>
-{{/each}}
+{% endfor %}

@@ -10,14 +10,14 @@ end: 2013-09-06
 
 Beaver Brook is an architectural design and building school in the woods of upstate New York. I was a student in its inaugural year. Our ten-person group built a sauna.
 
-{{#each page.data.flickr_photos}}
+{% for photo in page.data.flickr_photos %}
   <figure>
-    <a href="{{url}}" title={{title}}>
-      <img src="{{sizes.large.source}}" alt="{{title}}" />
+    <a href="{{photo.url}}" title={{photo.title}}>
+      <img src="{{photo.sizes.large.source}}" alt="{{photo.title}}" />
     </a>
-    <figcaption>{{title}}</figcaption>
+    <figcaption>{{photo.title}}</figcaption>
   </figure>
-{{/each}}
+{% endfor %}
 
 <figure>
   <a href="http://beaver.zeke.sikelianos.com/">

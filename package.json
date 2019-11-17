@@ -23,6 +23,7 @@
     "walk-sync": "^2.0.2"
   },
   "dependencies": {
+    "@github-docs/data-directory": "^1.0.0",
     "@github-docs/render-content": "^1.0.0",
     "analytics.js-loader": "^2.1.2",
     "browser-date-formatter": "^2.0.1",

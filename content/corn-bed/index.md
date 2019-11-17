@@ -10,14 +10,14 @@ Lying in corn is profoundly relaxing and energizing. As the corn shifts to form 
 
 Even as a young adult, I would relax among the kernels as little children played all around me with toy dump trucks, shovels, and buckets. I vowed to one day make myself a personal corn bed, and in 2010 I finally got around to doing it.
 
-{{#each page.data.flickr_photos}}
+{% for photo in page.data.flickr_photos %}
   <figure>
-    <a href="{{url}}" title={{title}}>
-      <img src="{{sizes.large.source}}" alt="{{title}}" />
+    <a href="{{photo.url}}" title={{photo.title}}>
+      <img src="{{photo.sizes.large.source}}" alt="{{photo.title}}" />
     </a>
-    <figcaption>{{title}}</figcaption>
+    <figcaption>{{photo.title}}</figcaption>
   </figure>
-{{/each}}
+{% endfor %}
 
 <figure>
   <a href="https://www.youtube.com/watch?v=mmllotLUU38">

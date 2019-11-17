@@ -4,12 +4,12 @@ description: A scrapbook of design ephemera, from 2001 to present day
 -->
 
 <div class="column-3">
-  {{#each page.data.flickr_photos}}
+  {% for photo in page.data.flickr_photos %}
     <a class="portfolio-piece" href="{{url}}" title={{title}}>
       <div class="aspect-ratio-shim" style="padding-top:{{heightAsPercentageOfWidth}}%"></div>
       <img class="portfolio-piece-image" src="{{sizes.medium.source}}" alt="{{title}}" />
     </a>
-  {{/each}}
+  {% endfor %}
 </div>
 
 <!--

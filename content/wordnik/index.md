@@ -14,11 +14,11 @@ end: 2012-04-15
 
 In 2011 and 2012, I designed, built, and maintained the high-traffic wordnik.com website, and also created [Swagger](/projects/swagger), a specification and tool for documenting, visualizing, and generating client SDKs for HTTP webservices.
 
-{{#each page.data.flickr_photos}}
+{% for photo in page.data.flickr_photos %}
   <figure>
-    <a href="{{url}}" title={{title}}>
-      <img src="{{sizes.large.source}}" alt="{{title}}" />
+    <a href="{{photo.url}}" title={{photo.title}}>
+      <img src="{{photo.sizes.large.source}}" alt="{{photo.title}}" />
     </a>
-    <figcaption>{{title}}</figcaption>
+    <figcaption>{{photo.title}}</figcaption>
   </figure>
-{{/each}}
+{% endfor %}
