@@ -11,10 +11,3 @@ description: A scrapbook of design ephemera, from 2001 to present day
     </a>
   {% endfor %}
 </div>
-
-<!--
-  https://github.com/npm-flickr/flickr-photoset-info#readme
-  https://www.flickr.com/photos/sikelianos/albums/72157610714160553
-
-  To update: npm run portfolio
- -->
