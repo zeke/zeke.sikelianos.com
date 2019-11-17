@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 flickr-photoset-info 72157665728777671 > beaver-brook/flickr_photos.json
 flickr-photoset-info 72157610714160553 > portfolio/flickr_photos.json
