@@ -17,6 +17,6 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ZEKE_PAT_WITH_REPO_SCOPE_FOR_DEPLOYMENT }}
+        PERSONAL_TOKEN: ${{ secrets.ZEKE_PAT_WITH_REPO_SCOPE_FOR_DEPLOYMENT }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./dist
