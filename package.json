@@ -1,29 +1,15 @@
 {
   "name": "zeke.sikelianos.com",
-  "version": "3.0.0",
-  "description": "My website as an npm module",
+  "version": "4.0.0",
+  "description": "My personal website",
   "repository": "https://github.com/zeke/zeke.sikelianos.com",
   "scripts": {
     "dev": "NODE_ENV=development nodemon server.js",
     "build": "script/build.js",
-    "beaver": "flickr-photoset-info 72157665728777671 > beaver-brook/flickr_photos.json",
-    "portfolio": "flickr-photoset-info 72157610714160553 > portfolio/flickr_photos.json",
-    "corn-bed": "flickr-photoset-info 72157624807279024 > corn-bed/flickr_photos.json",
-    "bacam": "flickr-photoset-info 72157664310930821 > bacam/flickr_photos.json",
-    "wordnik": "flickr-photoset-info 72157628405098765 > wordnik/flickr_photos.json",
-    "melitsa": "flickr-photoset-info 72157627365540737 > melitsa/flickr_photos.json",
     "lint": "standard --fix"
   },
   "author": "zeke",
   "license": "MIT",
-  "devDependencies": {
-    "flickr-photoset-info": "^1.4.0",
-    "nodemon": "^1.19.4",
-    "rimraf": "^3.0.0",
-    "standard": "^14.3.1",
-    "walk-sync": "^2.0.2",
-    "website-scraper": "^4.2.0"
-  },
   "dependencies": {
     "@github-docs/data-directory": "^1.0.0",
     "@github-docs/render-content": "^1.0.0",
@@ -33,6 +19,14 @@
     "html-frontmatter": "^1.6.1",
     "lodash": "^4.17.15",
     "stylus": "^0.54.7"
+  },
+  "devDependencies": {
+    "flickr-photoset-info": "^1.4.0",
+    "nodemon": "^1.19.4",
+    "rimraf": "^3.0.0",
+    "standard": "^14.3.1",
+    "walk-sync": "^2.0.2",
+    "website-scraper": "^4.2.0"
   },
   "standard": {
     "ignore": [
