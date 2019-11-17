@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Zeke Sikelianos, Designer/Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="../index.css">
+  <script src="../scripts/index.js/index.html"></script>
+</head>
+
+<body>
+
+  
+
+  
+    <div class="breadcrumbs muted">
+      <a href="/">zeke.sikelianos.com</a>
+    </div>
+  
+
+  <article>
+    <div class="page__content">
+      <header>
+        <h1 class="page__title">CSS from the Future</h1>
+        
+          <h2 class="page__description">When will vanilla CSS be good enough to replace Sass, Less, Stylus, and the rest?</h2>
+        
+        
+          <div class="page__publish-date">
+            
+          </div>
+        
+      </header>
+
+      <p>One of the hardest things about being a web developer is accepting the fact that many of the people visiting your site are using old and underpowered web browsers. New features are added to web browsers all the time, but you generally can't use those features, unless you're willing to exclude lots of users who just aren't up to date.</p>
+<p>When developing apps with <a href="%5BElectron%5D(http://electron.atom.io)">Electron</a>, this problem doesn't exist. The code you write in your Electron app executes on a single browser, <a href="https://www.chromium.org/Home">Chromium</a>. Chromium is the core of the Google Chrome web browser, so it's actively maintained by Google. It's also open source, which means that a huge community of developers are improving it daily.</p>
+<h2 id="css-custom-properties"><a href="#css-custom-properties">CSS Custom Properties</a></h2>
+<p>Last week, a <a href="http://blog.atom.io/2016/03/25/electron-37.html">new version of Electron was released</a> with support for CSS Custom Properties. If you’ve used preprocessed languages like Sass and Less, you’re probably familiar with <em>variables</em>, which allow you to define reusable values for things like color schemes and layouts. Variables help keep your stylesheets DRY and more maintainable.</p>
+<p>Because CSS custom properties are just regular properties of CSS, <a href="http://codepen.io/wesbos/pen/adQjoY">they can be manipulated with JavaScript</a>. This subtle but powerful feature allows for dynamic changes to visual interfaces while still benefitting from CSS’s hardware acceleration, and reduced code duplication between your frontend code and stylesheets.</p>
+<p>Here's an example of custom properties in use:</p>
+<pre><code class="hljs language-css"><span class="hljs-selector-pseudo">:root</span> {
+  <span class="hljs-attribute">--primary-color</span>: papayawhip;
+  <span class="hljs-attribute">--base-line-height</span>: <span class="hljs-number">1.4</span>;
+}
+
+<span class="hljs-selector-class">.thing</span> {
+  <span class="hljs-attribute">color</span>: <span class="hljs-built_in">var</span>(--primary-color);
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-built_in">calc</span>(var(--base-line-height) * <span class="hljs-number">1rem</span>);
+}</code></pre>
+<p>Check out the <a href="https://googlechrome.github.io/samples/css-custom-properties/">Google Demo</a> (requires Chrome 49+)</p>
+<h2 id="css-mixins-and-extending"><a href="#css-mixins-and-extending">CSS Mixins and Extending</a></h2>
+<p>So. We have variables in CSS now. That's pretty neat, but it doesn't get us all the way to CSS heaven. What we really need is a way to write little bits of reusable CSS. These features have long existed in <a href="http://sass-lang.com/guide#topic-6">Sass</a>, <a href="http://lesscss.org/features/#extend-feature">Less</a>, and <a href="http://stylus-lang.com/docs/extend.html">Stylus</a>, but there's no way to do it in regular CSS.</p>
+<h2 id="enter-the-apply-rule"><a href="#enter-the-apply-rule">Enter the @apply Rule</a></h2>
+<p><a href="http://www.xanthir.com/contact/">Someone at Google</a> is working on a new <a href="https://tabatkins.github.io/specs/css-apply-rule/">spec</a>:</p>
+<blockquote>
+<p>This specification defines the @apply rule, which allows an author to store a set of properties in a named variable, then reference them in other style rules.</p>
+</blockquote>
+<p>Here's an example of how to use the <code>@apply</code> rule:</p>
+<pre><code class="hljs language-css"><span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">--alert</span>: {
+    color: white;
+    <span class="hljs-attribute">padding</span>: <span class="hljs-number">15px</span>;
+    <span class="hljs-attribute">margin</span>: <span class="hljs-number">1rem</span> <span class="hljs-number">0</span>;
+    <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">6px</span>;
+  }
+}
+
+<span class="hljs-selector-class">.alert-success</span> {
+  @apply --alert;
+  <span class="hljs-attribute">background-color</span>: olivedrab;
+}
+
+<span class="hljs-selector-class">.alert-warning</span> {
+  @apply --alert;
+  <span class="hljs-attribute">background-color</span>: firebrick;
+}</code></pre>
+<p>As of this writing (April 8, 2016), the feature is very new and has not yet landed in Google Chrome or even <a href="https://www.google.com/chrome/browser/canary.html">Chrome Canary</a>, but it is available behind a flag in the latest Chromium nightly.</p>
+<p>To try out <code>@apply</code> for yourself, <a href="https://download-chromium.appspot.com">download the latest Chromium</a> and start it <a href="https://www.chromium.org/developers/how-tos/run-chromium-with-flags">with a flag</a>. Here's how you do that on OS X:</p>
+<pre><code class="hljs language-sh">/Applications/Chromium.app/Contents/MacOS/Chromium \
+  --<span class="hljs-built_in">enable</span>-blink-features=CSSApplyAtRules</code></pre>
+<p>To see the composable styles in all their glory, head on over to <a href="http://codepen.io/zeke/pen/XdVopX">my codepen demo</a>:</p>
+<figure>
+  <a href="http://codepen.io/zeke/pen/XdVopX">
+    <img src="codepen.png">
+  </a>  <figcaption><a href="http://codepen.io/zeke/pen/XdVopX">Codepen demo</a> of @apply in Chromium browser</figcaption>
+</figure>
+<h2 id="writing-futuristic-css-today"><a href="#writing-futuristic-css-today">Writing futuristic CSS today</a></h2>
+<p>Once this <code>@apply</code> implementation lands in Chromium and Electron, we'll be able to write clean, maintainable styles using vanilla CSS. But until that day comes, we'll have to continue leaning on preprocessors to fill the void.</p>
+<p>There are at least two projects that allow you to write futuristic CSS: <a href="http://www.myth.io/">Myth</a> and <a href="http://cssnext.io/features/">cssnext</a>. Of those two projects, <code>cssnext</code> is more actively maintained, and even has an <a href="https://github.com/MoOx/postcss-cssnext/issues/203">open issue</a> for implementing <code>@apply</code> support.</p>
+<p>Here's to the future of CSS! 🍻</p>
+<h2 id="further-reading"><a href="#further-reading">Further Reading</a></h2>
+<ul>
+<li><a href="https://codereview.chromium.org/1645433002">Basic implementation of @apply at Chromium.org</a></li>
+<li><a href="https://blog.gospodarets.com/css_properties_in_depth">CSS Custom properties in-depth</a></li>
+<li><a href="https://www.polymer-project.org/1.0/docs/devguide/styling.html#custom-css-mixins">Custom CSS mixins with Polymer</a></li>
+<li><a href="http://blog.atom.io/2016/03/25/electron-37.html">Electron 37 blog post</a></li>
+</ul>
+<figure>
+  <img src="observatory.svg">
+</figure>
+    </div>
+  </article>
+
+  <footer>
+
+    <div id="footer-site-nav">
+      <a href="/">Home</a>
+      <a href="/bio">Bio</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/contact">Contact Me</a>
+    </div>
+
+    <!-- <p class="text-small text-center faint">
+      Built with
+      <a href="http://jus.js.org">jus</a>,
+      developed on
+      <a href="https://github.com/zeke/zeke.sikelianos.com">GitHub</a>,
+      and deployed on
+      <a href="https://surge.sh">Surge</a>.
+    </p> -->
+
+  </footer>
+</body>
+</html>

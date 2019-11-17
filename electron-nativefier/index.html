@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Zeke Sikelianos, Designer/Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="../index.css">
+  <script src="../scripts/index.js/index.html"></script>
+</head>
+
+<body>
+
+  
+
+  
+    <div class="breadcrumbs muted">
+      <a href="/">zeke.sikelianos.com</a>
+    </div>
+  
+
+  <article>
+    <div class="page__content">
+      <header>
+        <h1 class="page__title">Websites as Apps</h1>
+        
+          <h2 class="page__description">Turn websites into customized desktop apps with Electron</h2>
+        
+        
+          <div class="page__publish-date">
+            
+              Published 
+              <time title="Tue Apr 05 2016 00:00:00 GMT+0000 (Coordinated Universal Time)" data-date="Tue Apr 05 2016 00:00:00 GMT+0000 (Coordinated Universal Time)" data-format="%B %Y">Tue Apr 05 2016 00:00:00 GMT+0000 (Coordinated Universal Time)</time>
+              and last updated 
+              <time title="Tue Aug 15 2017 00:00:00 GMT+0000 (Coordinated Universal Time)" data-date="Tue Aug 15 2017 00:00:00 GMT+0000 (Coordinated Universal Time)" data-format="%B %Y">Tue Aug 15 2017 00:00:00 GMT+0000 (Coordinated Universal Time)</time>
+            
+              <time title="Tue Apr 05 2016 00:00:00 GMT+0000 (Coordinated Universal Time)" data-date="Tue Apr 05 2016 00:00:00 GMT+0000 (Coordinated Universal Time)" data-format="%B %Y">Tue Apr 05 2016 00:00:00 GMT+0000 (Coordinated Universal Time)</time>
+            
+          </div>
+        
+      </header>
+
+      <figure>
+  <img src="github-gmail.png">
+</figure>
+<p><a href="http://electron.atom.io/">Electron</a> is a tool for building cross-platform desktop apps with open web technologies like HTML, CSS, Javascript, and Node.js. <a href="https://github.com/jiahaog/nativefier">Nativefier</a> is a command-line node module built on Electron that "wraps any web page natively without even thinking, across Windows, OSX and Linux".</p>
+<p>This post will walk you through the process of creating an app with Nativefier. Some of the content here is specific to Mac OS X, but it is possible to do all of this on Windows and Linux, too.</p>
+<h2 id="why"><a href="#why">Why?</a></h2>
+<p>I used to leave Gmail open in a browser tab all day. For a while I would <a href="https://www.chromium.org/chromium-os/user-experience/tab-ui">pin the tab</a>, but pinning tabs seems symptomatic of a website's need to break out of the browser and have of a life of its own.</p>
+<h2 id="creating-the-dock-icon"><a href="#creating-the-dock-icon">Creating the Dock Icon</a></h2>
+<p>OS X uses a <a href="https://en.wikipedia.org/wiki/Apple_Icon_Image_format">special file format</a> for icons called <code>icns</code>. It's a bit cumbersome to convert images to this format, but luckily a kind soul went to the trouble of abstracting away that work in a convenient little node module called <a href="http://npm.im/node-icns">node-icns</a>.</p>
+<p>We'll use <code>curl</code> to download an application icon from the <a href="https://octodex.github.com/">GitHub Octodex</a>, then convert it from <code>PNG</code> to <code>ICNS</code>:</p>
+<p>The first thing to do is install Node.js. If you don't already have it set up, it's pretty easy. Just download it at <a href="https://nodejs.org">nodejs.org</a>.</p>
+<pre><code class="hljs language-sh">npm install -g node-icns
+curl -o cat.png https://octodex.github.com/images/adventure-cat.png
+nicns --<span class="hljs-keyword">in</span> cat.png --out cat.icns</code></pre>
+<h2 id="injecting-custom-scripts-and-styles"><a href="#injecting-custom-scripts-and-styles">Injecting Custom Scripts and Styles</a></h2>
+<p>Nativefier allows you to <a href="https://github.com/jiahaog/nativefier/blob/development/docs/api.md#inject">inject javascript or css files</a> into the packaged web page. This opens up a lot of possibilities, allowing you to customize any aspect of the appearance and behavior of your app.</p>
+<pre><code class="hljs language-sh"><span class="hljs-built_in">echo</span> <span class="hljs-string">"console.log('whoa script injection')"</span> > custom.js
+<span class="hljs-built_in">echo</span> <span class="hljs-string">"body { background: papayawhip; }"</span> > custom.css</code></pre>
+<h2 id="internal-vs-external-urls"><a href="#internal-vs-external-urls">Internal vs External URLs</a></h2>
+<p>When packaging an app, you can configure whether clicked links should open in
+the app window itself or in the default web browser. This can be configured
+using the <code>--internal-urls</code> option. Using this<a href="https://github.com/jiahaog/nativefier/issues/212#issuecomment-292689727">one weird trick</a>,
+we can set this to a gibberish regex that will never match, hence no link will be
+considered 'internal' and all links open in the browser.</p>
+<h2 id="packaging-the-app"><a href="#packaging-the-app">Packaging the App</a></h2>
+<p>The final step is to install Nativefier, package the website into an app, and move it into the Applications directory:</p>
+<pre><code class="hljs language-sh">nativefier \
+  --name <span class="hljs-string">"GitHub Gmail"</span> \
+  --icon cat.icns \
+  --inject custom.js \
+  --inject custom.css \
+  --internal-urls <span class="hljs-string">"xxxxxxxxx"</span> \
+  https://inbox.google.com
+rm -rf /Applications/GitHub\ Gmail.app
+mv GitHub\ Gmail-darwin-x64/GitHub\ Gmail.app /Applications/
+open /Applications/GitHub\ Gmail.app</code></pre>
+<p>That's all there is to it! To see what other interesting things you can do, check out the <a href="https://github.com/jiahaog/nativefier/blob/development/docs/api.md">Nativefier API documentation</a>.</p>
+<h2 id="bonus-round-jake"><a href="#bonus-round-jake">Bonus Round: Jake!</a></h2>
+<p>It was awesome to have <a href="https://en.wikipedia.org/wiki/Finn_the_Human">Finn the Human</a> in my dock, but it felt weird without <a href="https://en.wikipedia.org/wiki/Jake_the_Dog">Jake the Dog</a>. Fortunately I also have a personal Gmail account, so there's a spot for Jake:</p>
+<pre><code class="hljs language-sh">curl -o jake.png https://cldup.com/o50ct5wvlJ.png
+nicns --<span class="hljs-keyword">in</span> jake.png --out jake.icns
+nativefier \
+  --name <span class="hljs-string">"Inbox"</span> \
+  --icon jake.icns \
+  --internal-urls <span class="hljs-string">"xxxxxxxxx"</span> \
+  https://inbox.google.com
+rm -rf /Applications/Inbox.app
+mv Inbox-darwin-x64/Inbox.app /Applications/
+open /Applications/Inbox.app</code></pre>
+<figure>
+  <img src="finn-and-jake.png" style="max-width:50%;margin:60px;">
+</figure>
+    </div>
+  </article>
+
+  <footer>
+
+    <div id="footer-site-nav">
+      <a href="/">Home</a>
+      <a href="/bio">Bio</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/contact">Contact Me</a>
+    </div>
+
+    <!-- <p class="text-small text-center faint">
+      Built with
+      <a href="http://jus.js.org">jus</a>,
+      developed on
+      <a href="https://github.com/zeke/zeke.sikelianos.com">GitHub</a>,
+      and deployed on
+      <a href="https://surge.sh">Surge</a>.
+    </p> -->
+
+  </footer>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Zeke Sikelianos, Designer/Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="../index.css">
+  <script src="../scripts/index.js/index.html"></script>
+</head>
+
+<body>
+
+  
+
+  
+    <div class="breadcrumbs muted">
+      <a href="/">zeke.sikelianos.com</a>
+    </div>
+  
+
+  <article>
+    <div class="page__content">
+      <header>
+        <h1 class="page__title">lodash.chain</h1>
+        
+          <h2 class="page__description">A thing that makes JavaScript feel more like Ruby, in a good way.</h2>
+        
+        
+          <div class="page__publish-date">
+            
+          </div>
+        
+      </header>
+
+      <p>If you're a JavaScript developer in 2017, you've probably already heard of <a href="https://lodash.com">lodash</a>. If not though, it's a collection of
+300-ish utility functions that exist to
+fill gaps in JavaScript's relatively small <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects">standard library</a>.
+lodash is one of the most popular packages in the npm registry, and is depended
+on by over <a href="ghub.io/dependent-packages">25,000 other modules</a> in the registry.</p>
+<p>JavaScript's <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>object has some really useful methods for working with
+collections of data, like <code>forEach</code>, <code>map</code>, <code>reduce</code>, <code>every</code>, and <code>filter</code>.
+These methods are often good enough, but <code>chain</code>can make working with collections even sweeter.</p>
+<p>Let's take a contrived example. Say you have an array of user objects, and
+you want to get the email addresses of all active users, sorted by the date
+they signed up. Let's also say that some users don't have email addresses,
+so you want to filter those out.</p>
+<p>Using vanilla JavaScript:</p>
+<pre><code class="hljs language-js">users
+  .filter(<span class="hljs-function"><span class="hljs-params">user</span> =></span> user.active === <span class="hljs-literal">true</span>)
+  .sort(<span class="hljs-function">(<span class="hljs-params">a, b</span>) =></span> a.signupDate.localeCompare(b.signupDate))
+  .map(<span class="hljs-function"><span class="hljs-params">user</span> =></span> user.email)
+  .filter(<span class="hljs-function"><span class="hljs-params">names</span> =></span> name &#x26;&#x26; name.length)</code></pre>
+<p>Using <code>chain</code>:</p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">const</span> {chain} = <span class="hljs-built_in">require</span>(<span class="hljs-string">'lodash'</span>)
+
+chain(users)
+  .filter(<span class="hljs-string">'active'</span>)
+  .orderBy(<span class="hljs-string">'signupDate'</span>)
+  .map(<span class="hljs-string">'email'</span>)
+  .compact()
+  .value()</code></pre>
+<p>I find that second version is easier to write, and easier to read. </p>
+<p>Note the <code>value()</code> call at the end. Remember to always call that last.</p>
+<p>A <code>chain</code> object works just like a JavaScript array, but with all of
+lodash's convenience methods attached to its prototype. A few of my favorites:</p>
+<ul>
+<li><code>first</code> returns the first element in the collection</li>
+<li><code>last</code> returns the last</li>
+<li><code>flatten</code> turns arrays of arrays into one flat array</li>
+<li><code>compact</code> removes falsy values</li>
+<li><code>pick</code> lets you specify which properties you want from each object</li>
+<li><code>omit</code> lets you specify which properties you <em>don't</em> want from each object</li>
+<li><code>orderBy</code> sorts by a property name and optional direction <code>asc</code> or <code>desc</code></li>
+<li><code>sample</code> returns a random element</li>
+<li><code>shuffle</code> randomly arranges the values</li>
+</ul>
+<p>There are lots of them. See <a href="https://lodash.com/docs">lodash.com/docs</a>.</p>
+<h2 id="life-after-ruby"><a href="#life-after-ruby">Life after Ruby</a></h2>
+<p>For many years I was a rubyist. That is, a reader and writer of the Ruby programming
+language. I loved the expressiveness and flexibility of  Ruby, and in particular
+I loved its <a href="https://ruby-doc.org/core-2.4.1/Enumerable.html">Enumerable</a>module which, like <code>chain</code>, provides a bunch of really useful methods for
+working with collections.</p>
+<p>When Node.js came along I could tell it was going to be a big deal, but I
+loved Ruby's syntax and really didn't want to let it go. I would have preferred
+to continue writing in Ruby forever, but I couldn't ignore the significance of
+Node.js and the huge effect it was having on JavaScript's growth beyond the
+browser and into new environments like servers and terminals and IOT devices
+and robots.</p>
+<p>lodash's <code>chain</code> method makes me miss Ruby just a little less. Combined
+with JavaScript's newish arrow function syntax, I feel like the language
+is really starting to grow up.</p>
+<h2 id="nota-bene"><a href="#nota-bene">Nota Bene</a></h2>
+<p><em>Nota Bene</em> means "observe carefully" or "take note".
+I <a href="https://github.com/electron/electron/pull/10191#issue-247858038">just learned that</a>.</p>
+<p>If you're writing code targeting <em>browsers</em> (as opposed to Node) you might want to
+think twice about using <code>chain</code>, because it will make your bundle bigger.
+lodash publishes standalone packages to npm like <code>lodash.pick</code> and<code>lodash.uniq</code>, but not <code>chain</code> because it requires all of lodash.</p>
+<p>There are a number of ways to roll your own lodash build, though. See the <a href="https://github.com/lodash/lodash/wiki/FP-Guide">lodash functional programming guide</a> for details.</p>
+    </div>
+  </article>
+
+  <footer>
+
+    <div id="footer-site-nav">
+      <a href="/">Home</a>
+      <a href="/bio">Bio</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/contact">Contact Me</a>
+    </div>
+
+    <!-- <p class="text-small text-center faint">
+      Built with
+      <a href="http://jus.js.org">jus</a>,
+      developed on
+      <a href="https://github.com/zeke/zeke.sikelianos.com">GitHub</a>,
+      and deployed on
+      <a href="https://surge.sh">Surge</a>.
+    </p> -->
+
+  </footer>
+</body>
+</html>

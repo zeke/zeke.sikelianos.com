@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Zeke Sikelianos, Designer/Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="../index.css">
+  <script src="../scripts/index.js/index.html"></script>
+</head>
+
+<body>
+
+  
+
+  
+    <div class="breadcrumbs muted">
+      <a href="/">zeke.sikelianos.com</a>
+    </div>
+  
+
+  <article>
+    <div class="page__content">
+      <header>
+        <h1 class="page__title">The Sweet Sensation of Automation</h1>
+        
+          <h2 class="page__description">A guide to automated npm publishing and GitHub pushing using Heroku</h2>
+        
+        
+          <div class="page__publish-date">
+            
+          </div>
+        
+      </header>
+
+      <p>Last year I created a little npm module called<a href="http://npm.im/all-the-package-names">all-the-package-names</a>. It's a simple
+array of all the existing package names in the npm
+registry. It can be used to find if a package name is<a href="https://www.npmjs.com/package/available">available</a>, or to find all packages
+with names <a href="https://github.com/zeke/all-the-package-names/blob/2c1964f038c70f08b04482eb68ce3387e257844f/example.js#L12">matching a given pattern</a>.</p>
+<p>Here's a one-liner to try it out:</p>
+<pre><code class="hljs language-sh">npm i -g trymodule &#x26;&#x26; trymodule all-the-package-names</code></pre>
+<p>This module was easy to create, but it is by nature impossible to keep up to
+date, as hundreds of new packages are added to the npm registry every day.</p>
+<p>I wanted to remove myself from the publishing equation, so I set up a scheduled
+task on Heroku that runs every hour, fetches new names from the registry, commits
+changes to git, and publishes to npm. To enable this, I had to figure out how to
+securely perform all these operations within the confines of a Heroku dyno:</p>
+<ul>
+<li>Clone a repository from GitHub</li>
+<li>Run a build task using npm scripts</li>
+<li>Commit changes to the git repository</li>
+<li>Publish new package versions to npm</li>
+<li>Push changes to GitHub</li>
+<li>Keep credentials safe and outside the codebase</li>
+</ul>
+<p>This post covers the steps required in setting up such an automation scheme.
+It is assumed that you have basic working knowledge of Heroku, npm,
+and GitHub.</p>
+<h2 id="the-heroku-app"><a href="#the-heroku-app">The Heroku App</a></h2>
+<pre><code class="hljs language-sh">heroku create my-npm-bot</code></pre>
+<p>Unlike a typical Heroku app, this app doesn't have a <code>web</code> process. There's
+no web server listening on a port and serving requests. It's just an app on
+a faceless computer in the cloud that will wake up on occasion to do your bidding.</p>
+<h2 id="heroku-buildpacks"><a href="#heroku-buildpacks">Heroku Buildpacks</a></h2>
+<p>Heroku has these awesome <a href="https://devcenter.heroku.com/articles/buildpacks">open source</a>things called buildpacks that give you complete control of your app's build process.
+A buildpack
+is a script that is executed on your app's code to prepare it to run on
+the Heroku platform. When you deploy a Node.js app, for example, Heroku's<a href="https://github.com/heroku/heroku-buildpack-nodejs">Node buildpack</a> is used
+to download <code>node</code> and <code>npm</code>, run <code>npm install</code>, etc.</p>
+<p>In most cases, Heroku users don't need to know about buildpacks at all. Heroku
+detects the language or framework of your web app and automatically
+chooses the right buildpack for you. But sometimes you need to exercise control
+over the app's build process, and that's when buildpacks come in handy.</p>
+<p>For the purposes of this app, three buildpacks are required:</p>
+<ul>
+<li><strong><a href="https://github.com/zeke/github-buildpack">zeke/github-buildpack</a></strong> sets up
+a <code>.netrc</code> file to store GitHub credentials.</li>
+<li><strong><a href="https://github.com/zeke/npm-buildpack">zeke/npm-buildpack</a></strong> sets up a<code>.npmrc</code> file to store npm credentials.</li>
+<li><strong><a href="https://github.com/heroku/heroku-buildpack-nodejs">heroku/nodejs</a></strong> installs
+node and npm, which we'll use in our release script.</li>
+</ul>
+<p>To add these three buildpacks to your app, run the following commands:</p>
+<pre><code class="hljs language-sh">heroku buildpacks:add -i 1 https://github.com/github-modules/github-buildpack
+heroku buildpacks:add -i 2 https://github.com/nice-registry/npm-buildpack
+heroku buildpacks:add -i 3 heroku/nodejs</code></pre>
+<p>The <code>i</code> stands for <code>index</code>, allowing you to specify the order in which the
+buildpacks are executed. In many cases this order is important, but for our
+purposes the order probably doesn't matter, as none of these buildpacks are
+relying on functionality or build artifacts from another.</p>
+<h2 id="github-authentication"><a href="#github-authentication">GitHub Authentication</a></h2>
+<p>GitHub provides a <a href="https://github.com/settings/tokens/new">simple web interface</a>for creating auth tokens.<a href="https://github.com/settings/tokens/new">Create a token</a> with <code>repo</code> access,
+then add it to your Heroku app's config:  </p>
+<pre><code class="hljs language-sh">heroku config:<span class="hljs-built_in">set</span> GITHUB_AUTH_TOKEN=YOUR_TOKEN</code></pre>
+<p>The next time you push your app to Heroku, the <a href="https://github.com/zeke/github-buildpack">GitHub buildpack</a>you just added will
+detect the presence of <code>GITHUB_AUTH_TOKEN</code> in your app's environment, and use
+it to create a <code>.netrc</code> file.</p>
+<h2 id="the-netrc-file"><a href="#the-netrc-file">The .netrc File</a></h2>
+<p><code>~/.netrc</code> is a plaintext file used to store credentials for accessing
+remote machines. It's an <a href="https://www.gnu.org/software/inetutils/manual/html_node/The-_002enetrc-file.html">old school unix thing</a>,
+so it's widely supported by tools like <code>curl</code>, <code>git</code>, and the <a href="https://devcenter.heroku.com/articles/heroku-command#logging-in">heroku toolbelt</a>,</p>
+<p>Here's what an entry for GitHub looks like:</p>
+<pre><code class="hljs language-pgsql">machine github.com <span class="hljs-keyword">login</span> YOUR_TOKEN <span class="hljs-keyword">password</span> x-oauth-basic</code></pre>
+<p>If you pass the <code>--netrc</code> flag to <code>curl</code> (or <code>-n</code> for short), it will automatically read credentials
+from your <code>~/.netrc</code> file, allowing you to easily make authenticated requests:</p>
+<pre><code class="hljs language-sh">curl -n https://api.heroku.com/apps
+curl -n https://api.github.com/users/zeke/repos</code></pre>
+<p>Now that the GitHub credentials are securely stored, <code>git</code> commands like<code>git push</code> will be automatically authenticated.</p>
+<h2 id="npm-authentication"><a href="#npm-authentication">npm Authentication</a></h2>
+<p>npm doesn't have a fancy web interface for creating tokens, nor does it support
+the <code>.netrc</code> format. It is possible, however, to find your personal token by
+looking in the <code>.npmrc</code> file in your home directory.</p>
+<p>Here's a one-liner for reading that token:</p>
+<pre><code class="hljs language-sh">cat ~/.npmrc | head -1 | sed <span class="hljs-string">'s/.*=//g'</span></code></pre>
+<p>Add the token to your Heroku app's config:</p>
+<pre><code class="hljs language-sh">heroku config:<span class="hljs-built_in">set</span> NPM_AUTH_TOKEN=YOUR_TOKEN</code></pre>
+<p>Like the GitHub buildpack, the <a href="https://github.com/zeke/npm-buildpack">npm buildpack</a>will detect the <code>NPM_AUTH_TOKEN</code> environment variable and use it to write a<code>.npmrc</code> file into the app directory. Any <code>npm</code> commands that require authentication
+(like <code>publish</code> and <code>whoami</code>) will now be authenticated automatically when they
+are run within the app directory.</p>
+<h2 id="testing-in-a-remote-bash-shell"><a href="#testing-in-a-remote-bash-shell">Testing in a Remote Bash Shell</a></h2>
+<p>To figure out if everything's working, deploy your app:</p>
+<pre><code class="hljs language-sh">git commit --allow-empty <span class="hljs-string">"testing npm and github auth"</span>
+git push heroku master</code></pre>
+<p>Then open up a remote bash shell containing your app's code and environment:</p>
+<pre><code class="hljs language-sh">heroku run bash
+cat .npmrc
+cat .netrc</code></pre>
+<p>If everything is configured properly, you'll see your credentials in the<code>.netrc</code> and <code>.npmrc</code> files, and you should be able to run authenticated
+commands like <code>npm whoami</code> and <code>git push</code>.</p>
+<p>Tip: If you try to <code>git push</code> your app to Heroku and get an "Everything up to date"
+message from git, it's because nothing in your source code has changed. To
+force-push the repo to Heroku, create an empty commit:</p>
+<pre><code class="hljs language-sh">git commit --allow-empty -m <span class="hljs-string">"empty commit"</span>
+git push heroku master</code></pre>
+<h2 id="the-release-script"><a href="#the-release-script">The Release Script</a></h2>
+<p>Once the authentication is set up, the next step is to write a release
+script to be executed periodically on Heroku.</p>
+<pre><code class="hljs language-sh">mkdir -p scripts
+touch scripts/release
+chmod +x scripts/release</code></pre>
+<p>Next, add the release script to <code>package.json</code>, so it can be executed as an
+npm script:</p>
+<pre><code class="hljs language-json">{
+  <span class="hljs-attr">"name"</span>: <span class="hljs-string">"all-the-package-names"</span>,
+  <span class="hljs-attr">"scripts"</span>: {
+    <span class="hljs-attr">"release"</span>: <span class="hljs-string">"scripts/release"</span>
+  }
+}</code></pre>
+<p>Here's a simplified version of the release script used by<code>all-the-package-names</code>. For the full script, check out <a href="https://github.com/zeke/all-the-package-names/blob/master/scripts/release">scripts/release on the GitHub repo</a>.</p>
+<pre><code class="hljs language-sql"><span class="hljs-comment">#!/usr/bin/env bash</span>
+
+<span class="hljs-keyword">set</span> -x            <span class="hljs-comment"># print each command before execution</span>
+<span class="hljs-keyword">set</span> -o errexit    <span class="hljs-comment"># always exit on error</span>
+<span class="hljs-keyword">set</span> -o pipefail   <span class="hljs-comment"># don't ignore exit codes when piping output</span>
+<span class="hljs-keyword">set</span> -o nounset    <span class="hljs-comment"># fail on unset variables</span>
+
+<span class="hljs-comment"># set up the repo</span>
+git <span class="hljs-keyword">clone</span> https://github.com/zeke/<span class="hljs-keyword">all</span>-the-<span class="hljs-keyword">package</span>-<span class="hljs-keyword">names</span>
+cd <span class="hljs-keyword">all</span>-the-<span class="hljs-keyword">package</span>-<span class="hljs-keyword">names</span>
+npm run <span class="hljs-keyword">build</span>
+npm <span class="hljs-keyword">test</span>
+
+<span class="hljs-comment"># bail if no changes are present</span>
+[[ <span class="hljs-string">`git status --porcelain`</span> ]] || <span class="hljs-keyword">exit</span>
+
+<span class="hljs-keyword">count</span>=$(cat names.json | wc -l)
+git <span class="hljs-keyword">add</span> names.json
+git config user.email <span class="hljs-string">"zeke@sikelianos.com"</span>
+git config user.name <span class="hljs-string">"Zeke Sikelianos"</span>
+git <span class="hljs-keyword">commit</span> -m <span class="hljs-string">"$count package names"</span>
+npm <span class="hljs-keyword">version</span> minor -m <span class="hljs-string">"bump minor to %s"</span>
+npm publish
+git push origin <span class="hljs-keyword">master</span> <span class="hljs-comment">--follow-tags</span>
+
+<span class="hljs-comment"># clean up</span>
+cd ..
+rm -rf <span class="hljs-keyword">all</span>-the-<span class="hljs-keyword">package</span>-<span class="hljs-keyword">names</span></code></pre>
+<p>Tip: Heroku's node buildpack will install <code>dependencies</code> from package.json
+by default. If your build script requires <code>devDependencies</code> to be installed too,
+set the following in your app environment:</p>
+<pre><code class="hljs language-sh">heroku config:<span class="hljs-built_in">set</span> NPM_CONFIG_PRODUCTION=<span class="hljs-literal">false</span></code></pre>
+<p>There are a few ways to manually test a script on Heroku.
+You can run it remotely:</p>
+<pre><code class="hljs language-sh">heroku run npm run release</code></pre>
+<p>or you can shell into your app and run one-off commands inside the shell:</p>
+<pre><code class="hljs language-sh">heroku run bash
+npm run release</code></pre>
+<h2 id="scheduling-automatic-releases"><a href="#scheduling-automatic-releases">Scheduling Automatic Releases</a></h2>
+<p>Once you've got a working release script, it's time to automate!</p>
+<p>Heroku has a very useful (and free) add-on called <a href="https://scheduler.heroku.com/">Scheduler</a>that allows you to configure one-off tasks to run against your app. There's a
+web-based GUI for scheduling tasks, and they can be run every ten minutes, every
+hour, or once a day. It's like <a href="https://en.wikipedia.org/wiki/Cron">cron</a>, but
+much easier to use.</p>
+<p>To install and open Scheduler:</p>
+<pre><code class="hljs language-sh">heroku addons:create scheduler
+heroku addons:open scheduler</code></pre>
+<p>The scheduler interface is pretty simple. You specify a command to run
+and the frequency at which to run it.</p>
+<figure>
+  <a href="https://devcenter.heroku.com/articles/scheduler">
+    <img src="scheduler.png" alt="Heroku Scheduler UI">
+  </a></figure>
+<h2 id="its-free"><a href="#its-free">It's Free!</a></h2>
+<p>From the Heroku docs on <a href="https://devcenter.heroku.com/articles/dyno-sleeping">Dyno Sleeping</a>:</p>
+<blockquote>
+<p>Free dynos will sleep when a web dyno receives no web traffic for a period of time. In addition, if a free dyno exceeds a quota of 18 hours of activity during a 24 hour window, it will be forced to recharge.</p>
+</blockquote>
+<p>This means you get 18 hours of compute time per day <strong>for free</strong>! And because
+this app doesn't have a <code>web</code> process, it only needs to be "awake" for a few
+minutes a day for the short amount of time required to run the release task
+every hour.</p>
+<p>Even for apps with long-running tasks at shorter intervals,
+the free dyno would still probably be adequate. A task that runs every 10 minutes
+and takes 5 minutes to complete only amounts to 12 hours of compute time per day,
+which is still under the 18 hour limit.</p>
+<p>If your build process takes a long time or needs to run more frequently,
+a <a href="https://www.heroku.com/pricing">hobby dyno</a> is adequate for most tasks
+and will only set you back $7 a month.</p>
+<h2 id="sit-back-and-watch"><a href="#sit-back-and-watch">Sit Back and Watch</a></h2>
+<p>Once your automated publishing workflow is finished, you can kick back and let
+the machines do the work, then watch your contribution graph turn a very dark
+shade of green...</p>
+<figure>
+  <a href="https://github.com/search?utf8=%E2%9C%93&#x26;q=%40zeke">
+    <img src="contributions.png" alt="GitHub Contributions">
+  </a></figure>
+    </div>
+  </article>
+
+  <footer>
+
+    <div id="footer-site-nav">
+      <a href="/">Home</a>
+      <a href="/bio">Bio</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/contact">Contact Me</a>
+    </div>
+
+    <!-- <p class="text-small text-center faint">
+      Built with
+      <a href="http://jus.js.org">jus</a>,
+      developed on
+      <a href="https://github.com/zeke/zeke.sikelianos.com">GitHub</a>,
+      and deployed on
+      <a href="https://surge.sh">Surge</a>.
+    </p> -->
+
+  </footer>
+</body>
+</html>
