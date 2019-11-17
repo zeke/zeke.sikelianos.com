@@ -17,17 +17,20 @@ async function main () {
 
   console.log('urls', urls)
 
-  const dist = path.join(__dirname, '../docs')
+  const finalDirectory = path.join(__dirname, '../docs')
+  const tempDirectory = path.join(__dirname, `../website-scraper-temp`)
+  rimraf(tempDirectory)
 
-  rimraf(dist)
-  fs.mkdirSync(dist, { recursive: true })
+  // remove and recreate empty target directory
+  rimraf(finalDirectory)
+  fs.mkdirSync(finalDirectory, { recursive: true })
 
   const scraperOptions = {
     urls,
     urlFilter: (url) => {
       // Do not download assets from other hosts like S3 or octodex.github.com
       // (this will keep them as remote references in the downloaded pages)
-      return url.startsWith(`http://localhost:${port}/`)
+      return url.startsWith(`http://localhost:${port}/`) || url.startsWith(`/`)
     },
     directory: dist,
     filenameGenerator: 'bySiteStructure',
@@ -42,6 +45,12 @@ async function main () {
       console.error(err)
     })
 
+    fs.renameSync(
+      path.join(tempDirectory, `/localhost_${port}`),
+      path.join(finalDirectory)
+    )
+    rimraf(tempDirectory)
+    
     process.exit()
   })
 }
