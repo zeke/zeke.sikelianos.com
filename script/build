@@ -1,0 +1,5 @@
+#!/bin/bash
+
+node script/scrape.js
+
+cp CNAME dist/

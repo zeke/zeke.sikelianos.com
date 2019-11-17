@@ -5,7 +5,7 @@
   "repository": "https://github.com/zeke/zeke.sikelianos.com",
   "scripts": {
     "dev": "NODE_ENV=development nodemon server.js",
-    "build": "script/build.js",
+    "build": "script/build",
     "lint": "standard --fix"
   },
   "author": "zeke",
