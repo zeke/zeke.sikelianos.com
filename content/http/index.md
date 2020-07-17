@@ -13,20 +13,17 @@ end: 2011-08-08
   <title>http response codes</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style type="text/css" media="screen">
-
     body {
       font-family: "Anonymous Pro", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
       font-size: 12px;
       padding: 20px;
     }
-
     body > p {
       margin: 80px 0 20px 0;
       padding: 0;
       color: black;
       color: #999;
     }
-
     body > p > a {
       margin: 0;
       padding: 0;
@@ -35,15 +32,12 @@ end: 2011-08-08
       text-decoration: none;
       padding: 3px 3px 3px 3px;
     }
-
     body > p > a > span {
       color: pink;
     }
-
     body > p > a:hover {
       background-color: black;
     }
-
     body > ul {
       display: block;
       float: none;
@@ -52,7 +46,6 @@ end: 2011-08-08
       padding: 0;
       list-style: none;
     }
-
     body > ul > li {
       margin: 0;
       padding: 0;
@@ -62,29 +55,23 @@ end: 2011-08-08
       width: 220px;
       margin-right: 20px;
     }
-
     body > ul > li > ul {
       margin: 0;
       padding: 0;
       list-style: none;
     }
-
     body > ul > li > ul > li {
       font-size: 10px;
       padding: 2px 0 2px 0;
     }
-
     body > ul > li > ul > li:first-child {
       padding: 3px 0 10px 0;
     }
-
   </style>
 </head>
 
 <body>
-
   <p>
-
     <a href="http://twitter.com/zeke_in_http"><span>@</span>zeke_in_http</a>
     status code reference
   </p>
@@ -98,7 +85,6 @@ end: 2011-08-08
         <li>102 Processing</li>
       </ul>
     </li>
-
     <li>
       <ul>
         <li>Success
@@ -113,7 +99,6 @@ end: 2011-08-08
         <li>226 IM Used</li>
       </ul>
     </li>
-
     <li>
       <ul>
         <li>Redirection
@@ -128,7 +113,6 @@ end: 2011-08-08
         <li>307 Temporary Redirect</li>
       </ul>
     </li>
-
     <li>
       <ul>
         <li>Client Error
@@ -156,7 +140,6 @@ end: 2011-08-08
         <li>426 Upgrade Required</li>
       </ul>
     </li>
-
     <li>
       <ul>
         <li>Server Error
