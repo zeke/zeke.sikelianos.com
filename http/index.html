@@ -1,116 +1,67 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <title>Zeke Sikelianos, Designer/Developer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="../index.css">
-  <script src="https://unpkg.com/browser-date-formatter@3.0.2/dist.js"></script>
-  <script src="../index.js"></script>
-</head>
-
-<body>
-
-  
-
-  
-    <div class="breadcrumbs muted">
-      <a href="/">zeke.sikelianos.com</a>
-    </div>
-  
-
-  <article>
-    <div class="page__content">
-      <header>
-        <h1 class="page__title">Life in HTTP</h1>
-        
-          <h2 class="page__description">Events in my life as HTTP status codes</h2>
-        
-        
-          <div class="page__publish-date">
-            
-              <time title="Mon Aug 08 2011 00:00:00 GMT+0000 (Coordinated Universal Time)" data-date="Mon Aug 08 2011 00:00:00 GMT+0000 (Coordinated Universal Time)" data-format="%B %Y">Mon Aug 08 2011 00:00:00 GMT+0000 (Coordinated Universal Time)</time>
-            
-          </div>
-        
-      </header>
-
-      <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
   <title>http response codes</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style type="text/css" media="screen">
-body</style> {
-  <span class="hljs-attribute">font-family</span>: <span class="hljs-string">"Anonymous Pro"</span>, <span class="hljs-string">"Menlo"</span>, <span class="hljs-string">"Consolas"</span>, <span class="hljs-string">"Bitstream Vera Sans Mono"</span>, <span class="hljs-string">"Courier New"</span>, monospace;
-  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">12px</span>;
-  <span class="hljs-attribute">padding</span>: <span class="hljs-number">20px</span>;
-}
-
-<span class="hljs-selector-tag">body</span> > <span class="hljs-selector-tag">p</span> {
-  <span class="hljs-attribute">margin</span>: <span class="hljs-number">80px</span> <span class="hljs-number">0</span> <span class="hljs-number">20px</span> <span class="hljs-number">0</span>;
-  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
-  <span class="hljs-attribute">color</span>: black;
-  <span class="hljs-attribute">color</span>: <span class="hljs-number">#999</span>;
-}
-
-<span class="hljs-selector-tag">body</span> > <span class="hljs-selector-tag">p</span> > <span class="hljs-selector-tag">a</span> {
-  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
-  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
-  <span class="hljs-attribute">background-color</span>: red;
-  <span class="hljs-attribute">color</span>: white;
-  <span class="hljs-attribute">text-decoration</span>: none;
-  <span class="hljs-attribute">padding</span>: <span class="hljs-number">3px</span> <span class="hljs-number">3px</span> <span class="hljs-number">3px</span> <span class="hljs-number">3px</span>;
-}
-
-<span class="hljs-selector-tag">body</span> > <span class="hljs-selector-tag">p</span> > <span class="hljs-selector-tag">a</span> > <span class="hljs-selector-tag">span</span> {
-  <span class="hljs-attribute">color</span>: pink;
-}
-
-<span class="hljs-selector-tag">body</span> > <span class="hljs-selector-tag">p</span> > <span class="hljs-selector-tag">a</span><span class="hljs-selector-pseudo">:hover</span> {
-  <span class="hljs-attribute">background-color</span>: black;
-}
-
-<span class="hljs-selector-tag">body</span> > <span class="hljs-selector-tag">ul</span> {
-  <span class="hljs-attribute">display</span>: block;
-  <span class="hljs-attribute">float</span>: none;
-  <span class="hljs-attribute">clear</span>: both;
-  <span class="hljs-attribute">margin</span>: <span class="hljs-number">30px</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">0</span>;
-  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
-  <span class="hljs-attribute">list-style</span>: none;
-}
-
-<span class="hljs-selector-tag">body</span> > <span class="hljs-selector-tag">ul</span> > <span class="hljs-selector-tag">li</span> {
-  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
-  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
-  <span class="hljs-attribute">display</span>: block;
-  <span class="hljs-attribute">float</span>: left;
-  <span class="hljs-attribute">border-top</span>: <span class="hljs-number">5px</span> solid black;
-  <span class="hljs-attribute">width</span>: <span class="hljs-number">220px</span>;
-  <span class="hljs-attribute">margin-right</span>: <span class="hljs-number">20px</span>;
-}
-
-<span class="hljs-selector-tag">body</span> > <span class="hljs-selector-tag">ul</span> > <span class="hljs-selector-tag">li</span> > <span class="hljs-selector-tag">ul</span> {
-  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
-  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
-  <span class="hljs-attribute">list-style</span>: none;
-}
-
-<span class="hljs-selector-tag">body</span> > <span class="hljs-selector-tag">ul</span> > <span class="hljs-selector-tag">li</span> > <span class="hljs-selector-tag">ul</span> > <span class="hljs-selector-tag">li</span> {
-  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">10px</span>;
-  <span class="hljs-attribute">padding</span>: <span class="hljs-number">2px</span> <span class="hljs-number">0</span> <span class="hljs-number">2px</span> <span class="hljs-number">0</span>;
-}
-
-<span class="hljs-selector-tag">body</span> > <span class="hljs-selector-tag">ul</span> > <span class="hljs-selector-tag">li</span> > <span class="hljs-selector-tag">ul</span> > <span class="hljs-selector-tag">li</span><span class="hljs-selector-pseudo">:first-child</span> {
-  <span class="hljs-attribute">padding</span>: <span class="hljs-number">3px</span> <span class="hljs-number">0</span> <span class="hljs-number">10px</span> <span class="hljs-number">0</span>;
-}
-
-  
+    body {
+      font-family: "Anonymous Pro", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+      font-size: 12px;
+      padding: 20px;
+    }
+    body > p {
+      margin: 80px 0 20px 0;
+      padding: 0;
+      color: black;
+      color: #999;
+    }
+    body > p > a {
+      margin: 0;
+      padding: 0;
+      background-color: red;
+      color: white;
+      text-decoration: none;
+      padding: 3px 3px 3px 3px;
+    }
+    body > p > a > span {
+      color: pink;
+    }
+    body > p > a:hover {
+      background-color: black;
+    }
+    body > ul {
+      display: block;
+      float: none;
+      clear: both;
+      margin: 30px 0 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    body > ul > li {
+      margin: 0;
+      padding: 0;
+      display: block;
+      float: left;
+      border-top: 5px solid black;
+      width: 220px;
+      margin-right: 20px;
+    }
+    body > ul > li > ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    body > ul > li > ul > li {
+      font-size: 10px;
+      padding: 2px 0 2px 0;
+    }
+    body > ul > li > ul > li:first-child {
+      padding: 3px 0 10px 0;
+    }
+  </style>
 
 
   <p>
-</p><pre><code class="hljs language-xml"><span class="hljs-tag">&#x3C;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"http://twitter.com/zeke_in_http"</span>></span><span class="hljs-tag">&#x3C;<span class="hljs-name">span</span>></span>@<span class="hljs-tag">&#x3C;/<span class="hljs-name">span</span>></span>zeke_in_http<span class="hljs-tag">&#x3C;/<span class="hljs-name">a</span>></span>
-status code reference</code></pre>
-  <p></p>
+    <a href="http://twitter.com/zeke_in_http"><span>@</span>zeke_in_http</a>    status code reference
+  </p>
   <ul>
     <li>
       <ul>
@@ -120,99 +71,72 @@ status code reference</code></pre>
         <li>102 Processing</li>
       </ul>
     </li>
-<pre><code class="hljs language-stata">&#x3C;<span class="hljs-keyword">li</span>>
-  &#x3C;ul>
-    &#x3C;<span class="hljs-keyword">li</span>>Success
-    &#x3C;<span class="hljs-keyword">li</span>>200 OK
-    &#x3C;<span class="hljs-keyword">li</span>>201 Created
-    &#x3C;<span class="hljs-keyword">li</span>>202 Accepted
-    &#x3C;<span class="hljs-keyword">li</span>>203 Non-Authoritative Information
-    &#x3C;<span class="hljs-keyword">li</span>>204 <span class="hljs-keyword">No</span> Content
-    &#x3C;<span class="hljs-keyword">li</span>>205 Reset Content
-    &#x3C;<span class="hljs-keyword">li</span>>206 Partial Content
-    &#x3C;<span class="hljs-keyword">li</span>>207 Multi-Status
-    &#x3C;<span class="hljs-keyword">li</span>>226 IM Used&#x3C;/<span class="hljs-keyword">li</span>>
-  &#x3C;/ul>
-&#x3C;/<span class="hljs-keyword">li</span>>
-
-&#x3C;<span class="hljs-keyword">li</span>>
-  &#x3C;ul>
-    &#x3C;<span class="hljs-keyword">li</span>>Redirection
-    &#x3C;<span class="hljs-keyword">li</span>>300 Multiple Choices
-    &#x3C;<span class="hljs-keyword">li</span>>301 Moved Permanently
-    &#x3C;<span class="hljs-keyword">li</span>>302 Moved Temporarily (HTTP 1.0)
-    &#x3C;<span class="hljs-keyword">li</span>>302 Found (HTTP 1.1)
-    &#x3C;<span class="hljs-keyword">li</span>>303 See Other (HTTP 1.1)
-    &#x3C;<span class="hljs-keyword">li</span>>304 Not Modified
-    &#x3C;<span class="hljs-keyword">li</span>>305 <span class="hljs-keyword">Use</span> Proxy
-    &#x3C;<span class="hljs-keyword">li</span>>306 (<span class="hljs-keyword">no</span> longer used, but reserved)
-    &#x3C;<span class="hljs-keyword">li</span>>307 Temporary Redirect&#x3C;/<span class="hljs-keyword">li</span>>
-  &#x3C;/ul>
-&#x3C;/<span class="hljs-keyword">li</span>>
-
-&#x3C;<span class="hljs-keyword">li</span>>
-  &#x3C;ul>
-    &#x3C;<span class="hljs-keyword">li</span>>Client <span class="hljs-keyword">Error</span>
-    &#x3C;<span class="hljs-keyword">li</span>>400 Bad Request
-    &#x3C;<span class="hljs-keyword">li</span>>401 Unauthorized
-    &#x3C;<span class="hljs-keyword">li</span>>402 Payment Required
-    &#x3C;<span class="hljs-keyword">li</span>>403 Forbidden
-    &#x3C;<span class="hljs-keyword">li</span>>404 Not Found
-    &#x3C;<span class="hljs-keyword">li</span>>405 Method Not Allowed
-    &#x3C;<span class="hljs-keyword">li</span>>406 Not Acceptable
-    &#x3C;<span class="hljs-keyword">li</span>>407 Proxy Authentication Required
-    &#x3C;<span class="hljs-keyword">li</span>>408 Request Timeout
-    &#x3C;<span class="hljs-keyword">li</span>>409 Conflict
-    &#x3C;<span class="hljs-keyword">li</span>>410 Gone
-    &#x3C;<span class="hljs-keyword">li</span>>411 Length Required
-    &#x3C;<span class="hljs-keyword">li</span>>412 Precondition Failed
-    &#x3C;<span class="hljs-keyword">li</span>>413 Request Entity Too Large
-    &#x3C;<span class="hljs-keyword">li</span>>414 Request-URI Too Long
-    &#x3C;<span class="hljs-keyword">li</span>>415 Unsupported Media <span class="hljs-keyword">Type</span>
-    &#x3C;<span class="hljs-keyword">li</span>>416 Requested <span class="hljs-keyword">Range</span> Not Satisfiable
-    &#x3C;<span class="hljs-keyword">li</span>>417 Expectation Failed
-    &#x3C;<span class="hljs-keyword">li</span>>422 Unprocessable Entity
-    &#x3C;<span class="hljs-keyword">li</span>>423 Locked
-    &#x3C;<span class="hljs-keyword">li</span>>424 Failed Dependency
-    &#x3C;<span class="hljs-keyword">li</span>>426 Upgrade Required&#x3C;/<span class="hljs-keyword">li</span>>
-  &#x3C;/ul>
-&#x3C;/<span class="hljs-keyword">li</span>>
-
-&#x3C;<span class="hljs-keyword">li</span>>
-  &#x3C;ul>
-    &#x3C;<span class="hljs-keyword">li</span>>Server <span class="hljs-keyword">Error</span>
-    &#x3C;<span class="hljs-keyword">li</span>>500 Internal Server <span class="hljs-keyword">Error</span>
-    &#x3C;<span class="hljs-keyword">li</span>>501 Not Implemented
-    &#x3C;<span class="hljs-keyword">li</span>>502 Bad Gateway
-    &#x3C;<span class="hljs-keyword">li</span>>503 Service Unavailable
-    &#x3C;<span class="hljs-keyword">li</span>>504 Gateway Timeout
-    &#x3C;<span class="hljs-keyword">li</span>>505 HTTP <span class="hljs-keyword">Version</span> Not Supported
-    &#x3C;<span class="hljs-keyword">li</span>>507 Insufficient Storage
-    &#x3C;<span class="hljs-keyword">li</span>>510 Not Extended&#x3C;/<span class="hljs-keyword">li</span>>
-  &#x3C;/ul>
-&#x3C;/<span class="hljs-keyword">li</span>></code></pre>
+    <li>
+      <ul>
+        <li>Success
+        </li><li>200 OK
+        </li><li>201 Created
+        </li><li>202 Accepted
+        </li><li>203 Non-Authoritative Information
+        </li><li>204 No Content
+        </li><li>205 Reset Content
+        </li><li>206 Partial Content
+        </li><li>207 Multi-Status
+        </li><li>226 IM Used</li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li>Redirection
+        </li><li>300 Multiple Choices
+        </li><li>301 Moved Permanently
+        </li><li>302 Moved Temporarily (HTTP 1.0)
+        </li><li>302 Found (HTTP 1.1)
+        </li><li>303 See Other (HTTP 1.1)
+        </li><li>304 Not Modified
+        </li><li>305 Use Proxy
+        </li><li>306 (no longer used, but reserved)
+        </li><li>307 Temporary Redirect</li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li>Client Error
+        </li><li>400 Bad Request
+        </li><li>401 Unauthorized
+        </li><li>402 Payment Required
+        </li><li>403 Forbidden
+        </li><li>404 Not Found
+        </li><li>405 Method Not Allowed
+        </li><li>406 Not Acceptable
+        </li><li>407 Proxy Authentication Required
+        </li><li>408 Request Timeout
+        </li><li>409 Conflict
+        </li><li>410 Gone
+        </li><li>411 Length Required
+        </li><li>412 Precondition Failed
+        </li><li>413 Request Entity Too Large
+        </li><li>414 Request-URI Too Long
+        </li><li>415 Unsupported Media Type
+        </li><li>416 Requested Range Not Satisfiable
+        </li><li>417 Expectation Failed
+        </li><li>422 Unprocessable Entity
+        </li><li>423 Locked
+        </li><li>424 Failed Dependency
+        </li><li>426 Upgrade Required</li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li>Server Error
+        </li><li>500 Internal Server Error
+        </li><li>501 Not Implemented
+        </li><li>502 Bad Gateway
+        </li><li>503 Service Unavailable
+        </li><li>504 Gateway Timeout
+        </li><li>505 HTTP Version Not Supported
+        </li><li>507 Insufficient Storage
+        </li><li>510 Not Extended</li>
+      </ul>
+    </li>
   </ul>
-    </div>
-  </article>
-
-  <footer>
-
-    <div id="footer-site-nav">
-      <a href="/">Home</a>
-      <a href="/bio">Bio</a>
-      <a href="/portfolio">Portfolio</a>
-      <a href="/contact">Contact Me</a>
-    </div>
-
-    <!-- <p class="text-small text-center faint">
-      Built with
-      <a href="http://jus.js.org">jus</a>,
-      developed on
-      <a href="https://github.com/zeke/zeke.sikelianos.com">GitHub</a>,
-      and deployed on
-      <a href="https://surge.sh">Surge</a>.
-    </p> -->
-
-  </footer>
-</body>
-</html>
