@@ -1,6 +1,6 @@
 <!--
 title: Zeke Sikelianos
-description: Graphic Designer, Open Source Hacker, Aspiring Homebuilder
+description: Designer, Open Source Hacker, Aspiring Woodworker
 noIndex: true
 -->
 
