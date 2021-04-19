@@ -1,5 +1,5 @@
 <!--
-title: Contact Me
+title: Elsewhere
 description: I occupy the internets, and meatspace too
 noIndex: true
 -->

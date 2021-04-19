@@ -1,10 +1,7 @@
 <!--
-title: Résumé
-description: A summing up; a recapitulation; a condensed statement.
-noIndex: true
+title: Zeke Sikelianos
+description: Designer, engineer, documentarian.
 -->
-
-I'm a multimedia designer, software engineer, and open-source maintainer.
 
 ## Work History
 
@@ -54,19 +51,19 @@ Ideum is a small new media outfit working for museums, educational institutions,
 
 _Designer, Developer, 2002-2006_
 
-RGC is a small branding agency that produces design materials in a wide array of media. I worked as Lead Web Designer/Developer and Junior Print Designer, focusing on developing database-driven websites, CMSes, and shopping carts using PHP and MySQL.
+Rome & Gold Creative was a small branding agency and architectural design studio. I worked as a web designer and junior print designer, building content management systems and shopping carts using PHP and MySQL.
 
 ### French Government
 
 _English Teacher, 2001-2002_
 
-I taught English at a public high school in Provence, left to my own devices to encourage teenage students to converse openly about American culture.
+In parternship with the French department at the University of New Mexico, I joined a teaching program and moved to L'Isle sur la Sorgue, Provence, France to teach American English language and culture at Lycée Polyvalent Alphonse Benoit.
 
 ### Neogenesis Media
 
 _Guru Factotum, 2000-2001_
 
-Neogenesis was a documentary film production house. I worked primarily on post-video editing using Discreet Combustion and Macromedia After Effects, but also developed interactive CD-ROMs and Flash websites, and developed and maintained a Windows network optimized for farm rendering.
+Neogenesis was a documentary film production house. I worked primarily on post-video editing using Discreet Combustion and Macromedia After Effects, developed interactive CD-ROMs and Flash websites, and built and maintained a Windows network optimized for farm rendering.
 
 ### Archetypal 3D
 
@@ -108,7 +105,7 @@ Archetypal 3D was a small group of architectural designers. As a production assi
 - [10 Habits of a Happy Node Hacker](https://blog.heroku.com/archives/2014/3/11/node-habits) (2014)
 - [Announcing a new and improved Node.js Buildpack](https://blog.heroku.com/archives/2013/12/10/new-node-buildpack) (2014)
 - [Introducing Heroku's Europe Region](https://blog.heroku.com/archives/2013/4/24/europe-region) (2013)
-- [Presenting the New Heroku Add-ons Site](https://blog.heroku.com/archives/2012/12/4/new-addons-site) (2013)
+- [Presenting the New Heroku Add-ons Site](https://blog.heroku.com/archives/2012/12/4/new-addons-site) (2012)
 
 
 ## Schooling
