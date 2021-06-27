@@ -107,10 +107,10 @@ Archetypal 3D was a small group of architectural designers. As a production assi
 - [Introducing Heroku's Europe Region](https://blog.heroku.com/archives/2013/4/24/europe-region) (2013)
 - [Presenting the New Heroku Add-ons Site](https://blog.heroku.com/archives/2012/12/4/new-addons-site) (2012)
 
-
 ## Schooling
 
 - [University of New Mexico](https://zeke.sikelianos.com/unm), 1999-2001
-- Santa Barbara City College, 2008-2009
-- [Lycée Polyvalent Alphonse Benoit](https://zeke.sikelianos.com/france), 2001-2002
+- [Santa Barbara City College](https://www.sbcc.edu/), 2008-2009
+- [Ministère de l'Éducation nationale (France)](https://zeke.sikelianos.com/france), 2001-2002
+- [Machine Project Information Design curriculum](https://machineproject.com/), 2010
 - [Beaver Brook Building School](https://zeke.sikelianos.com/beaver-brook), 2013
