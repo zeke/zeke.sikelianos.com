@@ -1,13 +1,19 @@
 <!--
 title: Zeke Sikelianos
-description: Designer, engineer, documentarian.
+description: designer, engineer, documentarian
 -->
 
 ## Work History
 
+### Replicate
+
+_Founding Designer, 2021-Present_
+
+Replicate is a Berkeley-based startup focused on making it easier for humans to build and use machine learning models. We're making [open-source tools](https://github.com/replicate) for academics, researchers, and engineers to package machine learning models in containers that can be run in different environments. We're also building a platform where model authors can publish interactive demos of their models for anyone to use.
+
 ### GitHub
 
-_Staff Software Engineer, 2016-present_
+_Staff Software Engineer, 2016-2021_
 
 GitHub is where the world builds software. In my five years as an engineer at GitHub, I helped launch [Electron](https://www.youtube.com/watch?v=FNHBfN8c32U), internationalized [electronjs.org](https://www.electronjs.org/blog/new-website), added [Typescript support](https://www.electronjs.org/blog/typescript) to Electron, [launched](https://github.blog/2020-07-01-launching-docs-github-com/) docs.github.com, [internationalized](https://github.blog/2019-09-16-product-documentation-now-available-in-spanish/) docs.github.com, [open-sourced](https://github.blog/2020-10-14-how-we-open-sourced-docs-github-com/) docs.github.com, and co-created the [OpenAPI description](https://github.blog/2020-07-27-introducing-githubs-openapi-description/) for GitHub's REST API.
 
