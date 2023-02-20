@@ -9,37 +9,37 @@ description: designer, engineer, documentarian
 
 _Founding Designer, 2021-Present_
 
-Replicate is a Berkeley-based startup focused on making it easier for humans to build and use machine learning models. We're making [open-source tools](https://github.com/replicate) for academics, researchers, and engineers to package machine learning models in containers that can be run in different environments. We're also building a platform where model authors can publish interactive demos of their models for anyone to use.
+[Replicate](https://replicate.com) is a Berkeley-based startup focused on making it easier for humans to build and use machine learning models. We're making [open-source tools](https://github.com/replicate) for academics, researchers, and engineers to package machine learning models in containers that can be run in different environments. We're also building a platform where model authors can publish interactive demos of their models for anyone to use.
 
 ### GitHub
 
 _Staff Software Engineer, 2016-2021_
 
-GitHub is where the world builds software. In my five years as an engineer at GitHub, I helped launch [Electron](https://www.youtube.com/watch?v=FNHBfN8c32U), internationalized [electronjs.org](https://www.electronjs.org/blog/new-website), added [Typescript support](https://www.electronjs.org/blog/typescript) to Electron, [launched](https://github.blog/2020-07-01-launching-docs-github-com/) docs.github.com, [internationalized](https://github.blog/2019-09-16-product-documentation-now-available-in-spanish/) docs.github.com, [open-sourced](https://github.blog/2020-10-14-how-we-open-sourced-docs-github-com/) docs.github.com, and co-created the [OpenAPI description](https://github.blog/2020-07-27-introducing-githubs-openapi-description/) for GitHub's REST API.
+[GitHub](https://github.com) is where the world builds software. In my five years as an engineer at GitHub, I helped launch [Electron](https://www.youtube.com/watch?v=FNHBfN8c32U), internationalized [electronjs.org](https://www.electronjs.org/blog/new-website), added [Typescript support](https://www.electronjs.org/blog/typescript) to Electron, [launched](https://github.blog/2020-07-01-launching-docs-github-com/) docs.github.com, [internationalized](https://github.blog/2019-09-16-product-documentation-now-available-in-spanish/) docs.github.com, [open-sourced](https://github.blog/2020-10-14-how-we-open-sourced-docs-github-com/) docs.github.com, and co-created the [OpenAPI description](https://github.blog/2020-07-27-introducing-githubs-openapi-description/) for GitHub's REST API.
 
 ### npm
 
 _Designer/Developer, 2014-2015_
 
-npm is the package manager for JavaScript​: a registry of over 1 million open-source "lego blocks" for building applications for Node.js and the browser. During my time at npm (long before it was acquired by Microsoft), I oversaw a redesign and rebuild of the frontend and backend of the npmjs.com website, making it faster, mobile-friendly, and more welcoming to open-source contributors.
+[npm](https://npmjs.org/~zeke) is the package manager for JavaScript​: a registry of over 1 million open-source "lego blocks" for building applications for Node.js and the browser. During my time in the earliest days of npm becoming a company, long before it was acquired by Microsoft, I oversaw the redesign and rebuild of the frontend and backend of the npmjs.com website, making it faster, mobile-friendly, and more welcoming to open-source contributors.
 
 ### Heroku
 
 _Product Designer, Open Source Maintainer, 2012-2014_
 
-Heroku is a platform that simplifies the process of deploying, running, and scaling web applications. I wore many hats at Heroku, including designer, engineer, product manager, and open-source advocate. I designed and implemented a redesign of addons.heroku.com, Heroku's marketplace for cloud infrastructure providers, as well as other web properties like blog.heroku.com and help.heroku.com. In my last year with the company, I spent most of my time improving the Node.js development experience on Heroku by rewriting the build process, creating the semver.io microservice for resolving Node versions, writing documentation and blog posts, answering support tickets, and representing the company by speaking at conferences and mentoring at meetups.
+[Heroku](https://heroku.com) is a platform that simplifies the process of deploying, running, and scaling web applications. I wore many hats at Heroku, including designer, engineer, product manager, and open-source advocate. I designed and implemented a redesign of addons.heroku.com, Heroku's marketplace for cloud infrastructure providers, as well as other web properties like blog.heroku.com and help.heroku.com. In my last year with the company, I spent most of my time improving the Node.js development experience on Heroku by rewriting the build process, creating the semver.io microservice for resolving Node versions, writing documentation and blog posts, answering support tickets, and representing the company by speaking at conferences and mentoring at meetups.
 
 ### Wordnik
 
 _Designer, Developer, 2011-2012_
 
-Wordnik was a startup with the ambitious goal of becoming the world's largest English dictionary. While at Wordnik, I designed, built, and maintained the high-traffic wordnik.com Ruby on Rails web application. I also co-created Swagger (now OpenAPI), a specification and set of open-source tooling that has become the de facto standard for documenting and consuming HTTP web services.
+[Wordnik](https://wordnik.com) was a startup with the ambitious goal of becoming the world's largest English dictionary. While at Wordnik, I designed, built, and maintained the high-traffic wordnik.com Ruby on Rails web application. I also co-created Swagger (now OpenAPI), a specification and set of open-source tooling that has become the de facto standard for documenting and consuming HTTP web services.
 
 ### Fractured Atlas
 
 _Designer, Developer, 2009-2011_
 
-Fractured Atlas is a national non-profit organization providing services for the independent arts community. During my tenure at Gemini, I designed, coded, and maintained Rails and Sinatra applications and geospatial webservices making use of technologies like Postgres, PostGIS, CouchDB, and the Google Maps Javascript and Flash SDKs.
+[Fractured Atlas](https://www.fracturedatlas.org/) is a national non-profit organization providing services for the independent arts community. During my tenure at Gemini, I designed, coded, and maintained Rails and Sinatra applications and geospatial webservices making use of technologies like Postgres, PostGIS, CouchDB, and the Google Maps Javascript and Flash SDKs.
 
 ### ELC
 
@@ -79,6 +79,7 @@ Archetypal 3D was a small group of architectural designers. As a production assi
 
 ## Talks
 
+- [Building an AI artist with Codespaces and Replicate](https://www.youtube.com/watch?v=5jZGLYcLfOo)
 - [Bridging Systems and Subcultures: A Swagger Origin Story](https://www.youtube.com/watch?v=_G9dlv66-xw)
 - [Building thriving open source communities with GitHub](https://www.youtube.com/watch?v=0IOmzppk-_Y)
 - [How I Write Node Modules](https://www.youtube.com/watch?v=6Y6QMgEEAXk)
@@ -92,6 +93,9 @@ Archetypal 3D was a small group of architectural designers. As a production assi
 
 ## Posts
 
+- [Introducing LoRA: A faster way to fine-tune Stable Diffusion](https://replicate.com/blog/lora-faster-fine-tuning-of-stable-diffusion)
+- [Train and deploy a DreamBooth model on Replicate](https://replicate.com/blog/dreambooth-api)
+- [Run Stable Diffusion with an API](https://replicate.com/blog/run-stable-diffusion-with-an-api)
 - [How we open sourced docs.github.com](https://github.blog/2020-10-14-how-we-open-sourced-docs-github-com/) (2020)
 - [Easier AutoUpdating for Open-Source Apps](https://www.electronjs.org/blog/autoupdating-electron-apps) (2018)
 - [Functional programming with lodash.chain](https://zeke.sikelianos.com/chain/) (2017)
@@ -112,6 +116,13 @@ Archetypal 3D was a small group of architectural designers. As a production assi
 - [Announcing a new and improved Node.js Buildpack](https://blog.heroku.com/archives/2013/12/10/new-node-buildpack) (2014)
 - [Introducing Heroku's Europe Region](https://blog.heroku.com/archives/2013/4/24/europe-region) (2013)
 - [Presenting the New Heroku Add-ons Site](https://blog.heroku.com/archives/2012/12/4/new-addons-site) (2012)
+
+## Apps
+
+- [Scribble Diffusion](https://scribblediffusion.com)
+- [TileMaker](https://tilemaker.app)
+- [Paint by Text](https://paintbytext.chat)
+- [Inpainter](https://inpainter.vercel.app)
 
 ## Schooling
 
