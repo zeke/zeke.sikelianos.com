@@ -9,7 +9,7 @@ description: designer, engineer, documentarian
 
 _Founding Designer, 2021-Present_
 
-[Replicate](https://replicate.com) is a Berkeley-based startup focused on making it easier for humans to build and use machine learning models. We're making [open-source tools](https://github.com/replicate) for academics, researchers, and engineers to package machine learning models in containers that can be run in different environments. We're also building a platform where model authors can publish interactive demos of their models for anyone to use.
+[Replicate](https://replicate.com) is a platform for building and running AI models in the cloud. We're making [open-source tools](https://github.com/replicate) for academics, researchers, and engineers to package machine learning models in containers that can be run in different environments. We're also building a platform where model authors can publish interactive demos of their models for anyone to use.
 
 ### GitHub
 
