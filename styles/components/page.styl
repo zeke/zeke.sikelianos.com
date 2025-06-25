@@ -34,7 +34,19 @@ a.org-avatar
   img
     width 100%
 
-@media screen and (max-width: mobile-width)
+// Add consistent horizontal padding for all screen sizes
+.page__content
+  padding-left 20px
+  padding-right 20px
+
+// Reduce padding on larger screens where content has natural margins
+@media screen and (min-width: 768px)
   .page__content
-    padding-left 20px
-    padding-right 20px
+    padding-left 40px
+    padding-right 40px
+
+// Further reduce padding on very large screens
+@media screen and (min-width: 1200px)
+  .page__content
+    padding-left 60px
+    padding-right 60px
