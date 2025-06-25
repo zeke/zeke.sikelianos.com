@@ -6,8 +6,7 @@ noIndex: true
 -->
 
 Here's a list of my favorite educators from the world of AI-powered software development.
-
-All of these people are gifted communicators with the ability to understand complex topics and explain them in ways that are both clear and engaging.
+These people are gifted communicators: they have the ability to understand complex topics and explain them in ways that are both clear and engaging.
 
 ## Page Bailey
 
@@ -18,7 +17,7 @@ Paige works on AI stuff at Google. She's very funny, very smart, and shared a lo
 
 ## Andrej Karpathy
 
-Andrej has worked at OpenAI a couple times, and used to be the head oF AI at Tesla. He has that special combination of deep technical knowledge and the ability to describe things simply and understandably.
+Andrej has worked at OpenAI a couple times, and used to be the head of AI at Tesla. He has that special combination of deep technical knowledge and the ability to describe things simply and understandably.
 
 - [Video: Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI)
 - [Video: How I use LLMs](https://www.youtube.com/watch?v=EWvNQjAaOHw)
