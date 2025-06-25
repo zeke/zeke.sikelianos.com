@@ -9,19 +9,19 @@ description: designer, engineer, documentarian
 
 _Founding Designer, 2021-Present_
 
-[Replicate](https://replicate.com) is a platform for building and running AI models in the cloud. We're making [open-source tools](https://github.com/replicate) for academics, researchers, and engineers to package machine learning models in containers that can be run in different environments. We're also building a platform where model authors can publish interactive demos of their models for anyone to use.
+[Replicate](https://replicate.com) is a platform for building and running AI models. We make [open-source](https://replicate.com/docs/reference/open-source) [tools](https://cog.run) used by engineers, researchers, and tinkerers to package, deploy, and run machine learning models at scale in the cloud. We're also a community where people share and publish models. As the first employee, I've worked as a designer and engineer to build Replicate's [website](https://replicate.com), [model playground](https://replicate.com/playground), [HTTP API](https://replicate.com/docs/reference/http), [SDKs](https://replicate.com/docs/reference/client-libraries), [demos](https://x.com/zeke/status/1937267796146290952), and [documentation](https://replicate.com/docs/get-started/fine-tune-with-flux). My focus is on developer experience, creating tools and content that make it easier for people to build things with AI.
 
 ### GitHub
 
 _Staff Software Engineer, 2016-2021_
 
-[GitHub](https://github.com) is where the world builds software. In my five years as an engineer at GitHub, I helped launch [Electron](https://www.youtube.com/watch?v=FNHBfN8c32U), internationalized [electronjs.org](https://www.electronjs.org/blog/new-website), added [Typescript support](https://www.electronjs.org/blog/typescript) to Electron, [launched](https://github.blog/2020-07-01-launching-docs-github-com/) docs.github.com, [internationalized](https://github.blog/2019-09-16-product-documentation-now-available-in-spanish/) docs.github.com, [open-sourced](https://github.blog/2020-10-14-how-we-open-sourced-docs-github-com/) docs.github.com, and co-created the [OpenAPI description](https://github.blog/2020-07-27-introducing-githubs-openapi-description/) for GitHub's REST API.
+[GitHub](https://github.com) is where the world builds software. In my five years as an engineer at GitHub, I helped launch [Electron](https://www.youtube.com/watch?v=FNHBfN8c32U), the open-source tool for building desktop apps, which has become the basis for apps like Slack, VS Code, and Cursor. On the Electron team, I internationalized [electronjs.org](https://www.electronjs.org/blog/new-website), added [Typescript support](https://www.electronjs.org/blog/typescript), and helped manage an active community of international open-source contributors. After Electron, I founded GitHub's first docs engineering team. We [launched](https://github.blog/2020-07-01-launching-docs-github-com/) docs.github.com, [internationalized](https://github.blog/2019-09-16-product-documentation-now-available-in-spanish/) docs.github.com, [open-sourced](https://github.blog/2020-10-14-how-we-open-sourced-docs-github-com/) docs.github.com, and co-created the [OpenAPI description](https://github.blog/2020-07-27-introducing-githubs-openapi-description/) for GitHub's REST API.
 
 ### npm
 
 _Designer/Developer, 2014-2015_
 
-[npm](https://npmjs.org/~zeke) is the package manager for JavaScript​: a registry of over 1 million open-source "lego blocks" for building applications for Node.js and the browser. During my time in the earliest days of npm becoming a company, long before it was acquired by Microsoft, I oversaw the redesign and rebuild of the frontend and backend of the npmjs.com website, making it faster, mobile-friendly, and more welcoming to open-source contributors.
+[npm](https://npmjs.org/~zeke) is the package manager for JavaScript​: a registry of over <strike>1 million</strike> 3.5 million open-source "lego blocks" for building applications for Node.js and the browser. For over ten years, npm has been the default tool and registry to publish and consume open-source software for the web. During my time as an early employee at npm, I helped redesign and rebuild the frontend and backend of the npmjs.com website, making it faster, mobile-friendly, and more welcoming to contributors.
 
 ### Heroku
 
@@ -33,25 +33,25 @@ _Product Designer, Open Source Maintainer, 2012-2014_
 
 _Designer, Developer, 2011-2012_
 
-[Wordnik](https://wordnik.com) was a startup with the ambitious goal of becoming the world's largest English dictionary. While at Wordnik, I designed, built, and maintained the high-traffic wordnik.com Ruby on Rails web application. I also co-created Swagger (now OpenAPI), a specification and set of open-source tooling that has become the de facto standard for documenting and consuming HTTP web services.
+[Wordnik](https://wordnik.com) was a startup with the ambitious goal of becoming the world's largest English dictionary, and of course we had an API. I worked with a diverse team of computer scientists and linguists to design, build, and maintain the high-traffic wordnik.com Ruby on Rails web application. I also co-created [Swagger](https://zeke.sikelianos.com/swagger) and Swagger UI (now OpenAPI), a specification and set of open-source tooling that has become the de facto standard for documenting and consuming HTTP web services.
 
 ### Fractured Atlas
 
 _Designer, Developer, 2009-2011_
 
-[Fractured Atlas](https://www.fracturedatlas.org/) is a national non-profit organization providing services for the independent arts community. During my tenure at Gemini, I designed, coded, and maintained Rails and Sinatra applications and geospatial webservices making use of technologies like Postgres, PostGIS, CouchDB, and the Google Maps Javascript and Flash SDKs.
+[Fractured Atlas](https://www.fracturedatlas.org/) is a national non-profit organization providing services for the independent arts community. At Fractured Atlas I designed, coded, and maintained Rails and Sinatra applications and geospatial webservices using technologies like Postgres, PostGIS, CouchDB, and the Google Maps Javascript and Flash SDKs.
 
 ### ELC
 
 _Developer, 2007-2009_
 
-ELC Technologies was a consultancy providing services to Fortune 500 companies in the early days of Ruby on Rails. At ELC, I was introduced to Unix, macOS, Ruby, and Amazon Web Services. I led the development and maintenance of enterprise-level websites, embracing popular practices of agile web development like pair programming, scrum management and iterative development cycles.
+ELC Technologies was a consultancy providing services to Fortune 500 companies in the early days of Ruby on Rails and Amazon Web Services. At ELC, I was introduced to Unix, macOS, Ruby, and cloud computing. I led the development and maintenance of websites for big enterprises, using popular practices of agile web development like pair programming and iterative development cycles.
 
 ### Ideum
 
 _Interactive Director, 2006_
 
-Ideum is a small new media outfit working for museums, educational institutions, nonprofit organizations and socially responsible companies. As Interactive Director, I oversaw the production of a variety of educational and humanitarian projects, and worked extensively with Flickr and Google mashups, building applications in PHP and Python.
+Ideum is a small new media outfit working for museums, educational institutions, nonprofit organizations and socially responsible companies. As the Interactive Director at Ideum, I directed the production of educational and humanitarian projects, working with Flickr and Google mashups, building applications using PHP and Python.
 
 ### Rome & Gold Creative
 
@@ -69,7 +69,7 @@ In parternship with the French department at the University of New Mexico, I joi
 
 _Guru Factotum, 2000-2001_
 
-Neogenesis was a documentary film production house. I worked primarily on post-video editing using Discreet Combustion and Macromedia After Effects, developed interactive CD-ROMs and Flash websites, and built and maintained a Windows network optimized for farm rendering.
+Neogenesis was a documentary film production house. I worked on post-video editing using Discreet Combustion and Macromedia After Effects, developed interactive CD-ROMs and Flash websites, and built and maintained a Windows network for farm rendering.
 
 ### Archetypal 3D
 
@@ -78,6 +78,11 @@ _Web Designer, 1998-2000_
 Archetypal 3D was a small group of architectural designers. As a production assistant, I designed websites, worked on IPIX 360-degree photography, and maintained a network of workstations and rendering machines.
 
 ## Talks
+
+- [Design like Karpathy is watching](https://www.youtube.com/watch?v=gcWGVmL2j6E)
+- [OpenAPI Origin Story: Natural Language Processing Evolution](https://www.youtube.com/watch?v=rfbX9RgDY-Y)
+
+
 
 - [Building an AI artist with Codespaces and Replicate](https://www.youtube.com/watch?v=5jZGLYcLfOo)
 - [Bridging Systems and Subcultures: A Swagger Origin Story](https://www.youtube.com/watch?v=_G9dlv66-xw)
