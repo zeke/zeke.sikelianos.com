@@ -79,13 +79,10 @@ Archetypal 3D was a small group of architectural designers. As a production assi
 
 ## Talks
 
-- [Design like Karpathy is watching](https://www.youtube.com/watch?v=gcWGVmL2j6E)
-- [OpenAPI Origin Story: Natural Language Processing Evolution](https://www.youtube.com/watch?v=rfbX9RgDY-Y)
-
-
-
-- [Building an AI artist with Codespaces and Replicate](https://www.youtube.com/watch?v=5jZGLYcLfOo)
-- [Bridging Systems and Subcultures: A Swagger Origin Story](https://www.youtube.com/watch?v=_G9dlv66-xw)
+- [Design like Karpathy is watching](https://www.youtube.com/watch?v=gcWGVmL2j6E) (2025)
+- [OpenAPI Origin Story: Natural Language Processing Evolution](https://www.youtube.com/watch?v=rfbX9RgDY-Y) (2024)
+- [Building an AI artist with Codespaces and Replicate](https://www.youtube.com/watch?v=5jZGLYcLfOo) (2023)
+- [Bridging Systems and Subcultures: A Swagger Origin Story](https://www.youtube.com/watch?v=_G9dlv66-xw) (2020)
 - [Building thriving open source communities with GitHub](https://www.youtube.com/watch?v=0IOmzppk-_Y)
 - [How I Write Node Modules](https://www.youtube.com/watch?v=6Y6QMgEEAXk)
 - [Learning LevelDB](https://github.com/zeke/learning-leveldb#readme)
