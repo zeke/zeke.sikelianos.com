@@ -63,7 +63,7 @@ Rome & Gold Creative was a small branding agency and architectural design studio
 
 _English Teacher, 2001-2002_
 
-In parternship with the French department at the University of New Mexico, I joined a teaching program and moved to L'Isle sur la Sorgue, Provence, France to teach American English language and culture at Lycée Polyvalent Alphonse Benoit.
+In partnership with the French department at the University of New Mexico, I joined a teaching program and moved to L'Isle sur la Sorgue, Provence, France to teach American English language and culture at Lycée Polyvalent Alphonse Benoit.
 
 ### Neogenesis Media
 
@@ -91,7 +91,7 @@ Archetypal 3D was a small group of architectural designers. As a production assi
 - [Electron: Desktop Apps with Web Languages](https://www.youtube.com/watch?v=FNHBfN8c32U)
 - [Electron and Cross-Platform Desktop Apps](https://changelog.com/podcast/216)
 - [NodeUp, Episode 87](http://nodeup.com/eightyseven)
-- [Crowdinsourcing Heroku's Node Buildpack](https://www.youtube.com/watch?v=1bbpBirW5-Q)
+- [Crowdsourcing Heroku's Node Buildpack](https://www.youtube.com/watch?v=1bbpBirW5-Q)
 
 ## Posts
 
