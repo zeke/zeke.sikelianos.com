@@ -70,9 +70,9 @@ Last week at the [San Francisco Book Art Fair](https://sfartbookfair.com/), I ha
   <img src="/meta-cars-of-mexico-city/IMG_9758-brecpo.jpg">
 </figure>
 
-<figure>
+<!-- <figure>
   <img src="/meta-cars-of-mexico-city/tmpu7j0rq_a.jpg">
-</figure>
+</figure> -->
 
 <figure>
   <img src="/meta-cars-of-mexico-city/tmplwk5monf.jpg">
