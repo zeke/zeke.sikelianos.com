@@ -6,7 +6,7 @@ noIndex: true
 
 <figure>
   <img src="/bio/family-selfie.jpg">
-  <figcaption>Cosmos, Zeke, (Toasty) Rowan, Jenelle</figcaption>
+  <figcaption>Cosmos, Zeke, (Toasty) Rowan</figcaption>
 </figure>
 
 I grew up in a family of <a href="http://beaver.zeke.sikelianos.com/">artists and artisans</a>, and
@@ -14,8 +14,9 @@ though I ended up in a [technical field](/github), I still consider design to an
 
 Today I'm a software developer at <a href="https://github.com/about">GitHub</a>, working on <a href="http://electron.atom.io">Electron</a>, an open-source project for building native applications using open web technologies like HTML, CSS, and Javascript.
 
-I love to travel. In the last five years I've moved a lot, from Los Angeles to Paris to San Francisco to Oakland to New Orleans to Santa Barbara, and today we live in Berkeley, California on the warmer side of the San Francisco bay. I live with my wife <a href="https://www.instagram.com/sparklebuttcheek/">Jenelle</a> and our sons <a href="https://www.instagram.com/p/6IUj0eFvFU/?taken-by=nelbo">Cosmos</a> and <a href="https://cloudup.com/cF8ek7Pbn5C">Rowan</a>.
+I love to travel. In the last five years I've moved a lot, from Los Angeles to Paris to San Francisco to Oakland to New Orleans to Santa Barbara, and today we live in Berkeley, California on the warmer side of the San Francisco bay. I have two beautiful children, <a href="https://www.instagram.com/p/6IUj0eFvFU/?taken-by=nelbo">Cosmos</a> and <a href="https://cloudup.com/cF8ek7Pbn5C">Rowan</a>.
 
 <!-- My resolution for 2016 was to channel Ganesha, the "remover of obstacles".
 
 My resolution for 2017 was to learn more about building the immutable decentralized Internet of the future, moving control of information sharing from corporations to individuals. -->
+
