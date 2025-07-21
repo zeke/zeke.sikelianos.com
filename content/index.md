@@ -36,22 +36,16 @@ noIndex: true
     {% endfor %}
   </ul>
 
-## Talks
-
-- [Design like Karpathy is watching](https://www.youtube.com/watch?v=gcWGVmL2j6E) (2025)
-- [OpenSauced Interview](https://www.youtube.com/embed/rfbX9RgDY-Y?si=Izn11Giumw62ZjXv) (2024)
-- [OpenAPI Origin Story: Natural Language Processing Evolution](https://www.youtube.com/watch?v=rfbX9RgDY-Y) (2024)
-- [Building an AI artist with Codespaces and Replicate](https://www.youtube.com/watch?v=5jZGLYcLfOo) (2023)
-- [Bridging Systems and Subcultures: A Swagger Origin Story](https://www.youtube.com/watch?v=_G9dlv66-xw) (2020)
-- [Building thriving open source communities with GitHub](https://www.youtube.com/watch?v=0IOmzppk-_Y)
-- [How I Write Node Modules](https://www.youtube.com/watch?v=6Y6QMgEEAXk)
-- [Learning LevelDB](https://github.com/zeke/learning-leveldb#readme)
-- [Electron: keeping an ion it](https://www.youtube.com/watch?v=GH3P4nen5hQ)
-- [Navigating JavaScript Userland](https://www.youtube.com/watch?v=rKWHS2cfcAw&t=597s)
-- [Electron: Desktop Apps with Web Languages](https://www.youtube.com/watch?v=FNHBfN8c32U)
-- [Electron and Cross-Platform Desktop Apps](https://changelog.com/podcast/216)
-- [NodeUp, Episode 87](http://nodeup.com/eightyseven)
-- [Crowdsourcing Heroku's Node Buildpack](https://www.youtube.com/watch?v=1bbpBirW5-Q)
+  <h2>Talks</h2>
+  <ul class="chronological-list">
+    {% for talk in talks %}
+      <li class="chronological-item">
+        <span class="chronological-date" data-date="{{ talk.publish_date }}" data-format="%Y %b %d">{{ talk.publish_date }}</span>
+        <a class="chronological-link" href="{{ talk.href }}">{{ talk.title }}</a>
+        <div class="chronological-description">{{ talk.description }}</div>
+      </li>
+    {% endfor %}
+  </ul>
 
 ## Posts
 

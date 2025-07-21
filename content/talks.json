@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Design like Karpathy is watching",
+    "href": "https://www.youtube.com/watch?v=gcWGVmL2j6E",
+    "publish_date": "2025",
+    "description": ""
+  },
+  {
+    "title": "OpenSauced Interview",
+    "href": "https://www.youtube.com/embed/rfbX9RgDY-Y?si=Izn11Giumw62ZjXv",
+    "publish_date": "2024",
+    "description": ""
+  },
+  {
+    "title": "OpenAPI Origin Story: Natural Language Processing Evolution",
+    "href": "https://www.youtube.com/watch?v=rfbX9RgDY-Y",
+    "publish_date": "2024",
+    "description": ""
+  },
+  {
+    "title": "Building an AI artist with Codespaces and Replicate",
+    "href": "https://www.youtube.com/watch?v=5jZGLYcLfOo",
+    "publish_date": "2023",
+    "description": ""
+  },
+  {
+    "title": "Bridging Systems and Subcultures: A Swagger Origin Story",
+    "href": "https://www.youtube.com/watch?v=_G9dlv66-xw",
+    "publish_date": "2020",
+    "description": ""
+  },
+  {
+    "title": "Building thriving open source communities with GitHub",
+    "href": "https://www.youtube.com/watch?v=0IOmzppk-_Y",
+    "publish_date": "",
+    "description": ""
+  },
+  {
+    "title": "How I Write Node Modules",
+    "href": "https://www.youtube.com/watch?v=6Y6QMgEEAXk",
+    "publish_date": "2018-03",
+    "description": "An unrehearsed stream-of-consciousness screencast of me building a very simple npm module."
+  },
+  {
+    "title": "Learning LevelDB",
+    "href": "https://github.com/zeke/learning-leveldb#readme",
+    "publish_date": "2018-01",
+    "description": "LevelDB is a key-value store created by Google for use in the Chromium browser. In typical Node.js style, some cool kids have run wild with the technology and found many exciting new uses for it outside of the browser. I sat down with LevelDB aficionado Julian Gruber to talk about what LevelDB is, how to use it, and where the project is headed."
+  },
+  {
+    "title": "Electron: keeping an ion it",
+    "href": "https://www.youtube.com/watch?v=GH3P4nen5hQ",
+    "publish_date": "2017-09",
+    "description": "A high-level look at the Electron project. First, we'll kick off with a lightning presentation to illustrate what Electron is and how it works. Then we'll have a fireside chat with two members of GitHub's Electron team, addressing some of the most common questions we hear from the Electron community. The content should be useful to existing Electron developers as well as people just learning about the project."
+  },
+  {
+    "title": "Navigating JavaScript Userland",
+    "href": "https://www.youtube.com/watch?v=rKWHS2cfcAw&t=597s",
+    "publish_date": "2016-12",
+    "description": "So much innovation is happening in the JavaScript world, and hundreds of new packages are published to the npm package registry every day. In this talk Zeke covers some tools and techniques for navigating userland, discovering new things, and learning how to pick the right modules for your projects."
+  },
+  {
+    "title": "Electron: Desktop Apps with Web Languages",
+    "href": "https://www.youtube.com/watch?v=FNHBfN8c32U",
+    "publish_date": "2016-09",
+    "description": "If you can build a website, you can build a desktop app. Electron is a framework for creating native Desktop applications with web technologies like JavaScript, HTML, and CSS. In this session, hosted by Zeke Sikelianos, an Electron Developer at GitHub, we'll look at some of the amazing things you can create using features and tools Electron inherits from the Chromium browser, Node.js, and the vast ecosystem of npm modules."
+  },
+  {
+    "title": "Electron and Cross-Platform Desktop Apps",
+    "href": "https://changelog.com/podcast/216",
+    "publish_date": "2016-08",
+    "description": "A conversation about GitHub's Electron project and the future of web folks making cross platform desktop apps. We talked about the web revolution around native vs web app, where Electron is heading, who's using it, and how cool it is to enable folks like Guillermo Rauch to build HyperTerm."
+  },
+  {
+    "title": "NodeUp, Episode 87",
+    "href": "http://nodeup.com/eightyseven",
+    "publish_date": "2015-05",
+    "description": "A fun free-form conversation about Node.js, npm, and JavaScript with Tim Oxley, Aria Stewart, Yoshua Wuyts."
+  },
+  {
+    "title": "Crowdsourcing Heroku's Node Buildpack",
+    "href": "https://www.youtube.com/watch?v=1bbpBirW5-Q",
+    "publish_date": "2013-12",
+    "description": "Os pacotes open source de buildpacks da Heroku permitem que desenvolvedores desenvolvam e executem o deploy de suas aplicações em qualquer linguagem, incluindo, obviamente, JavaScript. Nesta palestra eu apresentarei algumas técnicas e ferramentas que utilizo para ajudar a comunidade Open Source a determinar o futuro do Node Buildpack."
+  }
+] 
