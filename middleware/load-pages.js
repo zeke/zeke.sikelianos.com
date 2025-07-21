@@ -24,5 +24,17 @@ module.exports = async function loadPages (req, res, next) {
   }
   set(req, 'context.talks', talks)
 
+  // Load posts from JSON
+  const postsPath = path.join(process.cwd(), 'data', 'posts.json')
+  let posts = []
+  try {
+    const postsRaw = await fs.readFile(postsPath, 'utf8')
+    posts = JSON.parse(postsRaw)
+    posts = posts.sort((a, b) => (b.publish_date || '').localeCompare(a.publish_date || ''))
+  } catch (err) {
+    posts = []
+  }
+  set(req, 'context.posts', posts)
+
   return next()
 }

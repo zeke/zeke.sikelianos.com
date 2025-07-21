@@ -1,50 +1,140 @@
-{
-  "nicely-presented-markup": {
-    "url": "http://blog.npmjs.org/post/109508231330/nicely-presented-markup",
-    "published_at": "2015-01-29",
+[
+  {
+    "title": "Introducing LoRA: A faster way to fine-tune Stable Diffusion",
+    "href": "https://replicate.com/blog/lora-faster-fine-tuning-of-stable-diffusion",
+    "publish_date": "",
+    "description": ""
+  },
+  {
+    "title": "Train and deploy a DreamBooth model on Replicate",
+    "href": "https://replicate.com/blog/dreambooth-api",
+    "publish_date": "",
+    "description": ""
+  },
+  {
+    "title": "Run Stable Diffusion with an API",
+    "href": "https://replicate.com/blog/run-stable-diffusion-with-an-api",
+    "publish_date": "",
+    "description": ""
+  },
+  {
+    "title": "How we open sourced docs.github.com",
+    "href": "https://github.blog/2020-10-14-how-we-open-sourced-docs-github-com/",
+    "publish_date": "2020",
+    "description": ""
+  },
+  {
+    "title": "Easier AutoUpdating for Open-Source Apps",
+    "href": "https://www.electronjs.org/blog/autoupdating-electron-apps",
+    "publish_date": "2018",
+    "description": ""
+  },
+  {
+    "title": "Functional programming with lodash.chain",
+    "href": "https://zeke.sikelianos.com/chain/",
+    "publish_date": "2017",
+    "description": ""
+  },
+  {
+    "title": "Electron's New Internationalized Website",
+    "href": "https://www.electronjs.org/blog/new-website",
+    "publish_date": "2017",
+    "description": ""
+  },
+  {
+    "title": "Announcing TypeScript support in Electron",
+    "href": "https://www.electronjs.org/blog/typescript",
+    "publish_date": "2017",
+    "description": ""
+  },
+  {
+    "title": "Electron Simple Samples",
+    "href": "https://www.electronjs.org/blog/simple-samples",
+    "publish_date": "2017",
+    "description": ""
+  },
+  {
+    "title": "Electron Userland",
+    "href": "https://www.electronjs.org/blog/userland",
+    "publish_date": "2016",
+    "description": ""
+  },
+  {
+    "title": "Electron's API Docs as Structured Data",
+    "href": "https://www.electronjs.org/blog/api-docs-json-schema",
+    "publish_date": "2016",
+    "description": ""
+  },
+  {
+    "title": "npm install electron",
+    "href": "https://www.electronjs.org/blog/npm-install-electron",
+    "publish_date": "2016",
+    "description": ""
+  },
+  {
+    "title": "The Sweet Sensation of Automation",
+    "href": "https://zeke.sikelianos.com/npm-and-github-automation-with-heroku/",
+    "publish_date": "",
+    "description": ""
+  },
+  {
+    "title": "CSS from the future",
+    "href": "https://zeke.sikelianos.com/css-from-the-future/",
+    "publish_date": "2016",
+    "description": ""
+  },
+  {
+    "title": "What's new in Electron 0.37",
+    "href": "https://www.electronjs.org/blog/electron-37",
+    "publish_date": "2016",
+    "description": ""
+  },
+  {
     "title": "nicely presented markup",
-    "summary": "The story of marky-markdown, npm's high-performace markdown processor designed to parse and display over 150,000 package READMEs"
+    "href": "http://blog.npmjs.org/post/109508231330/nicely-presented-markup",
+    "publish_date": "2015",
+    "description": ""
   },
-  "npm-has-a-new-website": {
-    "url": "http://blog.npmjs.org/post/104856015780/npm-has-a-new-website",
-    "published_at": "2014-12-10",
+  {
     "title": "npm has a new website",
-    "summary": "At long last, the npm website is useful, attractive, and designed to enable community participation."
+    "href": "http://blog.npmjs.org/post/104856015780/npm-has-a-new-website",
+    "publish_date": "2014",
+    "description": ""
   },
-  "twenty-years-with-javascript": {
-    "url": "http://zeke.sikelianos.com/posts/twenty-years-with-javascript",
-    "published_at": "2014-08-18",
+  {
     "title": "Twenty Years with JavaScript",
-    "summary": "npm is an amazing thing, and I want my mom to know why."
+    "href": "http://zeke.sikelianos.com/posts/twenty-years-with-javascript",
+    "publish_date": "2014",
+    "description": ""
   },
-  "popular-npm-packages-on-heroku": {
-    "url": "https://github.com/zeke/popular-npm-packages-on-heroku/blob/master/blog-post.md",
-    "published_at": "2014-08-08",
+  {
     "title": "The Most Popular npm Packages on Heroku",
-    "summary": "As a platform upon which thousands of Node apps are deployed every day, Heroku is in a unique position to gather data about popular top-level npm dependencies and share it with the Javascript community."
+    "href": "https://github.com/zeke/popular-npm-packages-on-heroku/blob/master/blog-post.md",
+    "publish_date": "2014",
+    "description": ""
   },
-  "node-habits": {
-    "url": "https://blog.heroku.com/archives/2014/3/11/node-habits",
-    "published_at": "2014-03-11",
+  {
     "title": "10 Habits of a Happy Node Hacker",
-    "summary": "This post about best practices for Node.js and npm quickly became the most popular blog post in Heroku history."
+    "href": "https://blog.heroku.com/archives/2014/3/11/node-habits",
+    "publish_date": "2014",
+    "description": ""
   },
-  "new-node-buildpack": {
-    "url": "https://blog.heroku.com/archives/2013/12/10/new-node-buildpack",
-    "published_at": "2014-05-01",
+  {
     "title": "Announcing a new and improved Node.js Buildpack",
-    "summary": "A post about the completely rewritten Node.js buildpack featuring dependency caching, faster builds, and support for all versions of node."
+    "href": "https://blog.heroku.com/archives/2013/12/10/new-node-buildpack",
+    "publish_date": "2014",
+    "description": ""
   },
-  "europe-region": {
-    "url": "https://blog.heroku.com/archives/2013/4/24/europe-region",
-    "published_at": "2013-04-24",
+  {
     "title": "Introducing Heroku's Europe Region",
-    "summary": "One Heroku, Two Continents."
+    "href": "https://blog.heroku.com/archives/2013/4/24/europe-region",
+    "publish_date": "2013",
+    "description": ""
   },
-  "new-addons-site": {
-    "url": "https://blog.heroku.com/archives/2012/12/4/new-addons-site",
-    "published_at": "2013-04-24",
+  {
     "title": "Presenting the New Heroku Add-ons Site",
-    "summary": "A story about the redesign of the platform-as-a-service app store for developers."
+    "href": "https://blog.heroku.com/archives/2012/12/4/new-addons-site",
+    "publish_date": "2012",
+    "description": ""
   }
-}
+]
