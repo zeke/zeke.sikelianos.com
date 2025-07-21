@@ -1,5 +1,5 @@
 <!--
-title: npm, Inc
+title: I'm joining npm
 location: Oakland, CA
 description: The package manager for JavaScript
 position: Designer, Developer
