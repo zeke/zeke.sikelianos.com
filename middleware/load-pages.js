@@ -12,7 +12,7 @@ module.exports = async function loadPages (req, res, next) {
   set(req, 'context.page', pages[req.path])
 
   // Load talks from JSON
-  const talksPath = path.join(process.cwd(), 'content', 'talks.json')
+  const talksPath = path.join(process.cwd(), 'data', 'talks.json')
   let talks = []
   try {
     const talksRaw = await fs.readFile(talksPath, 'utf8')
