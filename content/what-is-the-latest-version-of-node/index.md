@@ -6,4 +6,5 @@ keywords: [node, webservice, semver, heroku]
 publish_date: 2014-05-31
 end: 2014-05-31
 noIndex: true
+kind: project
 -->

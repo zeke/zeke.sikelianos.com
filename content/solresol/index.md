@@ -2,6 +2,7 @@
 title: Solresol
 description: A transcoder for a lost musical language
 publish_date: 2009-02-01
+kind: project
 -->
 
 Solresol is an artificial language created in the early 1800s by a French musician. Unlike alphabetic languages such
