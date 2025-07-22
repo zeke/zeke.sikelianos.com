@@ -6,7 +6,7 @@ position: Designer, Developer
 website: https://www.npmjs.com
 keywords: [npm, javascript, development, node.js, reference]
 publish_date: 2014-07-29,
-end: 2015-05-05
+
 -->
 
 <figure>

@@ -6,7 +6,7 @@ position: Neolexicographer
 website: http://wordnik.com
 keywords: [language, reference, english, ruby]
 publish_date: 2011-01-01
-end: 2012-04-15
+
 -->
 
 

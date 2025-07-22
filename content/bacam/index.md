@@ -3,7 +3,7 @@ title: Bay Area Cultural Asset Map
 description: Arts fundraising intelligence for the Hewlett Foundation
 keywords: [maps, design, cartography, census, geodata]
 publish_date: 2010-02-02
-end: 2010-10-30
+
 -->
 
 Fractured Atlas, a national non-profit arts organization, was awarded a $350,000 contract

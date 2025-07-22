@@ -4,7 +4,7 @@ location: Port Jervis, NY
 description: A building school in Upstate New York
 website: http://beaverbrook.com/
 publish_date: 2013-08-26
-end: 2013-09-06
+
 -->
 
 

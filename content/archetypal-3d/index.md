@@ -3,7 +3,7 @@ title: Archetypal 3D
 location: Albuquerque, NM
 position: Web Designer
 publish_date: 1997-08-01
-end: 1999-02-01
+
 noIndex: true
 -->
 
