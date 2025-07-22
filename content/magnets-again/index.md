@@ -2,6 +2,7 @@
 title: Magnets, again.
 description: Another dose of electromagnetic propaganda.
 publish_date: 2019-12-21
+noIndex: true
 -->
 
 Hello again, loved one. You're here early!

@@ -1,6 +1,6 @@
 <!--
 title: Zeke Sikelianos
-description: designer, engineer, documentarian
+description: visual designer, natural language programmer, educator
 -->
 
 ## Work History

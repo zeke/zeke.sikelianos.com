@@ -13,5 +13,5 @@ The NATO alphabet is the most well-known of the acrophonic alphabets, but there 
 
 Acrophony is a website for spelling over the phone or walkie-talkie, in Alpha-Bravo-Charlie style.
 
-Check out the website at [zeke.github.io/acrophony] and view the [source code on GitHub](https://github.com/zeke/acrophony).
+Check out the website at [zeke.github.io/acrophony](https://zeke.github.io/acrophony) and view the [source code on GitHub](https://github.com/zeke/acrophony).
 

@@ -1,6 +1,6 @@
 <!--
 title: Zeke Sikelianos
-description: Designer, Programmer, Educator
+description: visual designer, natural language programmer, educator
 noIndex: true
 -->
 
@@ -56,12 +56,5 @@ noIndex: true
     </li>
   {% endfor %}
 </ul>
-
-## Apps
-
-- [Scribble Diffusion](https://scribblediffusion.com)
-- [TileMaker](https://tilemaker.app)
-- [Paint by Text](https://paintbytext.chat)
-- [Inpainter](https://inpainter.vercel.app)
 
 </div>

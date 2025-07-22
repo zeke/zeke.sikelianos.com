@@ -1,6 +1,7 @@
 <!--
 title: Portfolio
-description: A scrapbook of design ephemera, from 2001 to present day
+description: A scrapbook of my design work from 2001 to present day
+kind: project
 -->
 
 <div class="column-3">
