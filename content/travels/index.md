@@ -41,3 +41,6 @@ publish_date: 2020-07-16
 - 2018: Berlin, Prague, Rome, Napoli, Capri, Anacapri
 - 2020: Hawaii (First with Cosmos, followed by Jenlle and Toast)
 - 2020: Mendocino (Evita and Niko visit)
+- 2022: Copenhagen Denmark, Sweden (Andreas's wedding)
+- 2024: France and Italy (with Caroline)
+- 2025: Mexico: CDMX and Mérida (with Caroline)

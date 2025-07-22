@@ -1,7 +1,7 @@
 <!--
-title: NOLA
-description: A list of some of my favorite spots in New Orleans
-publish_date: 2015-07-01
+title: New Orleans Spots
+description: A list of some of my favorite places in NOLA
+publish_date: 2015-11-11
 -->
 
 In the summer of 2015, my partner and I decided to move to New Orleans.

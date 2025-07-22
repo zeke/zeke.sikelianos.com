@@ -6,9 +6,7 @@ position: Neolexicographer
 website: http://wordnik.com
 keywords: [language, reference, english, ruby]
 publish_date: 2011-01-01
-
 -->
-
 
 [Wordnik.com](http://wordnik.com) is an online English dictionary and language resource that provides dictionary and thesaurus content, some of it based on print dictionaries such as the Century Dictionary, the American Heritage Dictionary, WordNet, and the Collaborative International Dictionary of English. Wordnik has collected a corpus of billions of words which it uses to display example sentences, allowing it to provide information on a much larger set of words than a typical dictionary.
 

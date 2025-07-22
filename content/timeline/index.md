@@ -101,3 +101,6 @@ COVID
 ## 2021
 
 March: Joined the War Tax Resistance movement and became a donor to the Peoples' Life Fund
+
+August: Joined Replicate in Berkeley as the first employee and founding designer.
+

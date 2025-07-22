@@ -1,15 +1,11 @@
 <!--
 title: lodash.chain
-description: A thing that makes JavaScript feel more like Ruby, in a good way.
+description: Filling the enumerable gaps in JavaScript's standard library.
 website: https://lodash.com/docs/4.17.4#chain
 publish_date: 2017-08-14
 -->
 
-If you're a JavaScript developer in 2017, you've probably already heard of [lodash](https://lodash.com). If not though, it's a collection of 
-300-ish utility functions that exist to
-fill gaps in JavaScript's relatively small [standard library](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects).
-lodash is one of the most popular packages in the npm registry, and is depended 
-on by over [25,000 other modules](ghub.io/dependent-packages) in the registry.
+If you're a JavaScript developer in 2017, you've probably already heard of [lodash](https://lodash.com). If not though, it's a collection of  300-ish utility functions that exist to fill gaps in JavaScript's relatively small [standard library](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects). lodash is one of the most popular packages in the npm registry, and is depended on by over [25,000 other modules](ghub.io/dependent-packages) in the registry.
 
 JavaScript's [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) 
 object has some really useful methods for working with 

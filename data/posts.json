@@ -25,9 +25,14 @@
     "publish_date": "2022-08-29"
   },
   {
-    "title": "How we open sourced docs.github.com",
-    "href": "https://github.blog/2020-10-14-how-we-open-sourced-docs-github-com/",
+    "title": "How we open-sourced docs.github.com",
+    "href": "https://github.blog/2020-10-14-how-we-open-sourced-docs-github-com",
     "publish_date": "2020-10-14"
+  },
+  {
+    "title": "Magnets, again",
+    "href": "/magnets-again",
+    "publish_date": "2019-12-21"
   },
   {
     "title": "Easier AutoUpdating for Open-Source Apps",
@@ -35,14 +40,29 @@
     "publish_date": "2018-05-01"
   },
   {
+    "title": "Ologies of Wikipedia",
+    "href": "/ologies-of-wikipedia",
+    "publish_date": "2018-02-20"
+  },
+  {
     "title": "Functional programming with lodash.chain",
-    "href": "https://zeke.sikelianos.com/chain/",
+    "href": "/chain",
     "publish_date": "2017-08-01"
   },
   {
     "title": "Electron's New Internationalized Website",
     "href": "https://www.electronjs.org/blog/new-website",
     "publish_date": "2017-11-13"
+  },
+  {
+    "title": "Tokyo",
+    "href": "/tokyo",
+    "publish_date": "2017-09-17"
+  },
+  {
+    "title": "lodash.chain: The missing tools from JavaScript's standard library",
+    "href": "/chain",
+    "publish_date": "2017-08-14"
   },
   {
     "title": "Announcing TypeScript support in Electron",
@@ -71,18 +91,38 @@
   },
   {
     "title": "The Sweet Sensation of Automation",
-    "href": "https://zeke.sikelianos.com/npm-and-github-automation-with-heroku/",
+    "href": "/npm-and-github-automation-with-heroku",
     "publish_date": "2016-05-01"
   },
   {
     "title": "CSS from the future",
-    "href": "https://zeke.sikelianos.com/css-from-the-future/",
+    "href": "/css-from-the-future",
     "publish_date": "2016-04-10"
+  },
+  {
+    "title": "Websites as apps with Electron",
+    "href": "/electron-nativefier",
+    "publish_date": "2016-04-05"
   },
   {
     "title": "What's new in Electron 0.37",
     "href": "https://www.electronjs.org/blog/electron-37",
     "publish_date": "2016-03-25"
+  },
+  {
+    "title": "Objecty Arrays in JavaScript",
+    "href": "/keyed-arrays-in-javascript",
+    "publish_date": "2016-03-17"
+  },
+  {
+    "title": "I'm joining GitHub!",
+    "href": "/github",
+    "publish_date": "2016-03-14"
+  },
+  {
+    "title": "New Orleans Spots",
+    "href": "/nola",
+    "publish_date": "2015-11-11"
   },
   {
     "title": "nicely presented markup",
@@ -96,7 +136,7 @@
   },
   {
     "title": "Twenty Years with JavaScript",
-    "href": "http://zeke.sikelianos.com/posts/twenty-years-with-javascript",
+    "href": "/twenty-years-with-javascript",
     "publish_date": "2014-08-18"
   },
   {

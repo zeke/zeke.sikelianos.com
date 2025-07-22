@@ -4,7 +4,6 @@ location: Santa Barbara, CA
 description: Top-ranked community college, overlooking the Pacific Ocean
 website: http://sbcc.edu
 publish_date: 2008-09-01
-
 noIndex: true
 -->
 

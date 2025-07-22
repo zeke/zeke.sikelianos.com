@@ -1,10 +1,10 @@
 <!--
-title: Machine Project
+title: Machine Project Los Angeles
 location: Echo Park, Los Angeles, CA
 description: Community artspace in Echo Park, Los Angeles
 website: http://machineproject.com/blog/2010/09/05/shipwrecked-boat/
 publish_date: 2010-01-01
-
+kind: project
 -->
 
 Machine Project is a Los Angeles based not-for-profit arts organization and community event space producing cultural programming with the goal of inspiring audiences to become creatively active by imagining, participating and relating in new ways to the arts and sciences. Machine Project utilizes a range of techniques, such as informality, humor, and surprise, in order to make new, exciting and complex ideas accessible.
@@ -19,3 +19,4 @@ While living in Los Angeles in 2010, I attended several courses at Machine Proje
   </a>
   <figcaption>Building the Sea Nymph</figcaption>
 </figure>
+s

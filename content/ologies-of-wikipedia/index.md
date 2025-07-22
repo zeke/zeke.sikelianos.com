@@ -1,6 +1,6 @@
 <!-- 
-title: oligies on Wikipedia
-description: An exhaustive list on the study of many things, including $cientology.
+title: Ologies on Wikipedia
+description: An exhaustive list on the study of many things
 publish_date: 2018-02-20
 noIndex: true
 -->

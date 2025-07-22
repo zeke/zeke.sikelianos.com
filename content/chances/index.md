@@ -4,6 +4,7 @@ description: Download the music you hear on chanceswithwolves.com
 website: http://zeke.github.io/chances/
 keywords: [music, bookmarklet, javascript]
 publish_date: 2015-09-02
+kind: project
 -->
 
 [Chances With Wolves](http://www.chanceswithwolves.com/) is a weekly

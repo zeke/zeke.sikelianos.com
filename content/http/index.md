@@ -5,7 +5,7 @@ website: http://zeke.sikelianos.com/http
 keywords: [http, twitter, absurdism]
 layout: false
 publish_date: 2011-08-08
-
+kind: project
 -->
 
 <head>

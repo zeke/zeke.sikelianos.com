@@ -1,9 +1,10 @@
 <!--
 title: Swagger
-description: A framework for describing, documenting, and consuming JSON webservices
+description: A framework for documenting and consuming HTTP webservices
 website: http://swagger.io/
 keywords: [design, documentation, development, api, json, schema]
 publish_date: 2012-05-01
+kind: project
 -->
 
 [Swagger](http://swagger.io/) is a specification and open-source framework for describing, producing, consuming, and visualizing RESTful web services with JSON. I created Swagger while building [wordnik.com](https://wordnik.com). Our team needed a tool to help make our APIs easier to document, understand, and use. In the four years since its creation, a [large and active community](https://github.com/swagger-api) has developed around Swagger, and people are continuing to find new and interesting ways to incorporate it into their JSON webservice implementations.

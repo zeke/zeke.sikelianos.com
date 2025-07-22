@@ -4,7 +4,7 @@ description: Words that people on Twitter don't think are words
 website: http://zeke.sikelianos.com/outcasts/
 keywords: [language, twitter, slang, english, reference, ruby]
 publish_date: 2012-04-03
-
+kind: project
 -->
 
 This is a list of words that people on Twitter don't think are words, collected by a bot that searches in tweets for patterns like "x is not a word". Favorites include amanzingest, backyardigans caddywhompers, chuft, cucumbersome, ermahgerd, and flaggergasted.

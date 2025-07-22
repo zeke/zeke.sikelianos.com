@@ -3,6 +3,7 @@ title: Meta Cars of Mexico City
 description: Futuristic vehicles on the streets of CDMX
 keywords: [travel, mexico, futurism, generative art]
 publish_date: 2025-07-21
+kind: project
 -->
 
 Last week at the [San Francisco Book Art Fair](https://sfartbookfair.com/), I happened upon a stunning publication called [Meta Cars](https://www.perimeterbooks.com/products/beni-bischof-meta-cars), a colorful compendium of imaginary floating muscle cars. For some foolish reason, I chose not to pop for my own copy of the mag, but this week on a trip to Mexico City I discovered that meta cars actually exist. Here are the ones I spotted around town.

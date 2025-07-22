@@ -3,6 +3,7 @@ title: Earth
 description: Collected favorites from Google
 keywords: [maps, earth, geo, color, art]
 publish_date: 2017-06-30
+kind: project
 -->
 
 <div class="column-1">

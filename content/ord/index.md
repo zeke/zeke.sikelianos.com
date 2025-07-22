@@ -1,8 +1,10 @@
 <!--
 title: Ord
-description: A Wikipedia-powered tool for translating words in multiple languages
+description: Multilingual word translations using Wikipedia data
 website: http://ord.zeke.sikelianos.com
 keywords: [language, translation, Wikipedia, reference, Node.js]
+publish_date: 2014-03-15
+kind: project
 -->
 
 [Ord](http://ord.zeke.sikelianos.com) is a free web-based tool for translating words into many languages at once using data collected from Wikipedia. Ord sorts search results from different languages according to their lexical similarity to the headword, often providing etymological clues into the history and geographic distribution of language. Ord is an open-source Node.js application with source code [available on GitHub](https://github.com/zeke/ord).

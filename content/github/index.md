@@ -1,11 +1,11 @@
 <!--
-title: I'm joining Github!
+title: It's my first day at GitHub
 description: Time to work on Electron and Atom
 keywords: [github]
 publish_date: 2016-03-14
 -->
 
-I'm joining [GitHub](https://github.com/about/team)! I'll be working on the new [Electron](http://electron.atom.io) team alongside [Jessica Lord](https://github.com/jlord), [Kevin Sawicki](https://github.com/kevinsawicki), [Cheng Zhao](https://github.com/zcbenz) and others, helping build and maintain [Atom](http://atom.io) and [Electron](http://electron.atom.io), two open-source projects for making native applications using open web technologies like HTML, CSS, and Javascript.
+I've joined [GitHub](https://github.com/about/team) as a product engineer! I'll be working on the new [Electron](http://electron.atom.io) team alongside [Jessica Lord](https://github.com/jlord), [Kevin Sawicki](https://github.com/kevinsawicki), [Cheng Zhao](https://github.com/zcbenz) and others, helping build and maintain [Atom](http://atom.io) and [Electron](http://electron.atom.io), two open-source projects for making native applications using open web technologies like HTML, CSS, and Javascript.
 
 My first day as a GitHubber will be March 14 2016, also known as [Pi Day](https://en.wikipedia.org/wiki/Pi_Day) :)
 

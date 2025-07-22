@@ -7,6 +7,10 @@ thumbnail_credit: https://www.flickr.com/photos/32281279@N04/5232348119
 publish_date: 2016-05-15
 -->
 
+Update 2025: This post was about an automation workflow I came up with over ten years ago. GitHub Actions didn't exist at the time, but now it does. I'll leave this post around as a relic, but GitHub Actions is the definitive answer to the problem I was trying to solve here back in the day...
+
+---
+
 Last year I created a little npm module called [all-the-package-names](http://npm.im/all-the-package-names). It's a simple array of all the existing package names in the npm registry. It can be used to find if a package name is [available](https://www.npmjs.com/package/available), or to find all packages with names [matching a given pattern](https://github.com/zeke/all-the-package-names/blob/2c1964f038c70f08b04482eb68ce3387e257844f/example.js#L12).
 
 Here's a one-liner to try it out:

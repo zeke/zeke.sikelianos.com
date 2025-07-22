@@ -2,6 +2,7 @@
 title: Magnetism
 description: A fundamental force of the universe that fits in your pocket.
 publish_date: 2017-12-21
+kind: project
 -->
 
 Hello, loved one. If you're reading this it's most likely because I mailed you a 

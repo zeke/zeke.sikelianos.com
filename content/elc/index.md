@@ -5,7 +5,6 @@ description: Agile Ruby on Rails consultancy
 position: Rails Developer
 website: http://elctech.com
 publish_date: 2007-01-15
-
 noIndex: true
 -->
 
