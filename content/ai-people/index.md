@@ -1,6 +1,6 @@
 <!--
 title: AI People
-description: Human experts who are good at teaching about artificial intelligence and software development.
+description: Humans who teach about AI and software development.
 publish_date: 2025-03-11
 noIndex: true
 -->
@@ -46,6 +46,3 @@ He wrote a book called [The Nature of Code](https://natureofcode.com/) which is 
 - https://www.youtube.com/@TheCodingTrain
 - https://bsky.app/profile/shiffman.bsky.social
 
-## Hamel Husain
-
-TODO

@@ -41,8 +41,7 @@ noIndex: true
     {% for talk in talks %}
       <li class="chronological-item">
         <span class="chronological-date" data-date="{{ talk.publish_date }}" data-format="%Y %b %d">{{ talk.publish_date }}</span>
-        <a class="chronological-link" href="{{ talk.href }}">{{ talk.title }}</a>
-        <div class="chronological-description">{{ talk.description }}</div>
+        <a class="chronological-link" href="{{ talk.href }}">{{ talk.title }}{% if talk.venue %} ({{ talk.venue }}){% endif %}</a>
       </li>
     {% endfor %}
   </ul>
@@ -54,7 +53,6 @@ noIndex: true
     <li class="chronological-item">
       <span class="chronological-date" data-date="{{ post.publish_date }}" data-format="%Y %b %d">{{ post.publish_date }}</span>
       <a class="chronological-link" href="{{ post.href }}">{{ post.title }}</a>
-      <div class="chronological-description">{{ post.description }}</div>
     </li>
   {% endfor %}
 </ul>

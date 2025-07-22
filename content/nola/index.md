@@ -1,9 +1,10 @@
 <!--
 title: NOLA
 description: A list of some of my favorite spots in New Orleans
+publish_date: 2015-07-01
 -->
 
-In the summer of 2015, my wife Jenelle and I decided to move to New Orleans.
+In the summer of 2015, my partner and I decided to move to New Orleans.
 We'd visited before and felt a magical draw. So on a bit of a whim, we left
 Oakland and headed out for the other side of the country with our two year old
 son Cosmos. We didn't know quite what to expect, but a change of scenery
