@@ -1,6 +1,6 @@
 <!--
 title: Meta Cars of Mexico City
-description: Futuristic vehicles on the streets of CDMX
+description: Futuristic vehicles seen on the streets of CDMX
 keywords: [travel, mexico, futurism, generative art]
 publish_date: 2025-07-21
 kind: project
