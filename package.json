@@ -19,7 +19,7 @@
     "get-image-colors": "^2.0.0",
     "html-frontmatter": "^1.6.1",
     "lodash": "^4.17.15",
-    "stylus": "^0.63.0"
+    "stylus": "^0.64.0"
   },
   "devDependencies": {
     "flickr-photoset-info": "^1.4.0",
