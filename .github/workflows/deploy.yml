@@ -9,7 +9,7 @@ jobs:
   build-and-deploy:
     name: Build and deploy
     runs-on: ubuntu-latest
-    container: 'node:12-alpine'
+    container: 'node:22-alpine'
     steps:
     - uses: actions/checkout@v2
     - run: npm ci
