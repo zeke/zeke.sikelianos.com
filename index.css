@@ -152,7 +152,7 @@ blockquote p {
   font-style: italic;
   padding-left: 30px;
   border-left: 3px solid #ddd;
-  color: #666;
+  color: #888;
 }
 h1,
 h2,
@@ -337,7 +337,6 @@ header {
   line-height: 1.4;
 }
 .chronological-list {
-  margin: 40px 0;
   padding: 0;
 }
 .chronological-item {
@@ -345,7 +344,7 @@ header {
   align-items: baseline;
   margin: 0 0 12px 0;
   padding: 0;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 @media screen and (max-width: 480px) {
   .chronological-item {
@@ -357,9 +356,9 @@ header {
 .chronological-date {
   font-family: monospace;
   font-size: 0.9rem;
-  color: #666;
+  color: #888;
   min-width: 120px;
-  margin-right: 20px;
+  margin-right: 10px;
   flex-shrink: 0;
 }
 @media screen and (max-width: 480px) {
@@ -370,7 +369,7 @@ header {
   }
 }
 .chronological-link {
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-decoration: none;
   color: #333;
   line-height: 1.4;
@@ -437,13 +436,13 @@ footer {
   text-align: center;
   padding-bottom: 20px;
 }
-#footer-site-nav {
+.site-nav {
   margin: 15px 0 15px 0;
   display: block;
   text-align: center;
   line-height: 2;
 }
-#footer-site-nav a {
+.site-nav a {
   display: inline-block;
   transition: all 0.3s;
   font-size: 1rem;
@@ -451,17 +450,17 @@ footer {
   color: #000;
   opacity: 0.5;
 }
-#footer-site-nav a:hover {
+.site-nav a:hover {
   opacity: 1;
 }
-#footer-site-nav a:after {
+.site-nav a:after {
   content: " / ";
   text-align: center;
   display: inline-block;
   width: 50px;
   opacity: 0.3;
 }
-#footer-site-nav a:last-child:after {
+.site-nav a:last-child:after {
   display: none;
 }
 fieldset {
