@@ -152,7 +152,7 @@ blockquote p {
   font-style: italic;
   padding-left: 30px;
   border-left: 3px solid #ddd;
-  color: #666;
+  color: #888;
 }
 h1,
 h2,
@@ -345,7 +345,7 @@ header {
   align-items: baseline;
   margin: 0 0 12px 0;
   padding: 0;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 @media screen and (max-width: 480px) {
   .chronological-item {
@@ -357,9 +357,9 @@ header {
 .chronological-date {
   font-family: monospace;
   font-size: 0.9rem;
-  color: #666;
+  color: #888;
   min-width: 120px;
-  margin-right: 20px;
+  margin-right: 10px;
   flex-shrink: 0;
 }
 @media screen and (max-width: 480px) {
@@ -370,7 +370,7 @@ header {
   }
 }
 .chronological-link {
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-decoration: none;
   color: #333;
   line-height: 1.4;
