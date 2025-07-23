@@ -4,7 +4,9 @@ description: designer, natural language programmer, educator
 noIndex: true
 -->
 
+
 <div class="main-column">
+
   <ul class="cards">
     {% for page in pages %}
       {% unless page.noIndex %}
@@ -25,7 +27,7 @@ noIndex: true
     {% endfor %}
   </ul>
 
-  <h2>Projects</h2>
+  <h2 id="projects">Projects</h2>
   <ul class="chronological-list">
     {% for page in projectPages %}
         <li class="chronological-item">
@@ -36,7 +38,7 @@ noIndex: true
     {% endfor %}
   </ul>
 
-  <h2>Talks</h2>
+  <h2 id="talks">Talks</h2>
   <ul class="chronological-list">
     {% for talk in talks %}
       <li class="chronological-item">
@@ -46,15 +48,14 @@ noIndex: true
     {% endfor %}
   </ul>
 
-## Posts
-
-<ul class="chronological-list">
-  {% for post in posts %}
-    <li class="chronological-item">
-      <span class="chronological-date" data-date="{{ post.publish_date }}" data-format="%Y %b %d">{{ post.publish_date }}</span>
-      <a class="chronological-link" href="{{ post.href }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+  <h2 id="posts">Posts</h2>
+  <ul class="chronological-list">
+    {% for post in posts %}
+      <li class="chronological-item">
+        <span class="chronological-date" data-date="{{ post.publish_date }}" data-format="%Y %b %d">{{ post.publish_date }}</span>
+        <a class="chronological-link" href="{{ post.href }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
 </div>
