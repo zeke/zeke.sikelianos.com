@@ -1,5 +1,5 @@
 <!--
-title: Elsewhere
+title: Contact Me
 description: I occupy the internets, and meatspace too
 noIndex: true
 -->
@@ -78,10 +78,6 @@ noIndex: true
   <tr>
     <td><a href="skype:zsikelianos?chat">Skype</a>
     <td><a href="skype:zsikelianos?chat">zsikelianos</a>
-  </tr>
-  <tr>
-    <td><a href="tel:+15054592942">Phone</a></td>
-    <td><a href="tel:+15054592942">505.459.2942</a></td>
   </tr>
   <tr>
     <td><a href="mailto:zeke@sikelianos.com">Email</a></td>
