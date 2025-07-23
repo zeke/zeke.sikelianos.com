@@ -2,13 +2,14 @@
 title: Zeke Sikelianos
 description: designer, natural language programmer, educator
 noIndex: true
+kind: section
 -->
 
 <div class="main-column">
 
   <ul class="cards">
     {% for page in pages %}
-      {% unless page.noIndex %}
+      {% unless page.noIndex or page.kind == "section" %}
         <li class="card">
           <div class="card-inner">
             <a class="card-thumbnail" href="{{ page.href }}">
