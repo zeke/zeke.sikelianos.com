@@ -13,7 +13,7 @@ psychedelic retro stuff. I wrote a bookmarklet that modifies the
 chanceswithwolves.com website, adding links to YouTube and Google searches for
 each song.
 
-Download the bookmarklet at zeke.github.io/chances
+Download the bookmarklet at [zeke.github.io/chances](https://zeke.github.io/chances)
 
 <figure>
   <img src="/chances/wolf-among-poppies.jpg">
