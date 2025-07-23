@@ -1,6 +1,6 @@
 <!--
 title: Zeke Sikelianos
-description: visual designer, natural language programmer, educator
+description: designer, natural language programmer, educator
 noIndex: true
 -->
 
