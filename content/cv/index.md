@@ -1,6 +1,7 @@
 <!--
 title: Zeke Sikelianos
-description: designer, natural language programmer, educator
+description: Résumé & Curriculum Vitae
+kind: section
 -->
 
 ## Work History
