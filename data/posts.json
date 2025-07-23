@@ -1,8 +1,88 @@
 [
   {
+    "title": "Use FLUX.1 Kontext to edit images with words",
+    "href": "https://replicate.com/blog/flux-kontext",
+    "publish_date": "2025-05-29"
+  },
+  {
+    "title": "NVIDIA H100 GPUs are here",
+    "href": "https://replicate.com/blog/nvidia-h100-gpus-are-here",
+    "publish_date": "2025-05-16"
+  },
+  {
     "title": "AI People: Humans who teach about AI and software development",
     "href": "/ai-people",
     "publish_date": "2025-03-11"
+  },
+  {
+    "title": "Wan2.1: generate videos with an API",
+    "href": "https://replicate.com/blog/wan-21-generate-videos-with-an-api",
+    "publish_date": "2025-03-05"
+  },
+  {
+    "title": "You can now fine-tune open-source video models",
+    "href": "https://replicate.com/blog/fine-tune-video",
+    "publish_date": "2025-01-24"
+  },
+  {
+    "title": "FLUX.1 Tools – Control and steerability for FLUX",
+    "href": "https://replicate.com/blog/flux-tools",
+    "publish_date": "2024-11-21"
+  },
+  {
+    "title": "NVIDIA L40S GPUs are here",
+    "href": "https://replicate.com/blog/nvidia-l40s-gpus-are-here",
+    "publish_date": "2024-11-15"
+  },
+  {
+    "title": "FLUX1.1 [pro] is here",
+    "href": "https://replicate.com/blog/flux-1-1-pro-is-here",
+    "publish_date": "2024-10-03"
+  },
+  {
+    "title": "Fine-tune FLUX.1 with an API",
+    "href": "https://replicate.com/blog/fine-tune-flux-with-an-api",
+    "publish_date": "2024-09-09"
+  },
+  {
+    "title": "Using synthetic training data to improve Flux finetunes",
+    "href": "https://replicate.com/blog/using-synthetic-data-to-improve-flux-finetunes",
+    "publish_date": "2024-09-20"
+  },
+  {
+    "title": "Fine-tune FLUX.1 to create images of yourself",
+    "href": "https://replicate.com/blog/fine-tune-flux-with-faces",
+    "publish_date": "2024-08-30"
+  },
+  {
+    "title": "Run FLUX with an API",
+    "href": "https://replicate.com/blog/flux-state-of-the-art-image-generation",
+    "publish_date": "2024-08-01"
+  },
+  {
+    "title": "H100s are coming to Replicate",
+    "href": "https://replicate.com/blog/h100s-are-coming",
+    "publish_date": "2024-06-12"
+  },
+  {
+    "title": "Run Stable Diffusion 3 on your own machine with ComfyUI",
+    "href": "https://replicate.com/blog/run-sd3-on-comfyui",
+    "publish_date": "2024-06-14"
+  },
+  {
+    "title": "Push a custom version of Stable Diffusion 3",
+    "href": "https://replicate.com/blog/push-a-custom-sd3",
+    "publish_date": "2024-06-14"
+  },
+  {
+    "title": "Simplified AI Inference APIs on Replicate with NVIDIA NIM",
+    "href": "https://replicate.com/blog/run-nvidia-nim-models-on-replicate",
+    "publish_date": "2024-06-02"
+  },
+  {
+    "title": "Shared network vulnerability disclosure",
+    "href": "https://replicate.com/blog/shared-network-vulnerability-disclosure",
+    "publish_date": "2024-05-23"
   },
   {
     "title": "The Avocado Armchair: Reflections on generative AI from 2021-2023",
@@ -10,9 +90,59 @@
     "publish_date": "2023-12-15"
   },
   {
+    "title": "Streaming output for language models",
+    "href": "https://replicate.com/blog/streaming",
+    "publish_date": "2023-08-14"
+  },
+  {
+    "title": "What's the difference between Llama 2 7B, 13B, and 70B?",
+    "href": "https://replicate.com/blog/all-the-llamas",
+    "publish_date": "2023-08-04"
+  },
+  {
+    "title": "A comprehensive guide to running Llama 2 locally",
+    "href": "https://replicate.com/blog/run-llama-locally",
+    "publish_date": "2023-07-22"
+  },
+  {
+    "title": "What happened with Llama 2 in the last 24 hours? 🦙",
+    "href": "https://replicate.com/blog/llama-2-roundup",
+    "publish_date": "2023-07-19"
+  },
+  {
+    "title": "Status page",
+    "href": "https://replicate.com/blog/new-status-page",
+    "publish_date": "2023-05-18"
+  },
+  {
+    "title": "Language model roundup, April 2023",
+    "href": "https://replicate.com/blog/language-model-roundup",
+    "publish_date": "2023-04-21"
+  },
+  {
+    "title": "How to use Alpaca-LoRA to fine-tune a model like ChatGPT",
+    "href": "https://replicate.com/blog/fine-tune-alpaca-with-lora",
+    "publish_date": "2023-03-23"
+  },
+  {
+    "title": "Train and run Stanford Alpaca on your own machine",
+    "href": "https://replicate.com/blog/replicate-alpaca",
+    "publish_date": "2023-03-16"
+  },
+  {
+    "title": "Week 3 of LLaMA 🦙",
+    "href": "https://replicate.com/blog/llama-roundup",
+    "publish_date": "2023-03-18"
+  },
+  {
     "title": "Introducing LoRA: A faster way to fine-tune Stable Diffusion",
     "href": "https://replicate.com/blog/lora-faster-fine-tuning-of-stable-diffusion",
     "publish_date": "2023-02-07"
+  },
+  {
+    "title": "How to run Mistral 7B with an API",
+    "href": "https://replicate.com/blog/run-mistral-7b-with-api",
+    "publish_date": "2023-10-06"
   },
   {
     "title": "Train and deploy a DreamBooth model on Replicate",
@@ -23,6 +153,16 @@
     "title": "Run Stable Diffusion with an API",
     "href": "https://replicate.com/blog/run-stable-diffusion-with-an-api",
     "publish_date": "2022-08-29"
+  },
+  {
+    "title": "A new template for model READMEs",
+    "href": "https://replicate.com/blog/model-docs",
+    "publish_date": "2022-07-05"
+  },
+  {
+    "title": "Hello, world!",
+    "href": "https://replicate.com/blog/hello-world",
+    "publish_date": "2022-05-16"
   },
   {
     "title": "How we open-sourced docs.github.com",
@@ -45,11 +185,6 @@
     "publish_date": "2018-02-20"
   },
   {
-    "title": "Functional programming with lodash.chain",
-    "href": "/chain",
-    "publish_date": "2017-08-01"
-  },
-  {
     "title": "Electron's New Internationalized Website",
     "href": "https://www.electronjs.org/blog/new-website",
     "publish_date": "2017-11-13"
@@ -63,6 +198,11 @@
     "title": "lodash.chain: The missing tools from JavaScript's standard library",
     "href": "/chain",
     "publish_date": "2017-08-14"
+  },
+  {
+    "title": "Functional programming with lodash.chain",
+    "href": "/chain",
+    "publish_date": "2017-08-01"
   },
   {
     "title": "Announcing TypeScript support in Electron",
