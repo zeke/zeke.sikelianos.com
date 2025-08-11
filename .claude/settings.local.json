@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(curl:*)",
+      "Bash(npm run lint)"
+    ],
+    "deny": []
+  }
+}
