@@ -9,6 +9,40 @@
   {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <!-- OpenGraph Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Zeke Sikelianos" />
+  {% if page.title == "Zeke Sikelianos"  %}
+    <meta property="og:title" content="Zeke Sikelianos, Designer/Developer" />
+  {% else %}
+    <meta property="og:title" content="{{page.title}}" />
+  {% endif %}
+  {% if page.description %}
+    <meta property="og:description" content="{{page.description}}" />
+    <meta name="description" content="{{page.description}}" />
+  {% endif %}
+  <meta property="og:url" content="https://zeke.sikelianos.com{{page.href}}" />
+  {% if page.images.thumbnail %}
+    <meta property="og:image" content="https://zeke.sikelianos.com{{page.images.thumbnail.href}}" />
+    <meta property="og:image:alt" content="{{page.title}}" />
+  {% endif %}
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary{% if page.images.thumbnail %}_large_image{% endif %}" />
+  <meta name="twitter:site" content="@zeke" />
+  <meta name="twitter:creator" content="@zeke" />
+  {% if page.title == "Zeke Sikelianos"  %}
+    <meta name="twitter:title" content="Zeke Sikelianos, Designer/Developer" />
+  {% else %}
+    <meta name="twitter:title" content="{{page.title}}" />
+  {% endif %}
+  {% if page.description %}
+    <meta name="twitter:description" content="{{page.description}}" />
+  {% endif %}
+  {% if page.images.thumbnail %}
+    <meta name="twitter:image" content="https://zeke.sikelianos.com{{page.images.thumbnail.href}}" />
+  {% endif %}
+
   <link rel="stylesheet" href="/index.css">
   <script src="https://unpkg.com/browser-date-formatter@3.0.2/dist.js"></script>
   <script src="/index.js"></script>
