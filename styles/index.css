@@ -342,7 +342,7 @@ header {
 .chronological-item {
   display: flex;
   align-items: baseline;
-  margin: 0 0 24px 0;
+  margin: 0 0 20px 0;
   padding: 0;
   line-height: 1.6;
 }
@@ -350,7 +350,7 @@ header {
   .chronological-item {
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 0 16px 0;
+    margin: 0 0 24px 0;
   }
 }
 .chronological-date {
@@ -368,26 +368,11 @@ header {
     min-width: auto;
   }
 }
-.chronological-content {
-  flex: 1;
-}
 .chronological-link {
   font-size: 1.1rem;
   text-decoration: none;
   color: #333;
   line-height: 1.4;
-  display: block;
-  margin-bottom: 2px;
-}
-.domain-name {
-  font-size: 0.8rem;
-  color: #666;
-  opacity: 0.6;
-  text-decoration: none;
-  display: block;
-}
-.domain-name:hover {
-  opacity: 0.8;
 }
 .chronological-link:hover {
   color: #000;
@@ -397,6 +382,17 @@ header {
   font-size: 0.9rem;
   margin-left: 20px;
   opacity: 0.7;
+}
+.domain-name {
+  display: block;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  text-decoration: none;
+  color: #333;
+  margin-top: 2px;
+}
+.domain-name:hover {
+  opacity: 0.8;
 }
 .column-1 {
   line-height: 0;
