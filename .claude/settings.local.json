@@ -3,7 +3,8 @@
     "allow": [
       "Bash(find:*)",
       "Bash(curl:*)",
-      "Bash(npm run lint)"
+      "Bash(npm run lint)",
+      "Bash(ln:*)"
     ],
     "deny": []
   }
