@@ -4,7 +4,13 @@
       "Bash(find:*)",
       "Bash(curl:*)",
       "Bash(npm run lint)",
-      "Bash(ln:*)"
+      "Bash(ln:*)",
+      "WebFetch(domain:github.blog)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(gh:*)"
     ],
     "deny": []
   }
