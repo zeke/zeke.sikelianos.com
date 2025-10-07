@@ -2,7 +2,7 @@
 title: Vibe Coding Popup
 description: Teaching people to vibe code in real life.
 publish_date: 2025-07-10
-tags: ai, vibe coding, cursor, p5.js
+tags: ai, vibe coding, cursor, claude code, copilot, p5.js
 kind: project
 -->
 
@@ -10,15 +10,17 @@ Vibe coding is a new practice in software development where humans chat with AI 
 
 To vibe code is to "give in to the vibes", disregarding the specific implementation details of the code you're generating, and instead improving your project through natural language prompts based on the results you see, rather than the inner workings of the code.
 
+## The Popups
 
+Along with friends Wendy Dherin and Jack Love, I co-host a [free popup event](https://www.eventbrite.com/e/creative-vibe-coding-workshop-tickets-1412862392449?aff=oddtdtcreator) where we teach people how to vibe code using tools like Cursor, Claude Code, and Copilot.
 
-## The Popup
-
-Along with friends Wendy Dherin and Jack Love, I co-hosted a [free popup event](https://www.eventbrite.com/e/creative-vibe-coding-workshop-tickets-1412862392449?aff=oddtdtcreator) at [Sudo Room](https://sudoroom.org/), a hackerspace in Oakland's Temescal district. We taught people how to vibe code!
+- Popup 001: July 10, 2025 at [Sudo Room](https://sudoroom.org/), a hackerspace in Oakland's Temescal district.
+- Popup 002: September 25, 2025 at Sudo Room
+- Popup 003: TBD (Possibly Ace Makerspace)
 
 ## Content
 
-We used this repo to teach people how to vibe code using Cursor and p5.js:
+We use this repo to teach people how to vibe code using Cursor and p5.js:
 
 https://github.com/zeke/vibes
 
@@ -28,8 +30,5 @@ https://github.com/zeke/vibes
 
 - **Jack Love** is a mathematician, artist, and educator in San Francisco. He holds a PhD in mathematics from George Mason University and a Master's in Design from California College of the Arts. He has held faculty positions at George Mason University, San Francisco State University, and City College of San Francisco, and has exhibited artwork at the Joint Mathematics Meetings. He currently volunteers as a math instructor at San Quentin Rehabilitation Center and designs fun math presentations for K-12 classrooms. https://jackeddielove.github.io/
 
-## Future events
 
-Hopefully, yes!
-
-Email me if you're interested in hosting or attending a future event.
+Email me at <a href="mailto:azeke@sikelianos.com">azeke@sikelianos.com</a> if you're interested in hosting or attending a future event.
