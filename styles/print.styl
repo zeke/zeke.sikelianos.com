@@ -1,0 +1,98 @@
+// Print-specific styles
+// Hide navigation elements when printing
+
+@media print
+  // Hide header navigation elements
+  .breadcrumbs
+    display none !important
+
+  .color-bar
+    display none !important
+
+  // Hide footer and footer navigation
+  footer
+    display none !important
+
+  .site-nav, div.site-nav
+    display none !important
+    visibility hidden !important
+
+  // Hide social navigation
+  #social-nav
+    display none !important
+
+  // Optimize page layout for printing
+  // Use tighter margins to maximize content area
+  body
+    margin 0
+    padding 0.1in 0.5in 0.25in 0.5in  // Very small top, normal bottom and sides
+
+  .page
+    max-width 100% !important
+    margin 0 !important
+    padding 0 !important
+
+  // Hide any other interactive elements
+  button
+    display none !important
+
+  // Keep links styled normally for print
+  a
+    color inherit !important
+    text-decoration none !important
+
+  // Tighten up header spacing for print
+  h1, .page__title
+    padding-top 0 !important
+    padding-bottom 5px !important
+    margin 0 !important
+
+  h2.page__description
+    padding 5px 20px !important
+    margin 0 !important
+
+  header
+    padding 10px 0 20px 0 !important
+
+  // Reduce spacing for all headings
+  h2
+    padding-top 20px !important
+    padding-bottom 10px !important
+
+  h3
+    padding-top 15px !important
+    padding-bottom 5px !important
+
+  // Optimize images for printing
+  img
+    max-width 100% !important
+    page-break-inside avoid
+
+  // Smart page break handling
+  h1, h2, h3, h4, h5, h6
+    page-break-after avoid  // Keep headings with their content
+    page-break-inside avoid  // Don't break headings
+
+  // Allow paragraphs to break naturally for better page usage
+  p
+    orphans 3  // At least 3 lines at bottom of page
+    widows 3   // At least 3 lines at top of page
+
+  // Keep these elements intact when possible
+  blockquote, pre, table, ul, ol
+    page-break-inside avoid
+
+  // Prevent lonely list items
+  li
+    page-break-inside avoid
+    orphans 2
+    widows 2
+
+  // Ensure code blocks are readable
+  pre
+    border 1px solid #ddd
+    background white !important
+
+  code
+    background white !important
+    color black !important

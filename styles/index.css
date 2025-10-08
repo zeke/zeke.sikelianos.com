@@ -992,3 +992,96 @@ table td {
   border-top-color: transparent;
   border-bottom-color: transparent;
 }
+@media print {
+  .breadcrumbs {
+    display: none !important;
+  }
+  .color-bar {
+    display: none !important;
+  }
+  footer {
+    display: none !important;
+  }
+  .site-nav,
+  div.site-nav {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  #social-nav {
+    display: none !important;
+  }
+  body {
+    margin: 0;
+    padding: 0.1in 0.5in 0.25in 0.5in;
+  }
+  .page {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  button {
+    display: none !important;
+  }
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+  h1,
+  .page__title {
+    padding-top: 0 !important;
+    padding-bottom: 5px !important;
+    margin: 0 !important;
+  }
+  h2.page__description {
+    padding: 5px 20px !important;
+    margin: 0 !important;
+  }
+  header {
+    padding: 10px 0 20px 0 !important;
+  }
+  h2 {
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+  }
+  h3 {
+    padding-top: 15px !important;
+    padding-bottom: 5px !important;
+  }
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+  blockquote,
+  pre,
+  table,
+  ul,
+  ol {
+    page-break-inside: avoid;
+  }
+  li {
+    page-break-inside: avoid;
+    orphans: 2;
+    widows: 2;
+  }
+  pre {
+    border: 1px solid #ddd;
+    background: #fff !important;
+  }
+  code {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
