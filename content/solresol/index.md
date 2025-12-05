@@ -16,4 +16,4 @@ of arbitrarily combined syllables into English, German, Spanish, Italian, Arabic
 Today, the language is all but forgotten, and only one of his eight dictionaries has survived.
 
 
-<object width="600" height="345"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=4954053&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=ffffff&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=4954053&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=ffffff&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="600" height="345"></embed></object>
+<iframe src="https://player.vimeo.com/video/4954053" width="600" height="345" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
