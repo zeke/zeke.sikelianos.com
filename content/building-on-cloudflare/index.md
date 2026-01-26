@@ -6,14 +6,6 @@ publish_date: 2026-01-26
 kind: project
 -->
 
-Quick start (commands only):
-
-```bash
-brew install node
-brew install anomalyco/tap/opencode
-npx -y wrangler login
-${EDITOR:-nano} ~/.config/opencode/opencode.json
-```
 
 In this guide, I'll show you how to use the [OpenCode](https://opencode.ai/) AI Agent along with Cloudflare's Docs MCP server to quickly brainstorm and build apps on Cloudflare.
 
@@ -31,7 +23,7 @@ Cloudflare is free to start, with very generous limits before you have to start 
 
 ## 2: Authenticate
 
-[Wrangler](https://developers.cloudflare.com/workers/wrangler/) is Cloudflare's command-line interface. You can run it with npx.
+[Wrangler](https://developers.cloudflare.com/workers/wrangler/) is Cloudflare's command-line interface. You can run it with npx, which is included with Node.js. (Install Node.js with `brew install node` if don't already have it installed.)
 
 Run this command to authenticate your Cloudflare account:
 
