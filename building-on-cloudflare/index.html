@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+    <title>Building on Cloudflare | Zeke Sikelianos</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- OpenGraph Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Zeke Sikelianos">
+  
+    <meta property="og:title" content="Building on Cloudflare">
+  
+  
+    <meta property="og:description" content="OpenCode turns Cloudflare into a candy store for developers.">
+    <meta name="description" content="OpenCode turns Cloudflare into a candy store for developers.">
+  
+  <meta property="og:url" content="https://zeke.sikelianos.com/building-on-cloudflare">
+  
+    <meta property="og:image" content="https://zeke.sikelianos.com/building-on-cloudflare/thumbnail.png">
+    <meta property="og:image:alt" content="Building on Cloudflare">
+  
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@zeke">
+  <meta name="twitter:creator" content="@zeke">
+  
+    <meta name="twitter:title" content="Building on Cloudflare">
+  
+  
+    <meta name="twitter:description" content="OpenCode turns Cloudflare into a candy store for developers.">
+  
+  
+    <meta name="twitter:image" content="https://zeke.sikelianos.com/building-on-cloudflare/thumbnail.png">
+  
+
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <script src="https://unpkg.com/browser-date-formatter@3.0.2/dist.js"></script>
+  <script src="../index.js"></script>
+</head>
+
+<body>
+
+  
+
+  <div class="site-nav">
+    <a href="/">Gallery</a>
+    <a href="/projects">Projects</a>
+    <a href="/talks">Talks</a>
+    <a href="/posts">Posts</a>
+    <a href="/portfolio">Portfolio</a>
+    <a href="/cv">CV</a>
+    <a href="/contact">Contact</a>
+  </div>
+
+  <article>
+    <div class="page__content">
+      <header>
+        <h1 class="page__title">Building on Cloudflare</h1>
+        
+          <h2 class="page__description">OpenCode turns Cloudflare into a candy store for developers.</h2>
+        
+        
+          <div class="page__publish-date">
+            
+              <time title="Mon Jan 26 2026 00:00:00 GMT+0000 (Coordinated Universal Time)" data-date="Mon Jan 26 2026 00:00:00 GMT+0000 (Coordinated Universal Time)" data-format="%B %Y">Mon Jan 26 2026 00:00:00 GMT+0000 (Coordinated Universal Time)</time>
+            
+          </div>
+        
+      </header>
+
+      <p>Quick start (commands only):</p>
+<pre><code class="hljs language-bash">brew install node
+brew install anomalyco/tap/opencode
+npx -y wrangler login
+<span class="hljs-variable">${EDITOR:-nano}</span> ~/.config/opencode/opencode.json</code></pre>
+<p>In this guide, I'll show you how to use the <a href="https://opencode.ai/">OpenCode</a> AI Agent along with Cloudflare's Docs MCP server to quickly brainstorm and build apps on Cloudflare.</p>
+<h2 id="so-many-products-"><a href="#so-many-products-">So many products! 😱</a></h2>
+<p>Cloudflare's developer platform has everything you need to build amazing web apps: <a href="https://developers.cloudflare.com/workers/">Workers</a> for serverless deployment, <a href="https://developers.cloudflare.com/r2/">R2</a> for object storage, and <a href="https://developers.cloudflare.com/d1/">D1</a> for serverless databases. But there are <a href="https://developers.cloudflare.com/directory/">over 100 other products</a> on the developer platform. What do all those products do?</p>
+<p>Understanding all of Cloudflare's product offerings used to be a daunting task, but now we have AI agents to help us research, explore, plan, and build new things. What was once an overwhelming sea of options now feels like a candy store of possibilities.</p>
+<h2 id="1-sign-in-to-cloudflare"><a href="#1-sign-in-to-cloudflare">1: Sign in to Cloudflare</a></h2>
+<p>Sign into the Cloudflare dashboard at <a href="https://dash.cloudflare.com/">dash.cloudflare.com</a>. If you don't already have an account, you can easily create one using your Google, Apple, or GitHub account.</p>
+<p>Cloudflare is free to start, with very generous limits before you have to start paying for anything.</p>
+<h2 id="2-authenticate"><a href="#2-authenticate">2: Authenticate</a></h2>
+<p><a href="https://developers.cloudflare.com/workers/wrangler/">Wrangler</a> is Cloudflare's command-line interface. You can run it with npx.</p>
+<p>Run this command to authenticate your Cloudflare account:</p>
+<pre><code class="hljs language-bash">npx -y wrangler login</code></pre>
+<p>This will open a browser window prompting you to authorize Wrangler to access your Cloudflare account.</p>
+<h2 id="3-install-opencode"><a href="#3-install-opencode">3: Install OpenCode</a></h2>
+<p>There are <a href="https://opencode.ai/docs/#install">several ways to install OpenCode</a>, but here we'll use Homebrew:</p>
+<pre><code class="hljs language-bash">brew install anomalyco/tap/opencode</code></pre>
+<h2 id="4-add-cloudflares-docs-server"><a href="#4-add-cloudflares-docs-server">4: Add Cloudflare's docs server</a></h2>
+<p>Cloudflare has <a href="https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/">a handful of official MCP servers</a> that expose various tools to your OpenCode agent. The one we're interested in is the <a href="https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/docs-vectorize">Cloudflare Documentation MCP server</a>, which exposes a tool for searching Cloudflare's documentation from OpenCode.</p>
+<p>There are a couple ways to install MCP servers in OpenCode. Here we'll manually edit your OpenCode configuration file (usually located at <code>~/.config/opencode/opencode.json</code>) to add the Cloudflare Docs MCP server:</p>
+<pre><code class="hljs language-json">{
+  <span class="hljs-attr">"$schema"</span>: <span class="hljs-string">"https://opencode.ai/config.json"</span>,
+  <span class="hljs-attr">"mcp"</span>: {
+    <span class="hljs-attr">"cloudflare-docs"</span>: {
+      <span class="hljs-attr">"type"</span>: <span class="hljs-string">"remote"</span>,
+      <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://docs.mcp.cloudflare.com/sse"</span>,
+      <span class="hljs-attr">"enabled"</span>: <span class="hljs-literal">true</span>
+    }
+  }
+}</code></pre>
+<h2 id="5-start-building"><a href="#5-start-building">5: Start building!</a></h2>
+<p>Now you've got everything set up. It's time to fire up an OpenCode session and start building on Cloudflare!</p>
+    </div>
+  </article>
+
+  <footer>
+    <div class="site-nav">
+      <a href="/">Gallery</a>
+      <a href="/projects">Projects</a>
+      <a href="/talks">Talks</a>
+      <a href="/posts">Posts</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/cv">CV</a>
+      <a href="/contact">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
