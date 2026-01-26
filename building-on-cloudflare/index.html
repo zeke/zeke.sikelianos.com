@@ -73,12 +73,7 @@
         
       </header>
 
-      <p>Quick start (commands only):</p>
-<pre><code class="hljs language-bash">brew install node
-brew install anomalyco/tap/opencode
-npx -y wrangler login
-<span class="hljs-variable">${EDITOR:-nano}</span> ~/.config/opencode/opencode.json</code></pre>
-<p>In this guide, I'll show you how to use the <a href="https://opencode.ai/">OpenCode</a> AI Agent along with Cloudflare's Docs MCP server to quickly brainstorm and build apps on Cloudflare.</p>
+      <p>In this guide, I'll show you how to use the <a href="https://opencode.ai/">OpenCode</a> AI Agent along with Cloudflare's Docs MCP server to quickly brainstorm and build apps on Cloudflare.</p>
 <h2 id="so-many-products-"><a href="#so-many-products-">So many products! 😱</a></h2>
 <p>Cloudflare's developer platform has everything you need to build amazing web apps: <a href="https://developers.cloudflare.com/workers/">Workers</a> for serverless deployment, <a href="https://developers.cloudflare.com/r2/">R2</a> for object storage, and <a href="https://developers.cloudflare.com/d1/">D1</a> for serverless databases. But there are <a href="https://developers.cloudflare.com/directory/">over 100 other products</a> on the developer platform. What do all those products do?</p>
 <p>Understanding all of Cloudflare's product offerings used to be a daunting task, but now we have AI agents to help us research, explore, plan, and build new things. What was once an overwhelming sea of options now feels like a candy store of possibilities.</p>
@@ -86,7 +81,7 @@ npx -y wrangler login
 <p>Sign into the Cloudflare dashboard at <a href="https://dash.cloudflare.com/">dash.cloudflare.com</a>. If you don't already have an account, you can easily create one using your Google, Apple, or GitHub account.</p>
 <p>Cloudflare is free to start, with very generous limits before you have to start paying for anything.</p>
 <h2 id="2-authenticate"><a href="#2-authenticate">2: Authenticate</a></h2>
-<p><a href="https://developers.cloudflare.com/workers/wrangler/">Wrangler</a> is Cloudflare's command-line interface. You can run it with npx.</p>
+<p><a href="https://developers.cloudflare.com/workers/wrangler/">Wrangler</a> is Cloudflare's command-line interface. You can run it with npx, which is included with Node.js. (Install Node.js with <code>brew install node</code> if don't already have it installed.)</p>
 <p>Run this command to authenticate your Cloudflare account:</p>
 <pre><code class="hljs language-bash">npx -y wrangler login</code></pre>
 <p>This will open a browser window prompting you to authorize Wrangler to access your Cloudflare account.</p>
