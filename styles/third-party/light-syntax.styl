@@ -1,27 +1,31 @@
 lesscss-percentage(n)
   (n * 100)%
-syntax-text-color = rgb(0, 0, 0, 1)
-syntax-cursor-color = rgb(0, 0, 0, 1)
-syntax-selection-color = rgb(175, 196, 218, 1)
-syntax-selection-flash-color = rgb(102, 153, 204, 1)
+syntax-text-color = rgb(34, 40, 55, 1)
+syntax-cursor-color = rgb(34, 40, 55, 1)
+syntax-selection-color = rgb(200, 217, 236, 1)
+syntax-selection-flash-color = rgb(130, 170, 220, 1)
 syntax-background-color = rgb(240, 240, 240, 1)
 syntax-wrap-guide-color = rgba(85, 85, 85, 0.2)
 syntax-indent-guide-color = rgba(85, 85, 85, 0.2)
 syntax-invisible-character-color = rgba(85, 85, 85, 0.2)
 syntax-result-marker-color = rgb(153, 153, 153, 1)
-syntax-result-marker-color-selected = rgb(0, 0, 0, 1)
+syntax-result-marker-color-selected = rgb(34, 40, 55, 1)
 syntax-gutter-text-color = syntax-text-color
 syntax-gutter-text-color-selected = syntax-gutter-text-color
 syntax-gutter-background-color = rgb(255, 255, 255, 1)
 syntax-gutter-background-color-selected = rgba(255, 255, 134, 0.34)
-syntax-color-renamed = rgb(150, 203, 254, 1)
-syntax-color-added = rgb(113, 140, 0, 1)
-syntax-color-modified = rgb(255, 152, 45, 1)
-syntax-color-removed = rgb(221, 17, 68, 1)
+syntax-color-renamed = rgb(125, 178, 255, 1)
+syntax-color-added = rgb(85, 145, 25, 1)
+syntax-color-modified = rgb(255, 145, 75, 1)
+syntax-color-removed = rgb(220, 60, 75, 1)
 
-.highlight
-  background-color syntax-background-color
+.highlight,
+pre code.highlight,
+pre code.hljs,
+pre code[class*="language-"]
+  background-color transparent
   color syntax-text-color
+  display block
   .invisible-character
     color syntax-invisible-character-color
   .indent-guide
@@ -31,6 +35,8 @@ syntax-color-removed = rgb(221, 17, 68, 1)
   .gutter
     color syntax-gutter-text-color
     background syntax-gutter-background-color
+  code
+    background none
   .gutter .line-number.folded, .gutter .line-number:after, .fold-marker:after
     color #e87b00
   .invisible
@@ -70,84 +76,84 @@ syntax-color-removed = rgb(221, 17, 68, 1)
   .line-number.cursor-line-no-selection, .line.cursor-line
     background-color syntax-gutter-background-color-selected
 .comment
-  color #999988
+  color #7a8594
   font-style italic
 .string
-  color #D14
+  color #c43b58
 .string
   .source, .meta.embedded.line
-    color #5A5A5A
+    color #5c6774
   .punctuation.section.embedded
-    color #920B2D
+    color #b22344
     .source
-      color #920B2D
+      color #b22344
 .constant
   &.numeric
-    color #D14
+    color #d14c4c
   &.language
-    color #606aa1
+    color #6f6bb2
   &.character, &.other
-    color #606aa1
+    color #6f6bb2
   &.symbol
-    color #990073
+    color #8a2aa1
   &.numeric.line-number.find-in-files .match
     color rgba(143, 190, 0, 0.63)
 .variable
-  color #008080
+  color #2a8f8f
   &.parameter
-    color #606aa1
+    color #6f6bb2
 .keyword
-  color #222
-  font-weight bold
+  color #2b2f36
+  font-weight 600
   &.unit
-    color #445588
+    color #4b5aa5
   &.special-method
-    color #0086B3
+    color #0078a6
 .storage
-  color #222
+  color #2b2f36
   &.type
-    color #222
+    color #2b2f36
 .entity
   &.name.class
     text-decoration underline
-    color #606aa1
+    color #5f5bb6
   &.other.inherited-class
     text-decoration underline
-    color #606aa1
+    color #5f5bb6
   &.name.function
-    color #900
+    color #8c2b33
   &.name.tag
-    color #008080
+    color #0d7d7d
   &.other.attribute-name
-    color #458
-    font-weight bold
+    color #3f5b8f
+    font-weight 600
   &.name.filename.find-in-files
-    color #E6DB74
+    color #b08900
 .support
   &.constant, &.function, &.type
-    color #458
+    color #3f5b8f
   &.class
-    color #008080
+    color #0d7d7d
 .invalid
-  color #F8F8F0
-  background-color #00A8C6
+  color #f6f7f9
+  background-color #0e86aa
   &.deprecated
-    color #F8F8F0
-    background-color #8FBE00
+    color #f6f7f9
+    background-color #7aa500
 .meta
   &.structure.dictionary.json > .string.quoted.double.json, &.structure.dictionary.json > .string.quoted.double.json .punctuation.string
-    color #000080
+    color #355fb4
   &.structure.dictionary.value.json > .string.quoted.double.json
-    color #d14
+    color #c43b58
   &.diff, &.diff.header
-    color #75715E
+    color #6a6f79
 .css
   &.support.property-name
-    font-weight bold
-    color #333
+    font-weight 600
+    color #2b2f36
   &.constant
-    color #099
+    color #128f88
 .bracket-matcher .region
-  background-color #C9C9C9
+  background-color #c5ccd6
   opacity .7
   border-bottom 0 none

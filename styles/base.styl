@@ -106,14 +106,13 @@ figcaption
     
 pre
   font-family 'Droid Sans Mono', Menlo, Monaco, Courier, monospace
-  background color-code-background
-  margin 10px 0
-  padding 2px 8px
+  margin 16px 0
   text-align left
   overflow auto
-  border-radius 3px
-  @media screen and (max-width: mobile-width)
-    padding 10px
+  border-radius 8px
+  border 1px solid color-code-border
+  line-height 1.6
+  position relative
 
 code
   font-family 'Droid Sans Mono', Menlo, Monaco, Courier, monospace
@@ -121,13 +120,19 @@ code
   font-size 1rem
   line-height 1.4
 
-  &.sh .source.shell:before
+  &.shell-single-line::before
     content "$ "
-    opacity 0.4
+    opacity 0.45
+    display inline-block
+    margin-right 8px
+    user-select none
 
 pre > code
   @extend .text-column
   display block
+  color color-code-text
+  background transparent
+  padding 12px 16px
 
 p > code, li > code
   font-size 1rem
@@ -136,6 +141,29 @@ p > code, li > code
   border 1px solid #DDD
   padding 1px 4px
   border-radius 2px
+
+.code-copy-button
+  position absolute
+  top 10px
+  right 10px
+  font-size 0.75rem
+  padding 6px 10px
+  border-radius 6px
+  border 1px solid color-code-border
+  background #fff
+  color #444
+  cursor pointer
+  opacity 0.7
+  transition opacity 0.2s, transform 0.2s
+  &:hover
+    opacity 1
+    transform translateY(-1px)
+
+pre:hover .code-copy-button
+  opacity 1
+
+code.shell-single-line
+  padding-right 52px
 
 header
  padding 60px 0
