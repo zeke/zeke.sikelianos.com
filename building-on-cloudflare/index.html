@@ -74,8 +74,11 @@
       </header>
 
       <p><a href="https://opencode.ai/"><img src="opencode-screenshot.png" alt="OpenCode screenshot"></a></p>
-<p><a href="https://opencode.ai/">OpenCode</a> is a new open-source AI agent that has quickly become my favorite tool for hacking.</p>
-<p>In this post I'll show you how to set it up with Cloudflare's Docs MCP server to quickly design and build apps on Cloudflare.</p>
+<p><a href="https://opencode.ai/">OpenCode</a> is my new favorite tool for hacking. It's an open-source AI agent that can help you research, plan, and build software. In this post I'll show you how to set it up with some good defaults so you can start building on Cloudflare's developer platform right away.</p>
+<p>Most imporantly, <strong>OpenCode is a remedy for FOMO</strong> (fear of missing out). The world is moving fast, but OpenCode helps you keep up.</p>
+<p>If you don't wanna read this whole thing, here's a <a href="https://github.com/zeke/sweet-sweet-opencode">one-liner</a> to get you going:</p>
+<pre><code class="hljs language-bash">npx zeke/sweet-sweet-opencode</code></pre>
+<p>If you'd prefer to go through the process step by step, then read on...</p>
 <h2 id="cloudflare-has-so-many-products-"><a href="#cloudflare-has-so-many-products-">Cloudflare has so many products 😱</a></h2>
 <p>Cloudflare's developer platform has everything you need to build web apps: <a href="https://developers.cloudflare.com/workers/">Workers</a> for serverless deployment, <a href="https://developers.cloudflare.com/r2/">R2</a> for object storage, <a href="https://developers.cloudflare.com/d1/">D1</a> for serverless databases. But there are <a href="https://developers.cloudflare.com/directory/">over 100 other products</a> on the developer platform. </p>
 <p>Here are a few examples you might not have heard of:</p>
@@ -131,6 +134,34 @@
 <blockquote>
 <p>How many indexes are supported in Workers Analytics Engine? Give an example using the Workers binding API.</p>
 </blockquote>
+<h2 id="extra-credit"><a href="#extra-credit">Extra credit</a></h2>
+<p>The OpenCode config above can also include optional (disabled by default) MCP servers for Replicate and the Cloudflare API.</p>
+<ol>
+<li>Create a Replicate API token</li>
+</ol>
+<ul>
+<li>Go to <a href="https://replicate.com/account/api-tokens">https://replicate.com/account/api-tokens</a></li>
+<li>Create a token and copy it</li>
+<li>Add it to your environment:</li>
+</ul>
+<pre><code class="hljs language-bash"><span class="hljs-built_in">export</span> REPLICATE_API_TOKEN=<span class="hljs-string">"your_token_here"</span></code></pre>
+<ol start="2">
+<li>Create a Cloudflare API token</li>
+</ol>
+<ul>
+<li>Go to <a href="https://dash.cloudflare.com/profile/api-tokens">https://dash.cloudflare.com/profile/api-tokens</a></li>
+<li>Create a token and copy it</li>
+<li>Add it to your environment:</li>
+</ul>
+<pre><code class="hljs language-bash"><span class="hljs-built_in">export</span> CLOUDFLARE_API_TOKEN=<span class="hljs-string">"your_token_here"</span></code></pre>
+<ol start="3">
+<li>Enable the MCP servers in OpenCode</li>
+</ol>
+<p>Edit your OpenCode config (usually <code>~/.config/opencode/opencode.json</code>) and set these to <code>true</code>:</p>
+<ul>
+<li><code>mcp.replicate-code-mode.enabled</code></li>
+<li><code>mcp.cloudflare-api.enabled</code></li>
+</ul>
     </div>
   </article>
 
