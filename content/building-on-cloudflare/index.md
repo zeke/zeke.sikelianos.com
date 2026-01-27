@@ -7,13 +7,15 @@ kind: project
 -->
 
 
-In this guide, I'll show you how to use the [OpenCode](https://opencode.ai/) AI Agent along with Cloudflare's Docs MCP server to quickly brainstorm and build apps on Cloudflare.
+[OpenCode](https://opencode.ai/) is a new open-source AI agent that has quickly become my favorite tool for hacking.
+
+In this post I'll show you how to set it up with Cloudflare's Docs MCP server to quickly design and build apps on Cloudflare.
 
 ## So many products! 😱
 
-Cloudflare's developer platform has everything you need to build amazing web apps: [Workers](https://developers.cloudflare.com/workers/) for serverless deployment, [R2](https://developers.cloudflare.com/r2/) for object storage, and [D1](https://developers.cloudflare.com/d1/) for serverless databases. But there are [over 100 other products](https://developers.cloudflare.com/directory/) on the developer platform. What do all those products do?
+Cloudflare's developer platform has everything you need to build web apps: [Workers](https://developers.cloudflare.com/workers/) for serverless deployment, [R2](https://developers.cloudflare.com/r2/) for object storage, and [D1](https://developers.cloudflare.com/d1/) for serverless databases. But there are [over 100 other products](https://developers.cloudflare.com/directory/) on the developer platform. What do all those products do?
 
-Understanding all of Cloudflare's product offerings used to be a daunting task, but now we have AI agents to help us research, explore, plan, and build new things. What was once an overwhelming sea of options now feels like a candy store of possibilities.
+Understanding all of Cloudflare's product offerings used to be a daunting task, but now we have AI agents to help us research, plan, and build. What was once an overwhelming array of options now feels like a candy store of possibilities.
 
 ## 1: Sign in to Cloudflare
 
@@ -60,6 +62,30 @@ There are a couple ways to install MCP servers in OpenCode. Here we'll manually 
 }
 ```
 
-## 5: Start building!
+## 5: Start OpenCode
 
-Now you've got everything set up. It's time to fire up an OpenCode session and start building on Cloudflare!
+Now you've got everything set up. It's time to fire up an OpenCode session.
+
+Open your terminal, then navigate to an existing project or create a new directory:
+
+```sh
+mkdir my-new-app && cd my-new-app
+```
+
+Then start opencode:
+
+```sh
+opencode
+```
+
+Now hit to `Tab` on your keyboard to switch to **Plan** mode. This will let you collaborate with the agent on a plan before actually creating or editing any files.
+
+Then type a query and to get the conversation going. Here are some examples:
+
+> How do Cloudflare agents and sandboxes work together?
+
+> Can I use Cloudlare to process emails?
+
+> Do Cloudflare Workers costs depend on response sizes? I want to serve some images (map tiles) from an R2 bucket and I'm concerned about costs.
+
+> How many indexes are supported in Workers Analytics Engine? Give an example using the Workers binding API.
