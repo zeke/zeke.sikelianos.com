@@ -25,7 +25,7 @@ Cloudflare is free to start, with very generous limits before you have to start 
 
 ## 2: Authenticate
 
-[Wrangler](https://developers.cloudflare.com/workers/wrangler/) is Cloudflare's command-line interface. You can run it with npx, which is included with Node.js. (Install Node.js with `brew install node` if don't already have it installed.)
+[Wrangler](https://developers.cloudflare.com/workers/wrangler/) is Cloudflare's command-line interface. You can run it with npx, which is included with Node.js. (Install Node.js with `brew install node` if you don't already have it installed.)
 
 Run this command to authenticate your Cloudflare account:
 
@@ -78,13 +78,13 @@ Then start opencode:
 opencode
 ```
 
-Now hit to `Tab` on your keyboard to switch to **Plan** mode. This will let you collaborate with the agent on a plan before actually creating or editing any files.
+Now hit `Tab` on your keyboard to switch to **Plan** mode. This will let you collaborate with the agent on a plan before actually creating or editing any files.
 
-Then type a query and to get the conversation going. Here are some examples:
+Then type a query to get the conversation going. Here are some examples:
 
 > How do Cloudflare agents and sandboxes work together?
 
-> Can I use Cloudlare to process emails?
+> Can I use Cloudflare to process emails?
 
 > Do Cloudflare Workers costs depend on response sizes? I want to serve some images (map tiles) from an R2 bucket and I'm concerned about costs.
 
