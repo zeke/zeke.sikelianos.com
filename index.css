@@ -609,6 +609,12 @@ input[type=submit] {
 .page__content {
   position: relative;
 }
+.page__content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 .page__description {
   padding: 10px 80px;
   opacity: 0.4;
