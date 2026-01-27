@@ -9,9 +9,17 @@ kind: project
 
 [![OpenCode screenshot](/building-on-cloudflare/opencode-screenshot.png)](https://opencode.ai/)
 
-[OpenCode](https://opencode.ai/) is a new open-source AI agent that has quickly become my favorite tool for hacking.
+[OpenCode](https://opencode.ai/) is my new favorite tool for hacking. It's an open-source AI agent that can help you research, plan, and build software. In this post I'll show you how to set it up with some good defaults so you can start building on Cloudflare's developer platform right away.
 
-In this post I'll show you how to set it up with Cloudflare's Docs MCP server to quickly design and build apps on Cloudflare.
+Most imporantly, **OpenCode is a remedy for FOMO** (fear of missing out). The world is moving fast, but OpenCode helps you keep up.
+
+If you don't wanna read this whole thing, here's a [one-liner](https://github.com/zeke/sweet-sweet-opencode) to get you going:
+
+```bash
+npx zeke/sweet-sweet-opencode
+```
+
+If you'd prefer to go through the process step by step, then read on...
 
 ## Cloudflare has so many products 😱
 
@@ -100,3 +108,34 @@ Then type a query to get the conversation going. Here are some examples:
 > Do Cloudflare Workers costs depend on response sizes? I want to serve some images (map tiles) from an R2 bucket and I'm concerned about costs.
 
 > How many indexes are supported in Workers Analytics Engine? Give an example using the Workers binding API.
+
+## Extra credit
+
+The OpenCode config above can also include optional (disabled by default) MCP servers for Replicate and the Cloudflare API.
+
+1. Create a Replicate API token
+
+- Go to https://replicate.com/account/api-tokens
+- Create a token and copy it
+- Add it to your environment:
+
+```bash
+export REPLICATE_API_TOKEN="your_token_here"
+```
+
+2. Create a Cloudflare API token
+
+- Go to https://dash.cloudflare.com/profile/api-tokens
+- Create a token and copy it
+- Add it to your environment:
+
+```bash
+export CLOUDFLARE_API_TOKEN="your_token_here"
+```
+
+3. Enable the MCP servers in OpenCode
+
+Edit your OpenCode config (usually `~/.config/opencode/opencode.json`) and set these to `true`:
+
+- `mcp.replicate-code-mode.enabled`
+- `mcp.cloudflare-api.enabled`
