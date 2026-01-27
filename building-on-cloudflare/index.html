@@ -73,10 +73,11 @@
         
       </header>
 
-      <p>In this guide, I'll show you how to use the <a href="https://opencode.ai/">OpenCode</a> AI Agent along with Cloudflare's Docs MCP server to quickly brainstorm and build apps on Cloudflare.</p>
+      <p><a href="https://opencode.ai/">OpenCode</a> is a new open-source AI agent that has quickly become my favorite tool for hacking.</p>
+<p>In this post I'll show you how to set it up with Cloudflare's Docs MCP server to quickly design and build apps on Cloudflare.</p>
 <h2 id="so-many-products-"><a href="#so-many-products-">So many products! 😱</a></h2>
-<p>Cloudflare's developer platform has everything you need to build amazing web apps: <a href="https://developers.cloudflare.com/workers/">Workers</a> for serverless deployment, <a href="https://developers.cloudflare.com/r2/">R2</a> for object storage, and <a href="https://developers.cloudflare.com/d1/">D1</a> for serverless databases. But there are <a href="https://developers.cloudflare.com/directory/">over 100 other products</a> on the developer platform. What do all those products do?</p>
-<p>Understanding all of Cloudflare's product offerings used to be a daunting task, but now we have AI agents to help us research, explore, plan, and build new things. What was once an overwhelming sea of options now feels like a candy store of possibilities.</p>
+<p>Cloudflare's developer platform has everything you need to build web apps: <a href="https://developers.cloudflare.com/workers/">Workers</a> for serverless deployment, <a href="https://developers.cloudflare.com/r2/">R2</a> for object storage, and <a href="https://developers.cloudflare.com/d1/">D1</a> for serverless databases. But there are <a href="https://developers.cloudflare.com/directory/">over 100 other products</a> on the developer platform. What do all those products do?</p>
+<p>Understanding all of Cloudflare's product offerings used to be a daunting task, but now we have AI agents to help us research, plan, and build. What was once an overwhelming array of options now feels like a candy store of possibilities.</p>
 <h2 id="1-sign-in-to-cloudflare"><a href="#1-sign-in-to-cloudflare">1: Sign in to Cloudflare</a></h2>
 <p>Sign into the Cloudflare dashboard at <a href="https://dash.cloudflare.com/">dash.cloudflare.com</a>. If you don't already have an account, you can easily create one using your Google, Apple, or GitHub account.</p>
 <p>Cloudflare is free to start, with very generous limits before you have to start paying for anything.</p>
@@ -101,8 +102,26 @@
     }
   }
 }</code></pre>
-<h2 id="5-start-building"><a href="#5-start-building">5: Start building!</a></h2>
-<p>Now you've got everything set up. It's time to fire up an OpenCode session and start building on Cloudflare!</p>
+<h2 id="5-start-opencode"><a href="#5-start-opencode">5: Start OpenCode</a></h2>
+<p>Now you've got everything set up. It's time to fire up an OpenCode session.</p>
+<p>Open your terminal, then navigate to an existing project or create a new directory:</p>
+<pre><code class="hljs language-sh">mkdir my-new-app &#x26;&#x26; <span class="hljs-built_in">cd</span> my-new-app</code></pre>
+<p>Then start opencode:</p>
+<pre><code class="hljs language-sh">opencode</code></pre>
+<p>Now hit to <code>Tab</code> on your keyboard to switch to <strong>Plan</strong> mode. This will let you collaborate with the agent on a plan before actually creating or editing any files.</p>
+<p>Then type a query and to get the conversation going. Here are some examples:</p>
+<blockquote>
+<p>How do Cloudflare agents and sandboxes work together?</p>
+</blockquote>
+<blockquote>
+<p>Can I use Cloudlare to process emails?</p>
+</blockquote>
+<blockquote>
+<p>Do Cloudflare Workers costs depend on response sizes? I want to serve some images (map tiles) from an R2 bucket and I'm concerned about costs.</p>
+</blockquote>
+<blockquote>
+<p>How many indexes are supported in Workers Analytics Engine? Give an example using the Workers binding API.</p>
+</blockquote>
     </div>
   </article>
 
