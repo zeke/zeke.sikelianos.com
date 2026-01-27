@@ -82,7 +82,7 @@
 <p>Sign into the Cloudflare dashboard at <a href="https://dash.cloudflare.com/">dash.cloudflare.com</a>. If you don't already have an account, you can easily create one using your Google, Apple, or GitHub account.</p>
 <p>Cloudflare is free to start, with very generous limits before you have to start paying for anything.</p>
 <h2 id="2-authenticate"><a href="#2-authenticate">2: Authenticate</a></h2>
-<p><a href="https://developers.cloudflare.com/workers/wrangler/">Wrangler</a> is Cloudflare's command-line interface. You can run it with npx, which is included with Node.js. (Install Node.js with <code>brew install node</code> if don't already have it installed.)</p>
+<p><a href="https://developers.cloudflare.com/workers/wrangler/">Wrangler</a> is Cloudflare's command-line interface. You can run it with npx, which is included with Node.js. (Install Node.js with <code>brew install node</code> if you don't already have it installed.)</p>
 <p>Run this command to authenticate your Cloudflare account:</p>
 <pre><code class="hljs language-bash">npx -y wrangler login</code></pre>
 <p>This will open a browser window prompting you to authorize Wrangler to access your Cloudflare account.</p>
@@ -108,13 +108,13 @@
 <pre><code class="hljs language-sh">mkdir my-new-app &#x26;&#x26; <span class="hljs-built_in">cd</span> my-new-app</code></pre>
 <p>Then start opencode:</p>
 <pre><code class="hljs language-sh">opencode</code></pre>
-<p>Now hit to <code>Tab</code> on your keyboard to switch to <strong>Plan</strong> mode. This will let you collaborate with the agent on a plan before actually creating or editing any files.</p>
-<p>Then type a query and to get the conversation going. Here are some examples:</p>
+<p>Now hit <code>Tab</code> on your keyboard to switch to <strong>Plan</strong> mode. This will let you collaborate with the agent on a plan before actually creating or editing any files.</p>
+<p>Then type a query to get the conversation going. Here are some examples:</p>
 <blockquote>
 <p>How do Cloudflare agents and sandboxes work together?</p>
 </blockquote>
 <blockquote>
-<p>Can I use Cloudlare to process emails?</p>
+<p>Can I use Cloudflare to process emails?</p>
 </blockquote>
 <blockquote>
 <p>Do Cloudflare Workers costs depend on response sizes? I want to serve some images (map tiles) from an R2 bucket and I'm concerned about costs.</p>
