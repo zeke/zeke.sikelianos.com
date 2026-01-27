@@ -7,15 +7,26 @@ kind: project
 -->
 
 
+[![OpenCode screenshot](/building-on-cloudflare/opencode-screenshot.png)](https://opencode.ai/)
+
 [OpenCode](https://opencode.ai/) is a new open-source AI agent that has quickly become my favorite tool for hacking.
 
 In this post I'll show you how to set it up with Cloudflare's Docs MCP server to quickly design and build apps on Cloudflare.
 
-## So many products! 😱
+## Cloudflare has so many products 😱
 
-Cloudflare's developer platform has everything you need to build web apps: [Workers](https://developers.cloudflare.com/workers/) for serverless deployment, [R2](https://developers.cloudflare.com/r2/) for object storage, and [D1](https://developers.cloudflare.com/d1/) for serverless databases. But there are [over 100 other products](https://developers.cloudflare.com/directory/) on the developer platform. What do all those products do?
+Cloudflare's developer platform has everything you need to build web apps: [Workers](https://developers.cloudflare.com/workers/) for serverless deployment, [R2](https://developers.cloudflare.com/r2/) for object storage, [D1](https://developers.cloudflare.com/d1/) for serverless databases. But there are [over 100 other products](https://developers.cloudflare.com/directory/) on the developer platform. 
 
-Understanding all of Cloudflare's product offerings used to be a daunting task, but now we have AI agents to help us research, plan, and build. What was once an overwhelming array of options now feels like a candy store of possibilities.
+Here are a few examples you might not have heard of:
+
+- [Agents](https://developers.cloudflare.com/agents/) for deploying AI agents that can interact with tools and services.
+- [Sandboxes](https://developers.cloudflare.com/sandbox/) for running untrusted code in isolated environments.
+- [Browser Rendering](https://developers.cloudflare.com/browser-rendering/) for headless browsers in the cloud.
+- [Turnstile](https://developers.cloudflare.com/turnstile/) for privacy-first bot protection without CAPTCHAs.
+
+What are all these products and how do you use them?
+
+Answering a question like this used to be a daunting task (at least for me), but now we have AI agents to help us research, plan, and build. What was once an overwhelming array of options now feels like a candy store of possibilities.
 
 ## 1: Sign in to Cloudflare
 
