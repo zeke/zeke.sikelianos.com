@@ -66,20 +66,45 @@ There are [several ways to install OpenCode](https://opencode.ai/docs/#install),
 brew install anomalyco/tap/opencode
 ```
 
-## Step 4: Add Cloudflare's docs server
+## Step 4: Add MCP servers
 
-Cloudflare has [a handful of official MCP servers](https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/) that expose various tools to your OpenCode agent. The one we're interested in is the [Cloudflare Documentation MCP server](https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/docs-vectorize), which exposes a tool for searching Cloudflare's documentation from OpenCode.
+Cloudflare has [a handful of official MCP servers](https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/) that expose various tools to your OpenCode agent. The one we're most interested in is the [Cloudflare Documentation MCP server](https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/docs-vectorize), which exposes a tool for searching Cloudflare's documentation from OpenCode.
 
-There are a couple ways to install MCP servers in OpenCode. Here we'll manually edit your OpenCode configuration file (usually located at `~/.config/opencode/opencode.json`) to add the Cloudflare Docs MCP server:
+There are a couple ways to install MCP servers in OpenCode. Here we'll manually edit your OpenCode configuration file (usually located at `~/.config/opencode/opencode.json`) to add a few useful servers:
+
+- `cloudflare-docs`: lets your agent search Cloudflare's docs so it can answer product questions with citations and up-to-date details.
+- `chrome-devtools`: gives your agent a real browser to click around, read pages, and grab content (handy when sites block simple HTTP fetches).
+- `replicate-code-mode` (optional): adds Replicate's "code" tools; disabled by default and requires `REPLICATE_API_TOKEN`.
+- `cloudflare-api` (optional): lets your agent call Cloudflare's API directly; disabled by default and requires `CLOUDFLARE_API_TOKEN`.
 
 ```json
 {
   "$schema": "https://opencode.ai/config.json",
   "mcp": {
+    "chrome-devtools": {
+      "type": "local",
+      "command": ["npx", "-y", "chrome-devtools-mcp@latest"]
+    },
     "cloudflare-docs": {
       "type": "remote",
-      "url": "https://docs.mcp.cloudflare.com/sse",
+      "url": "https://docs.mcp.cloudflare.com/mcp",
       "enabled": true
+    },
+    "replicate-code-mode": {
+      "type": "local",
+      "enabled": false,
+      "command": ["npx", "-y", "replicate-mcp@alpha", "--tools=code"],
+      "environment": {
+        "REPLICATE_API_TOKEN": "{env:REPLICATE_API_TOKEN}"
+      }
+    },
+    "cloudflare-api": {
+      "type": "remote",
+      "enabled": false,
+      "url": "https://cloudflare-mcp.mattzcarey.workers.dev/mcp",
+      "headers": {
+        "Authorization": "Bearer {env:CLOUDFLARE_API_TOKEN}"
+      }
     }
   }
 }
@@ -114,4 +139,3 @@ Now that you've got OpenCode set up, type a query to get the conversation going.
 > How many indexes are supported in Workers Analytics Engine? Give an example using the Workers binding API.
 
 From here you'll be able to plan (and build!) your next Cloudflare-hosted app. Happy hacking! 🚀
-
