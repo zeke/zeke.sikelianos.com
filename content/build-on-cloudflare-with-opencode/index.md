@@ -7,7 +7,7 @@ kind: project
 -->
 
 
-[![OpenCode screenshot](/building-on-cloudflare/opencode-screenshot.png)](https://opencode.ai/)
+[![OpenCode screenshot](./opencode-screenshot.png)](https://opencode.ai/)
 
 [OpenCode](https://opencode.ai/) is my new favorite tool for hacking. It's an open-source AI agent that can help you research, plan, and build software. In this post I'll show you how to set it up with some good defaults so you can start building on Cloudflare's developer platform right away.
 
