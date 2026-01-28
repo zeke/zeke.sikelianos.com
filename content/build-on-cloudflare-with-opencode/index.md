@@ -1,5 +1,5 @@
 <!--
-title: Building on Cloudflare
+title: Building on Cloudflare with OpenCode
 description: OpenCode turns Cloudflare into a candy store for developers.
 keywords: []
 publish_date: 2026-01-26
@@ -7,21 +7,25 @@ kind: project
 -->
 
 
-[![OpenCode screenshot](./opencode-screenshot.png)](https://opencode.ai/)
+<iframe width="100%" height="460" src="https://www.youtube.com/embed/jnSgscjEsaw?si=6yC8cuydb6_vQ3Kw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 [OpenCode](https://opencode.ai/) is my new favorite tool for hacking. It's an open-source AI agent that can help you research, plan, and build software. In this post I'll show you how to set it up with some good defaults so you can start building on Cloudflare's developer platform right away.
 
 Most imporantly, **OpenCode is a remedy for FOMO** (fear of missing out). The world is moving fast, but OpenCode helps you keep up.
 
-If you don't wanna read this whole thing, here's a [one-liner](https://github.com/zeke/sweet-sweet-opencode) to get you going:
+<div class="callout">
+
+Don't feel like reading? Here's a [one-liner](https://github.com/zeke/sweet-sweet-opencode) to get you going:
 
 ```bash
 npx zeke/sweet-sweet-opencode
 ```
 
-If you'd prefer to go through the process step by step, then read on...
+<span class="callout-help">This command will kick off an interactive wizard to install OpenCode and set it up with some sensible defaults for Cloudflare development. Check out the [source on GitHub](https://github.com/zeke/sweet-sweet-opencode) if you're (understandably) paranoid about running random stuff.</span>
+</div>
 
-## Cloudflare has so many products 😱
+## Cloudflare has so many products 😵‍💫
 
 Cloudflare's developer platform has everything you need to build web apps: [Workers](https://developers.cloudflare.com/workers/) for serverless deployment, [R2](https://developers.cloudflare.com/r2/) for object storage, [D1](https://developers.cloudflare.com/d1/) for serverless databases. But there are [over 100 other products](https://developers.cloudflare.com/directory/) on the developer platform. 
 
@@ -36,13 +40,13 @@ What are all these products and how do you use them?
 
 Answering a question like this used to be a daunting task (at least for me), but now we have AI agents to help us research, plan, and build. What was once an overwhelming array of options now feels like a candy store of possibilities.
 
-## 1: Sign in to Cloudflare
+## Step 1: Sign in to Cloudflare
 
 Sign into the Cloudflare dashboard at [dash.cloudflare.com](https://dash.cloudflare.com/). If you don't already have an account, you can easily create one using your Google, Apple, or GitHub account.
 
 Cloudflare is free to start, with very generous limits before you have to start paying for anything.
 
-## 2: Authenticate
+## Step 2: Authenticate
 
 [Wrangler](https://developers.cloudflare.com/workers/wrangler/) is Cloudflare's command-line interface. You can run it with npx, which is included with Node.js. (Install Node.js with `brew install node` if you don't already have it installed.)
 
@@ -54,7 +58,7 @@ npx -y wrangler login
 
 This will open a browser window prompting you to authorize Wrangler to access your Cloudflare account.
 
-## 3: Install OpenCode
+## Step 3: Install OpenCode
 
 There are [several ways to install OpenCode](https://opencode.ai/docs/#install), but here we'll use Homebrew:
 
@@ -62,7 +66,7 @@ There are [several ways to install OpenCode](https://opencode.ai/docs/#install),
 brew install anomalyco/tap/opencode
 ```
 
-## 4: Add Cloudflare's docs server
+## Step 4: Add Cloudflare's docs server
 
 Cloudflare has [a handful of official MCP servers](https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/) that expose various tools to your OpenCode agent. The one we're interested in is the [Cloudflare Documentation MCP server](https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/docs-vectorize), which exposes a tool for searching Cloudflare's documentation from OpenCode.
 
@@ -81,7 +85,7 @@ There are a couple ways to install MCP servers in OpenCode. Here we'll manually 
 }
 ```
 
-## 5: Start OpenCode
+## Step 5: Start OpenCode
 
 Now you've got everything set up. It's time to fire up an OpenCode session.
 
@@ -97,9 +101,9 @@ Then start opencode:
 opencode
 ```
 
-Now hit `Tab` on your keyboard to switch to **Plan** mode. This will let you collaborate with the agent on a plan before actually creating or editing any files.
+## Step 6: Chat!
 
-Then type a query to get the conversation going. Here are some examples:
+Now that you've got OpenCode set up, type a query to get the conversation going. Here are some examples:
 
 > How do Cloudflare agents and sandboxes work together?
 
@@ -109,33 +113,5 @@ Then type a query to get the conversation going. Here are some examples:
 
 > How many indexes are supported in Workers Analytics Engine? Give an example using the Workers binding API.
 
-## Extra credit
+From here you'll be able to plan (and build!) your next Cloudflare-hosted app. Happy hacking! 🚀
 
-The OpenCode config above can also include optional (disabled by default) MCP servers for Replicate and the Cloudflare API.
-
-1. Create a Replicate API token
-
-- Go to https://replicate.com/account/api-tokens
-- Create a token and copy it
-- Add it to your environment:
-
-```bash
-export REPLICATE_API_TOKEN="your_token_here"
-```
-
-2. Create a Cloudflare API token
-
-- Go to https://dash.cloudflare.com/profile/api-tokens
-- Create a token and copy it
-- Add it to your environment:
-
-```bash
-export CLOUDFLARE_API_TOKEN="your_token_here"
-```
-
-3. Enable the MCP servers in OpenCode
-
-Edit your OpenCode config (usually `~/.config/opencode/opencode.json`) and set these to `true`:
-
-- `mcp.replicate-code-mode.enabled`
-- `mcp.cloudflare-api.enabled`
