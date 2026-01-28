@@ -105,16 +105,42 @@
 <h2 id="step-3-install-opencode"><a href="#step-3-install-opencode">Step 3: Install OpenCode</a></h2>
 <p>There are <a href="https://opencode.ai/docs/#install">several ways to install OpenCode</a>, but here we'll use Homebrew:</p>
 <pre><code class="hljs language-bash">brew install anomalyco/tap/opencode</code></pre>
-<h2 id="step-4-add-cloudflares-docs-server"><a href="#step-4-add-cloudflares-docs-server">Step 4: Add Cloudflare's docs server</a></h2>
-<p>Cloudflare has <a href="https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/">a handful of official MCP servers</a> that expose various tools to your OpenCode agent. The one we're interested in is the <a href="https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/docs-vectorize">Cloudflare Documentation MCP server</a>, which exposes a tool for searching Cloudflare's documentation from OpenCode.</p>
-<p>There are a couple ways to install MCP servers in OpenCode. Here we'll manually edit your OpenCode configuration file (usually located at <code>~/.config/opencode/opencode.json</code>) to add the Cloudflare Docs MCP server:</p>
+<h2 id="step-4-add-mcp-servers"><a href="#step-4-add-mcp-servers">Step 4: Add MCP servers</a></h2>
+<p>Cloudflare has <a href="https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/">a handful of official MCP servers</a> that expose various tools to your OpenCode agent. The one we're most interested in is the <a href="https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/docs-vectorize">Cloudflare Documentation MCP server</a>, which exposes a tool for searching Cloudflare's documentation from OpenCode.</p>
+<p>There are a couple ways to install MCP servers in OpenCode. Here we'll manually edit your OpenCode configuration file (usually located at <code>~/.config/opencode/opencode.json</code>) to add a few useful servers:</p>
+<ul>
+<li><code>cloudflare-docs</code>: lets your agent search Cloudflare's docs so it can answer product questions with citations and up-to-date details.</li>
+<li><code>chrome-devtools</code>: gives your agent a real browser to click around, read pages, and grab content (handy when sites block simple HTTP fetches).</li>
+<li><code>replicate-code-mode</code> (optional): adds Replicate's "code" tools; disabled by default and requires <code>REPLICATE_API_TOKEN</code>.</li>
+<li><code>cloudflare-api</code> (optional): lets your agent call Cloudflare's API directly; disabled by default and requires <code>CLOUDFLARE_API_TOKEN</code>.</li>
+</ul>
 <pre><code class="hljs language-json">{
   <span class="hljs-attr">"$schema"</span>: <span class="hljs-string">"https://opencode.ai/config.json"</span>,
   <span class="hljs-attr">"mcp"</span>: {
+    <span class="hljs-attr">"chrome-devtools"</span>: {
+      <span class="hljs-attr">"type"</span>: <span class="hljs-string">"local"</span>,
+      <span class="hljs-attr">"command"</span>: [<span class="hljs-string">"npx"</span>, <span class="hljs-string">"-y"</span>, <span class="hljs-string">"chrome-devtools-mcp@latest"</span>]
+    },
     <span class="hljs-attr">"cloudflare-docs"</span>: {
       <span class="hljs-attr">"type"</span>: <span class="hljs-string">"remote"</span>,
-      <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://docs.mcp.cloudflare.com/sse"</span>,
+      <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://docs.mcp.cloudflare.com/mcp"</span>,
       <span class="hljs-attr">"enabled"</span>: <span class="hljs-literal">true</span>
+    },
+    <span class="hljs-attr">"replicate-code-mode"</span>: {
+      <span class="hljs-attr">"type"</span>: <span class="hljs-string">"local"</span>,
+      <span class="hljs-attr">"enabled"</span>: <span class="hljs-literal">false</span>,
+      <span class="hljs-attr">"command"</span>: [<span class="hljs-string">"npx"</span>, <span class="hljs-string">"-y"</span>, <span class="hljs-string">"replicate-mcp@alpha"</span>, <span class="hljs-string">"--tools=code"</span>],
+      <span class="hljs-attr">"environment"</span>: {
+        <span class="hljs-attr">"REPLICATE_API_TOKEN"</span>: <span class="hljs-string">"{env:REPLICATE_API_TOKEN}"</span>
+      }
+    },
+    <span class="hljs-attr">"cloudflare-api"</span>: {
+      <span class="hljs-attr">"type"</span>: <span class="hljs-string">"remote"</span>,
+      <span class="hljs-attr">"enabled"</span>: <span class="hljs-literal">false</span>,
+      <span class="hljs-attr">"url"</span>: <span class="hljs-string">"https://cloudflare-mcp.mattzcarey.workers.dev/mcp"</span>,
+      <span class="hljs-attr">"headers"</span>: {
+        <span class="hljs-attr">"Authorization"</span>: <span class="hljs-string">"Bearer {env:CLOUDFLARE_API_TOKEN}"</span>
+      }
     }
   }
 }</code></pre>
