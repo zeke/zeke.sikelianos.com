@@ -3,7 +3,7 @@
 
 <head>
   
-    <title>Building on Cloudflare | Zeke Sikelianos</title>
+    <title>Building on Cloudflare with OpenCode | Zeke Sikelianos</title>
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,7 +11,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Zeke Sikelianos">
   
-    <meta property="og:title" content="Building on Cloudflare">
+    <meta property="og:title" content="Building on Cloudflare with OpenCode">
   
   
     <meta property="og:description" content="OpenCode turns Cloudflare into a candy store for developers.">
@@ -20,7 +20,7 @@
   <meta property="og:url" content="https://zeke.sikelianos.com/build-on-cloudflare-with-opencode">
   
     <meta property="og:image" content="https://zeke.sikelianos.com/build-on-cloudflare-with-opencode/thumbnail.png">
-    <meta property="og:image:alt" content="Building on Cloudflare">
+    <meta property="og:image:alt" content="Building on Cloudflare with OpenCode">
   
 
   <!-- Twitter Card Meta Tags -->
@@ -28,7 +28,7 @@
   <meta name="twitter:site" content="@zeke">
   <meta name="twitter:creator" content="@zeke">
   
-    <meta name="twitter:title" content="Building on Cloudflare">
+    <meta name="twitter:title" content="Building on Cloudflare with OpenCode">
   
   
     <meta name="twitter:description" content="OpenCode turns Cloudflare into a candy store for developers.">
@@ -60,7 +60,7 @@
   <article>
     <div class="page__content">
       <header>
-        <h1 class="page__title">Building on Cloudflare</h1>
+        <h1 class="page__title">Building on Cloudflare with OpenCode</h1>
         
           <h2 class="page__description">OpenCode turns Cloudflare into a candy store for developers.</h2>
         
@@ -73,13 +73,15 @@
         
       </header>
 
-      <p><a href="https://opencode.ai/"><img src="../opencode-screenshot.png/index.html" alt="OpenCode screenshot"></a></p>
+      <iframe width="100%" height="460" src="https://www.youtube.com/embed/jnSgscjEsaw?si=6yC8cuydb6_vQ3Kw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p><a href="https://opencode.ai/">OpenCode</a> is my new favorite tool for hacking. It's an open-source AI agent that can help you research, plan, and build software. In this post I'll show you how to set it up with some good defaults so you can start building on Cloudflare's developer platform right away.</p>
 <p>Most imporantly, <strong>OpenCode is a remedy for FOMO</strong> (fear of missing out). The world is moving fast, but OpenCode helps you keep up.</p>
-<p>If you don't wanna read this whole thing, here's a <a href="https://github.com/zeke/sweet-sweet-opencode">one-liner</a> to get you going:</p>
+<div class="callout">
+<p>Don't feel like reading? Here's a <a href="https://github.com/zeke/sweet-sweet-opencode">one-liner</a> to get you going:</p>
 <pre><code class="hljs language-bash">npx zeke/sweet-sweet-opencode</code></pre>
-<p>If you'd prefer to go through the process step by step, then read on...</p>
-<h2 id="cloudflare-has-so-many-products-"><a href="#cloudflare-has-so-many-products-">Cloudflare has so many products 😱</a></h2>
+<p><span class="callout-help">This command will kick off an interactive wizard to install OpenCode and set it up with some sensible defaults for Cloudflare development. Check out the <a href="https://github.com/zeke/sweet-sweet-opencode">source on GitHub</a> if you're (understandably) paranoid about running random stuff.</span></p>
+</div>
+<h2 id="cloudflare-has-so-many-products-"><a href="#cloudflare-has-so-many-products-">Cloudflare has so many products 😵‍💫</a></h2>
 <p>Cloudflare's developer platform has everything you need to build web apps: <a href="https://developers.cloudflare.com/workers/">Workers</a> for serverless deployment, <a href="https://developers.cloudflare.com/r2/">R2</a> for object storage, <a href="https://developers.cloudflare.com/d1/">D1</a> for serverless databases. But there are <a href="https://developers.cloudflare.com/directory/">over 100 other products</a> on the developer platform. </p>
 <p>Here are a few examples you might not have heard of:</p>
 <ul>
@@ -90,18 +92,18 @@
 </ul>
 <p>What are all these products and how do you use them?</p>
 <p>Answering a question like this used to be a daunting task (at least for me), but now we have AI agents to help us research, plan, and build. What was once an overwhelming array of options now feels like a candy store of possibilities.</p>
-<h2 id="1-sign-in-to-cloudflare"><a href="#1-sign-in-to-cloudflare">1: Sign in to Cloudflare</a></h2>
+<h2 id="step-1-sign-in-to-cloudflare"><a href="#step-1-sign-in-to-cloudflare">Step 1: Sign in to Cloudflare</a></h2>
 <p>Sign into the Cloudflare dashboard at <a href="https://dash.cloudflare.com/">dash.cloudflare.com</a>. If you don't already have an account, you can easily create one using your Google, Apple, or GitHub account.</p>
 <p>Cloudflare is free to start, with very generous limits before you have to start paying for anything.</p>
-<h2 id="2-authenticate"><a href="#2-authenticate">2: Authenticate</a></h2>
+<h2 id="step-2-authenticate"><a href="#step-2-authenticate">Step 2: Authenticate</a></h2>
 <p><a href="https://developers.cloudflare.com/workers/wrangler/">Wrangler</a> is Cloudflare's command-line interface. You can run it with npx, which is included with Node.js. (Install Node.js with <code>brew install node</code> if you don't already have it installed.)</p>
 <p>Run this command to authenticate your Cloudflare account:</p>
 <pre><code class="hljs language-bash">npx -y wrangler login</code></pre>
 <p>This will open a browser window prompting you to authorize Wrangler to access your Cloudflare account.</p>
-<h2 id="3-install-opencode"><a href="#3-install-opencode">3: Install OpenCode</a></h2>
+<h2 id="step-3-install-opencode"><a href="#step-3-install-opencode">Step 3: Install OpenCode</a></h2>
 <p>There are <a href="https://opencode.ai/docs/#install">several ways to install OpenCode</a>, but here we'll use Homebrew:</p>
 <pre><code class="hljs language-bash">brew install anomalyco/tap/opencode</code></pre>
-<h2 id="4-add-cloudflares-docs-server"><a href="#4-add-cloudflares-docs-server">4: Add Cloudflare's docs server</a></h2>
+<h2 id="step-4-add-cloudflares-docs-server"><a href="#step-4-add-cloudflares-docs-server">Step 4: Add Cloudflare's docs server</a></h2>
 <p>Cloudflare has <a href="https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/">a handful of official MCP servers</a> that expose various tools to your OpenCode agent. The one we're interested in is the <a href="https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/docs-vectorize">Cloudflare Documentation MCP server</a>, which exposes a tool for searching Cloudflare's documentation from OpenCode.</p>
 <p>There are a couple ways to install MCP servers in OpenCode. Here we'll manually edit your OpenCode configuration file (usually located at <code>~/.config/opencode/opencode.json</code>) to add the Cloudflare Docs MCP server:</p>
 <pre><code class="hljs language-json">{
@@ -114,14 +116,14 @@
     }
   }
 }</code></pre>
-<h2 id="5-start-opencode"><a href="#5-start-opencode">5: Start OpenCode</a></h2>
+<h2 id="step-5-start-opencode"><a href="#step-5-start-opencode">Step 5: Start OpenCode</a></h2>
 <p>Now you've got everything set up. It's time to fire up an OpenCode session.</p>
 <p>Open your terminal, then navigate to an existing project or create a new directory:</p>
 <pre><code class="hljs language-sh">mkdir my-new-app &#x26;&#x26; <span class="hljs-built_in">cd</span> my-new-app</code></pre>
 <p>Then start opencode:</p>
 <pre><code class="hljs language-sh">opencode</code></pre>
-<p>Now hit <code>Tab</code> on your keyboard to switch to <strong>Plan</strong> mode. This will let you collaborate with the agent on a plan before actually creating or editing any files.</p>
-<p>Then type a query to get the conversation going. Here are some examples:</p>
+<h2 id="step-6-chat"><a href="#step-6-chat">Step 6: Chat!</a></h2>
+<p>Now that you've got OpenCode set up, type a query to get the conversation going. Here are some examples:</p>
 <blockquote>
 <p>How do Cloudflare agents and sandboxes work together?</p>
 </blockquote>
@@ -134,34 +136,7 @@
 <blockquote>
 <p>How many indexes are supported in Workers Analytics Engine? Give an example using the Workers binding API.</p>
 </blockquote>
-<h2 id="extra-credit"><a href="#extra-credit">Extra credit</a></h2>
-<p>The OpenCode config above can also include optional (disabled by default) MCP servers for Replicate and the Cloudflare API.</p>
-<ol>
-<li>Create a Replicate API token</li>
-</ol>
-<ul>
-<li>Go to <a href="https://replicate.com/account/api-tokens">https://replicate.com/account/api-tokens</a></li>
-<li>Create a token and copy it</li>
-<li>Add it to your environment:</li>
-</ul>
-<pre><code class="hljs language-bash"><span class="hljs-built_in">export</span> REPLICATE_API_TOKEN=<span class="hljs-string">"your_token_here"</span></code></pre>
-<ol start="2">
-<li>Create a Cloudflare API token</li>
-</ol>
-<ul>
-<li>Go to <a href="https://dash.cloudflare.com/profile/api-tokens">https://dash.cloudflare.com/profile/api-tokens</a></li>
-<li>Create a token and copy it</li>
-<li>Add it to your environment:</li>
-</ul>
-<pre><code class="hljs language-bash"><span class="hljs-built_in">export</span> CLOUDFLARE_API_TOKEN=<span class="hljs-string">"your_token_here"</span></code></pre>
-<ol start="3">
-<li>Enable the MCP servers in OpenCode</li>
-</ol>
-<p>Edit your OpenCode config (usually <code>~/.config/opencode/opencode.json</code>) and set these to <code>true</code>:</p>
-<ul>
-<li><code>mcp.replicate-code-mode.enabled</code></li>
-<li><code>mcp.cloudflare-api.enabled</code></li>
-</ul>
+<p>From here you'll be able to plan (and build!) your next Cloudflare-hosted app. Happy hacking! 🚀</p>
     </div>
   </article>
 
