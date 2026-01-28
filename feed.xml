@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Zeke Sikelianos</title>
+    <link>https://zeke.sikelianos.com</link>
+    <description>Updates: pages, posts, talks.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <generator>zeke.sikelianos.com</generator>
+    <item>
+      <title>Building on Cloudflare with OpenCode</title>
+      <link>https://zeke.sikelianos.com/build-on-cloudflare-with-opencode</link>
+      <guid isPermaLink="true">https://zeke.sikelianos.com/build-on-cloudflare-with-opencode</guid>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 GMT</pubDate>
+      <description>OpenCode turns Cloudflare into a candy store for developers.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Design like Karpathy is watching</title>
+      <link>https://zeke.sikelianos.com/karpathy</link>
+      <guid isPermaLink="true">https://zeke.sikelianos.com/karpathy</guid>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 GMT</pubDate>
+      <description>A talk about building AI products with LLMs in mind</description>
+      <category>Page</category>
+    </item>
+    <item>
+      <title>Meta Cars of Mexico City</title>
+      <link>https://zeke.sikelianos.com/meta-cars-of-mexico-city</link>
+      <guid isPermaLink="true">https://zeke.sikelianos.com/meta-cars-of-mexico-city</guid>
+      <pubDate>Mon, 21 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Futuristic vehicles seen on the streets of CDMX</description>
+      <category>Page</category>
+    </item>
+    <item>
+      <title>Vibe Coding Popup</title>
+      <link>https://zeke.sikelianos.com/vibe-coding-popup</link>
+      <guid isPermaLink="true">https://zeke.sikelianos.com/vibe-coding-popup</guid>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 GMT</pubDate>
+      <description>Teaching people to vibe code in real life.</description>
+      <category>Page</category>
+    </item>
+    <item>
+      <title>Kontext Realtime</title>
+      <link>https://zeke.sikelianos.com/kontext-realtime</link>
+      <guid isPermaLink="true">https://zeke.sikelianos.com/kontext-realtime</guid>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
+      <description>Create and edit images using your voice</description>
+      <category>Page</category>
+    </item>
+    <item>
+      <title>Use FLUX.1 Kontext to edit images with words</title>
+      <link>https://replicate.com/blog/flux-kontext</link>
+      <guid isPermaLink="true">https://replicate.com/blog/flux-kontext</guid>
+      <pubDate>Thu, 29 May 2025 00:00:00 GMT</pubDate>
+      <description>This is how to get the most from Black Forest Labs&apos; new image editing model.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>NVIDIA H100 GPUs are here</title>
+      <link>https://replicate.com/blog/nvidia-h100-gpus-are-here</link>
+      <guid isPermaLink="true">https://replicate.com/blog/nvidia-h100-gpus-are-here</guid>
+      <pubDate>Fri, 16 May 2025 00:00:00 GMT</pubDate>
+      <description>NVIDIA H100 GPUs are here, with better performance and lower cost.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>AI People: Humans who teach about AI and software development</title>
+      <link>https://zeke.sikelianos.com/ai-people</link>
+      <guid isPermaLink="true">https://zeke.sikelianos.com/ai-people</guid>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 GMT</pubDate>
+      <description>Humans who teach about AI and software development.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Wan2.1: generate videos with an API</title>
+      <link>https://replicate.com/blog/wan-21-generate-videos-with-an-api</link>
+      <guid isPermaLink="true">https://replicate.com/blog/wan-21-generate-videos-with-an-api</guid>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 GMT</pubDate>
+      <description>Wan2.1 is the most capable open-source video generation model, producing coherent and high-quality outputs. Learn how to run it in the cloud with a single line of code.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>You can now fine-tune open-source video models</title>
+      <link>https://replicate.com/blog/fine-tune-video</link>
+      <guid isPermaLink="true">https://replicate.com/blog/fine-tune-video</guid>
+      <pubDate>Fri, 24 Jan 2025 00:00:00 GMT</pubDate>
+      <description>Train your own versions of Tencent&apos;s HunyuanVideo for style, motion, and characters on Replicate.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>FLUX.1 Tools – Control and steerability for FLUX</title>
+      <link>https://replicate.com/blog/flux-tools</link>
+      <guid isPermaLink="true">https://replicate.com/blog/flux-tools</guid>
+      <pubDate>Thu, 21 Nov 2024 00:00:00 GMT</pubDate>
+      <description>A new set of image generation capabilities for FLUX models, including inpainting, outpainting, canny edge detection, and depth maps.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>NVIDIA L40S GPUs are here</title>
+      <link>https://replicate.com/blog/nvidia-l40s-gpus-are-here</link>
+      <guid isPermaLink="true">https://replicate.com/blog/nvidia-l40s-gpus-are-here</guid>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
+      <description>NVIDIA L40S GPUs are here, with better performance and lower cost.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>FLUX1.1 [pro] is here</title>
+      <link>https://replicate.com/blog/flux-1-1-pro-is-here</link>
+      <guid isPermaLink="true">https://replicate.com/blog/flux-1-1-pro-is-here</guid>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 GMT</pubDate>
+      <description>Black Forest Labs continue to push boundaries with their latest release of FLUX.1 image generation model.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Using synthetic training data to improve Flux finetunes</title>
+      <link>https://replicate.com/blog/using-synthetic-data-to-improve-flux-finetunes</link>
+      <guid isPermaLink="true">https://replicate.com/blog/using-synthetic-data-to-improve-flux-finetunes</guid>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 GMT</pubDate>
+      <description>It&apos;s easy to fine-tune Flux, but sometimes you need to do a little more work to get the best results. This post covers techniques you can use to improve your fine-tuned Flux models.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Fine-tune FLUX.1 with an API</title>
+      <link>https://replicate.com/blog/fine-tune-flux-with-an-api</link>
+      <guid isPermaLink="true">https://replicate.com/blog/fine-tune-flux-with-an-api</guid>
+      <pubDate>Mon, 09 Sep 2024 00:00:00 GMT</pubDate>
+      <description>Create and run your own fine-tuned Flux models programmatically using Replicate&apos;s HTTP API.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Fine-tune FLUX.1 to create images of yourself</title>
+      <link>https://replicate.com/blog/fine-tune-flux-with-faces</link>
+      <guid isPermaLink="true">https://replicate.com/blog/fine-tune-flux-with-faces</guid>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 GMT</pubDate>
+      <description>Create your own fine-tuned Flux model to generate new images of yourself.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Run FLUX with an API</title>
+      <link>https://replicate.com/blog/flux-state-of-the-art-image-generation</link>
+      <guid isPermaLink="true">https://replicate.com/blog/flux-state-of-the-art-image-generation</guid>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate>
+      <description>FLUX.1 is a new text-to-image model from Black Forest Labs, the creators of Stable Diffusion, that exceeds the capabilities of previous open-source models.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>OpenSauced Interview</title>
+      <link>https://zeke.sikelianos.com/opensauced-interview</link>
+      <guid isPermaLink="true">https://zeke.sikelianos.com/opensauced-interview</guid>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 GMT</pubDate>
+      <description>A chat with bdougie, the founder of OpenSauced</description>
+      <category>Page</category>
+    </item>
+    <item>
+      <title>Secret Sauce: Natural Language Programming</title>
+      <link>https://www.youtube.com/embed/rfbX9RgDY-Y?si=Izn11Giumw62ZjXv</link>
+      <guid isPermaLink="true">https://www.youtube.com/embed/rfbX9RgDY-Y?si=Izn11Giumw62ZjXv</guid>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 GMT</pubDate>
+      <description>Venue: OpenSauced</description>
+      <category>Talk</category>
+    </item>
+    <item>
+      <title>Run Stable Diffusion 3 on your own machine with ComfyUI</title>
+      <link>https://replicate.com/blog/run-sd3-on-comfyui</link>
+      <guid isPermaLink="true">https://replicate.com/blog/run-sd3-on-comfyui</guid>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 GMT</pubDate>
+      <description>Copy and paste a few commands into terminal to play with Stable Diffusion 3 on your own GPU-powered machine.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Push a custom version of Stable Diffusion 3</title>
+      <link>https://replicate.com/blog/push-a-custom-sd3</link>
+      <guid isPermaLink="true">https://replicate.com/blog/push-a-custom-sd3</guid>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 GMT</pubDate>
+      <description>Create your own custom version of Stability&apos;s latest image generation model and run it on Replicate via the web or API.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>H100s are coming to Replicate</title>
+      <link>https://replicate.com/blog/h100s-are-coming</link>
+      <guid isPermaLink="true">https://replicate.com/blog/h100s-are-coming</guid>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate>
+      <description>We&apos;ll soon support NVIDIA&apos;s H100 GPUs for predictions and training. Let us know if you want early access.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Simplified AI Inference APIs on Replicate with NVIDIA NIM</title>
+      <link>https://replicate.com/blog/run-nvidia-nim-models-on-replicate</link>
+      <guid isPermaLink="true">https://replicate.com/blog/run-nvidia-nim-models-on-replicate</guid>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 GMT</pubDate>
+      <description>Replicate is making machine learning more accessible to software developers by empowering them with the ability to run AI with an API. Today, we’re advancing that mission by adding support for NVIDIA...</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Shared network vulnerability disclosure</title>
+      <link>https://replicate.com/blog/shared-network-vulnerability-disclosure</link>
+      <guid isPermaLink="true">https://replicate.com/blog/shared-network-vulnerability-disclosure</guid>
+      <pubDate>Thu, 23 May 2024 00:00:00 GMT</pubDate>
+      <description>This post shares details of a security vulnerability disclosed to us in January 2024 by our friends at Wiz , a cloud security company.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>The Avocado Armchair: Reflections on generative AI from 2021-2023</title>
+      <link>https://zeke.sikelianos.com/avocado-armchair</link>
+      <guid isPermaLink="true">https://zeke.sikelianos.com/avocado-armchair</guid>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 GMT</pubDate>
+      <description>Reflections on generative AI, and a farewell to Replicate&apos;s Berkeley office</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>How to run Mistral 7B with an API</title>
+      <link>https://replicate.com/blog/run-mistral-7b-with-api</link>
+      <guid isPermaLink="true">https://replicate.com/blog/run-mistral-7b-with-api</guid>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
+      <description>Mistral 7B is an open-source large language model. Learn what it&apos;s good at and how to run it in the cloud with one line of code.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Streaming output for language models</title>
+      <link>https://replicate.com/blog/streaming</link>
+      <guid isPermaLink="true">https://replicate.com/blog/streaming</guid>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 GMT</pubDate>
+      <description>Our API now supports server-sent event streams for language models. Learn how to use them to make your apps more responsive.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>What&apos;s the difference between Llama 2 7B, 13B, and 70B?</title>
+      <link>https://replicate.com/blog/all-the-llamas</link>
+      <guid isPermaLink="true">https://replicate.com/blog/all-the-llamas</guid>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 GMT</pubDate>
+      <description>Let&apos;s break down the differences between the Llama 2 models and help you choose the right one for your use case.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>A comprehensive guide to running Llama 2 locally</title>
+      <link>https://replicate.com/blog/run-llama-locally</link>
+      <guid isPermaLink="true">https://replicate.com/blog/run-llama-locally</guid>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 GMT</pubDate>
+      <description>How to run Llama 2 on Mac, Linux, Windows, and your phone.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>What happened with Llama 2 in the last 24 hours? 🦙</title>
+      <link>https://replicate.com/blog/llama-2-roundup</link>
+      <guid isPermaLink="true">https://replicate.com/blog/llama-2-roundup</guid>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 GMT</pubDate>
+      <description>A roundup of recent developments from the llamaverse following the second major release of Meta&apos;s open-source large language model.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Outpainter</title>
+      <link>https://zeke.sikelianos.com/outpainter</link>
+      <guid isPermaLink="true">https://zeke.sikelianos.com/outpainter</guid>
+      <pubDate>Fri, 23 Jun 2023 00:00:00 GMT</pubDate>
+      <description>Paint outside the boundaries of existing images using AI</description>
+      <category>Page</category>
+    </item>
+    <item>
+      <title>Status page</title>
+      <link>https://replicate.com/blog/new-status-page</link>
+      <guid isPermaLink="true">https://replicate.com/blog/new-status-page</guid>
+      <pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate>
+      <description>We&apos;ve added a status page to provide real-time updates on the health of Replicate.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Language model roundup, April 2023</title>
+      <link>https://replicate.com/blog/language-model-roundup</link>
+      <guid isPermaLink="true">https://replicate.com/blog/language-model-roundup</guid>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 GMT</pubDate>
+      <description>A roundup of recent developments from the world of open-source language models.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>How to use Alpaca-LoRA to fine-tune a model like ChatGPT</title>
+      <link>https://replicate.com/blog/fine-tune-alpaca-with-lora</link>
+      <guid isPermaLink="true">https://replicate.com/blog/fine-tune-alpaca-with-lora</guid>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate>
+      <description>Low-rank adaptation (LoRA) is a technique for fine-tuning models that has some advantages over previous methods:</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Week 3 of LLaMA 🦙</title>
+      <link>https://replicate.com/blog/llama-roundup</link>
+      <guid isPermaLink="true">https://replicate.com/blog/llama-roundup</guid>
+      <pubDate>Sat, 18 Mar 2023 00:00:00 GMT</pubDate>
+      <description>A roundup of recent developments from the llamaverse.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Train and run Stanford Alpaca on your own machine</title>
+      <link>https://replicate.com/blog/replicate-alpaca</link>
+      <guid isPermaLink="true">https://replicate.com/blog/replicate-alpaca</guid>
+      <pubDate>Thu, 16 Mar 2023 00:00:00 GMT</pubDate>
+      <description>We&apos;ll show you how to train Alpaca, a fine-tuned version of LLaMA that can respond to instructions like ChatGPT.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Introducing LoRA: A faster way to fine-tune Stable Diffusion</title>
+      <link>https://replicate.com/blog/lora-faster-fine-tuning-of-stable-diffusion</link>
+      <guid isPermaLink="true">https://replicate.com/blog/lora-faster-fine-tuning-of-stable-diffusion</guid>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 GMT</pubDate>
+      <description>It&apos;s like DreamBooth, but much faster. And you can run it in the cloud on Replicate.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Train and deploy a DreamBooth model on Replicate</title>
+      <link>https://replicate.com/blog/dreambooth-api</link>
+      <guid isPermaLink="true">https://replicate.com/blog/dreambooth-api</guid>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
+      <description>With just a handful of images and a single API call, you can train a model, publish it to Replicate, and run predictions on it in the cloud.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Building an AI artist with Codespaces and Replicate</title>
+      <link>https://www.youtube.com/watch?v=5jZGLYcLfOo</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=5jZGLYcLfOo</guid>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 GMT</pubDate>
+      <description>Venue: GitHub Universe</description>
+      <category>Talk</category>
+    </item>
+    <item>
+      <title>Inpainter</title>
+      <link>https://zeke.sikelianos.com/inpainter</link>
+      <guid isPermaLink="true">https://zeke.sikelianos.com/inpainter</guid>
+      <pubDate>Tue, 30 Aug 2022 00:00:00 GMT</pubDate>
+      <description>An AI-powered open-source magic eraser for editing images</description>
+      <category>Page</category>
+    </item>
+    <item>
+      <title>Run Stable Diffusion with an API</title>
+      <link>https://replicate.com/blog/run-stable-diffusion-with-an-api</link>
+      <guid isPermaLink="true">https://replicate.com/blog/run-stable-diffusion-with-an-api</guid>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 GMT</pubDate>
+      <description>How to use Replicate to integrate Stable Diffusion into hacks, apps, and projects</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>A new template for model READMEs</title>
+      <link>https://replicate.com/blog/model-docs</link>
+      <guid isPermaLink="true">https://replicate.com/blog/model-docs</guid>
+      <pubDate>Tue, 05 Jul 2022 00:00:00 GMT</pubDate>
+      <description>Inspired by model cards, we&apos;ve created templates for documenting models on Replicate.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Hello, world!</title>
+      <link>https://replicate.com/blog/hello-world</link>
+      <guid isPermaLink="true">https://replicate.com/blog/hello-world</guid>
+      <pubDate>Mon, 16 May 2022 00:00:00 GMT</pubDate>
+      <description>We&apos;re a small team of engineers and machine learning enthusiasts working to make machine learning more accessible.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Machine translation for Discussions content</title>
+      <link>https://github.blog/changelog/2021-07-19-machine-translation-for-discussions-content/</link>
+      <guid isPermaLink="true">https://github.blog/changelog/2021-07-19-machine-translation-for-discussions-content/</guid>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 GMT</pubDate>
+      <description>🌏 Today we&apos;re releasing a new beta feature that allows you to translate GitHub Discussions content into different spoken languages. This initial beta release includes support for Korean, Brazilian...</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>How we open-sourced docs.github.com</title>
+      <link>https://github.blog/2020-10-14-how-we-open-sourced-docs-github-com</link>
+      <guid isPermaLink="true">https://github.blog/2020-10-14-how-we-open-sourced-docs-github-com</guid>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 GMT</pubDate>
+      <description>A lot of work went into figuring out how to sync a public and private docs repo.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>A Swagger Origin Story</title>
+      <link>https://www.youtube.com/watch?v=_G9dlv66-xw</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=_G9dlv66-xw</guid>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 GMT</pubDate>
+      <description>Venue: API Specs Conference</description>
+      <category>Talk</category>
+    </item>
+    <item>
+      <title>Travels</title>
+      <link>https://zeke.sikelianos.com/travels</link>
+      <guid isPermaLink="true">https://zeke.sikelianos.com/travels</guid>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 GMT</pubDate>
+      <description>Places I&apos;ve been...</description>
+      <category>Page</category>
+    </item>
+    <item>
+      <title>Magnets, again</title>
+      <link>https://zeke.sikelianos.com/magnets-again</link>
+      <guid isPermaLink="true">https://zeke.sikelianos.com/magnets-again</guid>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 GMT</pubDate>
+      <description>Another dose of electromagnetic propaganda.</description>
+      <category>Post</category>
+    </item>
+    <item>
+      <title>Building thriving open source communities with GitHub</title>
+      <link>https://www.youtube.com/watch?v=0IOmzppk-_Y</link>
+      <guid isPermaLink="true">https://www.youtube.com/watch?v=0IOmzppk-_Y</guid>
+      <pubDate>Fri, 10 May 2019 00:00:00 GMT</pubDate>
+      <description>Venue: Microsoft Build</description>
+      <category>Talk</category>
+    </item>
+    <item>
+      <title>Easier AutoUpdating for Open-Source Apps</title>
+      <link>https://www.electronjs.org/blog/autoupdating-electron-apps</link>
+      <guid isPermaLink="true">https://www.electronjs.org/blog/autoupdating-electron-apps</guid>
+      <pubDate>Tue, 01 May 2018 00:00:00 GMT</pubDate>
+      <description>Today we&apos;re releasing a free, open-source, hosted</description>
+      <category>Post</category>
+    </item>
+  </channel>
+</rss>
