@@ -9,6 +9,7 @@ module.exports = async function loadPages (req, res, next) {
   set(req, 'context.pages', pages)
   set(req, 'context.projectPages', pages.filter(page => page.kind == 'project'))
   set(req, 'context.page', pages[req.path])
+  set(req, 'context.siteUrl', process.env.SITE_URL || 'https://zeke.sikelianos.com')
 
   // Load talks from JSON
   const talksPath = path.join(process.cwd(), 'data', 'talks.json')
