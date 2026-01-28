@@ -21,15 +21,25 @@ So, instead of manually checking your favorite websites for updates (or relying 
 
 ## How to Subscribe
 
-If you don't already have a preferred RSS reader, here are some popular ones you can use to subscribe to the feed:
+You can use RSS without installing anything by using an email-to-RSS service or a web-based reader.
 
-- [Feedly](https://feedly.com) (web + mobile)
+### Option 1: Get updates by email (no app install)
+
+- [Blogtrottr](https://blogtrottr.com): paste the feed URL, enter your email, choose a schedule (immediate or digest).
+- [follow.it](https://follow.it): subscribe to the feed and choose email delivery (immediate, daily, or weekly).
+
+### Option 2: Read in a browser (no app install)
+
+- [Feedly](https://feedly.com/news-reader) (web + mobile)
 - [Inoreader](https://www.inoreader.com) (web + mobile)
-- [NetNewsWire](https://netnewswire.com) (Mac + iOS)
-- [Reeder](https://reederapp.com) (Mac + iOS)
 - [NewsBlur](https://www.newsblur.com) (web + mobile)
 
-Install one of these apps, then add the feed URL to start receiving updates whenever new content is posted:
+### Option 3: Apps
+
+- [NetNewsWire](https://netnewswire.com) (Mac + iOS)
+- [Reeder](https://reederapp.com) (Mac + iOS)
+
+☝️ Choose one of these apps or services, then use this feed URL to start receiving updates:
 
 ```plaintext
 {{ siteUrl }}/feed.xml
