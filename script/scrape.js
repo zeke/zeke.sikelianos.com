@@ -33,7 +33,7 @@ async function main () {
     },
     directory: tempDirectory,
     filenameGenerator: 'bySiteStructure',
-    requestConcurrency: 6
+    requestConcurrency: 20
   }
 
   server.listen(port, async () => {
