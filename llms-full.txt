@@ -1,0 +1,107 @@
+# Zeke Sikelianos (Full Index)
+
+> Expanded list of site URLs for LLM ingestion.
+
+Generated from site data. Canonical base: https://zeke.sikelianos.com.
+
+## Sections
+- [Contact Me](https://zeke.sikelianos.com/contact): I occupy the internets, and meatspace too
+- [Posts](https://zeke.sikelianos.com/posts): Words about programming, design, art, and other things.
+- [Projects](https://zeke.sikelianos.com/projects): Things I've built for work and play. Some are still alive, and others have succumbed to the sands of time.
+- [Talks](https://zeke.sikelianos.com/talks): Conferences, interviews, podcasts, screencasts, etc.
+- [Zeke Sikelianos](https://zeke.sikelianos.com/cv): Résumé & Curriculum Vitae
+- [Zeke Sikelianos](https://zeke.sikelianos.com/): designer, natural language programmer, educator
+
+## Projects
+- [404](https://zeke.sikelianos.com/404/index): An homage to dead media
+- [Acrophonics](https://zeke.sikelianos.com/acrophonics): Explore the alpha-bravo-charlie alphabets of the world.
+- [Alan-a-Dale](https://zeke.sikelianos.com/alan-a-dale/index): Cleaned-up GIF of the strutting minstrel from Disney's Robin Hood
+- [Bay Area Cultural Asset Map](https://zeke.sikelianos.com/bacam): Arts fundraising intelligence for the Hewlett Foundation
+- [Beaver Brook](https://zeke.sikelianos.com/beaver-brook): A building school in Upstate New York
+- [Building on Cloudflare with OpenCode](https://zeke.sikelianos.com/build-on-cloudflare-with-opencode): OpenCode turns Cloudflare into a candy store for developers.
+- [Bush in 30 Seconds](https://zeke.sikelianos.com/bush-in-30-seconds/index): Advertisting contest submission to prevent Dubya's 2004 re-election
+- [chances.js](https://zeke.sikelianos.com/chances): Download the music you hear on chanceswithwolves.com
+- [Color Namer](https://zeke.sikelianos.com/color-namer): A rose by any other name would smell as sweet
+- [Earth](https://zeke.sikelianos.com/earth): Collected favorites from Google
+- [Inpainter](https://zeke.sikelianos.com/inpainter): An AI-powered open-source magic eraser for editing images
+- [Kontext Realtime](https://zeke.sikelianos.com/kontext-realtime): Create and edit images using your voice
+- [Life in HTTP](https://zeke.sikelianos.com/http): Events in my life as HTTP status codes
+- [Machine Project Los Angeles](https://zeke.sikelianos.com/machine-project): Community artspace in Echo Park, Los Angeles
+- [Magnetism](https://zeke.sikelianos.com/magnets): A fundamental force of the universe that fits in your pocket.
+- [Melitsa Sikelianos](https://zeke.sikelianos.com/melitsa): Collected works of my late aunt
+- [Meta Cars of Mexico City](https://zeke.sikelianos.com/meta-cars-of-mexico-city): Futuristic vehicles seen on the streets of CDMX
+- [Moby Thesaurus](https://zeke.sikelianos.com/moby): A giant and serendipitous English thesaurus
+- [Name that baby girl](https://zeke.sikelianos.com/name-that-baby-girl/index): A searchable compendium of common girly names
+- [Ord](https://zeke.sikelianos.com/ord): Multilingual word translations using Wikipedia data
+- [Outcasts](https://zeke.sikelianos.com/outcasts): Words that people on Twitter don't think are words
+- [Outpainter](https://zeke.sikelianos.com/outpainter): Paint outside the boundaries of existing images using AI
+- [Parallax Foxen](https://zeke.sikelianos.com/parallax/index): A little backgroud-position hack
+- [Portfolio](https://zeke.sikelianos.com/portfolio): A scrapbook of my design work from 2001 to present day
+- [semver.io](https://zeke.sikelianos.com/semver.io): A webservice for tracking versions of Node.js and npm
+- [Solresol](https://zeke.sikelianos.com/solresol): A transcoder for a lost musical language
+- [Swagger](https://zeke.sikelianos.com/swagger): A framework for documenting and consuming HTTP webservices
+- [The Corn Bed](https://zeke.sikelianos.com/corn-bed): A rejuvenating full-body experience
+- [Vibe Coding Popup](https://zeke.sikelianos.com/vibe-coding-popup): Teaching people to vibe code in real life.
+
+## Pages
+- [Ableism](https://zeke.sikelianos.com/ableism)
+- [AI People](https://zeke.sikelianos.com/ai-people): Humans who teach about AI and software development.
+- [Archetypal 3D](https://zeke.sikelianos.com/archetypal-3d)
+- [Bio](https://zeke.sikelianos.com/bio): A little about me, Zeke Sikelianos
+- [CSS from the Future](https://zeke.sikelianos.com/css-from-the-future): When will vanilla CSS be good enough to replace Sass, Less, Stylus, and the rest?
+- [Design like Karpathy is watching](https://zeke.sikelianos.com/karpathy): A talk about building AI products with LLMs in mind
+- [Donations](https://zeke.sikelianos.com/donations): A bit about my open-source work and how you can help support it financially.
+- [ELC Technologies](https://zeke.sikelianos.com/elc): Agile Ruby on Rails consultancy
+- [Foxtown Vintage](https://zeke.sikelianos.com/foxtown)
+- [Fractured Atlas](https://zeke.sikelianos.com/fractured-atlas): Helping artists succeed as entrepreneurs
+- [Heroku](https://zeke.sikelianos.com/heroku): Polyglot Cloud Computing Platform
+- [Ideum](https://zeke.sikelianos.com/ideum): Interactive Exhibit Designers
+- [It's my first day at GitHub](https://zeke.sikelianos.com/github): Time to work on Electron and Atom
+- [Josephine](https://zeke.sikelianos.com/josephine): Home-cooked meals from your neighbors
+- [lodash.chain](https://zeke.sikelianos.com/chain): Filling the enumerable gaps in JavaScript's standard library.
+- [Lycée Polyvalent Alphonse Benoit](https://zeke.sikelianos.com/france): A high school in Provence, France
+- [Magnets, again.](https://zeke.sikelianos.com/magnets-again): Another dose of electromagnetic propaganda.
+- [my npm packages](https://zeke.sikelianos.com/npm-packages/index): A list of all the packages I've published to npm
+- [Neogenesis Media](https://zeke.sikelianos.com/neogenesis): Documentary film production house
+- [New Orleans Spots](https://zeke.sikelianos.com/nola): A list of some of my favorite places in NOLA
+- [New Orleans Street Names](https://zeke.sikelianos.com/new-orleans-street-names): Every street in the Big Easy
+- [npm, Inc](https://zeke.sikelianos.com/npm): The package manager for JavaScript
+- [Objecty Arrays in JavaScript](https://zeke.sikelianos.com/keyed-arrays-in-javascript): Can we have our cake and eat it too?
+- [Ologies on Wikipedia](https://zeke.sikelianos.com/ologies-of-wikipedia): An exhaustive list on the study of many things
+- [OpenSauced Interview](https://zeke.sikelianos.com/opensauced-interview): A chat with bdougie, the founder of OpenSauced
+- [orgs](https://zeke.sikelianos.com/orgs/index): The GitHub organizations of which I am a member.
+- [Powers of Ten](https://zeke.sikelianos.com/powers-of-ten/index): A small study in randomness. Zero, ten, hundred, thousand...
+- [Rome & Gold Creative](https://zeke.sikelianos.com/rome-and-gold-creative): Graphic and Industrial Design Agency
+- [RSS Feed](https://zeke.sikelianos.com/rss): Get notified whenever I post new content to this site.
+- [Santa Barbara City College](https://zeke.sikelianos.com/sbcc): Top-ranked community college, overlooking the Pacific Ocean
+- [Sniphr](https://zeke.sikelianos.com/sniphr): A browser extension for saving images and snippets of text
+- [The Avocado Armchair](https://zeke.sikelianos.com/avocado-armchair): Reflections on generative AI, and a farewell to Replicate's Berkeley office
+- [The Sweet Sensation of Automation](https://zeke.sikelianos.com/npm-and-github-automation-with-heroku): A guide to automated npm publishing and GitHub pushing using Heroku
+- [Timeline](https://zeke.sikelianos.com/timeline): A chronology of events in my life.
+- [Tokyo](https://zeke.sikelianos.com/tokyo): Notes from a trip to the world's largest urban agglomeration.
+- [Travels](https://zeke.sikelianos.com/travels): Places I've been...
+- [Twenty Years with JavaScript](https://zeke.sikelianos.com/twenty-years-with-javascript): npm is amazing; I want my mom to understand why.
+- [University of New Mexico](https://zeke.sikelianos.com/unm): Public research school in Albuquerque
+- [Vaccination Record](https://zeke.sikelianos.com/vax/index)
+- [Websites as Apps](https://zeke.sikelianos.com/electron-nativefier): Turn websites into customized desktop apps with Electron
+- [Wordnik](https://zeke.sikelianos.com/wordnik): A home for all the words
+
+## Posts
+- [AI People: Humans who teach about AI and software development](https://zeke.sikelianos.com/ai-people): 2025-03-11
+- [Building on Cloudflare with OpenCode](https://zeke.sikelianos.com/build-on-cloudflare-with-opencode): 2026-01-26
+- [CSS from the future](https://zeke.sikelianos.com/css-from-the-future): 2016-04-10
+- [Functional programming with lodash.chain](https://zeke.sikelianos.com/chain): 2017-08-01
+- [I'm joining GitHub!](https://zeke.sikelianos.com/github): 2016-03-14
+- [lodash.chain: The missing tools from JavaScript's standard library](https://zeke.sikelianos.com/chain): 2017-08-14
+- [Magnets, again](https://zeke.sikelianos.com/magnets-again): 2019-12-21
+- [New Orleans Spots](https://zeke.sikelianos.com/nola): 2015-11-11
+- [Objecty Arrays in JavaScript](https://zeke.sikelianos.com/keyed-arrays-in-javascript): 2016-03-17
+- [Ologies of Wikipedia](https://zeke.sikelianos.com/ologies-of-wikipedia): 2018-02-20
+- [The Avocado Armchair: Reflections on generative AI from 2021-2023](https://zeke.sikelianos.com/avocado-armchair): 2023-12-15
+- [The Sweet Sensation of Automation](https://zeke.sikelianos.com/npm-and-github-automation-with-heroku): 2016-05-01
+- [Tokyo](https://zeke.sikelianos.com/tokyo): 2017-09-17
+- [Twenty Years with JavaScript](https://zeke.sikelianos.com/twenty-years-with-javascript): 2014-08-18
+- [Websites as apps with Electron](https://zeke.sikelianos.com/electron-nativefier): 2016-04-05
+
+## Talks
+- [Design like Karpathy is watching](https://zeke.sikelianos.com/karpathy): 2025-07-22 - AI Engineer World's Fair
