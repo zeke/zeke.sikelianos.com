@@ -11,10 +11,12 @@ async function main () {
   const sitemapPath = path.join(distDir, 'sitemap.xml')
   const robotsPath = path.join(distDir, 'robots.txt')
   const llmsPath = path.join(distDir, 'llms.txt')
+  const llmsFullPath = path.join(distDir, 'llms-full.txt')
 
   assert.ok(fs.existsSync(sitemapPath), 'sitemap.xml exists in dist')
   assert.ok(fs.existsSync(robotsPath), 'robots.txt exists in dist')
   assert.ok(fs.existsSync(llmsPath), 'llms.txt exists in dist')
+  assert.ok(fs.existsSync(llmsFullPath), 'llms-full.txt exists in dist')
 
   const sitemapBody = fs.readFileSync(sitemapPath, 'utf8')
   assert.ok(sitemapBody.startsWith('<?xml'), 'sitemap xml declaration')
@@ -41,6 +43,11 @@ async function main () {
   const llmsLines = llmsBody.split(/\r?\n/)
   assert.ok(llmsLines[0].startsWith('# '), 'llms.txt has an H1 title')
   assert.ok(llmsBody.includes('\n> '), 'llms.txt has a summary blockquote')
+
+  const llmsFullBody = fs.readFileSync(llmsFullPath, 'utf8')
+  const llmsFullLines = llmsFullBody.split(/\r?\n/)
+  assert.ok(llmsFullLines[0].startsWith('# '), 'llms-full.txt has an H1 title')
+  assert.ok(llmsFullBody.includes('\n> '), 'llms-full.txt has a summary blockquote')
 }
 
 function extractTags (xml, tagName) {

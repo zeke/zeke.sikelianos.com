@@ -14,7 +14,14 @@ async function main () {
   const urls = (await require('../lib/pages')())
     .map(page => page.href)
     .map(href => `${host}${href}`)
-    .concat([`${host}/feed.xml`, `${host}/rss.xml`, `${host}/sitemap.xml`, `${host}/robots.txt`])
+    .concat([
+      `${host}/feed.xml`,
+      `${host}/rss.xml`,
+      `${host}/sitemap.xml`,
+      `${host}/robots.txt`,
+      `${host}/llms.txt`,
+      `${host}/llms-full.txt`
+    ])
 
   const finalDirectory = path.join(__dirname, '../dist')
   const tempDirectory = path.join(__dirname, '../website-scraper-temp')
