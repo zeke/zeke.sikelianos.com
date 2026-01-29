@@ -1,0 +1,21 @@
+# Zeke Sikelianos
+
+> Personal site with projects, writing, talks, and career history of Zeke Sikelianos, a designer and software developer.
+
+Use these links to find the main sections of the site.
+
+## Main
+
+- [Home](https://zeke.sikelianos.com/): Index of recent pages and sections.
+- [Bio](https://zeke.sikelianos.com/bio): Background and personal overview.
+- [Projects](https://zeke.sikelianos.com/projects): Portfolio of projects.
+- [Posts](https://zeke.sikelianos.com/posts): Writing and links.
+- [Talks](https://zeke.sikelianos.com/talks): Talks, interviews, podcasts.
+
+## Career
+
+- [CV](https://zeke.sikelianos.com/cv): Work history and education.
+
+## Contact
+
+- [Contact](https://zeke.sikelianos.com/contact): Social links and email.
