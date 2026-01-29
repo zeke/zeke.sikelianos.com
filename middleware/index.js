@@ -1,6 +1,8 @@
 module.exports = function (app) {
   app.use(require('./load-pages'))
   app.use(require('./rss'))
+  app.use(require('./sitemap'))
+  app.use(require('./robots'))
   app.use(require('./inspect'))
   app.use(require('./render-page'))
   app.use(require('./styles'))

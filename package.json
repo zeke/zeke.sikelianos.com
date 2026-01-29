@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "NODE_ENV=development nodemon server.js",
     "build": "script/build",
-    "lint": "standard --fix"
+    "lint": "standard --fix",
+    "test": "script/test"
   },
   "author": "zeke",
   "license": "MIT",
