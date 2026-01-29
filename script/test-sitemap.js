@@ -10,9 +10,11 @@ const distDir = path.join(__dirname, '../dist')
 async function main () {
   const sitemapPath = path.join(distDir, 'sitemap.xml')
   const robotsPath = path.join(distDir, 'robots.txt')
+  const llmsPath = path.join(distDir, 'llms.txt')
 
   assert.ok(fs.existsSync(sitemapPath), 'sitemap.xml exists in dist')
   assert.ok(fs.existsSync(robotsPath), 'robots.txt exists in dist')
+  assert.ok(fs.existsSync(llmsPath), 'llms.txt exists in dist')
 
   const sitemapBody = fs.readFileSync(sitemapPath, 'utf8')
   assert.ok(sitemapBody.startsWith('<?xml'), 'sitemap xml declaration')
@@ -34,6 +36,11 @@ async function main () {
 
   const robotsBody = fs.readFileSync(robotsPath, 'utf8')
   assert.ok(robotsBody.includes(`Sitemap: ${SITE_URL}/sitemap.xml`), 'robots sitemap reference')
+
+  const llmsBody = fs.readFileSync(llmsPath, 'utf8')
+  const llmsLines = llmsBody.split(/\r?\n/)
+  assert.ok(llmsLines[0].startsWith('# '), 'llms.txt has an H1 title')
+  assert.ok(llmsBody.includes('\n> '), 'llms.txt has a summary blockquote')
 }
 
 function extractTags (xml, tagName) {
