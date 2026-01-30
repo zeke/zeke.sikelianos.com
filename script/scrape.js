@@ -20,7 +20,8 @@ async function main () {
       `${host}/sitemap.xml`,
       `${host}/robots.txt`,
       `${host}/llms.txt`,
-      `${host}/llms-full.txt`
+      `${host}/llms-full.txt`,
+      `${host}/.well-known/security.txt`
     ])
 
   const finalDirectory = path.join(__dirname, '../dist')
