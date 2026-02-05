@@ -10,6 +10,21 @@ export default {
     // migration.
     const addNoIndexHeader = url.hostname.endsWith('.workers.dev')
 
+    // If we serve `/foo` as `/foo/index.html` without redirecting, relative asset
+    // URLs in the HTML resolve against `/foo` (a "file" URL), not `/foo/` (a
+    // directory URL). That breaks assets like `outpainter.mp4`.
+    const accept = request.headers.get('accept') || ''
+    const looksLikeNavigation = request.method === 'GET' && accept.includes('text/html')
+    if (looksLikeNavigation && url.pathname !== '/' && !url.pathname.endsWith('/')) {
+      const lastSegment = url.pathname.split('/').pop() || ''
+      const isFileLike = lastSegment.includes('.')
+      if (!isFileLike) {
+        const redirectUrl = new URL(request.url)
+        redirectUrl.pathname += '/'
+        return withHeaders(Response.redirect(redirectUrl.toString(), 301), addNoIndexHeader)
+      }
+    }
+
     // First try exact asset match
     let response = await env.ASSETS.fetch(request)
     if (response.status !== 404) return withHeaders(response, addNoIndexHeader)
@@ -25,7 +40,6 @@ export default {
     }
 
     // If this looks like a browser navigation, serve our custom 404 page.
-    const accept = request.headers.get('accept') || ''
     if (accept.includes('text/html')) {
       const notFoundUrl = new URL(request.url)
       notFoundUrl.pathname = '/404/index.html'
