@@ -46,9 +46,21 @@ export default {
 }
 
 function withHeaders (response, addNoIndexHeader) {
-  if (!addNoIndexHeader) return response
   const headers = new Headers(response.headers)
-  headers.set('X-Robots-Tag', 'noindex, nofollow')
+  let changed = false
+
+  if (addNoIndexHeader) {
+    headers.set('X-Robots-Tag', 'noindex, nofollow')
+    changed = true
+  }
+
+  const contentType = headers.get('content-type')
+  if (contentType && /^text\/html\b/i.test(contentType) && !/charset=/i.test(contentType)) {
+    headers.set('content-type', `${contentType}; charset=utf-8`)
+    changed = true
+  }
+
+  if (!changed) return response
   return new Response(response.body, {
     status: response.status,
     statusText: response.statusText,
