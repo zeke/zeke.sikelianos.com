@@ -3,20 +3,25 @@ name: Deploy
 on:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   build-and-deploy:
     name: Build and deploy
     runs-on: ubuntu-latest
-    container: 'node:22-alpine'
     steps:
-    - uses: actions/checkout@v2
-    - run: npm ci
-    - run: npm run build
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2.5.0
-      env:
-        PERSONAL_TOKEN: ${{ secrets.ZEKE_PAT_WITH_REPO_SCOPE_FOR_DEPLOYMENT }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./dist
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build
+
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: deploy
