@@ -2,5 +2,4 @@
 
 node script/scrape.js
 
-cp CNAME dist/
 cp llms.txt dist/

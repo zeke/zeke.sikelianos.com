@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "NODE_ENV=development nodemon server.js",
     "build": "script/build",
+    "deploy": "wrangler deploy",
+    "deploy:dry": "wrangler deploy --dry-run",
     "lint": "standard --fix",
     "test": "script/test"
   },
@@ -28,7 +30,8 @@
     "rimraf": "^3.0.0",
     "standard": "^14.3.1",
     "walk-sync": "^2.0.2",
-    "website-scraper": "^4.2.0"
+    "website-scraper": "^4.2.0",
+    "wrangler": "^4.62.0"
   },
   "standard": {
     "ignore": [
