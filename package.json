@@ -22,7 +22,8 @@
     "get-image-colors": "^2.0.0",
     "html-frontmatter": "^1.6.1",
     "lodash": "^4.17.15",
-    "stylus": "^0.64.0"
+    "stylus": "^0.64.0",
+    "web-bot-auth": "^0.1.2"
   },
   "devDependencies": {
     "nodemon": "^1.19.4",
