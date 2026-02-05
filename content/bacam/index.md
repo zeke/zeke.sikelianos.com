@@ -13,9 +13,9 @@ BACAM was built to enable the cultural sector, funding community, policymakers a
 general public to easily see who is making art, who is engaging with it, where is it happening, and
 how is it being funded.
 
-{% for photo in page.data.flickr_photos %}
+{% for photo in page.data.photos %}
   <figure>
-    <a href="{{photo.url}}" title={{photo.title}}>
+    <a href="{{ photo.sizes.original.source | default: photo.url }}" title={{photo.title}}>
       <img src="{{photo.sizes.large.source}}" alt="{{photo.title}}" />
     </a>
     <figcaption>{{photo.title}}</figcaption>

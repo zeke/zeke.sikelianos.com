@@ -13,6 +13,7 @@ This repo builds a static personal site from local content and deploys it to Clo
 ## Site Structure
 
 - Pages live in `content/` as `index.md` / `index.html` (plus per-page assets like images and JS).
+- Some project pages include photo galleries backed by `content/<page>/photos.json` with image files stored in `content/<page>/photos/`.
 - Page rendering is handled by an Express dev server (`server.js`) using middleware in `middleware/` and page model/rendering in `lib/`.
 - JSON-backed collections live in `data/` (currently `data/posts.json`, `data/talks.json`; `data/redirects.json` exists but is not wired up in app code).
 - Client-side scripts live in `scripts/` (served statically in dev and included in the scraped build).

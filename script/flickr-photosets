@@ -1,8 +1,0 @@
-#!/bin/sh
-
-flickr-photoset-info 72157665728777671 > beaver-brook/flickr_photos.json
-flickr-photoset-info 72157610714160553 > portfolio/flickr_photos.json
-flickr-photoset-info 72157624807279024 > corn-bed/flickr_photos.json
-flickr-photoset-info 72157664310930821 > bacam/flickr_photos.json
-flickr-photoset-info 72157628405098765 > wordnik/flickr_photos.json
-flickr-photoset-info 72157627365540737 > melitsa/flickr_photos.json

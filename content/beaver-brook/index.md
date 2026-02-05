@@ -10,9 +10,9 @@ kind: project
 
 Beaver Brook is an architectural design and building school in the woods of upstate New York. I was a student in its inaugural year. Our ten-person group built a sauna.
 
-{% for photo in page.data.flickr_photos %}
+{% for photo in page.data.photos %}
   <figure>
-    <a href="{{photo.url}}" title={{photo.title}}>
+    <a href="{{ photo.sizes.original.source | default: photo.url }}" title={{photo.title}}>
       <img src="{{photo.sizes.large.source}}" alt="{{photo.title}}" />
     </a>
     <figcaption>{{photo.title}}</figcaption>
