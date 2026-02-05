@@ -21,9 +21,56 @@ jobs:
       - run: npm run build
 
       - name: Deploy
+        id: deploy
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           # Wrangler must be >=3.91.0 to read wrangler.jsonc/wrangler.jsonc.
           wranglerVersion: "4.62.0"
           command: deploy
+
+      - name: Smoke test
+        env:
+          DEPLOY_URL: ${{ steps.deploy.outputs.deployment-url }}
+        run: |
+          set -euo pipefail
+
+          base="${DEPLOY_URL:-https://website.ziki.workers.dev}"
+          echo "Smoke testing ${base}"
+
+          fetch_headers() {
+            local url="$1"
+            local attempt
+            for attempt in 1 2 3 4 5 6 7 8 9 10; do
+              if headers=$(curl -fsS -o /dev/null -D - "$url"); then
+                printf "%s" "$headers"
+                return 0
+              fi
+              echo "retry ${attempt}/10: ${url}"
+              sleep 2
+            done
+            echo "failed: ${url}"
+            return 1
+          }
+
+          shopt -s nocasematch
+
+          root_headers=$(fetch_headers "${base}/")
+          if [[ "${base}" == *".workers.dev" ]]; then
+            [[ "$root_headers" == *"x-robots-tag: noindex, nofollow"* ]]
+          fi
+          [[ "$root_headers" == *"content-type: text/html"* ]]
+
+          paths=(
+            "/"
+            "/cv"
+            "/index.css"
+            "/sitemap.xml"
+            "/robots.txt"
+            "/llms.txt"
+            "/.well-known/security.txt"
+          )
+
+          for path in "${paths[@]}"; do
+            fetch_headers "${base}${path}" > /dev/null
+          done
