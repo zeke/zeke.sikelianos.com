@@ -24,4 +24,6 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          # Wrangler must be >=3.91.0 to read wrangler.jsonc/wrangler.jsonc.
+          wranglerVersion: "4.62.0"
           command: deploy
