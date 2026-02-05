@@ -586,6 +586,7 @@ footer {
   display: block;
   text-align: center;
   line-height: 2;
+  padding: 0 20px;
 }
 .site-nav a {
   display: inline-block;
@@ -602,11 +603,19 @@ footer {
   content: " / ";
   text-align: center;
   display: inline-block;
-  width: 50px;
+  margin: 0 18px;
   opacity: 0.3;
 }
 .site-nav a:last-child:after {
   display: none;
+}
+@media screen and (max-width: 480px) {
+  .site-nav {
+    padding: 0 14px;
+  }
+  .site-nav a:after {
+    margin: 0 12px;
+  }
 }
 fieldset {
   border: none;

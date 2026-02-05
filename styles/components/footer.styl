@@ -12,6 +12,7 @@ footer
   display block
   text-align center
   line-height 2
+  padding 0 20px
 
   a
     display inline-block
@@ -26,7 +27,13 @@ footer
       content " / "
       text-align center
       display inline-block
-      width 50px
+      margin 0 18px
       opacity 0.3
     &:last-child:after
       display none
+
+  @media screen and (max-width mobile-width)
+    padding 0 14px
+    a
+      &:after
+        margin 0 12px
