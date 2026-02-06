@@ -1,12 +1,5 @@
 /* global Headers, Request, Response */
 
-import {
-  HTTP_MESSAGE_SIGNATURES_DIRECTORY,
-  MediaType,
-  directoryResponseHeaders
-} from 'web-bot-auth'
-import { Ed25519Signer } from 'web-bot-auth/crypto'
-
 export default {
   async fetch (request, env) {
     const url = new URL(request.url)
@@ -16,12 +9,6 @@ export default {
     // from getting indexed (or outranking the canonical domain) during the
     // migration.
     const addNoIndexHeader = url.hostname.endsWith('.workers.dev')
-
-    // Serve the Web Bot Auth JWKS directory
-    // https://developers.cloudflare.com/bots/reference/bot-verification/web-bot-auth/
-    if (url.pathname === HTTP_MESSAGE_SIGNATURES_DIRECTORY) {
-      return handleJwksDirectory(request, env)
-    }
 
     // If we serve `/foo` as `/foo/index.html` without redirecting, relative asset
     // URLs in the HTML resolve against `/foo` (a "file" URL), not `/foo/` (a
@@ -92,58 +79,5 @@ function withHeaders (response, addNoIndexHeader) {
     status: response.status,
     statusText: response.statusText,
     headers
-  })
-}
-
-/**
- * Handle requests to /.well-known/http-message-signatures-directory
- * Returns a signed JWKS directory for Web Bot Auth verification
- */
-async function handleJwksDirectory (request, env) {
-  // Get the signing key from environment
-  const jwk = JSON.parse(env.WEB_BOT_AUTH_KEY)
-
-  // Build the JWKS directory
-  const directory = {
-    keys: [{
-      kty: jwk.kty,
-      crv: jwk.crv,
-      x: jwk.x
-    }]
-  }
-
-  // Create the signer
-  const signer = await Ed25519Signer.fromJWK(jwk)
-
-  // directoryResponseHeaders requires a ResponseRequestPair
-  // We build a minimal response object and pair it with the original request
-  const responseBody = JSON.stringify(directory)
-  const responseLike = {
-    status: 200,
-    headers: {
-      'Content-Type': MediaType.HTTP_MESSAGE_SIGNATURES_DIRECTORY
-    }
-  }
-  const requestLike = {
-    method: request.method,
-    url: request.url,
-    headers: request.headers
-  }
-
-  // Sign the response with the directory-specific headers
-  const now = new Date()
-  const expires = new Date(now.getTime() + 300000) // 5 minutes
-  const signedHeaders = await directoryResponseHeaders(
-    { response: responseLike, request: requestLike },
-    [signer],
-    { created: now, expires }
-  )
-
-  return new Response(responseBody, {
-    headers: {
-      ...signedHeaders,
-      'Content-Type': MediaType.HTTP_MESSAGE_SIGNATURES_DIRECTORY,
-      'Cache-Control': 'max-age=86400'
-    }
   })
 }
