@@ -4,7 +4,7 @@ description: ...and ten things I don't.
 publish_date: 2026-02-11
 -->
 
-<video class="breakout" controls poster="/ten-things-i-love-about-replicate/thumbnail.jpg" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); margin-bottom: 3rem;">
+<video controls poster="/ten-things-i-love-about-replicate/thumbnail.jpg">
   <source src="https://assets.zeke.sikelianos.com/ten-things-i-love-about-replicate/ten-things-i-love-about-replicate.mp4" type="video/mp4">
 </video>
 
@@ -129,6 +129,8 @@ The fix is [Code Mode](https://replicate.com/docs/reference/mcp#code-mode). Inst
 
 ---
 
-All of these things I don't love are solvable problems, and I'm confident we'll solve them now that we're part of Cloudflare.
+## I'm hopeful for the future
+
+None of these gripes are fundamental. They're papercuts. Cold boots are an infrastructure problem. Expiring files are a policy choice. Redundant APIs are tech debt. Context bloat is already getting fixed. Every one of these is solvable, and now that we're part of Cloudflare we have the people and the infrastructure to actually solve them. That's what makes this moment exciting: Replicate's core design is sound, the model ecosystem is thriving, and the rough edges are all things we can smooth out.
 
 🖤 🤝 🧡

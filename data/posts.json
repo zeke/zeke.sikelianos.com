@@ -1,5 +1,11 @@
 [
   {
+    "title": "Ten things I love about Replicate (and ten things I don't)",
+    "href": "/ten-things-i-love-about-replicate",
+    "publish_date": "2026-02-11",
+    "description": "An honest look at what makes Replicate great and what needs work, now that we're joining Cloudflare."
+  },
+  {
     "title": "Building on Cloudflare with OpenCode",
     "href": "/build-on-cloudflare-with-opencode",
     "publish_date": "2026-01-26",

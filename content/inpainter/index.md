@@ -5,7 +5,7 @@ publish_date: 2022-08-30
 kind: project
 -->
 
-<video autoplay muted loop playsinline style="margin-bottom: 3rem;">
+<video autoplay muted loop playsinline>
   <source src="/inpainter/inpainter.mp4" type="video/mp4">
 </video>
 

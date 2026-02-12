@@ -41,14 +41,24 @@ a.org-avatar
     width 100%
 
 // Break out of the text column to be wider, while staying centered.
-// Use as a class on any direct child of .page__content.
-.page__content > .breakout
+// Applied automatically to <video> and <iframe> elements, or manually via .breakout class.
+.page__content > .breakout,
+.page__content > video,
+.page__content > iframe
   max-width 1000px
   width calc(100vw - 40px)
   @media screen and (min-width: 768px)
     width calc(100vw - 80px)
   @media screen and (min-width: 1200px)
     width calc(100vw - 120px)
+
+// Videos and iframes in page content get a polished look by default
+.page__content > video,
+.page__content > iframe
+  display block
+  border-radius 8px
+  box-shadow 0 2px 12px rgba(0,0,0,0.1)
+  margin-bottom 3rem
 
 // Add consistent horizontal padding for all screen sizes
 .page__content

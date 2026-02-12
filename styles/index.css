@@ -694,19 +694,32 @@ a.org-avatar {
 a.org-avatar img {
   width: 100%;
 }
-.page__content > .breakout {
+.page__content > .breakout,
+.page__content > video,
+.page__content > iframe {
   max-width: 1000px;
   width: calc(100vw - 40px);
 }
 @media screen and (min-width: 768px) {
-  .page__content > .breakout {
+  .page__content > .breakout,
+  .page__content > video,
+  .page__content > iframe {
     width: calc(100vw - 80px);
   }
 }
 @media screen and (min-width: 1200px) {
-  .page__content > .breakout {
+  .page__content > .breakout,
+  .page__content > video,
+  .page__content > iframe {
     width: calc(100vw - 120px);
   }
+}
+.page__content > video,
+.page__content > iframe {
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  margin-bottom: 3rem;
 }
 .page__content {
   padding-left: 20px;

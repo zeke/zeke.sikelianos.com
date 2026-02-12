@@ -11,13 +11,13 @@ It's a story about how the legendary AI researcher Andrej Karpathy built an app 
 
 ## The official talk
 
-<iframe width="100%" height="600" src="https://www.youtube.com/embed/huQPkrwVWwc?si=CclghxDnVeXm7F74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe height="600" src="https://www.youtube.com/embed/huQPkrwVWwc?si=CclghxDnVeXm7F74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## The rough-cut talk
 
 I didn't want to wait for the official talk to be published, so I recorded a rough-cut version of the talk. It's a bit more raw, but maybe also worth publishing...
 
-<iframe width="100%" height="600" src="https://www.youtube.com/embed/gcWGVmL2j6E?si=mfK0vjLzFusVsrgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe height="600" src="https://www.youtube.com/embed/gcWGVmL2j6E?si=mfK0vjLzFusVsrgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## The transcript
 

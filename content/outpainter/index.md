@@ -5,7 +5,7 @@ kind: project
 publish_date: 2023-06-23
 -->
 
-<video autoplay muted loop playsinline style="margin-bottom: 3rem;">
+<video autoplay muted loop playsinline>
   <source src="/outpainter/outpainter.mp4" type="video/mp4">
 </video>
 
