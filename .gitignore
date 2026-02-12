@@ -1,3 +1,5 @@
 .env
+.opencode
+.wrangler
 node_modules
 dist
