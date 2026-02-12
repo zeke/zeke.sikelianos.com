@@ -36,6 +36,25 @@ Always edit Stylus source files (`.styl`) instead of generated CSS.
 - Do not edit: `styles/index.css` (generated; will be overwritten)
 - Entry point: `styles/index.styl` (imports base + components)
 
+## Thumbnails
+
+Every content page should have a `thumbnail.jpg` or `thumbnail.png` in its directory. Thumbnails are used for OpenGraph/Twitter meta tags and the homepage gallery.
+
+- Aspect ratio: 4:3
+- Preferred size: 640x480 (or 320x240 for older pages)
+- Use ImageMagick to resize/crop: `magick input.jpg -resize 640x480^ -gravity center -extent 640x480 thumbnail.jpg`
+
+## Large Assets (R2)
+
+Files too large for git (videos, large images, etc.) are hosted on a public R2 bucket with a custom domain.
+
+- Bucket: `zeke-assets`
+- Public URL: https://assets.zeke.sikelianos.com
+- Upload script: `script/upload-asset <local-file> <destination-path>`
+- Example: `script/upload-asset ~/Desktop/video.mp4 my-page/video.mp4`
+- Convention: R2 paths mirror the content directory structure (`<page-slug>/<filename>`)
+- Reference the public URL directly in markdown `<video>` or `<img>` tags
+
 ## Maintenance Rule
 
 Always update `AGENTS.md` when important structure, build, or deployment details change.

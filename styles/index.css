@@ -694,6 +694,20 @@ a.org-avatar {
 a.org-avatar img {
   width: 100%;
 }
+.page__content > .breakout {
+  max-width: 1000px;
+  width: calc(100vw - 40px);
+}
+@media screen and (min-width: 768px) {
+  .page__content > .breakout {
+    width: calc(100vw - 80px);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page__content > .breakout {
+    width: calc(100vw - 120px);
+  }
+}
 .page__content {
   padding-left: 20px;
   padding-right: 20px;

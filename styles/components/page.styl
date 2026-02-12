@@ -40,6 +40,16 @@ a.org-avatar
   img
     width 100%
 
+// Break out of the text column to be wider, while staying centered.
+// Use as a class on any direct child of .page__content.
+.page__content > .breakout
+  max-width 1000px
+  width calc(100vw - 40px)
+  @media screen and (min-width: 768px)
+    width calc(100vw - 80px)
+  @media screen and (min-width: 1200px)
+    width calc(100vw - 120px)
+
 // Add consistent horizontal padding for all screen sizes
 .page__content
   padding-left 20px

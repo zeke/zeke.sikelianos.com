@@ -1,0 +1,55 @@
+#!/bin/sh
+
+# Upload a file to the zeke-assets R2 bucket.
+#
+# Usage:
+#   script/upload-asset <local-file> <destination-path>
+#
+# Example:
+#   script/upload-asset ~/Desktop/video.mp4 ten-things-i-love-about-replicate/video.mp4
+#   => https://assets.zeke.sikelianos.com/ten-things-i-love-about-replicate/video.mp4
+
+BUCKET="zeke-assets"
+BASE_URL="https://assets.zeke.sikelianos.com"
+
+if [ $# -ne 2 ]; then
+  echo "Usage: script/upload-asset <local-file> <destination-path>"
+  echo "Example: script/upload-asset ~/Desktop/video.mp4 my-page/video.mp4"
+  exit 1
+fi
+
+LOCAL_FILE="$1"
+DEST_KEY="$2"
+
+if [ ! -f "$LOCAL_FILE" ]; then
+  echo "Error: file not found: $LOCAL_FILE"
+  exit 1
+fi
+
+# Infer content-type from file extension
+case "$LOCAL_FILE" in
+  *.mp4)  CONTENT_TYPE="video/mp4" ;;
+  *.webm) CONTENT_TYPE="video/webm" ;;
+  *.mov)  CONTENT_TYPE="video/quicktime" ;;
+  *.jpg|*.jpeg) CONTENT_TYPE="image/jpeg" ;;
+  *.png)  CONTENT_TYPE="image/png" ;;
+  *.gif)  CONTENT_TYPE="image/gif" ;;
+  *.webp) CONTENT_TYPE="image/webp" ;;
+  *.svg)  CONTENT_TYPE="image/svg+xml" ;;
+  *.pdf)  CONTENT_TYPE="application/pdf" ;;
+  *.json) CONTENT_TYPE="application/json" ;;
+  *.zip)  CONTENT_TYPE="application/zip" ;;
+  *)      CONTENT_TYPE="application/octet-stream" ;;
+esac
+
+echo "Uploading $(basename "$LOCAL_FILE") to $BUCKET/$DEST_KEY ($CONTENT_TYPE)..."
+
+npx wrangler r2 object put "$BUCKET/$DEST_KEY" --file="$LOCAL_FILE" --content-type="$CONTENT_TYPE" --remote
+
+if [ $? -eq 0 ]; then
+  echo ""
+  echo "$BASE_URL/$DEST_KEY"
+else
+  echo "Upload failed."
+  exit 1
+fi
