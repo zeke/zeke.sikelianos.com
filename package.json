@@ -22,6 +22,7 @@
     "get-image-colors": "^2.0.0",
     "hono": "^4.9.0",
     "html-frontmatter": "^1.6.1",
+    "image-size": "^2.0.2",
     "lodash": "^4.17.15",
     "stylus": "^0.64.0"
   },
