@@ -134,3 +134,5 @@ The fix is [Code Mode](https://replicate.com/docs/reference/mcp#code-mode). Inst
 None of these gripes are fundamental. They're papercuts. Cold boots are an infrastructure problem. Expiring files are a policy choice. Redundant APIs are tech debt. Context bloat is already getting fixed. Every one of these is solvable, and now that we're part of Cloudflare we have the people and the infrastructure to actually solve them. That's what makes this moment exciting: Replicate's core design is sound, the model ecosystem is thriving, and the rough edges are all things we can smooth out.
 
 🖤 🤝 🧡
+
+<p style="text-align: center; font-size: 0.85em; opacity: 0.5;">Check out the <a href="https://www.youtube.com/watch?v=480VSP3XDCY">video on YouTube</a> and the <a href="https://x.com/zeke/status/2021999322855092355">thread on X</a>.</p>
