@@ -12,12 +12,12 @@ app.all('*', async (c) => {
 
   // Cloudflare's assets binding applies `html_handling` + `not_found_handling`.
   const response = await c.env.ASSETS.fetch(c.req.raw)
-  return withHeaders(response, addNoIndexHeader)
+  return withHeaders(response, addNoIndexHeader, url.origin)
 })
 
 export default app
 
-function withHeaders (response, addNoIndexHeader) {
+function withHeaders (response, addNoIndexHeader, origin) {
   const headers = new Headers(response.headers)
   let changed = false
 
@@ -27,8 +27,14 @@ function withHeaders (response, addNoIndexHeader) {
   }
 
   const contentType = headers.get('content-type')
-  if (contentType && /^text\/html\b/i.test(contentType) && !/charset=/i.test(contentType)) {
-    headers.set('content-type', `${contentType}; charset=utf-8`)
+  if (contentType && /^text\/html\b/i.test(contentType)) {
+    if (!/charset=/i.test(contentType)) {
+      headers.set('content-type', `${contentType}; charset=utf-8`)
+      changed = true
+    }
+
+    // Link response headers for agent discovery (RFC 8288)
+    headers.append('Link', `<${origin}/feed.xml>; rel="alternate"; type="application/rss+xml"; title="RSS Feed"`)
     changed = true
   }
 
