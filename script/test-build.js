@@ -40,6 +40,7 @@ async function main () {
 
   const robotsBody = fs.readFileSync(robotsPath, 'utf8')
   assert.ok(robotsBody.includes(`Sitemap: ${SITE_URL}/sitemap.xml`), 'robots sitemap reference')
+  assert.ok(robotsBody.includes('Content-Signal:'), 'robots.txt has Content-Signal directive')
 
   const llmsBody = fs.readFileSync(llmsPath, 'utf8')
   const llmsLines = llmsBody.split(/\r?\n/)
