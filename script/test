@@ -1,6 +1,3 @@
 #!/bin/sh
 
-SITE_URL=${SITE_URL:-https://zeke.sikelianos.com}
-
-SITE_URL="$SITE_URL" script/build
-SITE_URL="$SITE_URL" node script/test-build.js
+exec npx vitest run

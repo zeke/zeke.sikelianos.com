@@ -27,7 +27,7 @@ async function main () {
   const locs = extractTags(sitemapBody, 'loc')
   assert.ok(locs.length > 0, 'sitemap has urls')
   const uniqueLocs = new Set(locs)
-  assert.equal(uniqueLocs.size, locs.length, 'sitemap has unique urls')
+  assert.strictEqual(uniqueLocs.size, locs.length, 'sitemap has unique urls')
   for (const loc of locs) {
     assert.ok(loc.startsWith(SITE_URL), `canonical url: ${loc}`)
   }
