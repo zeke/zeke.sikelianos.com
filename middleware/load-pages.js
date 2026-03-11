@@ -7,7 +7,7 @@ module.exports = async function loadPages (req, res, next) {
   if (!pages) pages = await require('../lib/pages')()
 
   set(req, 'context.pages', pages)
-  set(req, 'context.projectPages', pages.filter(page => page.kind == 'project'))
+  set(req, 'context.projectPages', pages.filter(page => page.kind === 'project'))
   set(req, 'context.page', pages[req.path])
   set(req, 'context.siteUrl', process.env.SITE_URL || 'https://zeke.sikelianos.com')
 
