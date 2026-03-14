@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Lint all JavaScript files using StandardJS
+exec npx standard --fix
