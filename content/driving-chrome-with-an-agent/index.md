@@ -7,7 +7,7 @@ kind: project
 
 Chrome just became a lot more useful for automation. As of Chrome 144, coding agents like [OpenCode](https://opencode.ai) or Claude Code can now natively drive your real browser — the one you use every day, with all your tabs open and all your accounts logged in. No extensions. No headless browser. No separate logins.
 
-<small class="muted">Copy this and paste it into your agent:</small>
+<p style="margin-bottom: 0.25rem; opacity: 0.75; font-size: 0.9rem">Copy this and paste it into your agent:</p>
 
 ```plaintext
 Set up Chrome DevTools MCP for me:
@@ -17,15 +17,15 @@ https://zeke.sikelianos.com/driving-chrome-with-an-agent
 
 ## How it works
 
-Google Chrome has long had a remote debugging protocol used by DevTools itself. What's new is that you can now grant an agent access to that protocol with a single permission dialog. When the Chrome DevTools MCP server is configured with `--autoConnect`, it requests a debugging session from your running Chrome instance. Chrome pops up a dialog asking if you want to allow it. You click Allow, and your agent is in.
-
-While a session is active, Chrome shows a "Chrome is being controlled by automated test software" banner so you always know what's happening. The permission prompt appears every time — there's no way to silently hijack your browser.
+Google Chrome has long had a remote debugging protocol used by DevTools itself. With `--autoConnect`, the Chrome DevTools MCP server can request access to that session — Chrome shows a permission dialog every time, and displays a "Chrome is being controlled" banner while active. There's no way for an agent to silently connect.
 
 ## Step 1: Enable remote debugging in Chrome
 
-Navigate to this URL in Chrome and enable remote debugging. This is a one-time setup — you only need to do it once.
+Navigate to this URL in Chrome and enable remote debugging:
 
-<input type="text" readonly value="chrome://inspect/#remote-debugging" onclick="this.select()">
+```plaintext
+chrome://inspect/#remote-debugging
+```
 
 ## Step 2: Configure the MCP server
 
@@ -98,6 +98,6 @@ The common thread: these are all authenticated, proprietary UIs that were never 
 
 ## A word of caution
 
-Your agent can do a lot once it has access to your browser — including clicking, filling forms, and navigating on your behalf. Before letting it loose, consider starting in Plan Mode. Most agents support a mode where they'll describe what they intend to do before actually doing it. That gives you a chance to review and approve the plan before anything happens in your browser.
+Your agent can do a lot once it has access to your browser — including clicking, filling forms, and navigating on your behalf. Before letting it loose, consider starting in [Plan Mode](https://opencode.ai/docs/modes/). Most agents support a mode where they'll describe what they intend to do before actually doing it. That gives you a chance to review and approve the plan before anything happens in your browser.
 
 Hat tip to [Addy Osmani](https://x.com/addyosmani/status/2032875051830358197) for the hot tip. 🙏
