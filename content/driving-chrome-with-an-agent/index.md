@@ -1,17 +1,15 @@
 <!--
 title: Driving Chrome with an Agent
-description: Your real, logged-in browser can now be natively driven by coding agents like OpenCode.
+description: Coding agents like OpenCode can now drive your real, logged-in Chrome browser.
 publish_date: 2026-03-24
 kind: project
 -->
 
-Chrome just became a lot more useful for automation. As of Chrome 144, your real browser — the one you use every day, with all your tabs open and all your accounts logged in — can be natively driven by coding agents like [OpenCode](https://opencode.ai) or Claude Code. No extensions. No headless browser. No screenshots. No separate logins.
+Chrome just became a lot more useful for automation. As of Chrome 144, coding agents like [OpenCode](https://opencode.ai) or Claude Code can now natively drive your real browser — the one you use every day, with all your tabs open and all your accounts logged in. No extensions. No headless browser. No separate logins.
 
-[Addy Osmani put it well](https://x.com/addyosmani/status/2032875051830358197): "Your real, signed-in browser can now be natively accessible to any coding agent. Just one toggle to enable it."
+<p style="margin-bottom: 0.25rem; opacity: 0.75; font-size: 0.9rem">Copy this and paste it into your agent:</p>
 
-Copy this and paste it into your agent:
-
-```
+```plaintext
 Set up Chrome DevTools MCP for me:
 
 https://zeke.sikelianos.com/driving-chrome-with-an-agent
@@ -19,17 +17,19 @@ https://zeke.sikelianos.com/driving-chrome-with-an-agent
 
 ## How it works
 
-Chrome has long had a remote debugging protocol used by DevTools itself. What's new is that you can now grant an agent access to that protocol with a single permission dialog. When the Chrome DevTools MCP server is configured with `--autoConnect`, it requests a debugging session from your running Chrome instance. Chrome pops up a dialog asking if you want to allow it. You click Allow, and your agent is in.
-
-While a session is active, Chrome shows a "Chrome is being controlled by automated test software" banner so you always know what's happening. The permission prompt appears every time — there's no way to silently hijack your browser.
+Google Chrome has long had a remote debugging protocol used by DevTools itself. With `--autoConnect`, the Chrome DevTools MCP server can request access to that session — Chrome shows a permission dialog every time, and displays a "Chrome is being controlled" banner while active. There's no way for an agent to silently connect.
 
 ## Step 1: Enable remote debugging in Chrome
 
-Navigate to <a href="chrome://inspect/#remote-debugging">chrome://inspect/#remote-debugging</a> in Chrome and enable remote debugging. This is a one-time setup — you only need to do it once.
+Navigate to this URL in Chrome and enable remote debugging:
 
-## Step 2: Configure OpenCode
+```plaintext
+chrome://inspect/#remote-debugging
+```
 
-Edit your OpenCode config at `~/.config/opencode/opencode.json` and add the `chrome-devtools` MCP server with the `--autoConnect` flag:
+## Step 2: Configure the MCP server
+
+For OpenCode, edit `~/.config/opencode/opencode.json`:
 
 ```json
 {
@@ -47,7 +47,7 @@ Edit your OpenCode config at `~/.config/opencode/opencode.json` and add the `chr
 }
 ```
 
-If you're using Claude Code instead, the equivalent config in `~/.claude.json` looks like this:
+For Claude Code, edit `~/.claude.json`:
 
 ```json
 {
@@ -96,7 +96,8 @@ With `--autoConnect`, your agent inherits your existing Chrome session. You're a
 
 The common thread: these are all authenticated, proprietary UIs that were never meant to be automated. Your agent doesn't need an API key — it just needs you to already be logged in.
 
-## Further reading
+## A word of caution
 
-- [Chrome DevTools MCP server on GitHub](https://github.com/chrome-devtools/devtools-mcp)
-- [Chrome blog post: Let your Coding Agent debug your browser session](https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session)
+Your agent can do a lot once it has access to your browser — including clicking, filling forms, and navigating on your behalf. Before letting it loose, consider starting in [Plan Mode](https://opencode.ai/docs/modes/). Most agents support a mode where they'll describe what they intend to do before actually doing it. That gives you a chance to review and approve the plan before anything happens in your browser.
+
+Hat tip to [Addy Osmani](https://x.com/addyosmani/status/2032875051830358197) for the hot tip. 🙏
