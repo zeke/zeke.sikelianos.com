@@ -11,7 +11,7 @@ Chrome just became a lot more useful for automation. As of Chrome 144, your real
 
 Copy this and paste it into your agent:
 
-```
+```plaintext
 Set up Chrome DevTools MCP for me:
 
 https://zeke.sikelianos.com/driving-chrome-with-an-agent
