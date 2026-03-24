@@ -1,5 +1,11 @@
 [
   {
+    "title": "Driving Chrome with an Agent",
+    "href": "/driving-chrome-with-an-agent",
+    "publish_date": "2026-03-24",
+    "description": "Your real, logged-in browser can now be natively driven by coding agents like OpenCode."
+  },
+  {
     "title": "Ten things I love about Replicate (and ten things I don't)",
     "href": "/ten-things-i-love-about-replicate",
     "publish_date": "2026-02-11",
