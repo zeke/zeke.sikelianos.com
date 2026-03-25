@@ -41,8 +41,8 @@ Always edit Stylus source files (`.styl`) instead of generated CSS.
 Every content page should have a `thumbnail.jpg` or `thumbnail.png` in its directory. Thumbnails are used for OpenGraph/Twitter meta tags and the homepage gallery.
 
 - Aspect ratio: 4:3
-- Preferred size: 640x480 (or 320x240 for older pages)
-- Use ImageMagick to resize/crop: `magick input.jpg -resize 640x480^ -gravity center -extent 640x480 thumbnail.jpg`
+- Preferred size: 1200x900 (minimum for social/chat link previews — Google Chat, Slack, etc. ignore images below ~800px wide)
+- Use ImageMagick to resize/crop: `magick input.jpg -resize 1200x900^ -gravity center -extent 1200x900 thumbnail.jpg`
 
 ## Large Assets (R2)
 
