@@ -31,7 +31,10 @@ jobs:
           cache: npm
 
       - run: npm ci
-      - run: npm run build
+      - name: Build
+        run: npm run build
+        env:
+          SITE_URL: https://pr-${{ github.event.number }}-${{ env.WORKER_NAME }}.${{ env.WORKERS_DEV_SUBDOMAIN }}.workers.dev
 
       - name: Create GitHub deployment (pending)
         id: deployment
