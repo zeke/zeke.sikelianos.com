@@ -22,9 +22,9 @@
     <meta property="og:description" content="{{page.description}}" />
     <meta name="description" content="{{page.description}}" />
   {% endif %}
-  <meta property="og:url" content="https://zeke.sikelianos.com{{page.href}}" />
+  <meta property="og:url" content="{{siteUrl}}{{page.href}}" />
   {% if page.images.thumbnail %}
-    <meta property="og:image" content="https://zeke.sikelianos.com{{page.images.thumbnail.href}}" />
+    <meta property="og:image" content="{{siteUrl}}{{page.images.thumbnail.href}}" />
     <meta property="og:image:alt" content="{{page.title}}" />
     {% if page.images.thumbnail.width %}
       <meta property="og:image:width" content="{{page.images.thumbnail.width}}" />
@@ -45,7 +45,7 @@
     <meta name="twitter:description" content="{{page.description}}" />
   {% endif %}
   {% if page.images.thumbnail %}
-    <meta name="twitter:image" content="https://zeke.sikelianos.com{{page.images.thumbnail.href}}" />
+    <meta name="twitter:image" content="{{siteUrl}}{{page.images.thumbnail.href}}" />
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="Zeke Sikelianos" href="/feed.xml" />
