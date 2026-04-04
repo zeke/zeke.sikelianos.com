@@ -3,7 +3,7 @@
     "title": "The Solitaire Win Screen",
     "href": "/solitaire",
     "publish_date": "2026-04-03",
-    "description": "Recreating the classic Windows Solitaire bouncing card animation from cards.dll"
+    "description": "Recreating the classic Windows Solitaire bouncing card animation with OpenCode and Claude"
   },
   {
     "title": "Driving Chrome with an Agent",

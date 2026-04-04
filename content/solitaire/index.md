@@ -1,6 +1,6 @@
 <!--
 title: The Solitaire Win Screen
-description: Recreating the classic Windows Solitaire bouncing card animation from cards.dll
+description: Recreating the classic Windows Solitaire bouncing card animation with OpenCode and Claude
 publish_date: 2026-04-03
 tags: nostalgia, windows, animation
 -->
