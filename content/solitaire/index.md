@@ -5,7 +5,7 @@ publish_date: 2026-04-03
 tags: nostalgia, windows, animation
 -->
 
-*Confession: This post was written by AI*
+*Disclosure: This post was written by AI, so the words are not really mine and there may be inaccuracies and hallucinations. Please enjoy the sights but tread with caution.*
 
 I was nine years old when Microsoft shipped Solitaire with Windows 3.0 in 1990. I played it on 3.1, then 95, then 98, then XP. The game itself was fine — a decent way to kill time — but the real reward was winning. When you cleared the board, the cards came bouncing out of the four foundation piles, leaving trails across that green felt background. In an era when the internet was barely a thing and a computer's repertoire of delights was pretty limited, those bouncing cards felt like a standing ovation.
 
