@@ -1,9 +1,9 @@
 [
   {
-    "title": "The Solitaire Win Screen",
+    "title": "Winning at Solitaire",
     "href": "/solitaire",
     "publish_date": "2026-04-03",
-    "description": "Recreating the classic Windows Solitaire bouncing card animation with OpenCode and Claude"
+    "description": "Reliving moments of childhood boredom with the help of OpenCode"
   },
   {
     "title": "Driving Chrome with an Agent",
