@@ -1,5 +1,11 @@
 [
   {
+    "title": "Winning at Solitaire",
+    "href": "/solitaire",
+    "publish_date": "2026-04-03",
+    "description": "Reliving moments of childhood boredom with the help of OpenCode"
+  },
+  {
     "title": "Driving Chrome with an Agent",
     "href": "/driving-chrome-with-an-agent",
     "publish_date": "2026-03-24",
