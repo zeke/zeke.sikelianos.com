@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Recoleta';
+  src: url("/fonts/Recoleta-RegularDEMO.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 .vanilla-list,
 .ruled-list,
 .cards,
@@ -167,6 +174,7 @@ h2,
 h3,
 h4 {
   text-align: left;
+  font-family: 'Recoleta', Georgia, serif;
   font-weight: normal;
   color: #000;
   line-height: 1.2;
