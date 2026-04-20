@@ -21,6 +21,11 @@ Even as a young adult, I would relax among the kernels as little children played
 {% endfor %}
 
 <figure>
+  <img src="/corn-bed/corn-craigslist.jpg" alt="The Craigslist page" />
+  <figcaption>The Craigslist page</figcaption>
+</figure>
+
+<figure>
   <a href="https://www.youtube.com/watch?v=mmllotLUU38">
     <img src="/corn-bed/amelie-sac-de-grain.jpg" alt="Amélie's fingers in the grain" />
   </a>
