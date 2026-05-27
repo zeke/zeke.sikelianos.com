@@ -7,6 +7,10 @@ kind: project
 
 I recently wrote about [how to drive your local Chrome browser with an AI agent](/driving-chrome-with-an-agent). In this post I'll show you how to do the same thing with browsers running in the cloud.
 
+<video controls>
+  <source src="https://assets.zeke.sikelianos.com/browsers-in-the-cloud/browsers-in-the-cloud.mp4" type="video/mp4">
+</video>
+
 <p style="margin-bottom: 0.25rem; opacity: 0.75; font-size: 0.9rem">Copy this and paste it into your agent:</p>
 
 ```plaintext
