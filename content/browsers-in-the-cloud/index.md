@@ -5,7 +5,7 @@ publish_date: 2026-05-27
 kind: project
 -->
 
-I recently wrote about [how to drive your local Chrome browser with an AI agent](/driving-chrome-with-an-agent). In this post, I want to show you how to do the same thing with browsers running in the cloud, using Cloudflare's [Browser Run](https://developers.cloudflare.com/browser-run/) service.
+I recently wrote about [how to drive your local Chrome browser with an AI agent](/driving-chrome-with-an-agent). In this post I'll show you how to do the same thing with browsers running in the cloud.
 
 <p style="margin-bottom: 0.25rem; opacity: 0.75; font-size: 0.9rem">Copy this and paste it into your agent:</p>
 
@@ -39,6 +39,7 @@ This is useful when:
 - You want a reproducible browser environment.
 - You want the agent to keep working when your laptop is closed.
 - You're running an agent in CI or on a server that doesn't have Chrome at all.
+- You want to spin up a bunch of browser agents in parallel without them fighting over the same local Chrome session.
 
 You'll need two environment variables: your Cloudflare account ID and an API token with `Browser Rendering - Edit` permission.
 
@@ -137,4 +138,4 @@ Once everything is set up, try a few prompts:
 
 Browser tools expose page contents, screenshots, forms, console messages, and network data to the agent. The local browser can expose your real logged-in sessions. The cloud browser is cleaner, but still receives whatever URLs and credentials you hand it.
 
-Start in [Plan Mode](https://opencode.ai/docs/modes/) when you're doing something new, and make sure your agent instructions reflect how much autonomy you actually want it to have.
+Start in [Plan Mode](https://opencode.ai/docs/agents/#use-plan) when you're doing something new, and make sure your agent instructions reflect how much autonomy you actually want it to have.
