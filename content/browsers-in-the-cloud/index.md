@@ -134,6 +134,8 @@ Once everything is set up, try a few prompts:
 
 > I'm logged into my bank in Chrome. Use my local browser to categorize the last 30 transactions on this page.
 
+> I'm staying in Lisbon and want to find yoga classes to attend tomorrow and Monday. Please find as many local studios as you can in my area using the SERP API proxy to Google Maps. I'm staying at Rua do Poço dos Negros 92. Use the Cloudflare Chrome MCP to do searches in parallel. Most yoga studios have schedules in embedded iframes to third-party scheduling sites. Gather websites and schedules and class names and descriptions and compile them into a local website with a chronological list of all upcoming classes for the next two days.
+
 ## A word of caution
 
 Browser tools expose page contents, screenshots, forms, console messages, and network data to the agent. The local browser can expose your real logged-in sessions. The cloud browser is cleaner, but still receives whatever URLs and credentials you hand it.
