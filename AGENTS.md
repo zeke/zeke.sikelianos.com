@@ -38,11 +38,20 @@ Always edit Stylus source files (`.styl`) instead of generated CSS.
 
 ## Thumbnails
 
-Every content page should have a `thumbnail.jpg` or `thumbnail.png` in its directory. Thumbnails are used for OpenGraph/Twitter meta tags and the homepage gallery.
+Every content page should have a `thumbnail.jpg` or `thumbnail.png` in its directory. Thumbnails are used for the homepage gallery, and as the fallback OpenGraph/Twitter image when no `opengraph.{jpg,png}` exists.
 
 - Aspect ratio: 4:3
 - Preferred size: 1200x900 (minimum for social/chat link previews — Google Chat, Slack, etc. ignore images below ~800px wide)
 - Use ImageMagick to resize/crop: `magick input.jpg -resize 1200x900^ -gravity center -extent 1200x900 thumbnail.jpg`
+
+## OpenGraph images
+
+A page may also have an `opengraph.jpg` or `opengraph.png` in its directory. When present, it is used for `og:image` and `twitter:image` instead of the thumbnail. Use this when the 4:3 thumbnail crops badly at the 1.91:1 social aspect.
+
+- Aspect ratio: 1.91:1 (matches Facebook/LinkedIn/X large card previews)
+- Preferred size: 1200x630
+- Use ImageMagick to resize/crop: `magick input.jpg -resize 1200x630^ -gravity center -extent 1200x630 opengraph.jpg`
+- `script/build` copies `opengraph.{jpg,png}` files into `dist/` after scraping, since the scraper does not follow `og:image` URLs.
 
 ## Large Assets (R2)
 
