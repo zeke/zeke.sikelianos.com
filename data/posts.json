@@ -1,5 +1,11 @@
 [
   {
+    "title": "Browsers in the Cloud",
+    "href": "/browsers-in-the-cloud",
+    "publish_date": "2026-05-27",
+    "description": "Let your AI agents drive real web browsers locally and in the cloud."
+  },
+  {
     "title": "OpenCode School",
     "href": "/opencode-school",
     "publish_date": "2026-04-14",
