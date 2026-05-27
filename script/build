@@ -3,3 +3,25 @@
 node script/scrape.js
 
 cp llms.txt dist/
+
+# Copy social card images into dist. The scraper only follows links it
+# finds in the rendered HTML, and og:image / twitter:image use absolute
+# production URLs, so opengraph.{jpg,png} files are not picked up
+# automatically. Mirror them from content/ into dist/.
+node -e '
+const fs = require("fs");
+const path = require("path");
+const root = path.join(process.cwd(), "content");
+for (const dir of fs.readdirSync(root)) {
+  const src = path.join(root, dir);
+  if (!fs.statSync(src).isDirectory()) continue;
+  for (const name of ["opengraph.jpg", "opengraph.png"]) {
+    const from = path.join(src, name);
+    if (!fs.existsSync(from)) continue;
+    const to = path.join(process.cwd(), "dist", dir, name);
+    fs.mkdirSync(path.dirname(to), { recursive: true });
+    fs.copyFileSync(from, to);
+    console.log("copied", path.relative(process.cwd(), to));
+  }
+}
+'

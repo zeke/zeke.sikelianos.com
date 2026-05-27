@@ -10,6 +10,12 @@
   {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  {% if page.images.opengraph %}
+    {% assign socialImage = page.images.opengraph %}
+  {% else %}
+    {% assign socialImage = page.images.thumbnail %}
+  {% endif %}
+
   <!-- OpenGraph Meta Tags -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Zeke Sikelianos" />
@@ -23,17 +29,17 @@
     <meta name="description" content="{{page.description}}" />
   {% endif %}
   <meta property="og:url" content="{{siteUrl}}{{page.href}}" />
-  {% if page.images.thumbnail %}
-    <meta property="og:image" content="{{siteUrl}}{{page.images.thumbnail.href}}" />
+  {% if socialImage %}
+    <meta property="og:image" content="{{siteUrl}}{{socialImage.href}}" />
     <meta property="og:image:alt" content="{{page.title}}" />
-    {% if page.images.thumbnail.width %}
-      <meta property="og:image:width" content="{{page.images.thumbnail.width}}" />
-      <meta property="og:image:height" content="{{page.images.thumbnail.height}}" />
+    {% if socialImage.width %}
+      <meta property="og:image:width" content="{{socialImage.width}}" />
+      <meta property="og:image:height" content="{{socialImage.height}}" />
     {% endif %}
   {% endif %}
 
   <!-- Twitter Card Meta Tags -->
-  <meta name="twitter:card" content="summary{% if page.images.thumbnail %}_large_image{% endif %}" />
+  <meta name="twitter:card" content="summary{% if socialImage %}_large_image{% endif %}" />
   <meta name="twitter:site" content="@zeke" />
   <meta name="twitter:creator" content="@zeke" />
   {% if page.title == "Zeke Sikelianos"  %}
@@ -44,8 +50,8 @@
   {% if page.description %}
     <meta name="twitter:description" content="{{page.description}}" />
   {% endif %}
-  {% if page.images.thumbnail %}
-    <meta name="twitter:image" content="{{siteUrl}}{{page.images.thumbnail.href}}" />
+  {% if socialImage %}
+    <meta name="twitter:image" content="{{siteUrl}}{{socialImage.href}}" />
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="Zeke Sikelianos" href="/feed.xml" />
