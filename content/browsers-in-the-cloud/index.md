@@ -7,7 +7,7 @@ kind: project
 
 I recently wrote about [how to drive your local Chrome browser with an AI agent](/driving-chrome-with-an-agent). In this post I'll show you how to do the same thing with browsers running in the cloud.
 
-<video controls poster="/browsers-in-the-cloud/thumbnail.jpg">
+<video controls>
   <source src="https://assets.zeke.sikelianos.com/browsers-in-the-cloud/browsers-in-the-cloud.mp4" type="video/mp4">
 </video>
 
