@@ -24,7 +24,7 @@ window.addEventListener('DOMContentLoaded', () => {
         if (res.ok) {
           input.hidden = true
           button.hidden = true
-          status.textContent = 'You\'re subscribed. Talk soon.'
+          status.textContent = 'Check your email to confirm your subscription.'
           status.hidden = false
         } else {
           const body = await res.json().catch(() => ({}))
