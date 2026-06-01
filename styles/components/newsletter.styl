@@ -1,0 +1,77 @@
+.newsletter-signup
+  margin 60px auto 0
+  border-top 1px solid #ddd
+  padding 48px 20px 60px
+
+.newsletter-signup__description
+  display flex
+  align-items center
+  gap 8px
+  font-size 1rem
+  color color-text
+  margin 0 0 20px
+
+.newsletter-signup__icon
+  flex-shrink 0
+  width 16px
+  height 16px
+  color color-quote
+  position relative
+  top -1px
+
+.newsletter-signup__form
+  width 100%
+
+.newsletter-signup__fields
+  display flex
+  gap 8px
+  align-items stretch
+
+  @media (max-width: mobile-width)
+    flex-direction column
+
+.newsletter-signup__input
+  flex 1
+  font-size 1rem
+  padding 10px 14px
+  border 1px solid #ccc
+  border-radius 3px
+  background white
+  color color-text
+  font-family base-font-family
+  outline none
+  transition border-color 0.15s
+
+  &:focus
+    border-color #888
+
+  &::placeholder
+    color #aaa
+
+.newsletter-signup__button
+  flex-shrink 0
+  font-size 1rem
+  padding 10px 20px
+  background color-main
+  color white
+  border none
+  border-radius 3px
+  cursor pointer
+  font-family base-font-family
+  letter-spacing 0.02em
+  transition opacity 0.15s
+
+  &:hover
+    opacity 0.75
+
+  &:disabled
+    opacity 0.4
+    cursor default
+
+.newsletter-signup__status
+  margin 12px 0 0
+  font-size 0.95rem
+  color color-text
+
+  &.is-error
+    color #b00
