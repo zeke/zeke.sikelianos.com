@@ -1,4 +1,48 @@
 window.addEventListener('DOMContentLoaded', () => {
+  const newsletterForm = document.querySelector('.newsletter-signup__form')
+  if (newsletterForm) {
+    const input = newsletterForm.querySelector('.newsletter-signup__input')
+    const button = newsletterForm.querySelector('.newsletter-signup__button')
+    const status = newsletterForm.querySelector('.newsletter-signup__status')
+
+    newsletterForm.addEventListener('submit', async (e) => {
+      e.preventDefault()
+      const email = input.value.trim()
+      if (!email) return
+
+      button.disabled = true
+      status.hidden = true
+      status.className = 'newsletter-signup__status'
+
+      try {
+        const res = await fetch(newsletterForm.action, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email })
+        })
+
+        if (res.ok) {
+          input.hidden = true
+          button.hidden = true
+          status.textContent = 'Check your email to confirm your subscription.'
+          status.hidden = false
+        } else {
+          const body = await res.json().catch(() => ({}))
+          status.textContent = body.error || 'Something went wrong. Try again.'
+          status.classList.add('is-error')
+          status.hidden = false
+          button.disabled = false
+        }
+      } catch (_) {
+        status.textContent = 'Could not reach the server. Try again later.'
+        status.classList.add('is-error')
+        status.hidden = false
+        button.disabled = false
+      }
+    })
+  }
+
+
   if ('browserDateFormatter' in window) {
     browserDateFormatter()
   }
