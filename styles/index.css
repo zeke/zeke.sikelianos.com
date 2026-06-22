@@ -792,6 +792,27 @@ a.org-avatar img {
 #social-nav .text {
   display: none;
 }
+.source-link {
+  text-align: center;
+  padding: 60px 0 20px 0;
+}
+.source-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #333;
+  opacity: 0.4;
+  transition: opacity 0.3s;
+}
+.source-link a:hover {
+  opacity: 0.8;
+}
+.source-link svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
 table {
   width: 100%;
   text-align: left;

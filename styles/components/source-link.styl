@@ -1,0 +1,23 @@
+@require '../variables'
+@require '../util'
+@require '../base'
+
+.source-link
+  text-align center
+  padding 60px 0 20px 0
+
+  a
+    display inline-flex
+    align-items center
+    gap 8px
+    font-size 0.85rem
+    color color-text
+    opacity 0.4
+    transition opacity 0.3s
+    &:hover
+      opacity 0.8
+
+  svg
+    width 16px
+    height 16px
+    fill currentColor
