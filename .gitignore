@@ -1,5 +1,8 @@
 .env
-.opencode
+.opencode/*
+!.opencode/plugins/
+.opencode/plugins/*
+!.opencode/plugins/entire.ts
 .wrangler
 node_modules
 dist
