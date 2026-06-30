@@ -9,6 +9,7 @@
     <title>{{page.title}} | Zeke Sikelianos</title>
   {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
 
   {% if page.images.opengraph %}
     {% assign socialImage = page.images.opengraph %}
@@ -57,7 +58,8 @@
   <link rel="alternate" type="application/rss+xml" title="Zeke Sikelianos" href="/feed.xml" />
 
   <link rel="stylesheet" href="/index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css" media="(prefers-color-scheme: light)" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" media="(prefers-color-scheme: dark)" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://unpkg.com/browser-date-formatter@3.0.2/dist.js"></script>
   <script src="/index.js"></script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="381d6269-ac72-476d-b5ce-6fe114ec46b2" data-domains="zeke.sikelianos.com"></script>
