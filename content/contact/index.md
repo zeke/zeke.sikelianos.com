@@ -8,7 +8,7 @@ kind: section
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css">
 
-<figure>
+<figure class="image-matte">
   <img src="/contact/banana-phone.png">
 </figure>
 
