@@ -50,7 +50,7 @@ You don't have this human team, but you do have access to AI agents that can als
 
 We're all used to seeing this kind of adaptiveness in the context of a single chat session in a tools like ChatGPT, or a single programming session in a tool like Claude Code, Gemini, or OpenAI codex. We have gotten used to this in a one-off context where we're having a back-and-forth conversation with an AI model. You say something, the model responds. You correct it, the AI adapts.
 
-The thing that's new here is that we can employ these same adaptiveness to packaged software like mobile apps and websites.
+The thing that's new here is that we can employ these same adaptiveness to deployed software like mobile apps and websites.
 
 ## Applying the idea
 
