@@ -1,6 +1,7 @@
 .cv-logos
   display flex
   flex-wrap wrap
+  justify-content space-between
   align-items center
   gap 16px
   margin 20px 0 40px
@@ -10,6 +11,30 @@
     align-items center
     padding 10px
     border-radius 8px
+    text-decoration none
+    position relative
+
+    &::after
+      content attr(data-tooltip)
+      position absolute
+      bottom calc(100% + 8px)
+      left 50%
+      transform translateX(-50%)
+      background var(--color-card-background)
+      color var(--color-text)
+      border 1px solid var(--color-subtle-border)
+      box-shadow 0 2px 8px var(--color-shadow)
+      padding 4px 10px
+      border-radius 4px
+      font-size 0.8rem
+      white-space nowrap
+      opacity 0
+      pointer-events none
+      transition opacity 0.15s
+      z-index 1
+
+    &:hover::after
+      opacity 1
 
   img
     height 40px
