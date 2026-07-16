@@ -18,7 +18,7 @@ kind: section
 
 _Principal Engineer - December 2025-Present_
 
-I'm a Principal Engineer on the Developer Relations team at [Cloudflare](https://cloudflare.com), where I teach people how to build the modern web using AI tools.
+[Cloudflare](https://cloudflare.com) is the best platform for building web apps. Many know it as a security company with a CDN and a DDoS protection service, but Cloudflare has grown into a full-stack developer platform with an edge network that handles 20-25% of global internet traffic. Their developer-focused products make Cloudflare the best choice for building, deploying, and scaling full-stack web applications. I'm a Principal Engineer on the Developer Relations team at Cloudflare where I teach people how to build software using AI tools.
 
 ### Replicate
 
