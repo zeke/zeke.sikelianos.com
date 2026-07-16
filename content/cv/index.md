@@ -4,6 +4,14 @@ description: Résumé & Curriculum Vitae
 kind: section
 -->
 
+<div class="cv-logos">
+  <span class="image-matte"><img src="{{ page.images.heroku.href }}" alt="Heroku" title="Heroku"></span>
+  <span class="image-matte"><img src="{{ page.images["npm-mark"].href }}" alt="npm" title="npm"></span>
+  <span class="image-matte"><img src="{{ page.images.github.href }}" alt="GitHub" title="GitHub"></span>
+  <span class="image-matte"><img src="{{ page.images.replicate.href }}" alt="Replicate" title="Replicate"></span>
+  <span class="image-matte"><img src="{{ page.images.cloudflare.href }}" alt="Cloudflare" title="Cloudflare"></span>
+</div>
+
 ## Work History
 
 ### Replicate
