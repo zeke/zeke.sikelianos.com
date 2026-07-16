@@ -18,7 +18,7 @@ kind: section
 
 _Principal Engineer - December 2025-Present_
 
-[Cloudflare](https://cloudflare.com) acquired [Replicate](https://replicate.com) in December 2025. I'm continuing the work I started at Replicate, now as part of Cloudflare's platform.
+I'm a Principal Engineer on the Developer Relations team at [Cloudflare](https://cloudflare.com), where I teach people how to build the modern web using AI tools.
 
 ### Replicate
 

@@ -792,7 +792,8 @@ a.org-avatar img {
   justify-content: space-between;
   align-items: center;
   gap: 16px;
-  margin: 20px 0 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .cv-logos .image-matte {
   display: inline-flex;
