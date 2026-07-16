@@ -4,13 +4,27 @@ description: Résumé & Curriculum Vitae
 kind: section
 -->
 
+<div class="cv-logos">
+  <a href="#cloudflare" class="image-matte" data-tooltip="Cloudflare"><img src="{{ page.images.cloudflare.href }}" alt="Cloudflare"></a>
+  <a href="#replicate" class="image-matte" data-tooltip="Replicate"><img src="{{ page.images.replicate.href }}" alt="Replicate"></a>
+  <a href="#github" class="image-matte" data-tooltip="GitHub"><img src="{{ page.images.github.href }}" alt="GitHub"></a>
+  <a href="#npm" class="image-matte" data-tooltip="npm"><img src="{{ page.images["npm-mark"].href }}" alt="npm"></a>
+  <a href="#heroku" class="image-matte" data-tooltip="Heroku"><img src="{{ page.images.heroku.href }}" alt="Heroku"></a>
+</div>
+
 ## Work History
+
+### Cloudflare
+
+_Principal Engineer - December 2025-Present_
+
+[Cloudflare](https://cloudflare.com) is the best platform for building web apps. Many know it as a security company with a CDN and a DDoS protection service, but Cloudflare has grown into a full-stack developer platform with an edge network that handles 20-25% of global internet traffic. Their developer-focused products make Cloudflare the best choice for building, deploying, and scaling full-stack web applications. I'm a Principal Engineer on the Developer Relations team at Cloudflare where I teach people how to build software using AI tools.
 
 ### Replicate
 
-_Founding Designer - 2021-Present_
+_Founding Designer - 2021-2025_
 
-[Replicate](https://replicate.com) is a platform for building and running AI models in the cloud. We make [open-source](https://replicate.com/docs/reference/open-source) [tools](https://cog.run) used by engineers, researchers, and tinkerers to package, deploy, and run machine learning models at scale. We're also a community where people share and publish models. As the first employee, I've worked as a designer, engineer, and developer advocate to build Replicate's [website](https://replicate.com), [model playground](https://replicate.com/playground), [HTTP API](https://replicate.com/docs/reference/http), [SDKs](https://replicate.com/docs/reference/client-libraries), [demos](https://x.com/zeke/status/1937267796146290952), and [documentation](https://replicate.com/docs/get-started/fine-tune-with-flux). My focus is on developer experience, creating tools and content that make it easier for people to build software with AI.
+[Replicate](https://replicate.com) was a platform for building and running AI models in the cloud, acquired by [Cloudflare](https://cloudflare.com) in December 2025. We made [open-source](https://replicate.com/docs/reference/open-source) [tools](https://cog.run) used by engineers, researchers, and tinkerers to package, deploy, and run machine learning models at scale. We were also a community where people shared and published models. As the first employee, I worked as a designer, engineer, and developer advocate to build Replicate's [website](https://replicate.com), [model playground](https://replicate.com/playground), [HTTP API](https://replicate.com/docs/reference/http), [SDKs](https://replicate.com/docs/reference/client-libraries), [demos](https://x.com/zeke/status/1937267796146290952), and [documentation](https://replicate.com/docs/get-started/fine-tune-with-flux). My focus was developer experience, creating tools and content that made it easier for people to build software with AI.
 
 ### GitHub
 

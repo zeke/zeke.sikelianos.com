@@ -1,11 +1,17 @@
 /* global Headers, Response */
 
 import { Hono } from 'hono'
+import redirects from '../data/redirects.json'
 
 const app = new Hono()
 
 app.all('*', async (c) => {
   const url = new URL(c.req.url)
+
+  const destination = redirects[url.pathname]
+  if (destination) {
+    return c.redirect(new URL(destination, url.origin).toString(), 301)
+  }
 
   // Prevent staging `*.workers.dev` deploys from being indexed.
   const addNoIndexHeader = url.hostname.endsWith('.workers.dev')
