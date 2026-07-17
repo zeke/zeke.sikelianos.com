@@ -1,0 +1,19 @@
+styles/index.css
+  s_b44811fa3330f5::t_da4185830b4af4 151-178,190,715
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "fea60a95465a42c00615d85eabde5c0dd1065948",
+  "prompts": {},
+  "sessions": {
+    "s_b44811fa3330f5": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "019f71d9-926b-7066-bbd8-39e649946bf4",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Zeke Sikelianos <zeke@sikelianos.com>"
+    }
+  }
+}
