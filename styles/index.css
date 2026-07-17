@@ -159,14 +159,13 @@ body {
   height: 100%;
 }
 body {
-  font-family: "Parclo", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Georgia, serif;
   color: var(--color-text);
   background: var(--color-background);
   padding: 0;
   margin: 0;
   transition: all 0.3s;
-  font-size: clamp(1rem, 2vw, 1.25rem);
-  line-height: 1.58;
+  font-size: 1.1rem;
   text-align: center;
 }
 a {
@@ -182,7 +181,7 @@ p,
 ul,
 ol {
   text-align: left;
-  line-height: 1.58;
+  line-height: 1.8;
   padding: 10px 0;
   margin: 0;
   list-style-position: inside;
@@ -209,26 +208,20 @@ h2,
 h3,
 h4 {
   text-align: left;
-  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
   color: var(--color-heading);
   line-height: 1.2;
-  letter-spacing: -0.012em;
   transition: all 0.3s;
   position: relative;
 }
 h1 {
   text-align: center;
   font-size: 2.5rem;
-  font-weight: 900;
-  letter-spacing: -0.013em;
   margin: 0;
   padding: 30px 0 0 0;
 }
 h2 {
   font-size: 1.7rem;
-  font-weight: 800;
-  letter-spacing: -0.016em;
   margin: 0;
   padding: 40px 0 20px 0;
 }
@@ -241,7 +234,6 @@ h2 a:hover {
 }
 h3 {
   font-size: 1.4rem;
-  font-weight: 700;
   margin: 0;
   padding: 30px 0 5px 0;
   color: var(--color-main);
@@ -692,7 +684,7 @@ textarea {
   font-size: 1.1em;
   padding: 10px;
   line-height: 1.4;
-  font-family: "Parclo", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Georgia, serif;
 }
 textarea {
   min-height: 300px;
