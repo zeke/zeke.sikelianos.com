@@ -678,7 +678,6 @@ footer {
 }
 .site-nav a.active {
   opacity: 1;
-  font-weight: bold;
 }
 .site-nav a:after {
   content: " / ";
