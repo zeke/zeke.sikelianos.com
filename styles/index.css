@@ -676,6 +676,10 @@ footer {
 .site-nav a:hover {
   opacity: 1;
 }
+.site-nav a.active {
+  opacity: 1;
+  font-weight: bold;
+}
 .site-nav a:after {
   content: " / ";
   text-align: center;

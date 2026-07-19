@@ -77,12 +77,12 @@
 
   <div class="site-nav">
     <a href="https://posts.ziki.boo/">News</a>
-    <a href="/">Projects</a>
-    <a href="/talks">Talks</a>
-    <a href="/posts">Posts</a>
-    <a href="/portfolio">Portfolio</a>
-    <a href="/cv">CV</a>
-    <a href="/contact">Contact</a>
+    <a href="/"{% if page.href == "/" %} class="active"{% endif %}>Projects</a>
+    <a href="/talks"{% if page.href == "/talks" %} class="active"{% endif %}>Talks</a>
+    <a href="/posts"{% if page.href == "/posts" %} class="active"{% endif %}>Posts</a>
+    <a href="/portfolio"{% if page.href == "/portfolio" %} class="active"{% endif %}>Portfolio</a>
+    <a href="/cv"{% if page.href == "/cv" %} class="active"{% endif %}>CV</a>
+    <a href="/contact"{% if page.href == "/contact" %} class="active"{% endif %}>Contact</a>
   </div>
 
   <article>
@@ -123,12 +123,12 @@
   <footer>
     <div class="site-nav">
       <a href="https://posts.ziki.boo/">News</a>
-      <a href="/">Projects</a>
-      <a href="/talks">Talks</a>
-      <a href="/posts">Posts</a>
-      <a href="/portfolio">Portfolio</a>
-      <a href="/cv">CV</a>
-      <a href="/contact">Contact</a>
+      <a href="/"{% if page.href == "/" %} class="active"{% endif %}>Projects</a>
+      <a href="/talks"{% if page.href == "/talks" %} class="active"{% endif %}>Talks</a>
+      <a href="/posts"{% if page.href == "/posts" %} class="active"{% endif %}>Posts</a>
+      <a href="/portfolio"{% if page.href == "/portfolio" %} class="active"{% endif %}>Portfolio</a>
+      <a href="/cv"{% if page.href == "/cv" %} class="active"{% endif %}>CV</a>
+      <a href="/contact"{% if page.href == "/contact" %} class="active"{% endif %}>Contact</a>
       <a href="/rss">RSS</a>
     </div>
   </footer>
