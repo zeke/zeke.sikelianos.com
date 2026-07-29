@@ -3,6 +3,7 @@ title: Portugal
 description: Trip planning map for Lisbon, May 2026.
 publish_date: 2026-04-14
 kind: project
+noIndex: true
 -->
 
 I'm heading to Lisbon in May 2026 for a Cloudflare work trip, with a few leisure days tacked on at the end. It's my first time in Portugal.
