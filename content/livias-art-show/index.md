@@ -1,6 +1,6 @@
 <!--
 title: Livia's Art Show
-description: Building custom software to help my aunt catalog and sell hundreds of artworks at a one-time show.
+description: Building custom software to catalog and sell hundreds of artworks at a one-time show.
 publish_date: 2026-07-28
 kind: project
 -->
@@ -9,10 +9,10 @@ kind: project
   <a href="https://liviazirkel.gallery/">
     <img src="/livias-art-show/livia.jpg" alt="Livia Zirkel talking about art">
   </a>
-  <figcaption>Aunt Livia, talking about art :)</figcaption>
+  <figcaption>Livia Zirkel, talking about art :)</figcaption>
 </figure>
 
-My aunt Livia Zirkel is one of the coolest and most creative people I know. Okay, she's not really my aunt, but she is truly a multi-talented artist, having worked in a wide variety of media over the years. She paints, she draws, she collages, but most importantly she brings people together to create art. She runs no fewer than three distinct art groups in Santa Barbara, meeting every week with different groups of friends to work on projects together. It seems like she pretty much knows everyone on the local art scene, having lived in Santa Barbara for over five decades.
+My aunt Livia is one of the coolest and most creative people I know. Okay, she's not technically my aunt, but she truly is a multi-talented artist, having worked in a wide variety of media over the years. She paints, she draws, she collages, but most importantly she brings people together to create art. She runs no fewer than three distinct art collectives in Santa Barbara, meeting every week with groups of friends to make art together. It seems like she pretty much knows everyone on the local art scene, having lived in Santa Barbara for over five decades.
 
 Last week, Livia hosted [her first show](https://liviazirkel.gallery/) since 1986, at the [Community Arts Workshop](https://www.sbcaw.org/) in Santa Barbara. She had over 650 artworks on display, and I helped her photograph, label, title, and price every single piece.
 
