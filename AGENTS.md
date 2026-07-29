@@ -9,6 +9,7 @@ This repo builds a static personal site from local content and deploys it to Clo
 - Hosted on Cloudflare (Workers + static assets)
 - `src/worker.js` adds `X-Robots-Tag: noindex, nofollow` on `*.workers.dev` to avoid indexing the staging host.
 - `src/worker.js` also handles pretty URLs (`/cv` -> `/cv/index.html`), adds trailing slashes for navigations, and serves the custom `content/404/` page for HTML 404s.
+- Cloudflare zone setting **Hotlink Protection is intentionally OFF** for `sikelianos.com`. It was blocking any cross-origin `Referer` request to image assets with a 403, which broke `og:image`/`twitter:image` fetches from OpenGraph scanners and some link-preview tools. Don't re-enable it.
 
 ## Site Structure
 
