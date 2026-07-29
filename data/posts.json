@@ -1,5 +1,11 @@
 [
   {
+    "title": "Livia's Art Show",
+    "href": "/livias-art-show",
+    "publish_date": "2026-07-28",
+    "description": "Building custom software to help my aunt catalog and sell hundreds of artworks at a one-time show."
+  },
+  {
     "title": "Browsers in the Cloud",
     "href": "/browsers-in-the-cloud",
     "publish_date": "2026-05-27",
