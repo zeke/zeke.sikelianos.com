@@ -1,0 +1,35 @@
+/*
+ * Design tokens as CSS custom properties.
+ *
+ * Note: CSS custom properties can't be used inside @media conditions, so a
+ * few values that gate breakpoints are duplicated as literal pixel numbers
+ * at their usage sites. Keep these in sync if you change the tokens below:
+ *
+ *   --mobile-width            480px
+ *   --width-of-three-columns  1080px  (card-width*3 + card-gutter-width*3)
+ *   --width-of-two-columns    720px   (card-width*2 + card-gutter-width*2)
+ *   --width-of-one-column     360px   (card-width*1 + card-gutter-width*1)
+ */
+
+:root {
+  --color-twitter: #55ACEE;
+  --color-github: #000;
+  --color-npm: #CB3837;
+  --color-email: #CCC;
+  --color-rubygems: #E9573F;
+  --color-flickr: #FF1981;
+  --color-instagram: #004879;
+
+  --base-font-family: "Parclo", Georgia, serif;
+  --base-font-size: 1.2rem;
+
+  --card-width: 320px;
+  --card-gutter-width: 40px;
+  --card-thumbnail-height: 240px;
+  --card-background-color: var(--color-card-background);
+  --width-of-three-columns: calc(var(--card-width) * 3 + var(--card-gutter-width) * 3);
+  --width-of-two-columns: calc(var(--card-width) * 2 + var(--card-gutter-width) * 2);
+  --width-of-one-column: calc(var(--card-width) * 1 + var(--card-gutter-width) * 1);
+
+  --text-column-width: 740px;
+}

@@ -1,0 +1,25 @@
+@import '../variables.css';
+@import '../util.css';
+@import '../base.css';
+
+.breadcrumbs {
+  font-size: 1rem;
+  padding: 15px;
+}
+
+/* .color-bar extends .no-float (see util.css) */
+.color-bar {
+  height: 30px;
+  float: none;
+  clear: both;
+  overflow: hidden;
+}
+
+/* .color-bar > div extends .float-left (see util.css) */
+.color-bar > div {
+  display: block;
+  float: left;
+  clear: none;
+  height: 100%;
+  width: 20%; /* 5 bars */
+}

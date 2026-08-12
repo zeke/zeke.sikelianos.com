@@ -1,0 +1,108 @@
+@import '../variables.css';
+@import '../util.css';
+@import '../base.css';
+
+.page__content {
+  position: relative;
+}
+
+/* .page__content > * extends .text-column (see util.css) */
+.page__content > * {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--text-column-width);
+}
+
+.page__content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.page__description {
+  padding: 10px 80px;
+  opacity: 0.4;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.page__publish-date {
+  display: inline-block;
+  border-top: 1px solid var(--color-quote);
+  font-style: italic;
+  opacity: 0.4;
+  font-size: 1rem;
+  padding: 15px 50px;
+  margin-top: 10px;
+  line-height: 1;
+  text-align: center;
+}
+
+a.org-avatar {
+  width: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+a.org-avatar img {
+  width: 100%;
+}
+
+/* Break out of the text column to be wider, while staying centered.
+   Applied automatically to <video> and <iframe> elements, or manually via .breakout class. */
+.page__content > .breakout,
+.page__content > video,
+.page__content > iframe {
+  max-width: 1000px;
+  width: calc(100vw - 40px);
+}
+
+@media screen and (min-width: 768px) {
+  .page__content > .breakout,
+  .page__content > video,
+  .page__content > iframe {
+    width: calc(100vw - 80px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .page__content > .breakout,
+  .page__content > video,
+  .page__content > iframe {
+    width: calc(100vw - 120px);
+  }
+}
+
+/* Videos and iframes in page content get a polished look by default */
+.page__content > video,
+.page__content > iframe {
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px var(--color-shadow);
+  margin-bottom: 3rem;
+}
+
+/* Add consistent horizontal padding for all screen sizes */
+.page__content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Reduce padding on larger screens where content has natural margins */
+@media screen and (min-width: 768px) {
+  .page__content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* Further reduce padding on very large screens */
+@media screen and (min-width: 1200px) {
+  .page__content {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}

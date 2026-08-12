@@ -1,0 +1,21 @@
+@import '../variables.css';
+@import '../util.css';
+@import '../base.css';
+
+.deep-link {
+  display: block;
+  padding: 60px 0 30px 0;
+}
+
+.deep-link a,
+.deep-link h1,
+.deep-link h2,
+.deep-link h3,
+.deep-link h4,
+.deep-link h5,
+.deep-link h6 {
+  margin: 0;
+  padding: 0;
+  color: var(--color-text);
+  opacity: 1;
+}

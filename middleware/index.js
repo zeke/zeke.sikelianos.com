@@ -8,7 +8,6 @@ module.exports = function (app) {
   app.use(require('./llms-full'))
   app.use(require('./inspect'))
   app.use(require('./render-page'))
-  app.use(require('./styles'))
   app.use(require('./static'))
   return app
 }
