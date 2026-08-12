@@ -1,18 +1,11 @@
-@import '../variables.css';
-@import '../util.css';
-@import '../base.css';
-
 .page__content {
   position: relative;
 }
 
-/* .page__content > * extends .text-column (see util.css) */
-.page__content > * {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: var(--text-column-width);
-}
+/* .page__content > * extends .text-column; the compiled rule lives in
+   util.css to match the cascade position Stylus's @extend produced there,
+   which is what lets components/column.css's .column-3 { max-width: none }
+   win for portfolio columns (equal specificity, later source order). */
 
 .page__content img {
   max-width: 100%;

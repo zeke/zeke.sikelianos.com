@@ -1,5 +1,3 @@
-@import 'variables.css';
-
 .vanilla-list,
 .ruled-list {
   list-style: none;
@@ -44,13 +42,16 @@
 
 .column,
 .text-column,
-.main-column {
+.main-column,
+/* .page__content > * extends .text-column (see components/page.css) */
+.page__content > * {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.text-column {
+.text-column,
+.page__content > * {
   max-width: var(--text-column-width);
 }
 

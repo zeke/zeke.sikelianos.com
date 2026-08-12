@@ -1,7 +1,3 @@
-@import '../variables.css';
-@import '../util.css';
-@import '../base.css';
-
 /* .chronological-list extends .vanilla-list (see util.css) */
 .chronological-list {
   list-style: none;

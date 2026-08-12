@@ -1,7 +1,3 @@
-@import '../variables.css';
-@import '../util.css';
-@import '../base.css';
-
 /* .cards extends .vanilla-list (see util.css) */
 .cards {
   list-style: none;
