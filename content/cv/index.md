@@ -100,3 +100,4 @@ Archetypal 3D was a small group of architectural designers. As a production assi
 - [Ministère de l'Éducation nationale (France)](https://zeke.sikelianos.com/france), 2001-2002
 - [Machine Project Information Design curriculum](https://machineproject.com/), 2010
 - [Beaver Brook Building School](https://zeke.sikelianos.com/beaver-brook), 2013
+- CNC training at Ace Makerspace, 2025
