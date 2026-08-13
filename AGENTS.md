@@ -32,11 +32,13 @@ This repo builds a static personal site from local content and deploys it to Clo
 
 ## Styling
 
-Always edit Stylus source files (`.styl`) instead of generated CSS.
+Plain CSS, no build step. Edit files directly under `styles/`.
 
-- Edit: `styles/**/*.styl`
-- Do not edit: `styles/index.css` (generated; will be overwritten)
-- Entry point: `styles/index.styl` (imports base + components)
+- Entry point: `styles/index.css`, which uses native `@import` to pull in `variables.css`, `theme.css`, `util.css`, `base.css`, `styles/components/*.css`, `styles/third-party/tipsy.css`, and `print.css`.
+- Design tokens live in `styles/variables.css` (sizes, fonts) and `styles/theme.css` (light/dark colors) as CSS custom properties (`--color-*`, `--card-width`, etc). Prefer adding new tokens there over hardcoding values.
+- CSS custom properties don't work inside `@media` conditions, so breakpoint values (`480px`, `1080px`, `720px`, `360px`) are hardcoded at each `@media` usage site. See the comment at the top of `variables.css` for what they correspond to, and keep them in sync if the underlying tokens change.
+- No `@extend`-equivalent exists in plain CSS. Where a rule used to extend a shared utility class (`.text-column`, `.main-column`, `.float-left`, etc, still defined in `util.css` for standalone use), its declarations are duplicated inline at the call site with a comment noting which utility it mirrors.
+- In dev, `middleware/static.js` serves `styles/` as-is via `express.static`; the browser resolves the `@import` chain itself. In production, `website-scraper` follows and downloads every `@import`ed file during `npm run build`, so no bundling step is needed.
 
 ## Thumbnails
 

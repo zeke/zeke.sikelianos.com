@@ -1,0 +1,15 @@
+.breadcrumbs {
+  font-size: 1rem;
+  padding: 15px;
+}
+
+/* .color-bar's shared float declarations live in util.css (see .no-float) */
+.color-bar {
+  height: 30px;
+}
+
+/* .color-bar > div's shared float declarations live in util.css (see .float-left) */
+.color-bar > div {
+  height: 100%;
+  width: 20%; /* 5 bars */
+}

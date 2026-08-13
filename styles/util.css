@@ -1,0 +1,151 @@
+/*
+ * Classes below are grouped with the other classes/selectors that used to
+ * @extend them in Stylus (noted in comments). Stylus's @extend appends the
+ * extending selector into the extended rule's selector list, at the
+ * extended rule's original position. Several extending selectors have the
+ * same specificity as ".page__content > *" below (one class), so keeping
+ * them at their original relative order here (matching the old util.styl
+ * layout) is what makes source order resolve ties the same way it did
+ * before this file was Stylus. Don't move these into their own component
+ * files without checking for specificity ties against .page__content > *.
+ */
+
+.vanilla-list,
+.ruled-list,
+/* .cards extends .vanilla-list (see components/card.css) */
+.cards,
+/* .chronological-list extends .vanilla-list (see components/chronological-list.css) */
+.chronological-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.vanilla-list li,
+.ruled-list li {
+  list-style: none;
+}
+
+.ruled-list li {
+  border-bottom: 1px solid var(--color-subtle-border);
+}
+
+.faint, .muted,
+/* .card-details-description extends .faint (see components/card.css) */
+.card-details-description {
+  opacity: 0.5;
+}
+
+.text-center, .centered {
+  text-align: center;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+.unpadded,
+/* .card-details-description extends .unpadded (see components/card.css) */
+.card-details-description {
+  padding: 0;
+}
+
+.small-text,
+/* .card-details-description extends .small-text (see components/card.css) */
+.card-details-description {
+  font-size: 0.9rem;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* Layout */
+
+.column,
+.text-column,
+.main-column,
+/* .page__content > * extends .text-column (see components/page.css) */
+.page__content > *,
+/* pre > code extends .text-column (see base.css) */
+pre > code,
+/* figure, .video-embed, and .video-placeholder extend .main-column (see base.css) */
+figure,
+.video-embed,
+.video-placeholder {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-column,
+.page__content > *,
+pre > code {
+  max-width: var(--text-column-width);
+}
+
+.main-column,
+figure,
+.video-embed,
+.video-placeholder {
+  max-width: var(--width-of-three-columns);
+}
+
+/* min-width: 480px, max-width: 1080px = var(--width-of-three-columns) */
+@media screen and (min-width: 480px) and (max-width: 1080px) {
+  .main-column,
+  figure,
+  .video-embed,
+  .video-placeholder {
+    max-width: var(--width-of-two-columns);
+  }
+}
+
+/* min-width: 480px, max-width: 720px = var(--width-of-two-columns) */
+@media screen and (min-width: 480px) and (max-width: 720px) {
+  .main-column,
+  figure,
+  .video-embed,
+  .video-placeholder {
+    max-width: var(--width-of-one-column);
+  }
+}
+
+.no-float, .float-none,
+/* .color-bar extends .no-float (see components/header.css) */
+.color-bar,
+/* #social-nav extends .no-float (see components/social-nav.css) */
+#social-nav {
+  float: none;
+  clear: both;
+  overflow: hidden;
+}
+
+.float-left,
+/* .card extends .float-left (see components/card.css) */
+.card,
+/* .color-bar > div extends .float-left (see components/header.css) */
+.color-bar > div,
+/* #social-nav a extends .float-left (see components/social-nav.css) */
+#social-nav a {
+  display: block;
+  float: left;
+  clear: none;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.margin--top,
+.margin--vertical,
+/* figure also extends .margin--vertical (see base.css) */
+figure {
+  margin-top: 30px;
+}
+
+.margin--bottom,
+.margin--vertical,
+figure {
+  margin-bottom: 30px;
+}

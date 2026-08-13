@@ -1,0 +1,69 @@
+/* #social-nav's shared float declarations live in util.css (see .no-float) */
+#social-nav {
+  display: inline-block;
+  margin: 40px 0;
+}
+
+/* #social-nav a's shared float declarations live in util.css (see .float-left) */
+#social-nav a {
+  transition: all 0.3s;
+  width: 64px;
+  height: 52px;
+  margin: 10px;
+  text-decoration: none !important;
+  line-height: 30px;
+  color: #999;
+}
+
+@media screen and (max-width: 480px) {
+  #social-nav a {
+    width: 100%;
+    font-size: 4rem;
+  }
+}
+
+#social-nav span.fa, #social-nav span.devicons {
+  transition: all 0.3s;
+}
+
+#social-nav .fa {
+  font-size: 2.4rem;
+  padding-top: 4px;
+}
+
+#social-nav .devicons {
+  font-size: 2.8rem;
+}
+
+#social-nav .devicons-npm {
+  font-size: 4rem;
+  line-height: 0.8;
+}
+
+#social-nav :hover .fa-twitter {
+  color: var(--color-twitter);
+}
+
+#social-nav :hover .devicons-github_badge {
+  color: var(--color-github);
+}
+
+#social-nav :hover .devicons-npm {
+  color: var(--color-npm);
+}
+
+#social-nav :hover .devicons-ruby_rough {
+  color: var(--color-rubygems);
+}
+
+#social-nav :hover .fa-flickr {
+  color: var(--color-flickr);
+}
+
+#social-nav :hover .fa-instagram {
+  color: var(--color-instagram);
+}
+
+#social-nav .text {
+  display: none;
+}
