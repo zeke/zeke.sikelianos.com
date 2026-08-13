@@ -1,17 +1,11 @@
-/* #social-nav extends .no-float (see util.css) */
+/* #social-nav's shared float declarations live in util.css (see .no-float) */
 #social-nav {
-  float: none;
-  clear: both;
-  overflow: hidden;
   display: inline-block;
   margin: 40px 0;
 }
 
-/* #social-nav a extends .float-left (see util.css) */
+/* #social-nav a's shared float declarations live in util.css (see .float-left) */
 #social-nav a {
-  display: block;
-  float: left;
-  clear: none;
   transition: all 0.3s;
   width: 64px;
   height: 52px;

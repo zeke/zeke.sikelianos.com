@@ -1,9 +1,4 @@
-/* .chronological-list extends .vanilla-list (see util.css) */
-.chronological-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+/* .chronological-list's shared list-reset declarations live in util.css (see .vanilla-list) */
 
 .chronological-item {
   display: flex;

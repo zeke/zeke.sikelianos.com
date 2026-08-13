@@ -1,19 +1,13 @@
-/* .cards extends .vanilla-list (see util.css) */
+/* .cards' shared list-reset declarations live in util.css (see .vanilla-list) */
 .cards {
-  list-style: none;
-  margin: 0;
-  padding: 0;
   display: block;
   float: none;
   clear: both;
   overflow: hidden;
 }
 
-/* .card extends .float-left (see util.css) */
+/* .card's shared float declarations live in util.css (see .float-left) */
 .card {
-  display: block;
-  float: left;
-  clear: none;
   height: 360px;
   margin: 0 0 40px 0;
   padding: 0 calc(var(--card-gutter-width) / 2) 20px calc(var(--card-gutter-width) / 2);
@@ -89,11 +83,10 @@
   text-decoration: none;
 }
 
-/* .card-details-description extends .faint, .unpadded, .small-text (see util.css) */
+/* .card-details-description's shared opacity/padding/font-size declarations
+   live in util.css (see .faint, .unpadded, .small-text) */
 .card-details-description {
   font-size: 0.9rem;
-  opacity: 0.5;
-  padding: 0;
   text-align: center;
   line-height: 1.4;
 }

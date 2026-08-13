@@ -130,29 +130,7 @@ h3 a {
   color: var(--color-main);
 }
 
-/* figure extends .main-column and .margin--vertical (see util.css) */
-figure {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: var(--width-of-three-columns);
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-/* min-width: 480px, max-width: 1080px = var(--width-of-three-columns) */
-@media screen and (min-width: 480px) and (max-width: 1080px) {
-  figure {
-    max-width: var(--width-of-two-columns);
-  }
-}
-
-/* min-width: 480px, max-width: 720px = var(--width-of-two-columns) */
-@media screen and (min-width: 480px) and (max-width: 720px) {
-  figure {
-    max-width: var(--width-of-one-column);
-  }
-}
+/* figure's shared main-column/margin-vertical declarations live in util.css */
 
 figure > * {
   display: inline-block;
@@ -194,52 +172,16 @@ iframe {
   margin: 30px 0;
 }
 
-/* .video-embed extends .main-column (see util.css) */
+/* .video-embed's shared main-column declarations live in util.css */
 .video-embed {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: var(--width-of-three-columns);
   width: 100%;
   margin: 30px auto;
   border-radius: 12px;
 }
 
-/* min-width: 480px, max-width: 1080px = var(--width-of-three-columns) */
-@media screen and (min-width: 480px) and (max-width: 1080px) {
-  .video-embed {
-    max-width: var(--width-of-two-columns);
-  }
-}
-
-/* min-width: 480px, max-width: 720px = var(--width-of-two-columns) */
-@media screen and (min-width: 480px) and (max-width: 720px) {
-  .video-embed {
-    max-width: var(--width-of-one-column);
-  }
-}
-
-/* .video-placeholder extends .main-column (see util.css) */
+/* .video-placeholder's shared main-column declarations live in util.css */
 .video-placeholder {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: var(--width-of-three-columns);
   margin: 30px auto;
-}
-
-/* min-width: 480px, max-width: 1080px = var(--width-of-three-columns) */
-@media screen and (min-width: 480px) and (max-width: 1080px) {
-  .video-placeholder {
-    max-width: var(--width-of-two-columns);
-  }
-}
-
-/* min-width: 480px, max-width: 720px = var(--width-of-two-columns) */
-@media screen and (min-width: 480px) and (max-width: 720px) {
-  .video-placeholder {
-    max-width: var(--width-of-one-column);
-  }
 }
 
 .callout {
@@ -295,12 +237,8 @@ code.shell-single-line::before {
   user-select: none;
 }
 
-/* pre > code extends .text-column (see util.css) */
+/* pre > code's shared text-column declarations live in util.css */
 pre > code {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: var(--text-column-width);
   color: var(--color-code-text);
   background: transparent;
   padding: 12px 16px;
