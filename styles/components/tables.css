@@ -6,9 +6,20 @@ table {
   display: table !important;
 }
 
-table td {
+table td,
+table th {
   padding: 10px;
   line-height: 1;
+  text-align: left;
+}
+
+table th {
+  font-weight: bold;
+}
+
+.table-lead-column td:first-child,
+.table-lead-column th:first-child {
+  font-size: 1.15em;
 }
 
 .table-ruled td {
