@@ -1,5 +1,11 @@
 [
   {
+    "title": "Slop Detection",
+    "href": "/slop-detection",
+    "publish_date": "2026-08-18",
+    "description": "Using Pangram to detect AI-generated content"
+  },
+  {
     "title": "Livia's Art Show",
     "href": "/livias-art-show",
     "publish_date": "2026-07-28",
