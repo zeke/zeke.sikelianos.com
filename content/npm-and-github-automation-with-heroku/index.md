@@ -5,6 +5,7 @@ description: A guide to automated npm publishing and GitHub pushing using Heroku
 keywords: [npm, github, heroku, shell]
 thumbnail_credit: https://www.flickr.com/photos/32281279@N04/5232348119
 publish_date: 2016-05-15
+show_thumbnail: true
 -->
 
 Update 2025: This post was about an automation workflow I came up with over ten years ago. GitHub Actions didn't exist at the time, but now it does. I'll leave this post around as a relic, but GitHub Actions is the definitive answer to the problem I was trying to solve here back in the day...

@@ -3,6 +3,7 @@ title: Travels
 location: Earth
 description: Places I've been...
 publish_date: 2020-07-16
+show_thumbnail: true
 -->
 
 - 199x: Santa Barbara
