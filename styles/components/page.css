@@ -21,7 +21,7 @@
   display: block;
   max-width: var(--text-column-width);
   width: 100%;
-  margin: 0 auto 3rem;
+  margin: 3rem auto 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 12px var(--color-shadow);
 }
