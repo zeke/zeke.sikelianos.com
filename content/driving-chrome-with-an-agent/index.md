@@ -3,6 +3,7 @@ title: Driving Chrome with an Agent
 description: Coding agents like OpenCode can now drive your real, logged-in Chrome browser.
 publish_date: 2026-03-24
 kind: project
+show_thumbnail: true
 -->
 
 Chrome just became a lot more useful for automation. As of Chrome 144, coding agents like [OpenCode](https://opencode.ai) or Claude Code can now natively drive your real browser — the one you use every day, with all your tabs open and all your accounts logged in. No extensions. No headless browser. No separate logins.

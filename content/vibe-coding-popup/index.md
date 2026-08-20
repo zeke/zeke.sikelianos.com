@@ -4,6 +4,7 @@ description: Teaching people to vibe code in real life.
 publish_date: 2025-07-10
 tags: ai, vibe coding, cursor, claude code, copilot, p5.js
 kind: project
+show_thumbnail: true
 -->
 
 Vibe coding is a new practice in software development where humans chat with AI language models that generate code. The human provides instructions using natural language (English, Spanish, Chinese, etc.) and the model generates code (JavaScript, Python, CSS, HTML, etc) to satisfy those requirements. It's an iterative process where human and machine work together to build and improve an app, website, game, tool, or document through a long-running conversational dialogue. The term "vibe coding" was [coined by Andrej Karpathy](https://x.com/karpathy/status/1886192184808149383) in early 2025.
