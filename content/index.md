@@ -9,7 +9,7 @@ kind: section
 
   <ul class="cards">
     {% for page in pages %}
-      {% unless page.noIndex or page.kind == "section" %}
+      {% unless page.noIndex or page.kind == "section" or page.isIndexPage == false %}
         <li class="card">
           <div class="card-inner">
             <a class="card-thumbnail" href="{{ page.href }}">

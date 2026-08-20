@@ -49,7 +49,7 @@ function getAllItems (context) {
   )
 
   const pages = ((context && context.pages) || [])
-    .filter(page => page && !page.noIndex && page.kind !== 'section')
+    .filter(page => page && !page.noIndex && page.kind !== 'section' && page.isIndexPage !== false)
     .filter(page => page.publish_date || page.update_date)
     .filter(page => {
       return !internalPostLinks.has(normalizeUrl(toAbsoluteUrl(page.href)))
