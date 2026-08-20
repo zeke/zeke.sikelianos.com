@@ -5,6 +5,7 @@ description: Explore the alpha-bravo-charlie alphabets of the world.
 keywords: [language, words, rhyme, reference, english, ruby]
 publish_date: 2016-01-10
 kind: project
+show_thumbnail: true
 -->
 
 Acrophonic alphabets are a system for clearly and unambiguously communicating letters of the alphabet over voice communication channels. Born from the necessity to avoid confusion caused by similar-sounding letters – particularly in noisy or challenging environments like radio transmissions, telephone calls, and even across language barriers – these alphabets assign a unique codeword to each letter, like Alpha for A, Bravo for B, and Charlie for C.

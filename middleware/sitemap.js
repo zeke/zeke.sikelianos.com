@@ -19,7 +19,7 @@ function getSitemapEntries (context) {
   const urls = new Map()
 
   const pages = ((context && context.pages) || [])
-    .filter(page => page && !page.noIndex && page.kind !== 'section')
+    .filter(page => page && !page.noIndex && page.kind !== 'section' && page.isIndexPage !== false)
     .map(page => ({
       href: page.href,
       lastmod: page.update_date || page.publish_date

@@ -2,6 +2,7 @@
 title: New Orleans Spots
 description: A list of some of my favorite places in NOLA
 publish_date: 2015-11-11
+show_thumbnail: true
 -->
 
 In the summer of 2015, my partner and I decided to move to New Orleans.

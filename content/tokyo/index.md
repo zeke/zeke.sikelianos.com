@@ -2,6 +2,7 @@
 title: Tokyo 
 description: Notes from a trip to the world's largest urban agglomeration.
 publish_date: 2017-09-17
+show_thumbnail: true
 -->
 
 I visited Tokyo for the second annual Electron Mini-Summit, a convergence of people

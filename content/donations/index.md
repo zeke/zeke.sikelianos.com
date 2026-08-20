@@ -3,6 +3,7 @@ title: Donations
 description: A bit about my open-source work and how you can help support it financially.
 publish_date: 2018-04-13
 noIndex: true
+show_thumbnail: true
 -->
 
 Hello, world. :wave:

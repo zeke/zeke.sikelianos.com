@@ -2,6 +2,7 @@
 title: The Avocado Armchair
 description: Reflections on generative AI, and a farewell to Replicate's Berkeley office
 publish_date: 2023-12-15
+show_thumbnail: true
 -->
 
 I met [Ben Firshman](https://fir.sh/) in Berkeley in the spring of 2021. He was starting a new company called [Replicate](https://replicate.com) with his friend and former colleague [Andreas Jansson](https://github.com/andreasjansson), with the goal of making machine learning more accessible to software engineers. They knew I’d worked on a lot of “make hard stuff easy” projects like [Swagger](https://zeke.sikelianos.com/swagger/), [Heroku](https://zeke.sikelianos.com/heroku/), [npm](https://zeke.sikelianos.com/npm/), and [Electron](https://zeke.sikelianos.com/electron-nativefier/), and they wanted me to join their new company as the first employee. I didn’t have any experience with machine learning at the time, but I could see these two bright and bushy-tailed hackers had twinkles in their eyes. They’d been around the block and seemed to have a tingling spidey-sense that AI was about to be a really big deal.

@@ -3,6 +3,7 @@ title: OpenCode School
 description: A free, self-paced course for learning OpenCode, the open-source AI coding agent.
 publish_date: 2026-04-14
 kind: project
+show_thumbnail: true
 -->
 
 [OpenCode School](https://opencode.school) is a free, self-paced course for learning [OpenCode](https://opencode.ai), the open-source AI coding agent. No account required, no personal data collected.

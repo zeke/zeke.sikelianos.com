@@ -3,6 +3,7 @@ title: Design like Karpathy is watching
 description: A talk about building AI products with LLMs in mind
 publish_date: 2025-07-22
 kind: talk
+show_thumbnail: true
 -->
 
 I gave this talk at the [AI Engineer World's Fair](https://www.ai.engineer/) in San Francisco on June 5, 2025.
