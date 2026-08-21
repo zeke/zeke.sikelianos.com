@@ -18,7 +18,7 @@ kind: section
 
 _Principal Engineer - December 2025-Present_
 
-[Cloudflare](https://cloudflare.com) is the best platform for building web apps. Many know it as a security company with a CDN and a DDoS protection service, but Cloudflare has grown into a full-stack developer platform with an edge network that handles 20-25% of global internet traffic. Their developer-focused products make Cloudflare the best choice for building, deploying, and scaling full-stack web applications. I'm a Principal Engineer on the Developer Relations team at Cloudflare where I teach people how to build software using AI tools.
+[Cloudflare](https://cloudflare.com) is the best platform for building web apps. People know it as a security company with a CDN and a DDoS protection service, but Cloudflare has grown into a full-stack developer platform with an edge network that handles 20-25% of global internet traffic. Their developer-focused products make Cloudflare the best choice for building, deploying, and scaling full-stack web applications. I'm a Principal Engineer on the Developer Relations team at Cloudflare where I teach people how to build software using AI tools.
 
 ### Replicate
 
@@ -93,11 +93,12 @@ _Web Designer - 1998-2000_
 Archetypal 3D was a small group of architectural designers. As a production assistant, I designed websites, worked on IPIX 360-degree photography, and maintained a network of workstations and rendering machines.
 
 
-## Schooling
+## Schooling / Training
 
 - [University of New Mexico](https://zeke.sikelianos.com/unm), 1999-2001
 - [Santa Barbara City College](https://www.sbcc.edu/), 2008-2009
 - [Ministère de l'Éducation nationale (France)](https://zeke.sikelianos.com/france), 2001-2002
 - [Machine Project Information Design curriculum](https://machineproject.com/), 2010
 - [Beaver Brook Building School](https://zeke.sikelianos.com/beaver-brook), 2013
+- [Inferno Hot Pilates teacher training](https://www.funkydoor.com/), 2024
 - CNC training at Ace Makerspace, 2025
