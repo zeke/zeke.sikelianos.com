@@ -1,0 +1,35 @@
+name: Sync slop data
+
+on:
+  schedule:
+    # A few hours after slop-detector's daily scan, so it picks up fresh results.
+    - cron: '43 14 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    name: Sync slop data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: script/sync-slop
+
+      - name: Commit
+        run: |
+          if [ -z "$(git status --porcelain data/slop.json)" ]; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/slop.json
+          git commit -m "chore: sync slop detection results"
+          git push

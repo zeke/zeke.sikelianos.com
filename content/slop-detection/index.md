@@ -21,68 +21,25 @@ I was curious to try out Pangram, so tonight I signed up for an account and did 
 
 Pangram's [findings are accurate](https://github.com/zeke/slop-detector): it correctly identified the small handful of slop posts I published in the last few months, and even found the blobs of intermingled slop where I let an AI agent co-author parts of a post alongside me. 
 
-Of the 100,000-ish words on my site, **2.8% are slop**.
+Of the {{ slop.totalWordsFormatted }} words on my site, **{{ slop.aiPercent }}% are slop**.
 
 Here are the results:
 
-<table class="table-ruled table-lead-column">
+<table class="table-ruled table-lead-column" data-slop-ignore>
   <thead>
     <tr><th>Page</th><th>Result</th></tr>
   </thead>
   <tbody>
-    <tr><td><a href="/opencode-school">OpenCode School</a></td><td>🤖 100% AI</td></tr>
-    <tr><td><a href="/driving-chrome-with-an-agent">Driving Chrome with an Agent</a></td><td>🤖 100% AI</td></tr>
-    <tr><td><a href="/portugal">Portugal</a></td><td>🤖 100% AI</td></tr>
-    <tr><td><a href="/solitaire">Winning at Solitaire</a></td><td>⚠️ 66% AI</td></tr>
-    <tr><td><a href="/livias-art-show">Livia's Art Show</a></td><td>⚠️ 42% AI</td></tr>
-    <tr><td><a href="/dial-a-repo">Dial-a-Repo</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/browsers-in-the-cloud">Browsers in the Cloud</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/anyhenge">Anyhenge</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/ten-things-i-love-about-replicate">Ten things I love about Replicate</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/build-on-cloudflare-with-opencode">Building on Cloudflare with OpenCode</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/karpathy">Design like Karpathy is watching</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/meta-cars-of-mexico-city">Meta Cars of Mexico City</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/vibe-coding-popup">Vibe Coding Popup</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/kontext-realtime">Kontext Realtime</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/opensauced-interview">OpenSauced Interview</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/avocado-armchair">The Avocado Armchair</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/outpainter">Outpainter</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/inpainter">Inpainter</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/travels">Travels</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/magnets">Magnetism</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/tokyo">Tokyo</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/chain">lodash.chain</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/npm-and-github-automation-with-heroku">The Sweet Sensation of Automation</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/css-from-the-future">CSS from the Future</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/electron-nativefier">Websites as Apps</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/keyed-arrays-in-javascript">Objecty Arrays in JavaScript</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/github">It's my first day at GitHub</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/acrophonics">Acrophonics</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/nola">New Orleans Spots</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/twenty-years-with-javascript">Twenty Years with JavaScript</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/moby">Moby Thesaurus</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/ord">Ord</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/semver.io">semver.io</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/beaver-brook">Beaver Brook</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/heroku">Heroku</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/swagger">Swagger</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/outcasts">Outcasts</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/wordnik">Wordnik</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/corn-bed">The Corn Bed</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/bacam">Bay Area Cultural Asset Map</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/machine-project">Machine Project Los Angeles</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/solresol">Solresol</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/rome-and-gold-creative">Rome &amp; Gold Creative</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/neogenesis">Neogenesis Media</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/npm">npm, Inc</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/bush-in-30-seconds/index">Bush in 30 Seconds</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/france">Lycée Polyvalent Alphonse Benoit</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/unm">University of New Mexico</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/ai-people">AI People</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/magnets-again">Magnets, again.</a></td><td>✅ 100% human</td></tr>
-    <tr><td><a href="/ologies-of-wikipedia">Ologies on Wikipedia</a></td><td>✅ 100% human</td></tr>
+    {% for row in slop.pages %}
+      <tr>
+        <td><a href="{{ row.href }}">{{ row.title }}</a></td>
+        <td><a href="{{ row.dataUrl }}">{{ row.emoji }} {{ row.summary }}</a></td>
+      </tr>
+    {% endfor %}
   </tbody>
 </table>
+
+<small data-slop-ignore>This table is generated from <a href="https://github.com/zeke/slop-detector/blob/main/results/latest.json">the latest scan</a>, which runs daily and only re-checks pages whose text has changed.</small>
 
 ## Building your own slop detector
 

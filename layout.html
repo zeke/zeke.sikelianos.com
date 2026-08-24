@@ -109,7 +109,22 @@
         {% endif %}
       </header>
 
+      {% assign pageSlop = slop.byPath[page.href] %}
+      {% if pageSlop.isAi %}
+        <p class="slop-indicator slop-indicator--ai">
+          {{pageSlop.emoji}} {{pageSlop.aiPercent}}% of this post was written by AI.
+          <a href="{{pageSlop.dataUrl}}">See the analysis.</a>
+        </p>
+      {% endif %}
+
       {{renderedPage}}
+
+      {% if pageSlop and pageSlop.isAi == false %}
+        <p class="slop-indicator slop-indicator--human">
+          {{pageSlop.emoji}} {{pageSlop.humanPercent}}% of this post was written by a human.
+          <a href="{{pageSlop.dataUrl}}">See the analysis.</a>
+        </p>
+      {% endif %}
     </div>
   </article>
 

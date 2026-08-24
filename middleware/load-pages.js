@@ -35,5 +35,8 @@ module.exports = async function loadPages (req, res, next) {
   }
   set(req, 'context.posts', posts)
 
+  // AI-detection results, synced from github.com/zeke/slop-detector
+  set(req, 'context.slop', await require('../lib/slop')())
+
   return next()
 }
