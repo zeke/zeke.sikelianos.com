@@ -37,7 +37,7 @@ Every scanned page discloses how much of its prose was written by AI.
 - Source of truth is [zeke/slop-detector](https://github.com/zeke/slop-detector), which scans the live site with Pangram and commits per-page results.
 - `script/sync-slop` fetches its `results/latest.json` into `data/slop.json`. `.github/workflows/sync-slop.yml` runs it daily and commits changes, which triggers a deploy.
 - `lib/slop.js` shapes that file for templates: a sorted `pages` list and a `byPath` lookup, with percentages precomputed. A page counts as AI-written at 5% or more combined AI + AI-assisted, since Pangram attributes a percent or two of some human posts to AI.
-- `layout.html` renders the indicator below the prose. Pages missing from `data/slop.json` get nothing.
+- `layout.html` renders the indicator below the prose, linking to `/slop-detection` for context (except on `/slop-detection` itself, which links to its own per-page data). Pages missing from `data/slop.json` get nothing.
 - The `/slop-detection` table is generated from the same data.
 - Anything rendered from slop data must carry `class="slop-indicator"` or `data-slop-ignore`, so slop-detector strips it before hashing a page's prose. Without that, results would change a page's text and trigger a paid rescan on every run.
 
