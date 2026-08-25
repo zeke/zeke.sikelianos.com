@@ -32,15 +32,15 @@ describe('slop indicator', () => {
     server.close(done)
   })
 
-  it('discloses AI-generated prose above the post', async () => {
+  it('discloses AI-generated prose below the post', async () => {
     const page = findPage(p => p.fractionAi >= 0.05)
     const res = await request(server, page.path)
     const percent = Math.round((page.fractionAi + page.fractionAiAssisted) * 100)
 
     expect(res.body).toContain(`Disclosure: ${percent}% of this post was written by AI`)
     expect(res.body).toContain(page.dataUrl)
-    // above the prose, immediately after the page header
-    expect(res.body).toMatch(/<\/header>\s*<p class="slop-indicator slop-indicator--ai"/)
+    // below the prose, at the end of the page content
+    expect(res.body).toMatch(/<p class="slop-indicator slop-indicator--ai"[\s\S]*<\/p>\s*<\/div>\s*<\/article>/)
   })
 
   it('credits the human below the post', async () => {

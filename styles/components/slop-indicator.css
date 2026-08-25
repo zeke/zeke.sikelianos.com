@@ -1,9 +1,7 @@
-/*
-  AI-detection disclosure, rendered from data/slop.json. AI-generated pages get
-  one above the prose; human-written pages get one below it.
-*/
+/* AI-detection disclosure below the prose, rendered from data/slop.json. */
 
 .slop-indicator {
+  margin-top: 60px;
   font-size: 0.9rem;
   color: var(--color-quote);
   border: 1px solid var(--color-subtle-border);
@@ -14,10 +12,6 @@
 
 .slop-indicator--ai {
   border-left: 4px solid var(--color-quote-border);
-}
-
-.slop-indicator--human {
-  margin-top: 60px;
 }
 
 .slop-indicator a {
