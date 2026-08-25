@@ -37,7 +37,7 @@ describe('slop indicator', () => {
     const res = await request(server, page.path)
     const percent = Math.round((page.fractionAi + page.fractionAiAssisted) * 100)
 
-    expect(res.body).toContain(`${percent}% of this post was written by AI`)
+    expect(res.body).toContain(`Disclosure: ${percent}% of this post was written by AI`)
     expect(res.body).toContain(page.dataUrl)
     // above the prose, immediately after the page header
     expect(res.body).toMatch(/<\/header>\s*<p class="slop-indicator slop-indicator--ai"/)
@@ -47,7 +47,7 @@ describe('slop indicator', () => {
     const page = findPage(p => p.fractionAi === 0 && p.fractionAiAssisted === 0)
     const res = await request(server, page.path)
 
-    expect(res.body).toContain('100% of this post was written by a human')
+    expect(res.body).toContain('This post was written entirely by a human')
     expect(res.body).toContain(page.dataUrl)
     // below the prose, at the end of the page content
     expect(res.body).toMatch(/<p class="slop-indicator slop-indicator--human"[\s\S]*<\/p>\s*<\/div>\s*<\/article>/)

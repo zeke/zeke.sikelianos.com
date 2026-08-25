@@ -33,7 +33,7 @@ Here are the results:
     {% for row in slop.pages %}
       <tr>
         <td><a href="{{ row.href }}">{{ row.title }}</a></td>
-        <td><a href="{{ row.dataUrl }}">{{ row.emoji }} {{ row.summary }}</a></td>
+        <td><a href="{{ row.dataUrl }}">{{ row.summary }}</a></td>
       </tr>
     {% endfor %}
   </tbody>
