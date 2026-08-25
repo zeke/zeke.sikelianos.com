@@ -1,0 +1,20 @@
+/* AI-detection disclosure below the prose, rendered from data/slop.json. */
+
+.slop-indicator {
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: var(--color-quote);
+  border: 1px solid var(--color-subtle-border);
+  border-radius: 6px;
+  padding: 12px 16px;
+  background: var(--color-card-background);
+}
+
+.slop-indicator--ai {
+  border-left: 4px solid var(--color-quote-border);
+}
+
+.slop-indicator a {
+  color: inherit;
+  text-decoration: underline;
+}

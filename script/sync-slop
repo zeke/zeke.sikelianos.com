@@ -1,0 +1,39 @@
+#!/usr/bin/env node
+
+// Copy the latest slop-detector results into data/slop.json.
+//
+// slop-detector is the source of truth: it scans the live site on a schedule
+// and commits per-page results. This pulls its rollup so the site can render
+// slop indicators at build time without a runtime dependency on GitHub.
+
+const fs = require('fs/promises')
+const path = require('path')
+
+const SOURCE_URL = process.env.SLOP_SOURCE_URL ||
+  'https://raw.githubusercontent.com/zeke/slop-detector/main/results/latest.json'
+
+const DESTINATION = path.join(process.cwd(), 'data', 'slop.json')
+
+async function main () {
+  const res = await fetch(SOURCE_URL)
+  if (!res.ok) throw new Error(`Failed to fetch ${SOURCE_URL}: ${res.status} ${res.statusText}`)
+
+  const latest = await res.json()
+  if (!Array.isArray(latest.pages)) throw new Error('Unexpected payload: expected a `pages` array')
+
+  const next = `${JSON.stringify(latest, null, 2)}\n`
+  const current = await fs.readFile(DESTINATION, 'utf8').catch(() => null)
+
+  if (current === next) {
+    console.log('data/slop.json is already up to date.')
+    return
+  }
+
+  await fs.writeFile(DESTINATION, next)
+  console.log(`Wrote data/slop.json: ${latest.pages.length} pages, ${(latest.fractionAi * 100).toFixed(1)}% AI.`)
+}
+
+main().catch(err => {
+  console.error(err.message)
+  process.exit(1)
+})

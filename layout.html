@@ -110,6 +110,19 @@
       </header>
 
       {{renderedPage}}
+
+      {% assign pageSlop = slop.byPath[page.href] %}
+      {% if pageSlop.isAi %}
+        <p class="slop-indicator slop-indicator--ai">
+          ⚠️ Disclosure: {{pageSlop.aiPercent}}% of this post was written by AI.
+          <a href="{{pageSlop.dataUrl}}">See the analysis.</a>
+        </p>
+      {% elsif pageSlop %}
+        <p class="slop-indicator slop-indicator--human">
+          {% if pageSlop.humanPercent == 100 %}This post was written entirely by a human.{% else %}{{pageSlop.humanPercent}}% of this post was written by a human.{% endif %}
+          <a href="{{pageSlop.dataUrl}}">See the analysis.</a>
+        </p>
+      {% endif %}
     </div>
   </article>
 

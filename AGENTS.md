@@ -16,7 +16,7 @@ This repo builds a static personal site from local content and deploys it to Clo
 - Pages live in `content/` as `index.md` / `index.html` (plus per-page assets like images and JS).
 - Some project pages include photo galleries backed by `content/<page>/photos.json` with image files stored in `content/<page>/photos/`.
 - Page rendering is handled by an Express dev server (`server.js`) using middleware in `middleware/` and page model/rendering in `lib/`.
-- JSON-backed collections live in `data/` (currently `data/posts.json`, `data/talks.json`, `data/redirects.json`).
+- JSON-backed collections live in `data/` (currently `data/posts.json`, `data/talks.json`, `data/redirects.json`, `data/slop.json`).
 - `data/redirects.json` maps old paths to new ones (e.g. `/resume` -> `/cv`). It's applied in dev via `middleware/redirects.js` (first in the chain in `middleware/index.js`) and in production via `src/worker.js` (checked before the assets fetch, since `dist/` is static and only contains scraped pages).
 - Client-side scripts live in `scripts/` (served statically in dev and included in the scraped build).
 
@@ -29,6 +29,17 @@ This repo builds a static personal site from local content and deploys it to Clo
 - Cloudflare config: `wrangler.jsonc` (serves `dist/` via the `assets` binding; `run_worker_first: true`, `html_handling: none`).
 - Deployment happens via GitHub Actions: `.github/workflows/deploy.yml` (runs `npm ci`, `npm run build`, then `wrangler deploy`, then a small smoke test).
 - Prefer repo scripts under `script/`/`scripts/` over ad-hoc commands.
+
+## Slop indicators
+
+Every scanned page discloses how much of its prose was written by AI.
+
+- Source of truth is [zeke/slop-detector](https://github.com/zeke/slop-detector), which scans the live site with Pangram and commits per-page results.
+- `script/sync-slop` fetches its `results/latest.json` into `data/slop.json`. `.github/workflows/sync-slop.yml` runs it daily and commits changes, which triggers a deploy.
+- `lib/slop.js` shapes that file for templates: a sorted `pages` list and a `byPath` lookup, with percentages precomputed. A page counts as AI-written at 5% or more combined AI + AI-assisted, since Pangram attributes a percent or two of some human posts to AI.
+- `layout.html` renders the indicator below the prose. Pages missing from `data/slop.json` get nothing.
+- The `/slop-detection` table is generated from the same data.
+- Anything rendered from slop data must carry `class="slop-indicator"` or `data-slop-ignore`, so slop-detector strips it before hashing a page's prose. Without that, results would change a page's text and trigger a paid rescan on every run.
 
 ## Styling
 
