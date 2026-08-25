@@ -20,7 +20,7 @@ Beaver Brook is an architectural design and building school in the woods of upst
 {% endfor %}
 
 <figure>
-  <a href="http://beaver.zeke.sikelianos.com/">
+  <a href="https://beaver.ziki.boo/">
     <img src="/beaver-brook/sauna.jpg" alt="Beaver Brook Sauna" />
   </a>
   <figcaption>The Completed Sauna</figcaption>
@@ -28,6 +28,6 @@ Beaver Brook is an architectural design and building school in the woods of upst
 
 ## See Also
 
-- [My application to Beaver Brook](http://beaver.zeke.sikelianos.com)
+- [My application to Beaver Brook](https://beaver.ziki.boo)
 - [The Beaver Brook website](http://beaverbrook.com)
 - [All my photos on Flickr](https://www.flickr.com/photos/sikelianos/collections/72157635269715529/)

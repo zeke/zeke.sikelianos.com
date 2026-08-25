@@ -9,7 +9,7 @@ noIndex: true
   <figcaption>Cosmos, Zeke, (Toasty) Rowan</figcaption>
 </figure>
 
-I grew up in a family of <a href="http://beaver.zeke.sikelianos.com/">artists and artisans</a>, and
+I grew up in a family of <a href="https://beaver.ziki.boo/">artists and artisans</a>, and
 though I ended up in a [technical field](/github), I still consider design to an essential part of my work. I believe that <a href="https://en.wikipedia.org/wiki/Hacker_ethic">information wants to be free</a>, and the work I do is always in the service of that idea.
 
 Today I'm a software developer at <a href="https://github.com/about">GitHub</a>, working on <a href="http://electron.atom.io">Electron</a>, an open-source project for building native applications using open web technologies like HTML, CSS, and Javascript.
