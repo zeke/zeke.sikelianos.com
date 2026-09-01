@@ -8,7 +8,7 @@ const app = new Hono()
 app.all('*', async (c) => {
   const url = new URL(c.req.url)
 
-  const destination = redirects[url.pathname]
+  const destination = redirects[stripTrailingSlash(url.pathname)]
   if (destination) {
     return c.redirect(new URL(destination, url.origin).toString(), 301)
   }
@@ -22,6 +22,10 @@ app.all('*', async (c) => {
 })
 
 export default app
+
+function stripTrailingSlash (pathname) {
+  return pathname.length > 1 ? pathname.replace(/\/+$/, '') : pathname
+}
 
 function withHeaders (response, addNoIndexHeader, origin) {
   const headers = new Headers(response.headers)
