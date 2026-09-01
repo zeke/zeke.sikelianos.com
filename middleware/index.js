@@ -1,5 +1,6 @@
 module.exports = function (app) {
   app.use(require('./redirects'))
+  app.use(require('./trailing-slash'))
   app.use(require('./load-pages'))
   app.use(require('./rss'))
   app.use(require('./sitemap'))
