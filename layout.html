@@ -90,7 +90,7 @@
       {% if page.show_thumbnail and page.images.thumbnail %}
         <img class="page__hero-thumbnail" src="{{page.images.thumbnail.href}}" alt="{{page.title}}"{% if page.images.thumbnail.width %} width="{{page.images.thumbnail.width}}" height="{{page.images.thumbnail.height}}"{% endif %}>
       {% endif %}
-      <header>
+      <header{% if page.href == "/" %} class="page__header--home"{% endif %}>
         <h1 class="page__title">{{page.title}}</h1>
         {% if page.description %}
           <h2 class="page__description">{{page.description}}</h2>
