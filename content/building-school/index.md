@@ -1,5 +1,6 @@
 <!--
 title: Building School
+publish_date: 2026-09-08
 description: Notes from my application to the Beaver Brook school
 -->
 
