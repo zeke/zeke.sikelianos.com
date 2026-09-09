@@ -101,4 +101,4 @@ Archetypal 3D was a small group of architectural designers. As a production assi
 - [Machine Project Information Design curriculum](https://machineproject.com/), 2010
 - [Beaver Brook Building School](https://zeke.sikelianos.com/beaver-brook), 2013
 - [Inferno Hot Pilates teacher training](https://www.funkydoor.com/), 2024
-- CNC training at Ace Makerspace, 2025
+- [CNC training](https://www.acemakerspace.org/cnc-router/) at [Ace Makerspace](https://www.acemakerspace.org/), 2025
