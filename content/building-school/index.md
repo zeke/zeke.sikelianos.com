@@ -4,16 +4,6 @@ description: Notes from my application to the Beaver Brook school
 -->
 
 <figure>
-  <img src="/building-school/zeke.jpg">
-  <figcaption>
-    Hi. I'm <a href="http://zeke.sikelianos.com">Zeke Sikelianos</a>, a <a href="http://cargocollective.com/zeke">designer</a>, <a href="http://github.com/zeke">software developer</a>, and new dad in San Francisco.
-    This website is my application to the inaugural session of <a href="https://zeke.sikelianos.com/beaver-brook/">Beaver Brook</a>, a design and building school in the woods of upstate New York.
-  </figcaption>
-</figure>
-
-<h2>What is your interest in Beaver Brook School?</h2>
-
-<figure>
   <img src="/building-school/glafkos_boat_b.jpg">
   <figcaption>
     I come from a family of artists and craftsmen, many of whom work with wood.
@@ -60,8 +50,6 @@ description: Notes from my application to the Beaver Brook school
 <figure>
   <figcaption>(The list goes on.)</figcaption>
 </figure>
-
-<h2>What is something you've made?</h2>
 
 <figure>
   <img src="/building-school/halfpipe.jpg">
@@ -130,22 +118,12 @@ description: Notes from my application to the Beaver Brook school
   </figcaption>
 </figure>
 
-<h2>What skills could you contribute to this project?</h2>
-
-<figure>
-  <a href="http://www.youtube.com/watch?v=F_fRWDaipJ4"><img src="/building-school/napoleon_dynamite.png" class="borderless"></a>
-  <figcaption>You know, like... nunchucks skills, bow-hunting skills, computer-hacking skills. <a href="http://www.youtube.com/watch?v=F_fRWDaipJ4">Girls only want boyfriends who have great skills.</a>
-  </figcaption>
-</figure>
-
-<h2>Which skills do you want to learn at Beaver Brook?</h2>
-
 <figure>
   <img src="/building-school/timber_truss.png" class="borderless">
   <figcaption>
     I want to learn skills that will help me build a comfortable home for my family.
     Topics I find intriguing on the
-    <a href="http://beaverbrook.com/school">Beaver Brook website </a>
+    <a href="https://zeke.sikelianos.com/beaver-brook/">Beaver Brook website </a>
     include
     flooring,
     roof framing,
@@ -156,16 +134,12 @@ description: Notes from my application to the Beaver Brook school
   </figcaption>
 </figure>
 
-<h2>What's a building you'd like to make but haven't?</h2>
-
 <figure>
   <figcaption>
     First, a workshop.
     Then, a home.
   </figcaption>
 </figure>
-
-<h2>If civilization ended, what role would you play in the New Dawn?</h2>
 
 <figure>
   <figcaption>
