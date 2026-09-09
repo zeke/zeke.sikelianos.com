@@ -122,8 +122,6 @@ figure,
 }
 
 .float-left,
-/* .card extends .float-left (see components/card.css) */
-.card,
 /* .color-bar > div extends .float-left (see components/header.css) */
 .color-bar > div,
 /* #social-nav a extends .float-left (see components/social-nav.css) */

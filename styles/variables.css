@@ -25,7 +25,6 @@
 
   --card-width: 320px;
   --card-gutter-width: 40px;
-  --card-thumbnail-height: 240px;
   --card-background-color: var(--color-card-background);
   --width-of-three-columns: calc(var(--card-width) * 3 + var(--card-gutter-width) * 3);
   --width-of-two-columns: calc(var(--card-width) * 2 + var(--card-gutter-width) * 2);
