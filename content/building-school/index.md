@@ -38,7 +38,7 @@ description: Notes from my application to the Beaver Brook school
 </figure>
 
 <figure>
-  <a href="http://urbanarboristsf.com/"><img src="/building-school/urban_arborist.png" class="borderless"></a>
+  <a href="http://urbanarboristsf.com/"><img src="/building-school/urban_arborist.png" class="borderless" style="background: #fff; padding: 24px; box-sizing: border-box; border-radius: 8px;"></a>
   <figcaption>My brother, Joe Sikelianos, is an arborist. He owns and operates a <a href="http://urbanarboristsf.com/">tree service</a> in San Francisco.</figcaption>
 </figure>
 
