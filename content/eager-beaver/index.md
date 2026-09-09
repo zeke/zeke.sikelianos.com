@@ -1,0 +1,125 @@
+<!--
+title: Eager Beaver
+publish_date: 2026-09-08
+description: My application to the Beaver Brook building school
+-->
+
+I was recently reviewing my old woodworking projects and came across this 2013 application to the Beaver Brook school, a ten-day workshop I attended in upstate New York where we worked together to build a sauna. These are the photos and notes from my application to the school. To see photos of the experience and the sauna we built, check out the <a href="/beaver-brook">Beaver Brook project</a>.
+
+<figure>
+  <img src="/eager-beaver/glafkos_boat_b.jpg">
+  <figcaption>
+    I come from a family of artists and craftsmen, many of whom work with wood.
+    Most of the work I do occupies the ephemeral space of the Internet, but
+    I want to work on more tactile design projects that exercise both mind and body.
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="/eager-beaver/glafkos_boat_c.jpg">
+  <figcaption>My grandfather, Glafkos Sikelianos, was a boatbuilder.</figcaption>
+</figure>
+
+<figure>
+  <img src="/eager-beaver/poppy_sawing.jpg" class="borderless">
+  <figcaption>Uncle Poppy became a master carpenter.</figcaption>
+</figure>
+
+<figure>
+  <img src="/eager-beaver/uncle_chris2.jpg">
+  <figcaption>Uncle Chris, the last living elder of the Sikelianos family, builds houses in upstate New York.</figcaption>
+</figure>
+
+<figure>
+  <img src="/eager-beaver/chris_treehouse.jpg">
+  <figcaption>Here's a treehouse he's working on.</figcaption>
+</figure>
+
+<figure>
+  <img src="/eager-beaver/jon.jpg">
+  <figcaption>My father, Jon Sikelianos, was a tree surgeon. This is him in Santa Barbara in the late seventies or early eighties.</figcaption>
+</figure>
+
+<figure>
+  <a href="http://urbanarboristsf.com/"><img src="/eager-beaver/urban_arborist.png" class="borderless" style="background: #fff; padding: 24px; box-sizing: border-box; border-radius: 8px;"></a>
+  <figcaption>My brother, Joe Sikelianos, is an arborist. He owns and operates a <a href="http://urbanarboristsf.com/">tree service</a> in San Francisco.</figcaption>
+</figure>
+
+<figure>
+  <img src="/eager-beaver/pouli_milling.jpg">
+  <figcaption>My sister, <a href="https://twitter.com/pouli">Pouli Sikelianos</a>, runs a sawmilling operation in Santa Barbara.</figcaption>
+</figure>
+
+<figure>
+  <figcaption>(The list goes on.)</figcaption>
+</figure>
+
+<figure>
+  <img src="/eager-beaver/halfpipe.jpg">
+  <figcaption>As a kid, I built a lot of treehouses and skate ramps. This is the first of two half-pipes I designed and built.</figcaption>
+</figure>
+
+<figure>
+  <img src="/eager-beaver/atrisco_house.jpg">
+  <figcaption>With the help of my family, I built this adobe wall in 10 days with <a href="http://www.flickr.com/photos/sikelianos/sets/72157607067005315/">600 adobe bricks</a> at 35 lbs each, and 4 tons of dirt.</figcaption>
+</figure>
+
+<figure>
+  <img src="/eager-beaver/atrisco_tub.jpg">
+  <figcaption>I saved this clawfoot tub for many years, until I finally found <a href="http://www.flickr.com/photos/sikelianos/sets/72157594404622304/">a home</a> for it.</figcaption>
+</figure>
+
+<figure>
+  <img src="/eager-beaver/yurt.jpg">
+  <figcaption>I helped my friends build a yurt on my property in New Mexico. Here's a shot of the rafters.</figcaption>
+</figure>
+
+<figure>
+  <img src="/eager-beaver/guitar.jpg">
+  <figcaption>I used to work for a multidisciplinary design firm. This marquis at the entrance to an <a href="http://en.wikipedia.org/wiki/Isleta_Amphitheater">amphitheatre</a> is the largest architectural project I've worked on to date.</figcaption>
+</figure>
+
+<figure>
+  <img src="/eager-beaver/sauna_a.jpg">
+  <figcaption>Last year I helped my mother build a timberframe sauna in her backyard.</figcaption>
+</figure>
+
+<figure>
+  <img src="/eager-beaver/sauna_b.jpg">
+  <figcaption>The windows were the fun part.</figcaption>
+</figure>
+
+<figure>
+  <a href="http://www.flickr.com/photos/sikelianos/sets/72157624807279024/"><img src="/eager-beaver/cornbed_a.jpg"></a>
+  <figcaption>
+    They said it couldn't be done, but I built a recreational
+    <a href="http://www.flickr.com/photos/sikelianos/sets/72157624807279024/">corn bed</a>.
+  </figcaption>
+</figure>
+
+<figure>
+  <a href="http://www.flickr.com/photos/sikelianos/sets/72157624807279024/"><img src="/eager-beaver/cornbed_b.jpg"></a>
+  <figcaption>
+    No nails were used in the making of this bed.
+  </figcaption>
+</figure>
+
+<figure>
+  <a href="http://machineproject.com/archive/events/2010/09/05/shipwrecked-boat/"><img src="/eager-beaver/sea_nymph.jpg"></a>
+  <figcaption>While living in LA a few years back, I helped run the <a href="http://machineproject.com/archive/events/2010/09/05/shipwrecked-boat/">Sea Nymph</a> aground at <a href="http://machineproject.com/">Machine Project</a>.</figcaption>
+</figure>
+
+<figure>
+  <a href="http://www.flickr.com/photos/sikelianos/sets/72157622189222433/"><img src="/eager-beaver/kuti.jpg"></a>
+  <figcaption>I built a <a href="http://www.flickr.com/photos/sikelianos/sets/72157622189222433/">meditation kuti</a> on my aunt and uncle's property in upstate New York.</figcaption>
+</figure>
+
+<figure>
+  <a href="http://www.flickr.com/photos/sikelianos/sets/72157622189222433/"><img src="/eager-beaver/kuti_b.jpg"></a>
+  <figcaption>
+    My favorite part is the <a href="http://www.flickr.com/photos/sikelianos/3901240543/in/set-72157622189222433">telephone-pole-style</a> rebar ladder, the rungs of which can be pulled out as you ascend the tree.
+  </figcaption>
+</figure>
+
+
+To see photos of the experience and the sauna we built, check out the <a href="/beaver-brook">Beaver Brook project</a>.
