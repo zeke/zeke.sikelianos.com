@@ -29,6 +29,7 @@ This repo builds a static personal site from local content and deploys it to Clo
 - Cloudflare config: `wrangler.jsonc` (serves `dist/` via the `assets` binding; `run_worker_first: true`, `html_handling: none`).
 - Deployment happens via GitHub Actions: `.github/workflows/deploy.yml` (runs `npm ci`, `npm run build`, then `wrangler deploy`, then a small smoke test).
 - Prefer repo scripts under `script/`/`scripts/` over ad-hoc commands.
+- The build scraper reserves port 4001. Use a different port for a concurrent dev server.
 
 ## Slop indicators
 
@@ -44,6 +45,8 @@ Every scanned page discloses how much of its prose was written by AI.
 ## Styling
 
 Plain CSS, no build step. Edit files directly under `styles/`.
+
+- The homepage uses `.card-gallery` and an auto-fit CSS grid, capped at three columns. Cards fill the available width with `--card-gutter-width` gaps; keep it independent of `.main-column` viewport breakpoints.
 
 - Entry point: `styles/index.css`, which uses native `@import` to pull in `variables.css`, `theme.css`, `util.css`, `base.css`, `styles/components/*.css`, `styles/third-party/tipsy.css`, and `print.css`.
 - Design tokens live in `styles/variables.css` (sizes, fonts) and `styles/theme.css` (light/dark colors) as CSS custom properties (`--color-*`, `--card-width`, etc). Prefer adding new tokens there over hardcoding values.

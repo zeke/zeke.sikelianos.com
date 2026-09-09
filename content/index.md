@@ -5,7 +5,7 @@ noIndex: true
 kind: section
 -->
 
-<div class="main-column">
+<div class="card-gallery">
 
   <ul class="cards">
     {% for page in pages %}

@@ -1,32 +1,20 @@
+.page__content > .card-gallery {
+  max-width: var(--width-of-three-columns);
+}
+
 /* .cards' shared list-reset declarations live in util.css (see .vanilla-list) */
 .cards {
-  display: block;
-  float: none;
-  clear: both;
-  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--card-width)), 1fr));
+  gap: var(--card-gutter-width);
 }
 
-/* .card's shared float declarations live in util.css (see .float-left) */
 .card {
-  height: 360px;
-  margin: 0 0 40px 0;
-  padding: 0 calc(var(--card-gutter-width) / 2) 20px calc(var(--card-gutter-width) / 2);
-}
-
-/* max-width: 480px. .card also extends .float-none within this breakpoint. */
-@media screen and (max-width: 480px) {
-  .card {
-    float: none;
-    clear: both;
-    overflow: hidden;
-    width: 100%;
-    height: auto;
-    padding: 0;
-  }
+  min-width: 0;
 }
 
 .card-inner {
-  width: var(--card-width);
+  width: 100%;
   display: block;
   -webkit-box-shadow: 0px 1px 15px 1px var(--color-shadow);
   -moz-box-shadow: 0px 1px 15px 1px var(--color-shadow);
@@ -35,7 +23,6 @@
 
 @media screen and (max-width: 480px) {
   .card-inner {
-    width: 100%;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -45,7 +32,7 @@
 .card-thumbnail {
   display: block;
   width: 100%;
-  height: var(--card-thumbnail-height);
+  aspect-ratio: 4 / 3;
   overflow: hidden;
   background: var(--card-background-color);
 }
