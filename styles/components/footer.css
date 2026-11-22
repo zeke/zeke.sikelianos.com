@@ -4,6 +4,49 @@ footer {
   padding-bottom: 20px;
 }
 
+.project-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 44px);
+  justify-content: center;
+  gap: clamp(8px, 4vw, 32px);
+  margin-bottom: 24px;
+}
+
+.project-nav a {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  color: var(--color-main);
+  border-radius: 4px;
+}
+
+.project-nav a:hover {
+  background: var(--color-card-background);
+}
+
+.project-nav a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.project-nav svg {
+  width: 24px;
+  height: 24px;
+}
+
+.project-nav [rel="prev"] {
+  grid-column: 1;
+}
+
+.project-nav__index {
+  grid-column: 2;
+}
+
+.project-nav [rel="next"] {
+  grid-column: 3;
+}
+
 .site-nav {
   margin: 15px 0 15px 0;
   display: block;
