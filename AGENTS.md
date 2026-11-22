@@ -31,6 +31,10 @@ This repo builds a static personal site from local content and deploys it to Clo
 - Prefer repo scripts under `script/`/`scripts/` over ad-hoc commands.
 - The build scraper reserves port 4001. Use a different port for a concurrent dev server.
 
+## Project navigation
+
+The project-detail footer follows the homepage's newest-first order, excluding unlisted pages, sections, redirects, and pages without the default layout. Its center icon links to the homepage project grid. The first and last project have only one adjacent link; the sequence does not wrap.
+
 ## Slop indicators
 
 Every scanned page discloses how much of its prose was written by AI.

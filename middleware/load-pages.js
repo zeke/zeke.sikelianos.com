@@ -1,13 +1,29 @@
 let pages
+let projects
 const { set } = require('lodash')
 const fs = require('fs/promises')
 const path = require('path')
 
 module.exports = async function loadPages (req, res, next) {
-  if (!pages) pages = await require('../lib/pages')()
+  if (!pages) {
+    const loadedPages = await require('../lib/pages')()
+    // Use homepage order, but skip non-projects and pages without the site layout.
+    projects = loadedPages.filter(page => page.isIndexPage && !page.noIndex &&
+      (!page.kind || page.kind === 'project') && !page.redirect && page.layout !== false)
+    pages = loadedPages
+  }
+
+  const page = pages[req.path]
+  const projectIndex = projects.indexOf(page)
 
   set(req, 'context.pages', pages)
-  set(req, 'context.page', pages[req.path])
+  set(req, 'context.page', page)
+  if (projectIndex !== -1) {
+    set(req, 'context.projectNavigation', {
+      previous: projects[projectIndex - 1],
+      next: projects[projectIndex + 1]
+    })
+  }
   set(req, 'context.siteUrl', process.env.SITE_URL || 'https://zeke.sikelianos.com')
 
   // Load talks from JSON

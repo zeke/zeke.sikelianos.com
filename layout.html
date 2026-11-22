@@ -137,6 +137,23 @@
   {% endunless %}
 
   <footer>
+    {% if projectNavigation %}
+      <nav class="project-nav" aria-label="Project navigation" data-slop-ignore>
+        {% if projectNavigation.previous %}
+          <a href="{{ projectNavigation.previous.href | escape }}" rel="prev" aria-label="Previous project: {{ projectNavigation.previous.title | escape }}" title="{{ projectNavigation.previous.title | escape }}">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="m15 3-9 9 9 9"/></svg>
+          </a>
+        {% endif %}
+        <a class="project-nav__index" href="/" aria-label="All projects" title="All projects">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 3h7v7H3zM14 3h7v7h-7zM3 14h7v7H3zM14 14h7v7h-7z"/></svg>
+        </a>
+        {% if projectNavigation.next %}
+          <a href="{{ projectNavigation.next.href | escape }}" rel="next" aria-label="Next project: {{ projectNavigation.next.title | escape }}" title="{{ projectNavigation.next.title | escape }}">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="m9 3 9 9-9 9"/></svg>
+          </a>
+        {% endif %}
+      </nav>
+    {% endif %}
     <div class="site-nav">
       <a href="https://posts.ziki.boo/">News</a>
       <a href="/"{% if page.href == "/" %} class="active"{% endif %}>Projects</a>
